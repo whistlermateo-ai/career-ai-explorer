@@ -2,6 +2,12 @@
 
 **Built by Mateo Telfer · Grade 11, Shawnigan Lake School · English innovative-project**
 
+### 🔗 Open the live program: **[whistlermateo-ai.github.io/career-ai-explorer](https://whistlermateo-ai.github.io/career-ai-explorer/)**
+
+No installation. Click any of the 50+ pre-built occupations and see the full analysis.
+
+---
+
 Career AI Explorer is a web tool that gives high-school students an honest, evidence-backed assessment of how exposed any occupation is to AI displacement. Every score traces back to peer-reviewed and government data — O\*NET, BLS, Felten et al. 2023, McKinsey, WEF, OECD, the Anthropic Economic Index, and Goldman Sachs Research.
 
 The full source list is in [SOURCES.md](./SOURCES.md). The build conversation transcript is in [CHAT-TRANSCRIPT.md](./CHAT-TRANSCRIPT.md).
