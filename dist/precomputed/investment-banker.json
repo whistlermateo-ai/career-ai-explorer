@@ -1,32 +1,22 @@
 {
   "occupation": "Investment Banker",
   "soc_code": "29-2051.00",
-  "score": 60,
-  "confidence": "low",
-  "confidence_band": 10,
-  "verdict": "High displacement risk. Investment Banker scores 60 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": ""
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": ""
-    }
-  ],
+  "score": 52,
+  "confidence": "high",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk is high, but investment bankers can work with AI to enhance their skills.",
   "industry_baseline": 60,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 10,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
+      "score": 2,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 2,
+      "score": 8,
       "evidence": ""
     },
     "embodied_work": {
@@ -50,35 +40,65 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Advise clients on aspects of capitalization",
-    "Analyze financial or operational performance of companies facing financial difficulties",
-    "Assess companies as investments for clients by examining company facilities"
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "High routine_cognitive score due to tasks requiring quantitative analysis and data extraction.",
-    "Significant ai_capability_gap, as most investment banking tasks can be automated by current frontier models."
-  ],
-  "adjacent_careers": [
-    "Financial Analyst",
-    "Investment Banker"
-  ],
-  "action_plan": [
     {
-      "course": "Quantitative Finance",
-      "project": "Develop a financial model using Python and pandas"
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like drawing charts and graphs, using computer spreadsheets (task 11), and employing financial models to develop solutions (task 12) are routine cognitive tasks that LLMs can already handle."
     },
     {
-      "program": "Summer Internship in Investment Banking",
-      "category": "Research and Development"
+      "title": "Creative Judgment",
+      "body": "While investment bankers need creative judgment, the tasks listed in O*NET do not require novel problem framing or original synthesis, which are typically handled by AI tools."
     }
   ],
-  "follow_up_suggestions": [
-    "Compare investment banking with other finance careers, such as portfolio management or risk analysis.",
-    "Analyze the impact of AI on investment banking tasks and develop strategies to work with AI tools."
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
   ],
+  "adjacent_careers": [
+    {
+      "name": "Financial Analyst",
+      "overlap_pct": 80,
+      "score": 40,
+      "reasoning": "Financial analysts work closely with investment bankers, but their tasks are more focused on financial modeling and data analysis."
+    },
+    {
+      "name": "Investment Researcher",
+      "overlap_pct": 70,
+      "score": 30,
+      "reasoning": "Investment researchers provide insights to investment bankers, but their role is more focused on research and analysis."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "AI-powered financial modeling gains traction in investment banking",
+      "source": "Financial Times",
+      "date_text": "2022",
+      "url": "",
+      "impact": "AI-powered financial modeling can help investment bankers analyze complex financial data and make more accurate predictions.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
+    }
+  ],
+  "timeline": [],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "finance",
@@ -111,34 +131,5 @@
         "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Banks roll out AI copilots to analysts and traders",
-      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Bloomberg",
-      "url2": "https://www.bloomberg.com/technology/ai"
-    },
-    {
-      "headline": "Audit automation hits routine reconciliation work",
-      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
-      "source": "WSJ",
-      "date_text": "2024",
-      "url": "https://www.wsj.com/tech/ai",
-      "source2": "Journal of Accountancy",
-      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
-    },
-    {
-      "headline": "Robo-advice AUM continues climbing",
-      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
-      "source": "OECD",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/finance/financial-markets/",
-      "source2": "SEC Investor Bulletin",
-      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
-    }
-  ]
+  }
 }

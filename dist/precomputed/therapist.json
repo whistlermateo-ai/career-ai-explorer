@@ -2,21 +2,11 @@
   "occupation": "Therapist",
   "soc_code": "19-3033.00",
   "score": 26,
-  "confidence": "low",
-  "confidence_band": 2,
-  "verdict": "High risk of AI displacement. Therapist scores 26 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "AI-powered chatbots and virtual assistants become increasingly common in mental health settings."
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "Research studies demonstrate the effectiveness of AI-driven therapy tools in reducing symptoms of anxiety and depression."
-    }
-  ],
-  "timeline_callout": "AI-powered therapy tools may start to replace human therapists in certain settings, but human empathy and emotional intelligence will remain essential for complex cases.",
-  "industry_baseline": 30,
+  "confidence": "high",
+  "confidence_band": 0,
+  "verdict": "High risk of AI displacement, but human therapist is essential for empathy and complex problem-solving.",
+  "timeline": [],
+  "industry_baseline": 28,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -51,63 +41,64 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Conduct assessments of patients' risk for harm to self or others.",
-    "Document patient information including session notes, progress notes, recommendations, and treatment plans.",
-    "Counsel individuals, groups, or families to help them understand problems, deal with crisis situations, define goals, and develop realistic action plans."
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "occupation": "Clinical Psychologist",
-      "score": 28,
-      "description": "Similar tasks to therapists, but with more emphasis on research and academic pursuits."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 2, 4, and 6 require document writing and record-keeping, which are already being automated by AI tools."
     },
     {
-      "occupation": "Mental Health Counselor",
-      "score": 22,
-      "description": "Less emphasis on assessment and diagnosis, but still requires strong interpersonal skills."
+      "title": "AI Capability Gap",
+      "body": "Task 1 (assessing patient risk) is highly dependent on human judgment and empathy, but AI can assist with data analysis."
     }
   ],
   "evidence_ledger": [
-    "O*NET task list for SOC 19-3033.00 (Clinical and Counseling Psychologists)",
-    "Wikipedia summary of therapy"
-  ],
-  "reasoning_steps": [
-    "High routine_cognitive tasks indicate that AI-powered chatbots can handle many aspects of therapy, but human therapists are still essential for complex cases.",
-    "The regulatory moat is relatively weak due to the lack of licensure requirements for mental health professionals."
+    {
+      "source": "O*NET 29.3",
+      "meta": "SOC 19-3033.00: Clinical and Counseling Psychologists",
+      "contribution": "Task list for this occupation"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": "Summary of therapy and treatment"
+    }
   ],
   "adjacent_careers": [
     {
-      "occupation": "Clinical Psychologist",
-      "score": 28,
-      "description": "Similar tasks to therapists, but with more emphasis on research and academic pursuits."
+      "name": "Clinical Research Coordinator",
+      "overlap_pct": 60,
+      "score": 40,
+      "reasoning": "Both roles involve working with patients, but Clinical Research Coordinators focus on research studies rather than therapy."
     },
     {
-      "occupation": "Mental Health Counselor",
-      "score": 22,
-      "description": "Less emphasis on assessment and diagnosis, but still requires strong interpersonal skills."
+      "name": "Case Manager",
+      "overlap_pct": 50,
+      "score": 30,
+      "reasoning": "Case Managers work with clients to develop plans, but their focus is more on administrative tasks and less on therapy."
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "step": "Take courses in research methods and statistical analysis to stay up-to-date with the latest developments in mental health.",
-      "description": "Develop skills in research design and implementation to contribute to the development of AI-powered therapy tools."
+      "headline": "New AI-powered chatbot for mental health support",
+      "source": "The New York Times",
+      "date_text": "2022-02-15",
+      "url": "",
+      "impact": "Raises concerns about the potential replacement of human therapists with AI-powered chatbots.",
+      "direction": "raises_risk"
     },
     {
-      "step": "Consider pursuing a graduate degree in clinical psychology or a related field to increase job prospects in academia or research.",
-      "description": "Network with professionals in the field to learn about emerging trends and technologies in mental health."
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
     }
   ],
-  "follow_up_suggestions": [
-    {
-      "question": "What are some potential applications of AI-powered therapy tools for individuals with anxiety disorders?",
-      "resource": "A study published in the Journal of Consulting and Clinical Psychology found that AI-driven cognitive-behavioral therapy was effective in reducing symptoms of anxiety."
-    },
-    {
-      "question": "How can I stay current with the latest developments in mental health research and technology?",
-      "resource": "The National Institute of Mental Health provides regular updates on emerging trends and technologies in mental health."
-    }
-  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "healthcare",
@@ -140,34 +131,5 @@
         "url": "https://aimi.stanford.edu/people/curtis-langlotz"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "FDA clears more AI diagnostic tools each quarter",
-      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
-      "source": "FDA",
-      "date_text": "2024",
-      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-      "source2": "Nature Medicine",
-      "url2": "https://www.nature.com/nm/"
-    },
-    {
-      "headline": "Hospitals deploy ambient AI scribes at scale",
-      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
-      "source": "JAMA",
-      "date_text": "2024",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
-      "source2": "NEJM Catalyst",
-      "url2": "https://catalyst.nejm.org/"
-    },
-    {
-      "headline": "Drug discovery accelerates with foundation models",
-      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
-      "source": "Nature",
-      "date_text": "2024",
-      "url": "https://www.nature.com/articles/d41586-023-03172-6",
-      "source2": "Science",
-      "url2": "https://www.science.org/topic/artificial-intelligence"
-    }
-  ]
+  }
 }

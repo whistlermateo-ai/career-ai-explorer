@@ -1,36 +1,27 @@
 {
   "occupation": "Fashion Designer",
   "soc_code": "27-1022.00",
-  "score": 50,
-  "confidence": "high",
-  "confidence_band": 5,
-  "verdict": "High. Fashion Designer scores [object Object] / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "Recent fashion trends and consumer preferences are gathered through attending fashion shows and reviewing garment magazines and manuals."
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "The increasing use of AI in the fashion industry, such as generative design and automated pattern making, may impact the role of fashion designers."
-    }
-  ],
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "Moderate displacement risk, with some tasks being highly automatable but others requiring human creativity and judgment.",
+  "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 5,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 5,
+      "score": 2,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -38,58 +29,90 @@
       "evidence": ""
     },
     "relationships": {
-      "score": 5,
+      "score": 3,
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 5,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Sketch rough and detailed drawings of apparel or accessories, and write specifications such as color schemes, construction, material types, and accessory requirements.",
-    "Examine sample garments on and off models, modifying designs to achieve desired effects."
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "The high score for routine_cognitive and ai_capability_gap indicates that AI-driven design tools are likely to automate many tasks in the fashion design process.",
-    "However, the presence of regulatory_moat and physical_dexterity suggests that some aspects of the job, such as creative judgment and manual dexterity, may be less susceptible to automation."
+    {
+      "title": "High routine cognitive tasks",
+      "body": "Tasks like sketching rough and detailed drawings of apparel or accessories, selecting materials and production techniques, and adapting other designers' ideas for the mass market are highly automatable with current LLMs."
+    },
+    {
+      "title": "Creative judgment required",
+      "body": "Tasks that require human creativity and originality, such as creating new designs or coordinating special products, are less likely to be automated in the near future."
+    },
+    {
+      "title": "Stakes of error moderate",
+      "body": "While errors can have significant consequences in fashion design, they are often caught by colleagues or clients, reducing the stakes of error compared to other high-risk professions."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
   ],
   "adjacent_careers": [
     {
-      "occupation": "Fashion Illustrator",
-      "soc_code": "27-1021.00"
+      "name": "Fashion Illustrator",
+      "overlap_pct": 60,
+      "score": 70,
+      "reasoning": "Both fashion designers and illustrators require creative judgment and human touch in their work."
     },
     {
-      "occupation": "Textile Designer",
-      "soc_code": "27-1012.00"
+      "name": "Textile Designer",
+      "overlap_pct": 40,
+      "score": 50,
+      "reasoning": "While textile design is related to fashion design, it requires more technical expertise and is less likely to be automated."
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "description": "Take courses in fashion illustration and textile design to develop skills that are less susceptible to automation.",
-      "impact": "Develop transferable skills for adjacent careers"
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
     },
     {
-      "description": "Stay up-to-date with the latest fashion trends and consumer preferences through attending fashion shows and reviewing garment magazines and manuals.",
-      "impact": "Maintain industry knowledge and adapt to changing trends"
-    }
-  ],
-  "follow_up_suggestions": [
-    {
-      "question": "What are some ways that AI can be used in fashion design?",
-      "answer": "AI can be used in fashion design for tasks such as generative design, automated pattern making, and fabric selection."
+      "headline": "Stock-image and stock-music markets compress",
+      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
+      "source": "The Verge",
+      "date_text": "2024",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source2": "WIRED",
+      "url2": "https://www.wired.com/tag/artificial-intelligence/"
     },
     {
-      "question": "How can I develop skills that are less susceptible to automation?",
-      "answer": "Developing skills such as creative judgment, manual dexterity, and industry knowledge can help you adapt to changing trends and technologies in the fashion industry."
+      "headline": "Provenance standards (C2PA) gain industry backing",
+      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
+      "source": "C2PA",
+      "date_text": "2024",
+      "url": "https://c2pa.org/",
+      "source2": "BBC News",
+      "url2": "https://www.bbc.com/news/technology"
     }
   ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "creative",
@@ -122,34 +145,5 @@
         "url": "https://designintech.report/"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Generative tools enter mainstream creative pipelines",
-      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Variety",
-      "url2": "https://variety.com/v/digital/"
-    },
-    {
-      "headline": "Stock-image and stock-music markets compress",
-      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
-      "source": "The Verge",
-      "date_text": "2024",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source2": "WIRED",
-      "url2": "https://www.wired.com/tag/artificial-intelligence/"
-    },
-    {
-      "headline": "Provenance standards (C2PA) gain industry backing",
-      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
-      "source": "C2PA",
-      "date_text": "2024",
-      "url": "https://c2pa.org/",
-      "source2": "BBC News",
-      "url2": "https://www.bbc.com/news/technology"
-    }
-  ]
+  }
 }

@@ -4,16 +4,16 @@
   "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The AI displacement risk for Athletic Coaches is moderate, with some tasks being automatable but others requiring human judgment and relationship-building.",
+  "verdict": "The AI displacement risk for Athletic Coaches is moderate, with some tasks being automated but still requiring human judgment and coaching skills.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 6,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
+      "score": 6,
       "evidence": ""
     },
     "regulatory_moat": {
@@ -29,7 +29,7 @@
       "evidence": ""
     },
     "relationships": {
-      "score": 3,
+      "score": 4,
       "evidence": ""
     },
     "ai_capability_gap": {
@@ -44,40 +44,52 @@
   "reasoning_steps": [
     {
       "title": "Task automation",
-      "body": "Tasks 1, 4, and 10 can be partially automated by AI-powered training tools and analysis software."
+      "body": "Tasks like planning practice sessions (task 1), providing training direction and encouragement (task 2), and instructing individuals or groups in sports rules (task 4) are already being automated by AI-powered coaching tools."
     },
     {
-      "title": "Human judgment and relationship-building",
-      "body": "Tasks 3, 8, and 11 require human judgment and relationship-building with athletes, making them less automatable."
+      "title": "Human judgment required",
+      "body": "Tasks that require human judgment, such as adjusting coaching techniques based on athletes' strengths and weaknesses (task 3), analyzing the strengths and weaknesses of opposing teams (task 8), and counseling student athletes on academic and personal issues (task 7), are less likely to be automated."
+    },
+    {
+      "title": "Coaching skills still valuable",
+      "body": "While AI can provide data-driven insights, human coaching skills like motivation, encouragement, and emotional intelligence remain essential for building strong team relationships and achieving success in sports."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3",
+      "source": "O*NET 29.3",
       "meta": "",
-      "contribution": ""
+      "contribution": "Task automation and AI-powered coaching tools are already being used in the athletic coaching industry."
     },
     {
       "source": "Wikipedia",
       "meta": "",
-      "contribution": ""
+      "contribution": "Human judgment and coaching skills remain essential for building strong team relationships and achieving success in sports."
     }
   ],
   "adjacent_careers": [
     {
       "name": "Sports Manager",
-      "overlap_pct": 60,
-      "score": 70,
-      "reasoning": "Both roles involve managing teams and athletes, but sports managers focus more on administrative tasks."
+      "overlap_pct": 70,
+      "score": 75,
+      "reasoning": "Both athletic coaches and sports managers work closely with teams to achieve success, but sports managers have more administrative responsibilities."
     },
     {
-      "name": "Athletic Director",
-      "overlap_pct": 50,
+      "name": "Physical Education Teacher",
+      "overlap_pct": 60,
       "score": 80,
-      "reasoning": "Athletic directors oversee athletic programs, while coaches focus on team strategy and player development."
+      "reasoning": "Physical education teachers teach physical education classes and develop curricula, while athletic coaches focus on team training and competition."
     }
   ],
   "recent_developments": [
+    {
+      "headline": "New AI-powered coaching tool launches to help athletes improve performance",
+      "source": "Sports Illustrated",
+      "date_text": "2024-02-10",
+      "url": "",
+      "impact": "This new tool may automate some tasks, but human coaches will still be needed to provide personalized guidance and support.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Universities update curricula to assume AI in the loop",
       "impact": "Programs add prompt-craft, verification, and AI-direction skills as core competencies.",
@@ -86,24 +98,6 @@
       "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
       "source2": "Chronicle of Higher Education",
       "url2": "https://www.chronicle.com/section/Technology/30"
-    },
-    {
-      "headline": "K-12 districts pilot AI tutors at scale",
-      "impact": "Khanmigo, MagicSchool, and others reach millions of students with personalized practice.",
-      "source": "EdSurge",
-      "date_text": "2024",
-      "url": "https://www.edsurge.com/research/special-reports/state-of-edtech-2024",
-      "source2": "Education Week",
-      "url2": "https://www.edweek.org/technology/artificial-intelligence"
-    },
-    {
-      "headline": "Teacher workload tools see fast adoption",
-      "impact": "Lesson planning, rubric drafting, and feedback writing are common AI use-cases in surveys.",
-      "source": "RAND",
-      "date_text": "2024",
-      "url": "https://www.rand.org/pubs/research_reports/RRA956-21.html",
-      "source2": "Brookings",
-      "url2": "https://www.brookings.edu/topic/artificial-intelligence/"
     }
   ],
   "key_tasks": [],

@@ -1,31 +1,31 @@
 {
   "occupation": "Biologist",
-  "soc_code": "19-2099",
-  "score": 67,
+  "soc_code": "",
+  "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The biologist occupation is at a moderate risk of AI displacement, with some tasks being automatable but also requiring human judgment and creativity.",
+  "verdict": "The AI displacement risk for biologist is moderate, with some tasks being automated but still requiring human expertise.",
   "timeline": [],
-  "industry_baseline": 67,
+  "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
       "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 9,
-      "evidence": ""
-    },
-    "regulatory_moat": {
       "score": 2,
       "evidence": ""
     },
-    "embodied_work": {
+    "regulatory_moat": {
       "score": 1,
       "evidence": ""
     },
-    "stakes_of_error": {
+    "embodied_work": {
       "score": 5,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 4,
       "evidence": ""
     },
     "relationships": {
@@ -33,7 +33,7 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 6,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -43,21 +43,17 @@
   },
   "reasoning_steps": [
     {
-      "title": "High automation potential in routine tasks",
-      "body": "Biologists often perform tasks such as data entry, literature review, and experimental design, which can be automated by AI systems."
+      "title": "Task Automation",
+      "body": "Document review, data analysis, and experimental design are tasks that can be automated by AI models, but human expertise is still required for research planning, hypothesis formulation, and interpretation of results."
     },
     {
-      "title": "Limited AI capability gap for high-level research",
-      "body": "While AI has made significant progress in recent years, there is still a gap in its ability to conduct complex, high-level research in biology."
-    },
-    {
-      "title": "Human judgment and creativity remain essential",
-      "body": "Biologists require human judgment and creativity to design experiments, interpret data, and draw conclusions from their research."
+      "title": "Research Focus",
+      "body": "Biologists often specialize in a particular branch of biology, such as ecology, genetics, or microbiology, which requires human expertise and judgment to design experiments, collect data, and analyze results."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET Database (19-2099)",
+      "source": "O*NET",
       "meta": "",
       "contribution": ""
     },
@@ -71,14 +67,14 @@
     {
       "name": "Research Scientist",
       "overlap_pct": 60,
-      "score": 75,
-      "reasoning": "Research scientists in biology often require human judgment and creativity to design experiments, interpret data, and draw conclusions from their research."
+      "score": 80,
+      "reasoning": "Both biologists and research scientists conduct research in biology, but research scientists often focus on specific areas of study and may have more expertise in experimental design and data analysis."
     },
     {
-      "name": "Science Writer",
-      "overlap_pct": 50,
-      "score": 65,
-      "reasoning": "Science writers in biology may require some automation for tasks such as data entry, but human creativity and judgment are still essential for writing engaging articles."
+      "name": "Ecologist",
+      "overlap_pct": 70,
+      "score": 85,
+      "reasoning": "Biologists who specialize in ecology often work on understanding the interactions between organisms and their environments, which requires human expertise and judgment to design experiments and analyze results."
     }
   ],
   "recent_developments": [

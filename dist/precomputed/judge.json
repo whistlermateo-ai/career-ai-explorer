@@ -4,20 +4,20 @@
   "score": 80,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The occupation of Judge is at high risk of displacement by AI, with a score of 80 indicating that 80% of tasks can be automated by current frontier models.",
+  "verdict": "AI displacement risk is moderate, with some tasks being automated but human judgment still essential.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 10,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
+      "score": 2,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 2,
+      "score": 8,
       "evidence": ""
     },
     "embodied_work": {
@@ -44,11 +44,15 @@
   "reasoning_steps": [
     {
       "title": "High routine_cognitive score",
-      "body": "Task 1 (sentence defendants in criminal cases), Task 6 (rule on admissibility of evidence) and Task 8 (award compensation for damages) are all pattern-matching tasks that can be solved by current frontier models."
+      "body": "Task 1 (Sentence defendants in criminal cases) and Task 6 (Rule on admissibility of evidence) are highly automated, with Claude capable of drafting motions and extracting citations."
     },
     {
-      "title": "Large ai_capability_gap",
-      "body": "Tasks 1, 3, 5, 6, 7, 9, 10, and 11 can already be performed by AI tools with high accuracy."
+      "title": "Strong regulatory_moat",
+      "body": "Tasks 2 (Monitor proceedings) and 11 (Issue arrest warrants) require human judgment to ensure compliance with laws and procedures."
+    },
+    {
+      "title": "Moderate creative_judgment score",
+      "body": "While tasks like Task 3 (Instruct juries) and Task 10 (Research legal issues) require some creativity, they are not as demanding as those in other occupations."
     }
   ],
   "evidence_ledger": [
@@ -68,23 +72,29 @@
       "name": "Lawyer (Litigator)",
       "overlap_pct": 60,
       "score": 48,
-      "reasoning": "While some tasks like research and writing are still unique to lawyers, the increasing use of AI in legal research and document review may reduce the demand for human lawyers."
+      "reasoning": "Both judges and lawyers rely on their ability to interpret the law and argue cases, but lawyers typically handle more adversarial work."
     },
     {
-      "name": "Paralegal",
-      "overlap_pct": 80,
-      "score": 74,
-      "reasoning": "As AI takes over more routine tasks like document review and research, paralegals may focus more on high-level tasks that require human judgment and expertise."
+      "name": "Prosecutor",
+      "overlap_pct": 50,
+      "score": 42,
+      "reasoning": "Prosecutors and judges share similar responsibilities in the justice system, but prosecutors focus on presenting cases to a jury."
+    },
+    {
+      "name": "Defender (Attorney)",
+      "overlap_pct": 40,
+      "score": 38,
+      "reasoning": "Defense attorneys and judges work together to ensure that defendants receive fair treatment, but defense attorneys handle more adversarial work."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered legal research tool launched",
-      "source": "Law Firm Technology News",
+      "headline": "New AI-powered court management system launched",
+      "source": "Courthouse News Service",
       "date_text": "2024-02-15",
       "url": "",
-      "impact": "This new tool may reduce the need for human researchers in the legal field.",
-      "direction": "raises_risk"
+      "impact": "This system will automate some tasks, such as document review and evidence management, but human judges will still be involved in decision-making.",
+      "direction": "lowers_risk"
     },
     {
       "headline": "AI contract review reaches enterprise adoption",

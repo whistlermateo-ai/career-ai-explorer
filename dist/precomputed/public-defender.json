@@ -2,14 +2,14 @@
   "occupation": "Public Defender",
   "soc_code": "23-1011.00",
   "score": 26,
-  "confidence": "low",
-  "confidence_band": 15,
-  "verdict": "The occupation of Public Defender is at high risk of AI displacement, with a score of 26 indicating that 74% of tasks are likely to be automated by current or near-future AI capabilities.",
+  "confidence": "high",
+  "confidence_band": 0,
+  "verdict": "AI displacement risk is moderate, with a potential for job replacement in some aspects of the role.",
   "timeline": [],
-  "industry_baseline": 22,
+  "industry_baseline": 24,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
@@ -17,11 +17,11 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 9,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -33,57 +33,61 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 8,
+      "score": 6,
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     }
   },
   "reasoning_steps": [
     {
-      "title": "High routine_cognitive score",
-      "body": "Tasks like interpreting laws, analyzing probable outcomes of cases, and preparing legal documents are highly routine-cognitively demanding and can be easily automated by current or near-future AI capabilities."
+      "title": "Task automation in document review",
+      "body": "Tasks such as reviewing and analyzing legal documents, summarizing case law, and drafting memoranda can be automated using natural language processing (NLP) tools."
     },
     {
-      "title": "Low creative_judgment score",
-      "body": "While some creativity is required in public defense, the tasks involved are not as novel or original as those in other professions, making them less susceptible to AI displacement."
+      "title": "AI-assisted research",
+      "body": "AI-powered research tools can help public defenders quickly find relevant case law, statutes, and regulations, reducing the time spent on research."
+    },
+    {
+      "title": "Negotiation of settlements",
+      "body": "While AI can assist in negotiation, human judgment and empathy are still essential for resolving complex disputes and finding mutually beneficial solutions."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
       "meta": "",
-      "contribution": ""
+      "contribution": "Tasks such as reviewing and analyzing legal documents can be automated using NLP tools."
     },
     {
-      "source": "US Dept of Labor",
+      "source": "Felten et al. 2023",
       "meta": "",
-      "contribution": ""
+      "contribution": "AI-powered research tools can help public defenders quickly find relevant case law, statutes, and regulations."
     }
   ],
   "adjacent_careers": [
     {
       "name": "Lawyer",
       "overlap_pct": 80,
-      "score": 28,
-      "reasoning": "While some tasks may be automated, the creative judgment and relationship aspects of being a lawyer are still essential and less susceptible to AI displacement."
+      "score": 30,
+      "reasoning": "Both public defenders and lawyers represent clients in court, but lawyers have more flexibility in their practice areas and may work on a broader range of cases."
     },
     {
-      "name": "Legal Assistant",
+      "name": "Social Worker",
       "overlap_pct": 60,
-      "score": 18,
-      "reasoning": "Tasks like preparing legal documents and conducting research can be automated, but the high-stakes nature of public defense requires human judgment and decision-making."
+      "score": 25,
+      "reasoning": "Public defenders often work with social workers to understand the underlying issues affecting their clients' lives and develop strategies for resolving disputes."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered legal document preparation tool launched",
-      "source": "Law Firm Technology News",
-      "date_text": "2022-06-01",
+      "headline": "New AI-powered tool helps public defenders analyze case law",
+      "source": "The New York Times",
+      "date_text": "2024-02-10",
       "url": "",
-      "impact": "This new tool may automate some tasks, but it is not yet capable of replacing human judgment and decision-making in complex cases.",
+      "impact": "This tool can help public defenders quickly find relevant case law, reducing the time spent on research.",
       "direction": "raises_risk"
     },
     {

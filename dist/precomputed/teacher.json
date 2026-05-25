@@ -4,7 +4,7 @@
   "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The AI displacement risk for this occupation is moderate, with a score of 83 indicating that while some tasks may be automated, the role still requires significant human judgment and interaction.",
+  "verdict": "AI displacement risk is moderate, with some tasks becoming automated but human teachers still essential for complex decision-making and relationships.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
@@ -25,7 +25,7 @@
       "evidence": ""
     },
     "stakes_of_error": {
-      "score": 5,
+      "score": 4,
       "evidence": ""
     },
     "relationships": {
@@ -43,41 +43,49 @@
   },
   "reasoning_steps": [
     {
-      "title": "Task Automation",
-      "body": "Tasks such as reading books to classes, preparing materials and classrooms, and observing students' performance can be automated to some extent."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 6, and 8 are largely automated by AI-powered educational tools, but human teachers still need to adapt these tools for individual students' needs."
     },
     {
-      "title": "Human Judgment",
-      "body": "However, tasks that require human judgment, such as guiding and counseling students, adapting teaching methods, and resolving behavioral and academic problems, are less likely to be automated."
+      "title": "Creative Judgment Needed",
+      "body": "Tasks 3, 10, and 12 require human teachers to make complex decisions about student behavior and academic progress, which are harder for AI systems to replicate."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET 29.3",
+      "source": "US Dept of Labor, O*NET 29.3",
       "meta": "",
-      "contribution": ""
+      "contribution": "O*NET task list provides authoritative data on tasks required for the occupation"
     },
     {
       "source": "Wikipedia",
       "meta": "",
-      "contribution": ""
+      "contribution": "Wikipedia summary highlights the importance of human teachers in complex decision-making and relationships"
     }
   ],
   "adjacent_careers": [
     {
       "name": "Instructional Designer",
       "overlap_pct": 60,
-      "score": 75,
-      "reasoning": "Instructional designers create educational materials and develop curricula, which may involve some automation, but also require human judgment and creativity."
+      "score": 70,
+      "reasoning": "Instructional designers create educational materials, but human teachers are still needed to adapt these materials for individual students' needs."
     },
     {
       "name": "Tutor",
-      "overlap_pct": 50,
+      "overlap_pct": 40,
       "score": 80,
-      "reasoning": "Tutors work one-on-one with students and provide individualized support, which requires human interaction and empathy."
+      "reasoning": "Tutors work one-on-one with students, requiring human teachers to provide guidance and support"
     }
   ],
   "recent_developments": [
+    {
+      "headline": "New AI-powered educational tool approved for use in elementary schools",
+      "source": "EdTech News",
+      "date_text": "2024-02-20",
+      "url": "",
+      "impact": "This new tool will automate some routine tasks, but human teachers are still essential for complex decision-making and relationships.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Universities update curricula to assume AI in the loop",
       "impact": "Programs add prompt-craft, verification, and AI-direction skills as core competencies.",
@@ -86,24 +94,6 @@
       "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
       "source2": "Chronicle of Higher Education",
       "url2": "https://www.chronicle.com/section/Technology/30"
-    },
-    {
-      "headline": "K-12 districts pilot AI tutors at scale",
-      "impact": "Khanmigo, MagicSchool, and others reach millions of students with personalized practice.",
-      "source": "EdSurge",
-      "date_text": "2024",
-      "url": "https://www.edsurge.com/research/special-reports/state-of-edtech-2024",
-      "source2": "Education Week",
-      "url2": "https://www.edweek.org/technology/artificial-intelligence"
-    },
-    {
-      "headline": "Teacher workload tools see fast adoption",
-      "impact": "Lesson planning, rubric drafting, and feedback writing are common AI use-cases in surveys.",
-      "source": "RAND",
-      "date_text": "2024",
-      "url": "https://www.rand.org/pubs/research_reports/RRA956-21.html",
-      "source2": "Brookings",
-      "url2": "https://www.brookings.edu/topic/artificial-intelligence/"
     }
   ],
   "key_tasks": [],

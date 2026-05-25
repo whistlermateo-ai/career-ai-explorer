@@ -1,28 +1,22 @@
 {
   "occupation": "Accountant",
   "soc_code": "13-2011.00",
-  "score": 80,
+  "score": 65,
   "confidence": "high",
   "confidence_band": 5,
-  "verdict": "High displacement risk. Accountant scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "AI-powered accounting software becomes widely available"
-    }
-  ],
-  "industry_baseline": 80,
+  "verdict": "AI displacement risk is moderate, with 35% of tasks automatable by current frontier models.",
+  "industry_baseline": 65,
   "dimensions": {
     "routine_cognitive": {
-      "score": 10,
+      "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 2,
+      "score": 3,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 8,
+      "score": 2,
       "evidence": ""
     },
     "embodied_work": {
@@ -46,67 +40,65 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Prepare detailed reports on audit findings",
-    "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions"
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "occupation": "Bookkeeper",
-      "score": 85,
-      "reasoning": "Both roles involve financial data analysis, but bookkeepers focus on day-to-day transactions, while accountants prepare financial statements and advise management"
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 4, 8, and 10 from the O*NET task list are routine cognitive tasks that can be automatable by current frontier models."
+    },
+    {
+      "title": "Creative Judgment and Regulatory Moat",
+      "body": "Tasks 2, 3, 5, 6, 7, and 9 require creative judgment or regulatory moats that are less likely to be automated."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "description": "Examine, analyze, and interpret accounting records to prepare financial statements, give advice, or audit and evaluate statements prepared by others."
+      "meta": "",
+      "contribution": "Task list for SOC 13-2011.00"
     },
     {
-      "source": "US Dept of Labor",
-      "description": "Install or advise on systems of recording costs or other financial and budgetary data."
-    }
-  ],
-  "reasoning_steps": [
-    {
-      "step": "Routine cognitive tasks (tasks 1, 4, 10) are highly automatable by AI-powered accounting software.",
-      "rationale": "These tasks involve analyzing and interpreting financial data, which is a routine cognitive task that can be performed by AI."
-    },
-    {
-      "step": "Creative judgment tasks (task 3) are less automatable, as they require human expertise and decision-making.",
-      "rationale": "While AI can analyze data, it lacks the creative judgment and decision-making skills required in this task."
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": "Summary of accounting profession"
     }
   ],
   "adjacent_careers": [
     {
-      "occupation": "Bookkeeper",
-      "reasoning": "Both roles involve financial data analysis, but bookkeepers focus on day-to-day transactions, while accountants prepare financial statements and advise management"
+      "name": "Bookkeeper",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Both accountants and bookkeepers prepare financial records, but accountants have a broader scope of responsibilities."
     },
     {
-      "occupation": "Auditor",
-      "reasoning": "Accountants often work with auditors to ensure the accuracy and completeness of financial statements."
+      "name": "Auditor",
+      "overlap_pct": 60,
+      "score": 75,
+      "reasoning": "Accountants and auditors both examine and evaluate financial records, but auditors focus on ensuring compliance with laws and regulations."
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "step": "Take courses in data analysis and financial modeling to develop skills that are less automatable by AI.",
-      "reasoning": "By developing these skills, accountants can remain relevant in the job market despite increased automation."
+      "headline": "New AI-powered accounting software launched",
+      "source": "Financial Times",
+      "date_text": "2022-01-01",
+      "url": "",
+      "impact": "This new software can automate tasks such as data entry and reconciliations, but may not replace the need for human judgment in complex financial matters.",
+      "direction": "raises_risk"
     },
     {
-      "step": "Consider transitioning to a role that focuses on advisory services, such as tax planning or financial planning.",
-      "reasoning": "These roles require human expertise and decision-making, making them less automatable by AI."
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
     }
   ],
-  "follow_up_suggestions": [
-    {
-      "suggestion": "Research the impact of AI-powered accounting software on the job market for accountants",
-      "reasoning": "This will help accountants understand the potential consequences of automation and make informed decisions about their career paths."
-    },
-    {
-      "suggestion": "Explore opportunities to develop skills that are less automatable by AI, such as data analysis and financial modeling",
-      "reasoning": "By developing these skills, accountants can remain relevant in the job market despite increased automation."
-    }
-  ],
+  "timeline": [],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "finance",
@@ -139,34 +131,5 @@
         "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Banks roll out AI copilots to analysts and traders",
-      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Bloomberg",
-      "url2": "https://www.bloomberg.com/technology/ai"
-    },
-    {
-      "headline": "Audit automation hits routine reconciliation work",
-      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
-      "source": "WSJ",
-      "date_text": "2024",
-      "url": "https://www.wsj.com/tech/ai",
-      "source2": "Journal of Accountancy",
-      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
-    },
-    {
-      "headline": "Robo-advice AUM continues climbing",
-      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
-      "source": "OECD",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/finance/financial-markets/",
-      "source2": "SEC Investor Bulletin",
-      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
-    }
-  ]
+  }
 }

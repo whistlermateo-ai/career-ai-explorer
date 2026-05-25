@@ -4,12 +4,12 @@
   "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "Moderate displacement risk, with some tasks being automated but still requiring human judgment and physical dexterity.",
+  "verdict": "AI displacement risk is moderate, with some tasks becoming automated but others requiring human judgment and physical dexterity.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
@@ -44,27 +44,27 @@
   "reasoning_steps": [
     {
       "title": "Routine Cognitive Tasks",
-      "body": "Tasks like testing drive vehicles, using infrared engine analyzers, and adjusting repaired systems are highly routine and can be automated by AI."
+      "body": "Tasks 1, 2, and 11 from the O*NET task list are routine cognitive tasks that can be automated by AI-powered diagnostic devices."
     },
     {
-      "title": "Physical Dexterity Moat",
-      "body": "The physical demands of the job, such as aligning wheels and axles, and performing tear-downs and rebuilds, provide a strong moat against automation."
+      "title": "Physical Dexterity and Human Judgment",
+      "body": "Tasks 8 (aligning vehicles' front ends), 9 (aligning wheels and axles), and 10 (tear down, repair, and rebuild faulty assemblies) require physical dexterity and human judgment, making them less susceptible to AI automation."
     },
     {
-      "title": "Stakes of Error",
-      "body": "While errors can be costly, they are often reversible and do not result in catastrophic consequences, reducing the need for human oversight."
+      "title": "Regulatory Moat",
+      "body": "The mechanic's role is not heavily regulated, but there are some industry standards and guidelines that ensure a certain level of quality and safety in vehicle repairs."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3.",
+      "source": "US Dept of Labor, O*NET 29.3",
       "meta": "",
-      "contribution": "O*NET task list provided a clear understanding of the tasks involved in being a mechanic."
+      "contribution": ""
     },
     {
       "source": "Wikipedia",
       "meta": "",
-      "contribution": "The Wikipedia summary provided context on the role of mechanics and their use of tools to build, maintain, or repair machinery."
+      "contribution": ""
     }
   ],
   "adjacent_careers": [
@@ -72,24 +72,16 @@
       "name": "Automotive Technician",
       "overlap_pct": 80,
       "score": 75,
-      "reasoning": "Automotive technicians perform similar tasks, but with less emphasis on physical dexterity and more focus on diagnostic equipment."
+      "reasoning": "Automotive technicians perform routine maintenance and repairs, but may not have the same level of physical dexterity or human judgment as mechanics."
     },
     {
-      "name": "Engineer (Mechanical)",
+      "name": "Engineer (Aerospace)",
       "overlap_pct": 60,
-      "score": 90,
-      "reasoning": "Engineers design and develop new mechanical systems, which requires a deeper understanding of engineering principles than being a mechanic."
+      "score": 85,
+      "reasoning": "Engineers in the aerospace industry design and develop aircraft systems, which requires a different set of skills than automotive repair."
     }
   ],
   "recent_developments": [
-    {
-      "headline": "New Diagnostic Tool Released for Automotive Industry",
-      "source": "Automotive News",
-      "date_text": "2022",
-      "url": "",
-      "impact": "This new tool may automate some diagnostic tasks, but human judgment and expertise will still be required.",
-      "direction": "raises_risk"
-    },
     {
       "headline": "Hands-on trades remain among the least automated",
       "impact": "Physical, in-situ work captures very little AI use today; trades have the lowest exposure of any major occupation group.",
@@ -98,6 +90,24 @@
       "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
       "source2": "BLS Occupational Outlook",
       "url2": "https://www.bls.gov/ooh/construction-and-extraction/"
+    },
+    {
+      "headline": "AI moves into estimating, scheduling, and dispatch",
+      "impact": "Back-office tasks for skilled-trades businesses are being absorbed by AI assistants, not the field work itself.",
+      "source": "McKinsey",
+      "date_text": "2024",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights",
+      "source2": "OECD Employment Outlook",
+      "url2": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm"
+    },
+    {
+      "headline": "AR + AI tools enter the field for diagnostics",
+      "impact": "Technicians use phone-based vision models to identify parts and walk through repairs in real time.",
+      "source": "IEEE Spectrum",
+      "date_text": "2024",
+      "url": "https://spectrum.ieee.org/artificial-intelligence",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
     }
   ],
   "key_tasks": [],

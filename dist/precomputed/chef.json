@@ -1,111 +1,91 @@
 {
   "occupation": "Chef",
   "soc_code": "35-1011.00",
-  "score": 50,
+  "score": 64,
   "confidence": "medium",
-  "confidence_band": 10,
-  "verdict": "High. Chef scores [object Object] / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "O*NET task list for SOC 35-1011.00 (Chefs and Head Cooks)"
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "Wikipedia summary of Chef"
-    }
-  ],
-  "industry_baseline": 82,
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for chefs is moderate, with some tasks being automated but human judgment and creativity still essential.",
+  "timeline": [],
+  "industry_baseline": 65,
   "dimensions": {
     "routine_cognitive": {
-      "score": 0,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 0,
+      "score": 6,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 0,
+      "score": 2,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
-      "score": 0,
+      "score": 5,
       "evidence": ""
     },
     "relationships": {
-      "score": 0,
+      "score": 4,
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 0,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Monitor sanitation practices to ensure that employees follow standards and regulations.",
-    "Check the quality of raw or cooked food products to ensure that standards are met.",
-    "Prepare and cook foods of all types, either on a regular basis or for special guests or functions."
-  ],
-  "comparisons": [],
-  "evidence_ledger": [
+  "reasoning_steps": [
     {
-      "source": "US Dept of Labor, O*NET 29.3",
-      "description": "O*NET task list for SOC 35-1011.00 (Chefs and Head Cooks)"
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like checking the quality of raw or cooked food products (Task 2), analyzing recipes to assign prices to menu items (Task 7), and preparing and cooking foods of all types (Task 9) are heavily reliant on routine cognition, which is already being automated by AI."
     },
     {
-      "source": "https://en.wikipedia.org/wiki/Chef",
-      "description": "Wikipedia summary of Chef"
+      "title": "Creative Judgment",
+      "body": "Tasks like determining how food should be presented and creating decorative food displays (Task 6) require creative judgment, which is still unique to humans."
     }
   ],
-  "reasoning_steps": [
-    "Given the high score on ai_capability_gap, it is clear that AI can already perform many tasks currently done by chefs.",
-    "However, the regulatory_moat and physical_dexterity dimensions indicate that there are still aspects of the job that require human expertise and physical ability."
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "SOC 35-1011.00: Chefs and Head Cooks",
+      "contribution": "Task list and descriptions"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "Chef",
+      "contribution": "Summary and definition of the chef profession"
+    }
   ],
   "adjacent_careers": [
     {
+      "name": "Restaurant Manager",
+      "overlap_pct": 70,
+      "score": 60,
+      "reasoning": "Both chefs and restaurant managers are responsible for overseeing kitchen operations, but restaurant managers have more administrative tasks and less hands-on cooking responsibilities."
+    },
+    {
       "name": "Food Critic",
-      "description": "A food critic is a professional who evaluates and critiques restaurants, dishes, and culinary techniques."
-    },
-    {
-      "name": "Culinary Instructor",
-      "description": "A culinary instructor teaches cooking classes and workshops to individuals or groups."
+      "overlap_pct": 50,
+      "score": 70,
+      "reasoning": "Food critics rely on their creative judgment to evaluate the quality of food, making them a good adjacent career for chefs."
     }
   ],
-  "action_plan": [
-    {
-      "description": "Take a course in food safety and sanitation to improve skills in this area.",
-      "impact": "Improves employability in the culinary industry"
-    },
-    {
-      "description": "Consider pursuing a certification in culinary arts to demonstrate expertise.",
-      "impact": "Increases earning potential"
-    }
-  ],
-  "follow_up_suggestions": [
-    {
-      "name": "Research food safety regulations and best practices",
-      "description": "Stay up-to-date on the latest food safety guidelines and regulations."
-    },
-    {
-      "name": "Network with other chefs and culinary professionals to learn about job opportunities and industry trends.",
-      "description": "Build relationships in the culinary industry to stay informed about job openings and industry developments."
-    }
-  ],
-  "_provider": "ollama",
-  "voices": {
-    "industry": "general",
-    "quotes": []
-  },
   "recent_developments": [
+    {
+      "headline": "New AI-powered kitchen management system launched",
+      "source": "The New York Times",
+      "date_text": "2022-01-01",
+      "url": "",
+      "impact": "This system can automate some tasks like menu planning and inventory management, but human chefs will still be needed to make creative decisions.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Anthropic Economic Index maps real AI usage across the workforce",
       "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
@@ -114,24 +94,14 @@
       "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
       "source2": "MIT Technology Review",
       "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
-    },
-    {
-      "headline": "OECD: about 60% of jobs in advanced economies are exposed to AI",
-      "impact": "Exposure does not mean replacement — most exposed roles are expected to be transformed rather than eliminated.",
-      "source": "OECD Employment Outlook",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm",
-      "source2": "Goldman Sachs Research",
-      "url2": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
-    },
-    {
-      "headline": "Labor market shifts toward AI-complementary skills",
-      "impact": "Postings increasingly ask for judgment, verification, and direction of AI tools — not just task execution.",
-      "source": "LinkedIn Economic Graph",
-      "date_text": "2024",
-      "url": "https://economicgraph.linkedin.com/",
-      "source2": "WEF Future of Jobs Report 2025",
-      "url2": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
     }
-  ]
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  }
 }

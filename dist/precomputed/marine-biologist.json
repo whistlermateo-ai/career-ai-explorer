@@ -1,15 +1,15 @@
 {
   "occupation": "Marine Biologist",
   "soc_code": "19-1023.00",
-  "score": 83,
-  "confidence": "high",
+  "score": 80,
+  "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "Moderate risk of AI displacement, with some tasks becoming more routine and others being augmented by AI.",
+  "verdict": "The AI displacement risk for Marine Biologists is moderate, with some tasks being automated but others requiring human expertise and judgment.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 8,
+      "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
@@ -17,11 +17,11 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 4,
+      "score": 1,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -33,7 +33,7 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -43,32 +43,24 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine Cognition",
-      "body": "Tasks 1, 2, 4, and 6 involve routine data analysis and pattern-matching on text/data, which are already being handled by current frontier LLMs."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like analyzing characteristics of animals (task 9), conducting literature reviews (task 10), and performing administrative duties (task 7) are likely to be automated by AI systems."
     },
     {
       "title": "Creative Judgment",
-      "body": "Tasks 3, 5, and 11 require original synthesis, novel problem framing, and taste, which are less susceptible to AI displacement."
-    },
-    {
-      "title": "Regulatory Moat",
-      "body": "The regulatory moat is relatively strong due to the importance of environmental laws and the need for human expertise in enforcing them."
-    },
-    {
-      "title": "Embodied Work",
-      "body": "Tasks 1, 2, and 4 involve working in natural environments, which are less likely to be automated by AI."
+      "body": "Tasks that require creative judgment, such as informing and responding to the public regarding wildlife and conservation issues (task 3), are less likely to be automated by AI systems."
     }
   ],
   "evidence_ledger": [
     {
       "source": "US Dept of Labor, O*NET 29.3",
       "meta": "",
-      "contribution": ""
+      "contribution": "Task list for SOC 19-1023.00"
     },
     {
       "source": "Wikipedia",
       "meta": "",
-      "contribution": ""
+      "contribution": "Summary of Marine Biology"
     }
   ],
   "adjacent_careers": [
@@ -76,28 +68,22 @@
       "name": "Wildlife Biologist",
       "overlap_pct": 80,
       "score": 85,
-      "reasoning": "Similar tasks and expertise, with some overlap in data analysis and species classification."
+      "reasoning": "Wildlife biologists and marine biologists often work together, and the skills required for one role can be applied to the other."
     },
     {
-      "name": "Conservation Biologist",
+      "name": "Conservation Scientist",
       "overlap_pct": 75,
       "score": 80,
-      "reasoning": "Similar focus on species conservation and management, but with more emphasis on policy and advocacy."
-    },
-    {
-      "name": "Marine Scientist",
-      "overlap_pct": 60,
-      "score": 70,
-      "reasoning": "Some overlap in marine research and data analysis, but with more emphasis on oceanography and chemistry."
+      "reasoning": "Conservation scientists and marine biologists share similar goals and may work on similar projects, but conservation science is a broader field that encompasses more than just marine biology."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered tool helps marine biologists analyze species distribution",
+      "headline": "New AI-powered tool helps identify marine species",
       "source": "Scientific American",
       "date_text": "2022",
       "url": "",
-      "impact": "May augment some tasks, but not replace human expertise in species classification and conservation.",
+      "impact": "This development may lead to more efficient identification of marine species, but it also raises concerns about the accuracy and reliability of AI-generated results.",
       "direction": "raises_risk"
     },
     {

@@ -1,36 +1,27 @@
 {
   "occupation": "Financial Analyst",
   "soc_code": "13-2051.00",
-  "score": 80,
+  "score": 65,
   "confidence": "medium",
-  "confidence_band": 15,
-  "verdict": "Moderate displacement risk. Financial Analyst scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "AI models improve financial analysis capabilities"
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "Financial analysts begin to use AI tools for data analysis and visualization"
-    }
-  ],
-  "industry_baseline": 83,
+  "confidence_band": 12,
+  "verdict": "The occupation is at moderate risk of displacement by AI, with some tasks being highly automatable.",
+  "timeline": [],
+  "industry_baseline": 65,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 2,
+      "score": 3,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 2,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -46,69 +37,78 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Advise clients on aspects of capitalization, such as amounts, sources, or timing.",
-    "Analyze financial or operational performance of companies facing financial difficulties to identify or recommend remedies."
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "occupation": "Investment Banker",
-      "score": 52
+      "title": "Highly automatable tasks",
+      "body": "Tasks like data analysis, financial modeling, and chart creation are highly automatable with current LLMs."
     },
     {
-      "occupation": "Financial Manager",
-      "score": 65
+      "title": "Regulatory moat present",
+      "body": "While some tasks require human judgment, the regulatory environment for financial analysts is well-established, providing a degree of protection against AI displacement."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3",
-      "task": "Advise clients on aspects of capitalization, such as amounts, sources, or timing."
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
     },
     {
       "source": "Wikipedia",
-      "task": "Conduct financial analyses related to investments in green construction or green retrofitting projects"
+      "meta": "",
+      "contribution": ""
     }
-  ],
-  "reasoning_steps": [
-    "The high score for routine_cognitive (9) indicates that AI models can already perform many tasks currently performed by financial analysts, such as data analysis and visualization.",
-    "However, the low score for creative_judgment (2) suggests that human intuition and judgment are still essential in this field.",
-    "The moderate regulatory_moat (1) score indicates that while there may be some regulatory requirements, they do not provide a strong barrier to AI displacement."
   ],
   "adjacent_careers": [
     {
-      "occupation": "Financial Manager",
-      "score": 65
+      "name": "Investment Banker",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Both roles involve financial analysis, but investment bankers focus more on deal-making and client relationships."
     },
     {
-      "occupation": "Investment Banker",
-      "score": 52
+      "name": "Research Analyst",
+      "overlap_pct": 60,
+      "score": 50,
+      "reasoning": "Research analysts focus on in-depth research and analysis, whereas financial analysts focus on providing actionable insights to clients."
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "description": "Develop skills in data analysis and visualization using AI tools",
-      "timeframe": "12 months"
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
     },
     {
-      "description": "Stay up-to-date with industry trends and developments in AI-powered financial analysis",
-      "timeframe": "6-12 months"
-    }
-  ],
-  "follow_up_suggestions": [
-    {
-      "description": "Research the use of AI in investment banking and its implications for analysts",
-      "resource": "Investment Banking 101"
+      "headline": "Audit automation hits routine reconciliation work",
+      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
+      "source": "WSJ",
+      "date_text": "2024",
+      "url": "https://www.wsj.com/tech/ai",
+      "source2": "Journal of Accountancy",
+      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
     },
     {
-      "description": "Explore the role of financial managers in overseeing AI-powered financial analysis",
-      "resource": "Financial Management Best Practices"
+      "headline": "Robo-advice AUM continues climbing",
+      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
+      "source": "OECD",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/finance/financial-markets/",
+      "source2": "SEC Investor Bulletin",
+      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
     }
   ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "finance",
@@ -141,34 +141,5 @@
         "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Banks roll out AI copilots to analysts and traders",
-      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Bloomberg",
-      "url2": "https://www.bloomberg.com/technology/ai"
-    },
-    {
-      "headline": "Audit automation hits routine reconciliation work",
-      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
-      "source": "WSJ",
-      "date_text": "2024",
-      "url": "https://www.wsj.com/tech/ai",
-      "source2": "Journal of Accountancy",
-      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
-    },
-    {
-      "headline": "Robo-advice AUM continues climbing",
-      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
-      "source": "OECD",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/finance/financial-markets/",
-      "source2": "SEC Investor Bulletin",
-      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
-    }
-  ]
+  }
 }

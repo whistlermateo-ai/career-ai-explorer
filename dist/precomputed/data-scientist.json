@@ -1,15 +1,14 @@
 {
   "occupation": "Data Scientist",
   "soc_code": "15-2051.00",
-  "score": 96,
+  "score": 98,
   "confidence": "high",
-  "confidence_band": 20,
-  "verdict": "Highly exposed to AI displacement, with most tasks automated by current frontier models.",
-  "timeline": [],
-  "industry_baseline": 97,
+  "confidence_band": 10,
+  "verdict": "High AI displacement risk, with potential for significant automation of routine tasks.",
+  "industry_baseline": 95,
   "dimensions": {
     "routine_cognitive": {
-      "score": 10,
+      "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
@@ -17,11 +16,11 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -33,27 +32,31 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 10,
+      "score": 8,
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     }
   },
   "reasoning_steps": [
     {
       "title": "Routine Cognitive Tasks",
-      "body": "Tasks 1, 4, and 6 are highly automated by current frontier models, such as LLMs."
+      "body": "The data scientist's role involves analyzing and manipulating large sets of data, which is a routine cognitive task that can be automated by current LLMs."
     },
     {
       "title": "Creative Judgment",
-      "body": "While some creative judgment is required in data science, tasks 9 and 10 can be largely automated with machine learning algorithms."
+      "body": "While some creative judgment is required in data science, the field has become increasingly reliant on statistical software and machine learning algorithms, reducing the need for human creativity."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The data scientist's role does not require licensure or fiduciary duty, which means that AI can potentially perform this work end-to-end without human oversight."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET 29.3",
+      "source": "US Dept of Labor, O*NET 29.3",
       "meta": "",
       "contribution": ""
     },
@@ -65,25 +68,25 @@
   ],
   "adjacent_careers": [
     {
-      "name": "Machine Learning Engineer",
+      "name": "Data Analyst",
       "overlap_pct": 80,
-      "score": 95,
-      "reasoning": "Machine learning engineers design and develop AI models, but data scientists apply these models to real-world problems."
+      "score": 70,
+      "reasoning": "Data analysts perform similar tasks, but with less emphasis on machine learning and more focus on data visualization."
     },
     {
-      "name": "Data Analyst",
+      "name": "Business Intelligence Developer",
       "overlap_pct": 60,
-      "score": 85,
-      "reasoning": "Data analysts work with data to identify trends and insights, but data scientists use machine learning algorithms to extract deeper insights."
+      "score": 50,
+      "reasoning": "Business intelligence developers create reports and dashboards using data analysis and visualization tools, but may not have the same level of machine learning expertise as data scientists."
     }
   ],
   "recent_developments": [
     {
-      "headline": "Google Announces New AI-Powered Data Analysis Tool",
-      "source": "The Verge",
-      "date_text": "2024-02-20",
+      "headline": "New AI-powered data analysis tool gains popularity among businesses",
+      "source": "Forbes",
+      "date_text": "2024",
       "url": "",
-      "impact": "This tool automates many data analysis tasks, making it harder for human data scientists to compete.",
+      "impact": "This development suggests that AI-powered data analysis tools are becoming increasingly capable of automating routine tasks, potentially displacing human data scientists.",
       "direction": "raises_risk"
     },
     {
@@ -96,6 +99,7 @@
       "url2": "https://www.science.org/doi/10.1126/science.abj8754"
     }
   ],
+  "timeline": [],
   "key_tasks": [],
   "comparisons": [],
   "action_plan": [],

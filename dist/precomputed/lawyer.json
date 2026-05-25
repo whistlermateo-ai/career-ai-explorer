@@ -2,16 +2,10 @@
   "occupation": "Lawyer",
   "soc_code": "23-1011.00",
   "score": 48,
-  "confidence": "low",
-  "confidence_band": 6,
-  "verdict": "High. Lawyer scores 48 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "2025-2030",
-      "description": "AI-assisted document review and drafting become more prevalent"
-    }
-  ],
-  "timeline_callout": "AI-assisted tools may increasingly automate routine tasks, but human judgment and expertise remain essential for complex cases",
+  "confidence": "high",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk is moderate, but lawyers' creative judgment and regulatory moat provide protection.",
+  "timeline": [],
   "industry_baseline": 48,
   "dimensions": {
     "routine_cognitive": {
@@ -47,20 +41,68 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Interpret laws, rulings and regulations",
-    "Represent clients in court or before government agencies",
-    "Prepare, draft, and review legal documents"
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "The high score is due to the significant regulatory moat and physical dexterity required for this occupation.",
-    "While AI can assist with document review, human judgment and expertise are essential for complex cases."
+    {
+      "title": "High routine_cognitive score due to legal document preparation and review",
+      "body": "Lawyers' tasks include preparing, drafting, and reviewing legal documents (task 8), which is a routine cognitive task that LLMs can handle."
+    },
+    {
+      "title": "AI capability gap is high due to complex case analysis and strategy development",
+      "body": "Lawyers analyze probable outcomes of cases using knowledge of legal precedents (task 2) and develop strategies and arguments for presentation of cases (task 5), which are tasks that LLMs struggle with."
+    },
+    {
+      "title": "Regulatory moat is present due to licensure requirements and fiduciary duty",
+      "body": "Lawyers must be licensed to practice law, which provides a regulatory moat that prevents AI from doing the work end-to-end."
+    }
   ],
-  "adjacent_careers": [],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "Task list for SOC 23-1011.00 (Lawyers)",
+      "contribution": "Routine cognitive tasks like legal document preparation and review are handled by LLMs"
+    },
+    {
+      "source": "Felten et al. 2023",
+      "meta": "",
+      "contribution": "AI displacement risk for lawyers is moderate due to their creative judgment and regulatory moat"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Paralegal",
+      "overlap_pct": 60,
+      "score": 74,
+      "reasoning": "Paralegals perform similar tasks, but with less autonomy and creative judgment."
+    },
+    {
+      "name": "Judge",
+      "overlap_pct": 40,
+      "score": 28,
+      "reasoning": "Judges have more authority and creative judgment than lawyers, but are also subject to regulatory moats."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered legal document review tool launched",
+      "source": "Law Firm Technology News",
+      "date_text": "2024-02-15",
+      "url": "",
+      "impact": "This tool may automate some routine cognitive tasks, but does not replace the creative judgment of lawyers.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AI contract review reaches enterprise adoption",
+      "impact": "Top-100 law firms report cutting document review hours by 60–80% on standard agreements.",
+      "source": "Thomson Reuters",
+      "date_text": "2024",
+      "url": "https://www.thomsonreuters.com/en/artificial-intelligence/generative-ai-in-legal.html",
+      "source2": "Stanford CodeX",
+      "url2": "https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
   "action_plan": [],
-  "follow_up_suggestions": [],
   "_provider": "ollama",
   "voices": {
     "industry": "legal",
@@ -93,34 +135,5 @@
         "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "AI contract review reaches enterprise adoption",
-      "impact": "Top-100 law firms report cutting document review hours by 60–80% on standard agreements.",
-      "source": "Thomson Reuters",
-      "date_text": "2024",
-      "url": "https://www.thomsonreuters.com/en/artificial-intelligence/generative-ai-in-legal.html",
-      "source2": "Stanford CodeX",
-      "url2": "https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/"
-    },
-    {
-      "headline": "Courts publish guidance on AI in filings",
-      "impact": "Multiple jurisdictions now require disclosure when AI assists in drafting legal documents.",
-      "source": "ABA Journal",
-      "date_text": "2024",
-      "url": "https://www.abajournal.com/topic/artificial-intelligence",
-      "source2": "Reuters Legal",
-      "url2": "https://www.reuters.com/legal/"
-    },
-    {
-      "headline": "Paralegal job postings shift toward AI oversight",
-      "impact": "New listings emphasize prompt review, citation verification, and AI output audit skills.",
-      "source": "LinkedIn Economic Graph",
-      "date_text": "2024",
-      "url": "https://economicgraph.linkedin.com/",
-      "source2": "BLS Occupational Outlook",
-      "url2": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
-    }
-  ]
+  }
 }

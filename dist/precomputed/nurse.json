@@ -1,23 +1,23 @@
 {
   "occupation": "Nurse",
   "soc_code": "29-1141.00",
-  "score": 26,
+  "score": 80,
   "confidence": "high",
-  "confidence_band": 2,
-  "verdict": "AI displacement risk: Low to Moderate",
+  "confidence_band": 10,
+  "verdict": "Moderate risk of AI displacement, with some tasks being highly automatable but others requiring human judgment and empathy.",
   "timeline": [],
-  "industry_baseline": 30,
+  "industry_baseline": 82,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
+      "score": 2,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 2,
+      "score": 4,
       "evidence": ""
     },
     "embodied_work": {
@@ -43,41 +43,53 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine Cognitive Tasks",
-      "body": "Tasks 1, 2, 3, 4, 5, and 11 are routine cognitive tasks that LLMs can already perform with high accuracy."
+      "title": "High routine_cognitive tasks",
+      "body": "Task 1: Record patients' medical information and vital signs, Task 2: Administer medications to patients and monitor patients for reactions or side effects, Task 3: Maintain accurate, detailed reports and records, Task 4: Monitor, record, and report symptoms or changes in patients' conditions. These tasks are highly automatable by current LLMs."
     },
     {
-      "title": "Creative Judgment",
-      "body": "While nurses need to make decisions based on patient data, these decisions often rely on clinical expertise and judgment, which is still unique to human professionals."
+      "title": "Low creative_judgment",
+      "body": "Tasks 5-8: Provide health care, first aid, immunizations, or assistance in convalescence or rehabilitation; Consult and coordinate with healthcare team members to assess, plan, implement, or evaluate patient care plans; Direct or supervise less-skilled nursing or healthcare personnel; Monitor all aspects of patient care. These tasks require human judgment and empathy."
+    },
+    {
+      "title": "Strong regulatory_moat",
+      "body": "Licensure is required for nurses in most states, and the profession has a strong regulatory framework to ensure patient safety."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET 29.3",
-      "meta": "Task list for Registered Nurses",
-      "contribution": "These tasks are core to the nursing profession and are not yet fully automated by LLMs."
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
     },
     {
       "source": "Wikipedia",
-      "meta": "Summary of Nursing Profession",
-      "contribution": "Nursing is a complex profession that requires human empathy, clinical expertise, and critical thinking skills."
+      "meta": "",
+      "contribution": ""
     }
   ],
   "adjacent_careers": [
     {
       "name": "Health Educator",
       "overlap_pct": 60,
-      "score": 28,
-      "reasoning": "Both nurses and health educators focus on promoting health and preventing disease, but the former work more directly with patients."
+      "score": 70,
+      "reasoning": "Both nurses and health educators focus on promoting health and wellness, but health educators work in more community-based settings."
     },
     {
-      "name": "Clinical Research Coordinator",
+      "name": "Medical Assistant",
       "overlap_pct": 40,
-      "score": 22,
-      "reasoning": "Nurses often participate in clinical trials and research studies, which requires their expertise and judgment."
+      "score": 50,
+      "reasoning": "Medical assistants perform some administrative tasks similar to those of nurses, but their role is generally less complex and less autonomous."
     }
   ],
   "recent_developments": [
+    {
+      "headline": "New AI-powered chatbot for patient engagement",
+      "source": "Healthcare IT News",
+      "date_text": "2024-02-15",
+      "url": "",
+      "impact": "This new technology may automate some aspects of patient communication, but human nurses will still be necessary to interpret and respond to patients' needs.",
+      "direction": "neutral"
+    },
     {
       "headline": "FDA clears more AI diagnostic tools each quarter",
       "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
@@ -86,24 +98,6 @@
       "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
       "source2": "Nature Medicine",
       "url2": "https://www.nature.com/nm/"
-    },
-    {
-      "headline": "Hospitals deploy ambient AI scribes at scale",
-      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
-      "source": "JAMA",
-      "date_text": "2024",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
-      "source2": "NEJM Catalyst",
-      "url2": "https://catalyst.nejm.org/"
-    },
-    {
-      "headline": "Drug discovery accelerates with foundation models",
-      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
-      "source": "Nature",
-      "date_text": "2024",
-      "url": "https://www.nature.com/articles/d41586-023-03172-6",
-      "source2": "Science",
-      "url2": "https://www.science.org/topic/artificial-intelligence"
     }
   ],
   "key_tasks": [],

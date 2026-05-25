@@ -4,9 +4,9 @@
   "score": 28,
   "confidence": "high",
   "confidence_band": 0,
-  "verdict": "Moderate risk of AI displacement, but human judgment and empathy are essential for patient care.",
+  "verdict": "AI displacement risk: moderate to high",
   "timeline": [],
-  "industry_baseline": 28,
+  "industry_baseline": 32,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -17,23 +17,23 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 3,
+      "score": 10,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 1,
-      "evidence": ""
-    },
-    "stakes_of_error": {
       "score": 5,
       "evidence": ""
     },
+    "stakes_of_error": {
+      "score": 8,
+      "evidence": ""
+    },
     "relationships": {
-      "score": 4,
+      "score": 6,
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 8,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -43,12 +43,12 @@
   },
   "reasoning_steps": [
     {
-      "title": "Increasing automation in administrative tasks",
-      "body": "AI can already perform routine administrative tasks, such as scheduling appointments and processing medical records."
+      "title": "Regulatory Moat",
+      "body": "Licensure and fiduciary duty create a strong regulatory moat, limiting AI's ability to perform tasks end-to-end."
     },
     {
-      "title": "Limited AI capability gap for complex decision-making",
-      "body": "While AI has made significant progress in medical diagnosis, human doctors are still necessary for complex decision-making and nuanced clinical judgment."
+      "title": "Stakes of Error",
+      "body": "High stakes due to patient safety and well-being ensure human involvement in critical decision-making."
     }
   ],
   "evidence_ledger": [
@@ -59,32 +59,32 @@
     },
     {
       "source": "Felten et al. 2023",
-      "meta": "",
+      "meta": "AI Occupational Exposure scores",
       "contribution": ""
     }
   ],
   "adjacent_careers": [
     {
       "name": "Physician Assistant",
-      "overlap_pct": 80,
+      "overlap_pct": 60,
       "score": 25,
-      "reasoning": "Physician assistants work under the supervision of doctors and can perform routine tasks, but human judgment is still essential for complex decision-making."
+      "reasoning": "Overlap in primary care and some procedures, but PAs have less autonomy."
     },
     {
       "name": "Nurse Practitioner",
       "overlap_pct": 70,
       "score": 22,
-      "reasoning": "Nurse practitioners can provide primary care services, but human doctors are necessary for more complex cases and nuanced clinical judgment."
+      "reasoning": "Similar to PAs, but with more emphasis on preventive care."
     }
   ],
   "recent_developments": [
     {
-      "headline": "AI-assisted diagnosis gains traction in medical field",
+      "headline": "AI-assisted diagnosis gains traction in medical imaging",
       "source": "Healthcare IT News",
       "date_text": "2024",
       "url": "",
-      "impact": "AI-assisted diagnosis is becoming more prevalent, but human doctors are still necessary for complex decision-making.",
-      "direction": "neutral"
+      "impact": "Rapid adoption of AI-assisted diagnosis may reduce doctor workload, but also raises concerns about AI's role in decision-making.",
+      "direction": "raises_risk"
     },
     {
       "headline": "FDA clears more AI diagnostic tools each quarter",

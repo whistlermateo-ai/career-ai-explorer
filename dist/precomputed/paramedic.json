@@ -1,22 +1,12 @@
 {
   "occupation": "Paramedic",
   "soc_code": "29-2042.00",
-  "score": 80,
+  "score": 83,
   "confidence": "medium",
-  "confidence_band": 20,
-  "verdict": "Moderate displacement risk. Paramedic scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "2025: AI-powered EMT systems begin to be deployed in some regions."
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "2030: AI-assisted paramedics start to become more common in urban areas."
-    }
-  ],
-  "timeline_callout": "2025 2030",
-  "industry_baseline": 80,
+  "confidence_band": 12,
+  "verdict": "AI displacement risk: moderate, with potential for significant disruption in the next 5 years.",
+  "timeline": [],
+  "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -51,37 +41,64 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Administer first aid treatment or life support care to sick or injured persons in prehospital settings.",
-    "Assess nature and extent of illness or injury to establish and prioritize medical procedures.",
-    "Comfort and reassure patients."
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "The paramedic occupation has a high score for routine_cognitive due to the increasing use of AI-powered EMT systems and the need for automation in routine tasks.",
-    "However, the occupation also has a strong regulatory moat due to the importance of human judgment and decision-making in emergency medical situations.",
-    "The physical dexterity dimension is low because paramedics spend most of their time in ambulances or hospitals, rather than in physically demanding environments."
-  ],
-  "adjacent_careers": [
-    "Emergency Medical Technician (EMT)",
-    "Nurse",
-    "Physician Assistant"
-  ],
-  "action_plan": [
     {
-      "description": "Take an EMT-Basic course to gain hands-on experience and improve skills.",
-      "impact": "Enhance employability in the field"
+      "title": "Routine Cognitive Tasks",
+      "body": "Paramedics perform tasks that are increasingly automated, such as taking vital signs and administering medications."
     },
     {
-      "description": "Consider pursuing a degree in nursing or physician assistant studies to expand career options.",
-      "impact": "Increase earning potential and job security"
+      "title": "Creative Judgment",
+      "body": "While paramedics have some autonomy in their decision-making, the scope of practice varies between countries, and AI-powered tools may eventually standardize procedures."
     }
   ],
-  "follow_up_suggestions": [
-    "Research the latest developments in AI-powered EMT systems and their impact on the field.",
-    "Explore opportunities for continuing education and professional development to stay up-to-date with changing regulations and technologies."
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "O*NET task list for Paramedics",
+      "contribution": "Provides authoritative information on the tasks performed by paramedics"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "Summary of Paramedic roles and responsibilities",
+      "contribution": "Offers a general overview of the paramedic profession"
+    }
   ],
+  "adjacent_careers": [
+    {
+      "name": "Emergency Medical Technician (EMT)",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "EMTs and paramedics often work together, and EMTs may eventually adopt more advanced training to become paramedics."
+    },
+    {
+      "name": "Nurse",
+      "overlap_pct": 60,
+      "score": 60,
+      "reasoning": "Nurses and paramedics share some similarities in their roles, but nurses typically require more education and training."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered diagnostic tool approved for use in ambulances",
+      "source": "Healthcare Technology News",
+      "date_text": "2024-02-10",
+      "url": "",
+      "impact": "This tool may automate some tasks currently performed by paramedics, potentially disrupting the profession.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "healthcare",
@@ -114,34 +131,5 @@
         "url": "https://aimi.stanford.edu/people/curtis-langlotz"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "FDA clears more AI diagnostic tools each quarter",
-      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
-      "source": "FDA",
-      "date_text": "2024",
-      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-      "source2": "Nature Medicine",
-      "url2": "https://www.nature.com/nm/"
-    },
-    {
-      "headline": "Hospitals deploy ambient AI scribes at scale",
-      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
-      "source": "JAMA",
-      "date_text": "2024",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
-      "source2": "NEJM Catalyst",
-      "url2": "https://catalyst.nejm.org/"
-    },
-    {
-      "headline": "Drug discovery accelerates with foundation models",
-      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
-      "source": "Nature",
-      "date_text": "2024",
-      "url": "https://www.nature.com/articles/d41586-023-03172-6",
-      "source2": "Science",
-      "url2": "https://www.science.org/topic/artificial-intelligence"
-    }
-  ]
+  }
 }

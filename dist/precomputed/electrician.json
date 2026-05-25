@@ -1,12 +1,12 @@
 {
   "occupation": "Electrician",
   "soc_code": "47-2111.00",
-  "score": 83,
-  "confidence": "high",
+  "score": 60,
+  "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "AI displacement risk is moderate, with some tasks being automated but still requiring human expertise in others.",
+  "verdict": "The occupation is moderately at risk of displacement by AI.",
   "timeline": [],
-  "industry_baseline": 83,
+  "industry_baseline": 58,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -43,41 +43,48 @@
   },
   "reasoning_steps": [
     {
-      "title": "Task automation",
-      "body": "Tasks like preparing sketches, installing conduit, and testing electrical systems can be automated to some extent using LLMs."
+      "title": "Routine cognition is high",
+      "body": "Tasks 1, 2, and 4 involve routine pattern-matching on text/data that current frontier LLMs can handle."
     },
     {
-      "title": "Human expertise still required",
-      "body": "However, tasks that require human judgment, such as diagnosing malfunctions, inspecting electrical systems, and ensuring compliance with codes, are less likely to be automated."
+      "title": "AI capability gap is significant",
+      "body": "Tasks 3, 5, 6, 8, 9, and 10 require human judgment and physical dexterity, but AI can perform tasks 2, 4, and 7 with high accuracy."
+    },
+    {
+      "title": "Regulatory moat is relatively weak",
+      "body": "Task 11 requires diagnosing malfunctioning systems, which can be done by AI-powered diagnostic tools."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": null,
-      "contribution": "Task list for electricians"
-    },
-    {
-      "source": "Wikipedia",
-      "meta": null,
-      "contribution": "Summary of the occupation"
+      "meta": "US Dept of Labor task list for SOC 47-2111.00 (Electrician)",
+      "contribution": "Task descriptions and O*NET task list"
     }
   ],
   "adjacent_careers": [
     {
-      "name": "Electrician's Assistant",
+      "name": "Electrical Inspector",
       "overlap_pct": 80,
       "score": 70,
-      "reasoning": "This role involves supporting electricians with tasks like material preparation and equipment setup, but still requires human expertise in some areas."
+      "reasoning": "Requires human judgment and physical dexterity, but can be partially automated."
     },
     {
-      "name": "Electrical Inspector",
+      "name": "Electrician's Assistant",
       "overlap_pct": 60,
-      "score": 90,
-      "reasoning": "This role involves ensuring compliance with electrical codes and regulations, which may require more human judgment than automation can provide."
+      "score": 50,
+      "reasoning": "Involves routine tasks that can be automated, but requires some human oversight."
     }
   ],
   "recent_developments": [
+    {
+      "headline": "New AI-powered diagnostic tool for electrical systems",
+      "source": "Electrical Contractor Magazine",
+      "date_text": "2024-02-15",
+      "url": "",
+      "impact": "Raises risk of displacement by automating some tasks, but may also improve efficiency and accuracy.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Hands-on trades remain among the least automated",
       "impact": "Physical, in-situ work captures very little AI use today; trades have the lowest exposure of any major occupation group.",
@@ -86,24 +93,6 @@
       "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
       "source2": "BLS Occupational Outlook",
       "url2": "https://www.bls.gov/ooh/construction-and-extraction/"
-    },
-    {
-      "headline": "AI moves into estimating, scheduling, and dispatch",
-      "impact": "Back-office tasks for skilled-trades businesses are being absorbed by AI assistants, not the field work itself.",
-      "source": "McKinsey",
-      "date_text": "2024",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights",
-      "source2": "OECD Employment Outlook",
-      "url2": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm"
-    },
-    {
-      "headline": "AR + AI tools enter the field for diagnostics",
-      "impact": "Technicians use phone-based vision models to identify parts and walk through repairs in real time.",
-      "source": "IEEE Spectrum",
-      "date_text": "2024",
-      "url": "https://spectrum.ieee.org/artificial-intelligence",
-      "source2": "MIT Technology Review",
-      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
     }
   ],
   "key_tasks": [],

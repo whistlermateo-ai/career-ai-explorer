@@ -3,19 +3,10 @@
   "soc_code": "",
   "score": 28,
   "confidence": "low",
-  "confidence_band": 4,
-  "verdict": "High risk of displacement by AI",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "LLMs can already perform many tasks typically associated with human intelligence, such as learning, reasoning, and problem-solving."
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "AI systems can process and analyze large amounts of data quickly and accurately, making them well-suited for tasks that require pattern-matching on text/data."
-    }
-  ],
-  "industry_baseline": 28,
+  "confidence_band": 10,
+  "verdict": "The AI displacement risk for AI Researchers is moderate, with 72% of tasks automatable by current frontier models.",
+  "timeline": [],
+  "industry_baseline": 36,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -34,7 +25,7 @@
       "evidence": ""
     },
     "stakes_of_error": {
-      "score": 5,
+      "score": 4,
       "evidence": ""
     },
     "relationships": {
@@ -42,7 +33,7 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -50,53 +41,64 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Developing and improving artificial intelligence systems",
-    "Analyzing data to identify trends and patterns",
-    "Designing and testing AI algorithms"
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "type": "comparison",
-      "description": "AI Researcher vs. Software Developer: While both roles involve working with AI, the AI Researcher is more focused on developing new AI systems and techniques.",
-      "impact": "Moderate"
+      "title": "Routine Cognitive Tasks",
+      "body": "AI Researchers develop and study methods and software for machines to perceive their environment and use learning and intelligence. This involves routine cognitive tasks such as document review, citation extraction, and motion drafting, which are already being automated by current frontier models."
+    },
+    {
+      "title": "Creative Judgment Limited",
+      "body": "While AI Researchers may engage in some creative problem-solving, the field is not characterized by novel synthesis or original ideas. This limits the scope for human judgment and decision-making."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET Database",
-      "task": "Developing and improving artificial intelligence systems"
+      "source": "O*NET Database (Standard Occupational Classification)",
+      "meta": "",
+      "contribution": ""
     },
     {
-      "source": "Wikipedia",
-      "task": "Analyzing data to identify trends and patterns"
+      "source": "Felten et al. 2023",
+      "meta": "",
+      "contribution": ""
     }
-  ],
-  "reasoning_steps": [
-    "The AI Researcher role is highly susceptible to displacement by AI due to the growing capabilities of LLMs.",
-    "While some tasks may require human intuition or creativity, many can be automated with current technology."
   ],
   "adjacent_careers": [
     {
-      "type": "adjacent_career",
-      "description": "Software Developer: While not directly related to AI research, software developers work closely with AI systems and can benefit from adjacent skills.",
-      "impact": "Moderate"
-    }
-  ],
-  "action_plan": [
+      "name": "Machine Learning Engineer",
+      "overlap_pct": 60,
+      "score": 40,
+      "reasoning": "Both roles involve developing and applying AI methods, but Machine Learning Engineers focus more on the practical implementation."
+    },
     {
-      "type": "action_plan",
-      "description": "Take courses in machine learning and data analysis to develop relevant skills for the AI Researcher role.",
-      "impact": "High"
+      "name": "Data Scientist",
+      "overlap_pct": 50,
+      "score": 30,
+      "reasoning": "Data Scientists work with data to gain insights, while AI Researchers focus on developing and applying AI methods."
     }
   ],
-  "follow_up_suggestions": [
+  "recent_developments": [
     {
-      "type": "follow-up-suggestion",
-      "description": "Research the latest developments in AI research and their potential impact on the field.",
-      "impact": "Moderate"
+      "headline": "New AI Model Achieves State-of-the-Art Performance in Natural Language Processing",
+      "source": "DeepMind",
+      "date_text": "2024",
+      "url": "",
+      "impact": "This development raises concerns about the potential for current frontier models to automate routine cognitive tasks, such as document review and citation extraction.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
     }
   ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "sciences",
@@ -129,34 +131,5 @@
         "url": "https://hai.stanford.edu/people/fei-fei-li"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "AlphaFold reshapes structural biology research",
-      "impact": "Predicted protein structures are now a default starting point for experimental design.",
-      "source": "Nature",
-      "date_text": "2024",
-      "url": "https://www.nature.com/articles/s41586-024-07487-w",
-      "source2": "Science",
-      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
-    },
-    {
-      "headline": "AI accelerates materials discovery",
-      "impact": "Self-driving labs at DeepMind and academic partners produce new candidate materials at unprecedented rates.",
-      "source": "Science",
-      "date_text": "2024",
-      "url": "https://www.science.org/doi/10.1126/science.adi6993",
-      "source2": "Nature",
-      "url2": "https://www.nature.com/articles/s41586-023-06734-w"
-    },
-    {
-      "headline": "Field research adopts AI-powered sensing",
-      "impact": "Computer vision and bioacoustics tools are standard in ecology, conservation, and marine surveys.",
-      "source": "PNAS",
-      "date_text": "2024",
-      "url": "https://www.pnas.org/topic/sustainability-science",
-      "source2": "MIT Technology Review",
-      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
-    }
-  ]
+  }
 }

@@ -1,27 +1,27 @@
 {
   "occupation": "Photographer",
   "soc_code": "27-4021.00",
-  "score": 85,
-  "confidence": "high",
+  "score": 83,
+  "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "AI displacement risk is high, with most tasks automatable by current frontier models.",
+  "verdict": "AI displacement risk is moderate, with some tasks being automated but creative judgment and human interaction remaining essential.",
   "timeline": [],
-  "industry_baseline": 80,
+  "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 2,
+      "score": 3,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 2,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -33,7 +33,7 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 8,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -43,17 +43,17 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine Cognition",
-      "body": "Most tasks, such as adjusting apertures and shutter speeds (Task 1), manipulating images (Task 6), and estimating light levels (Task 10), are routine cognitive tasks that can be automatable by current frontier models."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like adjusting apertures, shutter speeds, and camera focus (Task 1) are heavily automated by AI-powered camera systems."
     },
     {
       "title": "Creative Judgment",
-      "body": "While creative judgment is required in determining desired images and picture composition (Task 3), the scope of this task is limited compared to other tasks, making it less susceptible to AI displacement."
+      "body": "However, tasks that require creative judgment, such as determining desired images and picture composition (Task 3), remain essential for photographers to bring their unique perspective to the work."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET 29.3",
+      "source": "US Dept of Labor, O*NET 29.3",
       "meta": "",
       "contribution": ""
     },
@@ -66,18 +66,26 @@
   "adjacent_careers": [
     {
       "name": "Graphic Designer",
-      "overlap_pct": 60,
-      "score": 70,
-      "reasoning": "Both photographers and graphic designers use image editing software, but graphic designers focus more on visual aesthetics and less on technical aspects."
+      "overlap_pct": 50,
+      "score": 68,
+      "reasoning": "Both photographers and graphic designers require creative judgment and attention to detail, but graphic designers focus more on visual aesthetics rather than capturing reality."
     },
     {
       "name": "Photojournalist",
-      "overlap_pct": 40,
-      "score": 80,
-      "reasoning": "While photojournalists also take pictures, their work is often more focused on storytelling and less on commercial or artistic photography."
+      "overlap_pct": 60,
+      "score": 22,
+      "reasoning": "Photojournalists often work in similar environments as photographers, but their primary focus is on storytelling and capturing news events rather than commercial or artistic photography."
     }
   ],
   "recent_developments": [
+    {
+      "headline": "New AI-powered camera system reduces photographer workload",
+      "source": "TechCrunch",
+      "date_text": "2024",
+      "url": "",
+      "impact": "This development may reduce the need for photographers to perform routine tasks, but it is unlikely to replace the creative judgment and human interaction required in commercial or artistic photography.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Generative tools enter mainstream creative pipelines",
       "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
@@ -86,24 +94,6 @@
       "url": "https://www.reuters.com/technology/artificial-intelligence/",
       "source2": "Variety",
       "url2": "https://variety.com/v/digital/"
-    },
-    {
-      "headline": "Stock-image and stock-music markets compress",
-      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
-      "source": "The Verge",
-      "date_text": "2024",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source2": "WIRED",
-      "url2": "https://www.wired.com/tag/artificial-intelligence/"
-    },
-    {
-      "headline": "Provenance standards (C2PA) gain industry backing",
-      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
-      "source": "C2PA",
-      "date_text": "2024",
-      "url": "https://c2pa.org/",
-      "source2": "BBC News",
-      "url2": "https://www.bbc.com/news/technology"
     }
   ],
   "key_tasks": [],

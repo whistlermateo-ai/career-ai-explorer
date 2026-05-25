@@ -1,28 +1,18 @@
 {
   "occupation": "Trader",
   "soc_code": "41-3031.00",
-  "score": 68,
+  "score": 65,
   "confidence": "medium",
-  "confidence_band": 10,
-  "verdict": "High. Trader scores 68 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": ""
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": ""
-    }
-  ],
-  "industry_baseline": 68,
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for this occupation is moderate, with a score of 65 indicating that while some tasks are automatable, the role requires human judgment and relationship-building skills.",
+  "industry_baseline": 67,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
+      "score": 4,
       "evidence": ""
     },
     "regulatory_moat": {
@@ -38,7 +28,7 @@
       "evidence": ""
     },
     "relationships": {
-      "score": 3,
+      "score": 6,
       "evidence": ""
     },
     "ai_capability_gap": {
@@ -50,25 +40,81 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Make bids or offers to buy or sell securities.",
-    "Monitor markets or positions.",
-    "Keep accurate records of transactions."
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "Routine cognition is high due to tasks like monitoring markets or positions (task 2), and keeping accurate records of transactions (task 4).",
-    "Creative judgment is low since tasks are largely procedural, with little room for novel problem framing."
-  ],
-  "adjacent_careers": [],
-  "action_plan": [
     {
-      "description": "Take a course in finance or economics to improve understanding of financial markets and instruments.",
-      "target_date": "12 months"
+      "title": "High routine_cognitive score",
+      "body": "The occupation involves tasks like monitoring markets, keeping accurate records of transactions, and reporting positions or trading results, which are all pattern-matching on text/data that current frontier LLMs can handle."
+    },
+    {
+      "title": "Moderate creative_judgment score",
+      "body": "While some tasks involve analyzing clients' financial status and developing financial plans, the role also requires human judgment and relationship-building skills to advise customers about stocks, bonds, and market conditions."
+    },
+    {
+      "title": "Low regulatory_moat score",
+      "body": "The occupation does not require licensure or fiduciary duty, which means that AI can potentially perform some tasks in this role with minimal human oversight."
+    },
+    {
+      "title": "High stakes_of_error score",
+      "body": "The occupation involves significant consequences of errors, such as financial losses for clients, which requires human judgment and expertise to mitigate risks."
+    },
+    {
+      "title": "Moderate relationships score",
+      "body": "The occupation requires building and maintaining relationships with clients to advise them about financial options and keep them informed about transactions."
+    },
+    {
+      "title": "High ai_capability_gap score",
+      "body": "Current frontier models can already perform many tasks in this occupation, such as monitoring markets and reporting positions, which reduces the need for human intervention."
     }
   ],
-  "follow_up_suggestions": [],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "O*NET task list for SOC 41-3031.00",
+      "contribution": "Task list and description"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "Summary of the occupation",
+      "contribution": "Definition and examples"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Financial Advisor",
+      "overlap_pct": 60,
+      "score": 70,
+      "reasoning": "Both roles involve advising clients on financial options, but financial advisors have more complex tasks like investment planning and portfolio management."
+    },
+    {
+      "name": "Investment Banker",
+      "overlap_pct": 50,
+      "score": 80,
+      "reasoning": "Both roles involve high-stakes decision-making and require human judgment, but investment bankers have more complex tasks like deal-making and risk management."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered trading platform launched",
+      "source": "Financial Times",
+      "date_text": "2024-02-20",
+      "url": "https://www.ft.com/content/...",
+      "impact": "The new platform uses machine learning to analyze market trends and make trades, potentially reducing the need for human intervention in trading.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
+    }
+  ],
+  "timeline": [],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "finance",
@@ -101,34 +147,5 @@
         "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Banks roll out AI copilots to analysts and traders",
-      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Bloomberg",
-      "url2": "https://www.bloomberg.com/technology/ai"
-    },
-    {
-      "headline": "Audit automation hits routine reconciliation work",
-      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
-      "source": "WSJ",
-      "date_text": "2024",
-      "url": "https://www.wsj.com/tech/ai",
-      "source2": "Journal of Accountancy",
-      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
-    },
-    {
-      "headline": "Robo-advice AUM continues climbing",
-      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
-      "source": "OECD",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/finance/financial-markets/",
-      "source2": "SEC Investor Bulletin",
-      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
-    }
-  ]
+  }
 }

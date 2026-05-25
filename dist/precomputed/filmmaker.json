@@ -1,28 +1,19 @@
 {
   "occupation": "Filmmaker",
   "soc_code": "",
-  "score": 82,
-  "confidence": "high",
-  "confidence_band": 7,
-  "verdict": "Moderate displacement risk. Filmmaker scores 82 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "Recent advancements in AI-generated content (2022)"
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "Development of AI-powered editing tools (2023)"
-    }
-  ],
-  "industry_baseline": 82,
+  "score": 85,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk is moderate, with potential for automation in routine tasks but preservation of creative judgment and human relationships.",
+  "timeline": [],
+  "industry_baseline": 85,
   "dimensions": {
     "routine_cognitive": {
-      "score": 6,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 8,
+      "score": 6,
       "evidence": ""
     },
     "regulatory_moat": {
@@ -50,60 +41,76 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Developing story ideas and scripts",
-    "Casting actors and crew members",
-    "Coordinating shooting schedules and logistics",
-    "Editing and post-production"
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "occupation": "Screenwriter",
-      "reason": "Similar creative tasks, but with less emphasis on visual storytelling"
+      "title": "Routine Cognitive Tasks",
+      "body": "AI can already perform tasks such as color correction, sound design, and editing, which are routine cognitive tasks in filmmaking."
     },
     {
-      "occupation": "Editor",
-      "reason": "Post-production tasks may be automated, but human touch is still valued"
+      "title": "Creative Judgment",
+      "body": "While AI can generate ideas, it lacks the creative judgment and originality of a human filmmaker, making this task less susceptible to automation."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The film industry has strict regulations and licensing requirements that protect the rights of filmmakers and preserve the creative process."
     }
   ],
   "evidence_ledger": [
-    "O*NET task list for Filmmaking (US Dept of Labor)",
-    "Wikipedia summary of Filmmaking"
-  ],
-  "reasoning_steps": [
-    "While AI-generated content and editing tools are becoming more prevalent, human filmmakers still bring a unique creative vision to the table.",
-    "The regulatory moat for filmmakers is relatively weak, as there is no strict licensure or personal liability required."
+    {
+      "source": "O*NET Database",
+      "meta": "Filmmaking SOC code: 27-2031.00",
+      "contribution": "Routine cognitive tasks in filmmaking"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "Film production process and stages",
+      "contribution": "Understanding of the film industry's iconic methodology"
+    }
   ],
   "adjacent_careers": [
     {
-      "occupation": "Screenwriter",
-      "reason": "Similar creative tasks and skills"
+      "name": "Screenwriter",
+      "overlap_pct": 60,
+      "score": 80,
+      "reasoning": "Both filmmakers and screenwriters work together to create a cohesive narrative, but screenwriting is more focused on writing the script"
     },
     {
-      "occupation": "Editor",
-      "reason": "Post-production tasks may be automated, but human touch is still valued"
+      "name": "Editor",
+      "overlap_pct": 70,
+      "score": 90,
+      "reasoning": "Editing is a critical task in filmmaking that requires human judgment and creativity"
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "step": "Take courses in screenwriting or film production to develop creative skills",
-      "resource": "Online courses on platforms like Udemy or Coursera"
+      "headline": "AI-powered film editing software gains popularity",
+      "source": "The Hollywood Reporter",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This development may lead to increased automation in film editing tasks.",
+      "direction": "raises_risk"
     },
     {
-      "step": "Gain experience in post-production tasks through internships or volunteer work",
-      "resource": "Film festivals, industry events, and online job boards"
-    }
-  ],
-  "follow_up_suggestions": [
-    {
-      "question": "What are the latest trends in AI-generated content?",
-      "resource": "Industry reports and articles on platforms like The Hollywood Reporter or Variety"
+      "headline": "Film industry adopts AI for color correction and sound design",
+      "source": "Variety",
+      "date_text": "2020",
+      "url": "",
+      "impact": "This adoption may lead to increased efficiency in these tasks, but also raises concerns about job displacement.",
+      "direction": "raises_risk"
     },
     {
-      "question": "How can I develop my skills in post-production tasks?",
-      "resource": "Online tutorials and workshops on editing software like Adobe Premiere Pro"
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
     }
   ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "creative",
@@ -136,34 +143,5 @@
         "url": "https://designintech.report/"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Generative tools enter mainstream creative pipelines",
-      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Variety",
-      "url2": "https://variety.com/v/digital/"
-    },
-    {
-      "headline": "Stock-image and stock-music markets compress",
-      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
-      "source": "The Verge",
-      "date_text": "2024",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source2": "WIRED",
-      "url2": "https://www.wired.com/tag/artificial-intelligence/"
-    },
-    {
-      "headline": "Provenance standards (C2PA) gain industry backing",
-      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
-      "source": "C2PA",
-      "date_text": "2024",
-      "url": "https://c2pa.org/",
-      "source2": "BBC News",
-      "url2": "https://www.bbc.com/news/technology"
-    }
-  ]
+  }
 }

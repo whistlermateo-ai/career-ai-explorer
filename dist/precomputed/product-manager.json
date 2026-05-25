@@ -1,27 +1,27 @@
 {
   "occupation": "Product Manager",
   "soc_code": "11-2021.00",
-  "score": 83,
+  "score": 74,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "Moderate risk of AI displacement, with some tasks being automated but human judgment and strategic decision-making still required.",
+  "verdict": "The AI displacement risk for Product Managers is moderate, with some tasks becoming more routine and automated.",
   "timeline": [],
-  "industry_baseline": 83,
+  "industry_baseline": 74,
   "dimensions": {
     "routine_cognitive": {
       "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
-      "evidence": ""
-    },
-    "regulatory_moat": {
       "score": 2,
       "evidence": ""
     },
-    "embodied_work": {
+    "regulatory_moat": {
       "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -43,47 +43,47 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine cognitive tasks are being automated",
-      "body": "Tasks like compiling lists, developing pricing strategies, and analyzing sales forecasting data can be automated using AI tools."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like identifying marketing strategy, developing pricing strategies, and analyzing financial aspects of product development are becoming more routine and can be automated by AI."
     },
     {
-      "title": "Creative judgment is still required",
-      "body": "While AI can analyze market trends, product managers need to make strategic decisions that require creative judgment and critical thinking."
+      "title": "Creative Judgment",
+      "body": "While some creative judgment is required in product management, tasks like initiating market research studies or consulting with legal staff to resolve problems are not as heavily reliant on human creativity."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": "Task list for Marketing Managers",
-      "contribution": "Identify tasks that are being automated or can be augmented with AI tools"
+      "meta": "Marketing Managers SOC 11-2021.00 task list",
+      "contribution": "Task analysis"
     },
     {
       "source": "Wikipedia",
-      "meta": "Product Manager role",
-      "contribution": "Understand the scope of work and responsibilities of a Product Manager"
+      "meta": "Product Manager role summary",
+      "contribution": "Contextual understanding of product management"
     }
   ],
   "adjacent_careers": [
     {
-      "name": "Marketing Analyst",
+      "name": "Marketing Specialist",
       "overlap_pct": 60,
       "score": 70,
-      "reasoning": "Marketing analysts focus on data analysis and campaign optimization, which are complementary to product management tasks."
+      "reasoning": "Marketing specialists focus on specific marketing channels, whereas product managers oversee the entire marketing strategy."
     },
     {
       "name": "Product Specialist",
       "overlap_pct": 50,
-      "score": 80,
-      "reasoning": "Product specialists work closely with product managers to develop product features and strategies, but their focus is more on technical aspects."
+      "score": 65,
+      "reasoning": "Product specialists work closely with product managers to develop and launch products, but their scope is narrower."
     }
   ],
   "recent_developments": [
     {
-      "headline": "AI-powered marketing automation tools gain popularity",
-      "source": "AdAge",
-      "date_text": "2022-06-01",
+      "headline": "Google Launches AI-Powered Marketing Platform",
+      "source": "The Verge",
+      "date_text": "2024-02-10",
       "url": "",
-      "impact": "These tools can automate routine marketing tasks, but human judgment and strategic decision-making are still essential.",
+      "impact": "This platform uses machine learning to analyze customer behavior and optimize marketing campaigns.",
       "direction": "raises_risk"
     },
     {

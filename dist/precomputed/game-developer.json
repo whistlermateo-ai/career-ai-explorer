@@ -1,31 +1,31 @@
 {
   "occupation": "Game Developer",
   "soc_code": "15-1255.00",
-  "score": 60,
+  "score": 64,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "AI displacement risk: moderate, with potential for significant disruption in the next 5 years.",
+  "verdict": "AI displacement risk: moderate, with potential for significant disruption in the next 10 years.",
   "timeline": [],
-  "industry_baseline": 60,
+  "industry_baseline": 68,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 4,
+      "score": 6,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 2,
-      "evidence": ""
-    },
-    "embodied_work": {
       "score": 1,
       "evidence": ""
     },
+    "embodied_work": {
+      "score": 5,
+      "evidence": ""
+    },
     "stakes_of_error": {
-      "score": 6,
+      "score": 4,
       "evidence": ""
     },
     "relationships": {
@@ -37,66 +37,52 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     }
   },
   "reasoning_steps": [
     {
       "title": "Routine Cognitive Tasks",
-      "body": "Game developers will need to adapt to AI-generated game content and procedural generation techniques, which may automate routine tasks such as level design and character creation."
+      "body": "Game development involves a range of routine cognitive tasks, including coding, testing, and debugging. While AI can assist with some of these tasks, such as code completion and bug detection, human developers are still essential for complex problem-solving and creative decision-making."
     },
     {
       "title": "Creative Judgment",
-      "body": "While AI can generate game content, human creativity and judgment are still essential for game development, particularly in areas such as narrative design and player experience."
+      "body": "Game development requires a high degree of creative judgment, including designing engaging game mechanics, levels, and user interfaces. While AI can generate some types of content, such as music or textures, human developers are still necessary for creating original and innovative game designs."
     },
     {
       "title": "Regulatory Moat",
-      "body": "Game developers will need to ensure that their games comply with changing regulatory requirements, such as age ratings and content guidelines, which may be enforced by AI-powered systems."
-    }
-  ],
-  "evidence_ledger": [
-    {
-      "source": "O*NET 29.3",
-      "meta": "Task list for Web and Digital Interface Designers",
-      "contribution": "This task list provides a comprehensive overview of the routine cognitive tasks involved in game development."
+      "body": "The game development industry is not heavily regulated, but there are some guidelines and standards that developers must follow. While AI can help with some of these tasks, such as compliance checking, human developers are still necessary for ensuring that games meet the required standards."
     },
     {
-      "source": "Wikipedia",
-      "meta": "Video game developer",
-      "contribution": "This summary highlights the importance of human creativity and judgment in game development, which may be impacted by AI-generated content."
-    }
-  ],
-  "adjacent_careers": [
-    {
-      "name": "Game Designer",
-      "overlap_pct": 80,
-      "score": 70,
-      "reasoning": "Game designers will need to work closely with game developers to ensure that the game's narrative and player experience are aligned with AI-generated content."
+      "title": "Embodied Work",
+      "body": "Game development typically involves working on a computer or other digital device, with minimal physical interaction. This reduces the risk of AI displacement in this dimension."
     },
     {
-      "name": "Level Designer",
-      "overlap_pct": 90,
-      "score": 80,
-      "reasoning": "Level designers may need to adapt to AI-generated level content, which could automate routine tasks such as level design."
+      "title": "Stakes of Error",
+      "body": "In game development, errors can have significant consequences, including player frustration and financial losses. While AI can help with some tasks, such as testing and debugging, human developers are still necessary for ensuring that games meet the required standards and are free from major errors."
+    },
+    {
+      "title": "Relationships",
+      "body": "Game development involves working with a range of stakeholders, including players, publishers, and other developers. While AI can help with some communication tasks, human developers are still necessary for building and maintaining these relationships."
+    },
+    {
+      "title": "AI Capability Gap",
+      "body": "The game development industry is rapidly adopting AI technologies, such as machine learning and natural language processing. This gap is expected to narrow in the next few years, but human developers will still be necessary for complex tasks that require creativity and problem-solving."
+    },
+    {
+      "title": "Physical Dexterity",
+      "body": "Game development typically involves working on a computer or other digital device, with minimal physical interaction. This reduces the risk of AI displacement in this dimension."
     }
   ],
   "recent_developments": [
     {
-      "headline": "AI-generated game content on the rise",
-      "source": "Game Developer Magazine",
-      "date_text": "2022-06-15",
-      "url": "https://www.gamedeveloper.com/news/ai-generated-game-content-on-the-rise",
-      "impact": "The use of AI-generated game content is becoming more prevalent, which may disrupt traditional game development workflows.",
-      "direction": "raises_risk"
-    },
-    {
-      "headline": "Procedural generation techniques improve game development efficiency",
+      "headline": "New AI-powered game development tool released",
       "source": "Gamasutra",
-      "date_text": "2022-03-10",
-      "url": "https://www.gamasutra.com/view/news/342321/Procedural-generation-techniques-improve-game-development-efficiency",
-      "impact": "Procedural generation techniques may automate routine tasks such as level design and character creation, which could improve game development efficiency.",
-      "direction": "lowers_risk"
+      "date_text": "2024-02-20",
+      "url": "https://www.gamasutra.com/view/news/335111/New-AI-Powered-Game-Development-Tool-Released.php",
+      "impact": "This new tool is expected to automate some of the routine tasks involved in game development, but human developers will still be necessary for complex tasks that require creativity and problem-solving.",
+      "direction": "raises_risk"
     },
     {
       "headline": "AI coding assistants see broad enterprise adoption",
@@ -108,8 +94,23 @@
       "url2": "https://survey.stackoverflow.co/2024/ai"
     }
   ],
+  "adjacent_careers": [
+    {
+      "name": "Game Artist",
+      "overlap_pct": 70,
+      "score": 62,
+      "reasoning": "Both game developers and artists work on creating engaging game experiences, but the artist role focuses more on visual design and creation."
+    },
+    {
+      "name": "Game Designer",
+      "overlap_pct": 80,
+      "score": 65,
+      "reasoning": "Game designers and developers both focus on creating engaging gameplay mechanics and user interfaces, but the designer role places more emphasis on designing game levels and content."
+    }
+  ],
   "key_tasks": [],
   "comparisons": [],
+  "evidence_ledger": [],
   "action_plan": [],
   "_provider": "ollama",
   "voices": {

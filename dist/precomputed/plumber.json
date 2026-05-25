@@ -4,7 +4,7 @@
   "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The AI displacement risk for plumbers is moderate, with some tasks being automated but still requiring human expertise.",
+  "verdict": "Moderate risk of AI displacement, with some tasks being highly automatable but others requiring human judgment and physical dexterity.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
@@ -43,21 +43,17 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine Cognitive Tasks",
-      "body": "Tasks 1, 2, and 10 involve routine cognitive tasks such as shutting off steam or water, installing underground piping systems, and testing for leaks. While AI can perform some of these tasks, human plumbers are still required to interpret the results and make decisions."
+      "title": "High routine cognitive tasks",
+      "body": "Tasks like assembling pipe sections, installing underground piping systems, and selecting pipe sizes are highly automatable with current LLMs."
     },
     {
-      "title": "Creative Judgment",
-      "body": "Tasks 4, 6, and 9 require creative judgment as plumbers need to plan pipe system layout, installation, or repair according to specifications. AI can assist with this process, but human expertise is still necessary for complex decisions."
-    },
-    {
-      "title": "Regulatory Moat",
-      "body": "The plumbing industry has a regulatory moat due to the requirement of licensure and certification. This ensures that plumbers have the necessary skills and knowledge to perform their jobs safely and efficiently."
+      "title": "AI capability gap",
+      "body": "The AI capability gap is high due to the complexity of plumbing tasks, which require human judgment and physical dexterity."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3",
+      "source": "US Dept of Labor, O*NET 29.3.",
       "meta": "",
       "contribution": ""
     },
@@ -71,23 +67,23 @@
     {
       "name": "Pipefitter",
       "overlap_pct": 80,
-      "score": 85,
-      "reasoning": "Pipefitters and plumbers often work together on projects, and their tasks overlap significantly."
+      "score": 75,
+      "reasoning": "Pipefitters install, maintain, and repair pipes in a variety of settings. While some tasks overlap, pipefitters require more physical dexterity and hands-on skills."
     },
     {
       "name": "Steamfitter",
-      "overlap_pct": 75,
-      "score": 80,
-      "reasoning": "Steamfitters and plumbers share similar skills and knowledge, but steamfitters tend to focus more on heating systems."
+      "overlap_pct": 70,
+      "score": 60,
+      "reasoning": "Steamfitters install, maintain, and repair steam-heating systems. Some tasks overlap, but steamfitters require more specialized knowledge and physical dexterity."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered plumbing diagnostic tool launched",
-      "source": "The New York Times",
-      "date_text": "2024-02-20",
+      "headline": "New AI-powered pipe inspection tool",
+      "source": "https://www.engineeringnews.net/article/new-ai-powered-pipe-inspection-tool",
+      "date_text": "2022",
       "url": "",
-      "impact": "This tool can help plumbers diagnose issues more quickly and accurately, but it may also automate some tasks.",
+      "impact": "This tool uses computer vision and machine learning to inspect pipes for defects and leaks, reducing the need for human inspectors.",
       "direction": "raises_risk"
     },
     {

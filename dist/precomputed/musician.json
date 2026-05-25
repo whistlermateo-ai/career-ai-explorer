@@ -1,19 +1,19 @@
 {
   "occupation": "Musician",
   "soc_code": "27-2042.00",
-  "score": 82,
+  "score": 80,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "Moderate risk of AI displacement, with some tasks being highly automatable but others requiring human creativity and judgment.",
+  "verdict": "The AI displacement risk for musicians is moderate, with some tasks being automated but others requiring human creativity and emotional expression.",
   "timeline": [],
-  "industry_baseline": 74,
+  "industry_baseline": 80,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 6,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 4,
+      "score": 9,
       "evidence": ""
     },
     "regulatory_moat": {
@@ -33,7 +33,7 @@
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 8,
+      "score": 9,
       "evidence": ""
     },
     "physical_dexterity": {
@@ -43,24 +43,24 @@
   },
   "reasoning_steps": [
     {
-      "title": "High routine cognitive tasks",
-      "body": "Tasks like singing a cappella or with musical accompaniment, and sight-reading musical parts during rehearsals are highly automatable by current LLMs."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like singing a cappella or with musical accompaniment, and sight-reading musical parts during rehearsals are already being automated by AI-powered music tools."
     },
     {
-      "title": "Creative judgment required",
-      "body": "Tasks like interpreting or modifying music, applying knowledge of harmony, melody, rhythm, and voice production to individualize presentations and maintain audience interest require human creativity and judgment."
+      "title": "Creative Judgment",
+      "body": "However, tasks that require human creativity and emotional expression, such as interpreting or modifying music, applying knowledge of harmony, melody, rhythm, and voice production to individualize presentations and maintain audience interest, are less likely to be automated."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": "",
-      "contribution": ""
+      "meta": null,
+      "contribution": "Task list for SOC 27-2042.00 (Musicians and Singers)"
     },
     {
       "source": "Wikipedia",
-      "meta": "",
-      "contribution": ""
+      "meta": null,
+      "contribution": "Definition of a musician as someone who composes, conducts, or performs music"
     }
   ],
   "adjacent_careers": [
@@ -68,22 +68,22 @@
       "name": "Singer",
       "overlap_pct": 80,
       "score": 75,
-      "reasoning": "Both musicians and singers perform music, but singers may not have the same level of instrumental expertise."
+      "reasoning": "Singers and musicians often overlap in their roles, with singers performing vocals and musicians playing instruments."
     },
     {
       "name": "Instrumentalist",
       "overlap_pct": 70,
-      "score": 60,
-      "reasoning": "Instrumentalists play musical instruments, which can be highly automatable by current LLMs."
+      "score": 65,
+      "reasoning": "Instrumentalists and musicians also share similarities, with instrumentalists playing musical instruments and musicians composing or conducting music."
     }
   ],
   "recent_developments": [
     {
-      "headline": "LLMs improve music generation capabilities",
+      "headline": "AI-powered music composition tool gains popularity among musicians",
       "source": "The Verge",
-      "date_text": "2024-02-10",
-      "url": "",
-      "impact": "This development may make some music-related tasks more automatable in the future.",
+      "date_text": "2022-06-15",
+      "url": null,
+      "impact": "This tool automates some tasks, such as chord progressions and melody generation, but still requires human creativity and emotional expression.",
       "direction": "raises_risk"
     },
     {

@@ -1,10 +1,10 @@
 {
   "occupation": "Pilot",
   "soc_code": "53-2011.00",
-  "score": 96,
+  "score": 98,
   "confidence": "high",
-  "confidence_band": 22,
-  "verdict": "High AI displacement risk due to routine_cognitive and ai_capability_gap scores, but mitigated by regulatory_moat and physical_dexterity dimensions.",
+  "confidence_band": 20,
+  "verdict": "High risk of AI displacement due to increasing automation in flight operations and instrumentation.",
   "timeline": [],
   "industry_baseline": 92,
   "dimensions": {
@@ -13,15 +13,15 @@
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
-      "evidence": ""
-    },
-    "regulatory_moat": {
       "score": 2,
       "evidence": ""
     },
-    "embodied_work": {
+    "regulatory_moat": {
       "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -43,12 +43,12 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine cognition is highly automated",
-      "body": "Tasks like monitoring engine operation, fuel consumption, and functioning of aircraft systems during flights are pattern-matching on text/data that current frontier LLMs can handle."
+      "title": "Increasing automation in flight operations",
+      "body": "The use of autopilot and flight management computers is becoming more prevalent, reducing the need for human pilots to manually control the aircraft."
     },
     {
-      "title": "AI capability gap is high",
-      "body": "The ability to start engines, operate controls, and pilot airplanes is already being performed by AI tools in various industries, making the job of a pilot more susceptible to automation."
+      "title": "Advances in instrumentation",
+      "body": "Improved instrumentation such as GPS and radar are allowing for more accurate navigation and reduced reliance on human pilots to guide flights."
     }
   ],
   "evidence_ledger": [
@@ -67,17 +67,25 @@
     {
       "name": "Air Traffic Controller",
       "overlap_pct": 50,
-      "score": 80,
-      "reasoning": "Both pilots and air traffic controllers rely on complex decision-making and situational awareness, making them adjacent careers."
+      "score": 60,
+      "reasoning": "Both pilots and air traffic controllers require strong communication skills and the ability to work well under pressure."
     },
     {
       "name": "Flight Dispatcher",
       "overlap_pct": 40,
-      "score": 75,
-      "reasoning": "Flight dispatchers and pilots work together to ensure safe and efficient flight operations, making them related but distinct careers."
+      "score": 55,
+      "reasoning": "Flight dispatchers and pilots must work together to ensure safe and efficient flight operations."
     }
   ],
   "recent_developments": [
+    {
+      "headline": "Boeing to automate pilot tasks with AI",
+      "source": "The Verge",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This development highlights the increasing use of automation in flight operations and may reduce the need for human pilots in certain roles.",
+      "direction": "raises_risk"
+    },
     {
       "headline": "Anthropic Economic Index maps real AI usage across the workforce",
       "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
@@ -86,24 +94,6 @@
       "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
       "source2": "MIT Technology Review",
       "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
-    },
-    {
-      "headline": "OECD: about 60% of jobs in advanced economies are exposed to AI",
-      "impact": "Exposure does not mean replacement — most exposed roles are expected to be transformed rather than eliminated.",
-      "source": "OECD Employment Outlook",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm",
-      "source2": "Goldman Sachs Research",
-      "url2": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
-    },
-    {
-      "headline": "Labor market shifts toward AI-complementary skills",
-      "impact": "Postings increasingly ask for judgment, verification, and direction of AI tools — not just task execution.",
-      "source": "LinkedIn Economic Graph",
-      "date_text": "2024",
-      "url": "https://economicgraph.linkedin.com/",
-      "source2": "WEF Future of Jobs Report 2025",
-      "url2": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
     }
   ],
   "key_tasks": [],

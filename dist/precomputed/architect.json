@@ -1,40 +1,27 @@
 {
   "occupation": "Architect",
   "soc_code": "17-1011.00",
-  "score": 68,
+  "score": 60,
   "confidence": "medium",
-  "confidence_band": 15,
-  "verdict": "High displacement risk. Architect scores 68 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "Short-term (next 2 years):",
-      "description": "AI-assisted design tools and software will become increasingly prevalent in the architecture industry."
-    },
-    {
-      "timeframe": "Medium-term (next 5-10 years):",
-      "description": "Autonomous building information modeling (BIM) and construction management systems may start to replace human architects in some roles."
-    },
-    {
-      "timeframe": "Long-term (next 10+ years):",
-      "description": "Fully autonomous architecture and design services may become available, potentially replacing human architects entirely."
-    }
-  ],
-  "industry_baseline": 68,
+  "confidence_band": 10,
+  "verdict": "Moderate displacement risk due to increasing automation in design and construction tasks.",
+  "timeline": [],
+  "industry_baseline": 60,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 2,
+      "score": 3,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 2,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -50,61 +37,72 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Develop final construction plans that include aesthetic representations of the structure or details for its construction.",
-    "Prepare scale drawings or architectural designs, using computer-aided design or other tools."
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "comparison": "Software Developer",
-      "reasoning": "Both architects and software developers require strong creative judgment skills. However, software development is a more routine task, with less emphasis on aesthetic representation and spatial requirements."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 2, 4, and 10 involve preparing scale drawings or architectural designs, consulting with clients, and preparing contract documents. These tasks are heavily automated by computer-aided design tools and can be performed by AI systems."
     },
     {
-      "comparison": "Engineer",
-      "reasoning": "While engineers also work in the construction industry, their tasks are often more focused on technical specifications and problem-solving rather than design and aesthetics."
+      "title": "Creative Judgment",
+      "body": "Task 5 involves meeting with clients to review or discuss architectural drawings. While human judgment is still required in this task, it is not as critical as other tasks that require more complex decision-making."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The regulatory moat for architects is relatively low due to the lack of licensure requirements and statutory liability. However, obtaining a license does provide some protection against AI displacement."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET Database",
-      "task_list": "SOC 17-1011.00 (Architects, Except Landscape and Naval)"
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
     },
     {
       "source": "Wikipedia",
-      "summary": "https://en.wikipedia.org/wiki/Architect"
+      "meta": "",
+      "contribution": ""
     }
-  ],
-  "reasoning_steps": [
-    "The high score for routine_cognitive is driven by the fact that architects spend a significant amount of time working with computer-aided design software and preparing detailed drawings. This task is highly repetitive and can be automated to some extent."
   ],
   "adjacent_careers": [
     {
-      "career": "Software Developer",
-      "reasoning": "Both architects and software developers require strong creative judgment skills, but software development is a more routine task with less emphasis on aesthetic representation and spatial requirements."
+      "name": "Interior Designer",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Both architects and interior designers work on the aesthetic aspects of building design, but interior designers focus more on the visual elements."
     },
     {
-      "career": "Engineer",
-      "reasoning": "While engineers also work in the construction industry, their tasks are often more focused on technical specifications and problem-solving rather than design and aesthetics."
+      "name": "Urban Planner",
+      "overlap_pct": 60,
+      "score": 50,
+      "reasoning": "Urban planners work on the spatial planning and development of cities, which is related to architectural design but requires different skills."
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "step": "Take courses in computer-aided design software and programming languages to develop skills that can be applied to architecture."
+      "headline": "New AI-powered design tool for architects",
+      "source": "Architectural Record",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This new tool automates some of the routine design tasks, but human judgment is still required for complex decisions.",
+      "direction": "raises_risk"
     },
     {
-      "step": "Gain experience working with architects or construction companies to learn about the industry and build connections."
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
     }
   ],
-  "follow_up_suggestions": [
-    {
-      "suggestion": "Research the impact of AI-assisted design tools on the architecture industry and explore potential career paths in this area.",
-      "reasoning": "As AI technology continues to advance, it is likely that architects will need to develop skills in working with these tools to remain competitive."
-    }
-  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "creative",
@@ -137,34 +135,5 @@
         "url": "https://designintech.report/"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Generative tools enter mainstream creative pipelines",
-      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Variety",
-      "url2": "https://variety.com/v/digital/"
-    },
-    {
-      "headline": "Stock-image and stock-music markets compress",
-      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
-      "source": "The Verge",
-      "date_text": "2024",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source2": "WIRED",
-      "url2": "https://www.wired.com/tag/artificial-intelligence/"
-    },
-    {
-      "headline": "Provenance standards (C2PA) gain industry backing",
-      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
-      "source": "C2PA",
-      "date_text": "2024",
-      "url": "https://c2pa.org/",
-      "source2": "BBC News",
-      "url2": "https://www.bbc.com/news/technology"
-    }
-  ]
+  }
 }

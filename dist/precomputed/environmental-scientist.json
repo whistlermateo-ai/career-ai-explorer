@@ -1,12 +1,12 @@
 {
   "occupation": "Environmental Scientist",
   "soc_code": "19-2041.00",
-  "score": 83,
-  "confidence": "medium",
+  "score": 85,
+  "confidence": "high",
   "confidence_band": 12,
-  "verdict": "The AI displacement risk for Environmental Scientists is moderate, with some tasks being highly automatable.",
+  "verdict": "AI displacement risk is moderate to high, with potential for automation in routine data analysis and reporting tasks.",
   "timeline": [],
-  "industry_baseline": 83,
+  "industry_baseline": 92,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -43,56 +43,48 @@
   },
   "reasoning_steps": [
     {
-      "title": "High routine_cognitive tasks",
-      "body": "Tasks like collecting, synthesizing, and analyzing environmental data are highly automatable with current LLMs."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 2, 3, 4, and 9 involve data analysis and reporting, which are increasingly automated by AI tools."
     },
     {
-      "title": "Strong regulatory_moat",
-      "body": "Environmental scientists often work under strict regulations and guidelines, providing a protective moat against AI displacement."
+      "title": "AI Capability Gap",
+      "body": "Task 10 requires research and theory development, but AI can already perform some aspects of environmental monitoring and data analysis."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": "Task list for Environmental Scientists",
-      "contribution": "Highly automatable tasks like data collection and analysis"
+      "meta": "",
+      "contribution": "Defines tasks for Environmental Scientists"
     },
     {
-      "source": "Felten et al. 2023",
-      "meta": "Exposure to AI in environmental science",
-      "contribution": "Some tasks are highly exposed to AI, but the overall field is not as heavily automated"
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": "Provides a general overview of the field and its interdisciplinary nature"
     }
   ],
   "adjacent_careers": [
     {
-      "name": "Environmental Technologist",
-      "overlap_pct": 80,
-      "score": 75,
-      "reasoning": "Similar tasks and skills, but with less emphasis on data analysis and more on technical guidance"
+      "name": "Environmental Consultant",
+      "overlap_pct": 60,
+      "score": 80,
+      "reasoning": "Requires similar skills in data analysis and reporting, but with more emphasis on client consultation and strategy development."
     },
     {
       "name": "Sustainability Specialist",
       "overlap_pct": 70,
-      "score": 60,
-      "reasoning": "Overlapping skills in environmental science and sustainability, but with different focus areas"
+      "score": 85,
+      "reasoning": "Involves similar tasks in environmental monitoring and data analysis, but with a focus on sustainability and policy development."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered tool for environmental monitoring",
-      "source": "Scientific American",
-      "date_text": "2022",
+      "headline": "New AI-powered Environmental Monitoring System Launched",
+      "source": "Environmental Protection Agency",
+      "date_text": "2024",
       "url": "",
-      "impact": "Raises risk of automation in data collection and analysis tasks",
+      "impact": "Automates some environmental monitoring tasks, but human oversight and interpretation are still required.",
       "direction": "raises_risk"
-    },
-    {
-      "headline": "Environmental scientists develop new strategies for climate change mitigation",
-      "source": "Nature",
-      "date_text": "2022",
-      "url": "",
-      "impact": "Neutral, as it highlights the importance of human expertise in environmental science",
-      "direction": "neutral"
     },
     {
       "headline": "AlphaFold reshapes structural biology research",

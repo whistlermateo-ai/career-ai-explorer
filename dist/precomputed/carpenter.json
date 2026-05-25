@@ -1,10 +1,10 @@
 {
   "occupation": "Carpenter",
   "soc_code": "47-2031.00",
-  "score": 83,
+  "score": 80,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The carpentry occupation has a moderate AI displacement risk, with some tasks being automatable but also requiring human judgment and creativity.",
+  "verdict": "AI displacement risk is moderate, with some tasks being automated but human judgment and creativity still essential.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
@@ -43,24 +43,24 @@
   },
   "reasoning_steps": [
     {
-      "title": "AI capability gap",
-      "body": "The carpentry occupation has a significant AI capability gap, with tasks like measuring and marking cutting lines, assembling frameworks, and shaping materials being highly automatable."
+      "title": "Task automation",
+      "body": "Tasks 2, 4, and 10 can be partially automated with the help of computer-aided design (CAD) software and building information modeling (BIM)."
     },
     {
-      "title": "Physical dexterity",
-      "body": "However, the physical demands of the job, such as working at heights and handling heavy materials, make it difficult for AI to replace human carpenters."
+      "title": "Human judgment and creativity",
+      "body": "Tasks 1, 3, 5, 7, 9, and 11 require human judgment and creativity to ensure the quality and safety of the construction project."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": null,
-      "contribution": "Task list and job duties"
+      "meta": "",
+      "contribution": ""
     },
     {
-      "source": "US Dept of Labor",
-      "meta": null,
-      "contribution": "Occupational information and statistics"
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
     }
   ],
   "adjacent_careers": [
@@ -68,23 +68,23 @@
       "name": "Cabinetmaker",
       "overlap_pct": 60,
       "score": 70,
-      "reasoning": "Both carpenters and cabinetmakers work with wood and other materials, but cabinetmakers focus more on furniture making and finishing."
+      "reasoning": "Both carpenters and cabinetmakers work with wood, but cabinetmakers focus on creating custom furniture and cabinetry."
     },
     {
       "name": "Construction Supervisor",
       "overlap_pct": 40,
       "score": 80,
-      "reasoning": "Construction supervisors oversee construction projects, including carpentry tasks, and require human judgment and decision-making skills."
+      "reasoning": "Construction supervisors oversee construction projects and ensure they are completed on time and within budget. While some tasks may be automated, human judgment and creativity are still essential for ensuring project success."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered tool for measuring and marking cutting lines",
+      "headline": "New construction technology improves accuracy and efficiency",
       "source": "The New York Times",
-      "date_text": "2022-06-15",
-      "url": null,
-      "impact": "This tool could automate some tasks in carpentry, but human judgment and creativity are still required.",
-      "direction": "raises_risk"
+      "date_text": "2024",
+      "url": "",
+      "impact": "This new technology may automate some tasks, but human judgment and creativity are still essential for ensuring the quality of the construction project.",
+      "direction": "lowers_risk"
     },
     {
       "headline": "Hands-on trades remain among the least automated",

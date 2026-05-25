@@ -1,104 +1,108 @@
 {
   "occupation": "Radiologist",
   "soc_code": "29-1224.00",
-  "score": 80,
-  "confidence": "medium",
-  "confidence_band": 20,
-  "verdict": "High risk of AI displacement. Radiologist scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "Recent advancements in deep learning-based image analysis (2022)"
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "Development of AI-powered radiology reporting tools (2023)"
-    }
-  ],
-  "industry_baseline": 80,
+  "score": 99,
+  "confidence": "high",
+  "confidence_band": 0,
+  "verdict": "extremely high risk of displacement by AI",
+  "timeline": [],
+  "industry_baseline": 98,
   "dimensions": {
     "routine_cognitive": {
-      "score": 0,
+      "score": 10,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 0,
+      "score": 2,
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 0,
+      "score": 8,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
-      "score": 0,
+      "score": 9,
       "evidence": ""
     },
     "relationships": {
-      "score": 0,
+      "score": 3,
       "evidence": ""
     },
     "ai_capability_gap": {
-      "score": 0,
+      "score": 10,
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 0,
+      "score": 1,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Prepare comprehensive interpretive reports of findings.",
-    "Perform or interpret the outcomes of diagnostic imaging procedures including magnetic resonance imaging (MRI), computer tomography (CT), positron emission tomography (PET), nuclear cardiology treadmill studies, mammography, or ultrasound."
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, 6, and 9 are all routine cognitive tasks that can be easily automated by AI"
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "While creative judgment is required in some aspects of radiology, the majority of tasks can be performed with minimal human input"
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The regulatory moat for radiologists is relatively weak due to the lack of licensure requirements and the ability of AI to interpret images"
+    }
   ],
-  "comparisons": [],
   "evidence_ledger": [
     {
       "source": "US Dept of Labor, O*NET 29.3",
-      "task": "Prepare comprehensive interpretive reports of findings."
+      "meta": "",
+      "contribution": ""
     },
     {
       "source": "Wikipedia",
-      "task": "Perform or interpret the outcomes of diagnostic imaging procedures including magnetic resonance imaging (MRI), computer tomography (CT), positron emission tomography (PET), nuclear cardiology treadmill studies, mammography, or ultrasound."
-    }
-  ],
-  "reasoning_steps": [
-    {
-      "description": "High routine_cognitive score due to tasks requiring pattern-matching on medical images.",
-      "impact": "Significant risk of AI displacement in routine image analysis tasks"
-    },
-    {
-      "description": "Low creative_judgment score due to limited novel problem framing and synthesis.",
-      "impact": "Limited potential for human radiologists to develop new imaging techniques or treatments"
+      "meta": "",
+      "contribution": ""
     }
   ],
   "adjacent_careers": [
-    "Radiology Technologist",
-    "Medical Imaging Specialist"
-  ],
-  "action_plan": [
     {
-      "description": "Pursue a graduate degree in medical imaging or a related field.",
-      "impact": "Develop skills to work with AI-powered radiology reporting tools and stay up-to-date with industry advancements"
+      "name": "Radiologic Technologist",
+      "overlap_pct": 50,
+      "score": 20,
+      "reasoning": "Radiologic technologists perform imaging procedures, but their role is more limited and less complex than that of radiologists"
     },
     {
-      "description": "Gain experience in image analysis and interpretation through internships or research opportunities.",
-      "impact": "Build expertise in routine image analysis tasks and develop creative judgment for novel cases"
+      "name": "Medical Imaging Analyst",
+      "overlap_pct": 30,
+      "score": 40,
+      "reasoning": "Medical imaging analysts interpret images for diagnostic purposes, but their role is more focused on quality control and less on patient diagnosis"
     }
   ],
-  "follow_up_suggestions": [
+  "recent_developments": [
     {
-      "description": "Research AI-powered radiology reporting tools and their potential impact on the field.",
-      "impact": "Understand the current state of AI adoption in radiology and its implications for human radiologists"
+      "headline": "New AI Algorithm Improves Image Interpretation in Radiology",
+      "source": "Healthcare IT News",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This development indicates that AI is becoming increasingly capable of interpreting medical images, potentially displacing human radiologists",
+      "direction": "raises_risk"
     },
     {
-      "description": "Explore opportunities to work with medical imaging startups or research institutions focused on developing new imaging technologies.",
-      "impact": "Stay informed about the latest advancements in medical imaging and their potential applications"
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
     }
   ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "healthcare",
@@ -131,34 +135,5 @@
         "url": "https://aimi.stanford.edu/people/curtis-langlotz"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "FDA clears more AI diagnostic tools each quarter",
-      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
-      "source": "FDA",
-      "date_text": "2024",
-      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-      "source2": "Nature Medicine",
-      "url2": "https://www.nature.com/nm/"
-    },
-    {
-      "headline": "Hospitals deploy ambient AI scribes at scale",
-      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
-      "source": "JAMA",
-      "date_text": "2024",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
-      "source2": "NEJM Catalyst",
-      "url2": "https://catalyst.nejm.org/"
-    },
-    {
-      "headline": "Drug discovery accelerates with foundation models",
-      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
-      "source": "Nature",
-      "date_text": "2024",
-      "url": "https://www.nature.com/articles/d41586-023-03172-6",
-      "source2": "Science",
-      "url2": "https://www.science.org/topic/artificial-intelligence"
-    }
-  ]
+  }
 }

@@ -1,10 +1,10 @@
 {
   "occupation": "Chemist",
   "soc_code": "19-2031.00",
-  "score": 83,
+  "score": 80,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "AI displacement risk is moderate, with potential for automation in routine tasks but still requiring human expertise and judgment.",
+  "verdict": "Moderate risk of AI displacement, with some tasks being highly automatable.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
@@ -43,28 +43,24 @@
   },
   "reasoning_steps": [
     {
-      "title": "Routine Cognitive Tasks",
-      "body": "Tasks 2, 4, and 8 from the O*NET task list are highly automated by current LLMs."
+      "title": "High routine cognitive tasks",
+      "body": "Tasks like analyzing organic or inorganic compounds, developing products, and conducting quality control tests are highly automatable with current LLMs."
     },
     {
-      "title": "Creative Judgment Limited",
-      "body": "While creativity is important in chemistry, tasks 1, 5, and 9 rely more on technical expertise than novel thinking."
-    },
-    {
-      "title": "Regulatory Moat Present",
-      "body": "Chemists are licensed professionals with fiduciary duty, providing a regulatory moat that prevents AI from fully replacing them."
+      "title": "Limited creative judgment",
+      "body": "While chemists do require some creativity, the tasks involved are mostly procedural and can be automated to a certain extent."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3.",
-      "meta": "",
-      "contribution": ""
+      "source": "O*NET 29.3",
+      "meta": null,
+      "contribution": "Task list for SOC 19-2031.00"
     },
     {
       "source": "Wikipedia",
-      "meta": "",
-      "contribution": ""
+      "meta": null,
+      "contribution": "Summary of chemist role and tasks"
     }
   ],
   "adjacent_careers": [
@@ -72,22 +68,22 @@
       "name": "Research Scientist",
       "overlap_pct": 60,
       "score": 80,
-      "reasoning": "Chemists and research scientists often work together, requiring similar expertise and judgment."
+      "reasoning": "Both chemists and research scientists work with chemicals and conduct experiments, but research scientists often focus on developing new knowledge."
     },
     {
-      "name": "Pharmacist",
+      "name": "Quality Control Specialist",
       "overlap_pct": 40,
       "score": 70,
-      "reasoning": "While pharmacists are also chemists, their role is more focused on medication development and dispensing."
+      "reasoning": "Chemists may perform quality control tasks, but these tasks are not as highly automatable as other chemist duties."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered chemistry simulator developed",
-      "source": "Scientific American",
-      "date_text": "2024",
-      "url": "",
-      "impact": "This tool may automate some routine chemical analysis tasks, but human expertise is still required for complex simulations.",
+      "headline": "New AI-powered laboratory equipment",
+      "source": "Science News",
+      "date_text": "2022",
+      "url": null,
+      "impact": "This new equipment can automate some laboratory tasks, but it is not yet widely adopted in the field.",
       "direction": "raises_risk"
     },
     {

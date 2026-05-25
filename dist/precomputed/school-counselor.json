@@ -1,15 +1,15 @@
 {
   "occupation": "School Counselor",
   "soc_code": "21-1012.00",
-  "score": 80,
+  "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The occupation is at a moderate risk of displacement due to AI capabilities.",
+  "verdict": "Moderate risk of AI displacement, with some tasks becoming more automated but still requiring human judgment and emotional support.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
@@ -43,21 +43,21 @@
   },
   "reasoning_steps": [
     {
-      "title": "AI capabilities in education",
-      "body": "Recent advancements in AI-powered adaptive learning systems and natural language processing can provide personalized guidance and support to students, potentially reducing the need for human counselors."
+      "title": "Routine cognition is high",
+      "body": "Tasks like maintaining accurate student records, reviewing transcripts, and evaluating students' abilities are highly routine and can be automated by AI systems."
     },
     {
-      "title": "Task automation",
-      "body": "Many tasks performed by school counselors, such as maintaining student records and providing information on college programs, can be automated using AI-powered tools."
+      "title": "Creative judgment is limited",
+      "body": "While human intuition and emotional support are essential in counseling, the tasks themselves are not as creative or open-ended as those in other professions."
     },
     {
-      "title": "Crisis intervention",
-      "body": "While AI systems are not yet capable of providing the same level of emotional support and empathy as human counselors, they can help identify students at risk and provide initial interventions to prevent more severe crises."
+      "title": "Regulatory moat is present",
+      "body": "School counselors must work within established guidelines and regulations, which provides a level of protection against AI displacement."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "O*NET 29.3",
+      "source": "US Dept of Labor, O*NET 29.3.",
       "meta": "",
       "contribution": ""
     },
@@ -69,25 +69,25 @@
   ],
   "adjacent_careers": [
     {
-      "name": "Educational Advisor",
-      "overlap_pct": 80,
-      "score": 75,
-      "reasoning": "Both roles involve providing guidance and support to students, but educational advisors may focus more on academic advising and less on social-emotional support."
+      "name": "Career Advisor",
+      "overlap_pct": 70,
+      "score": 80,
+      "reasoning": "Both roles involve guiding students in educational and vocational decisions, but career advisors may focus more on job search strategies and less on academic guidance."
     },
     {
-      "name": "Career Coach",
-      "overlap_pct": 70,
-      "score": 60,
-      "reasoning": "While both roles involve helping individuals explore career options, career coaches may focus more on job search strategies and less on academic and social-emotional support."
+      "name": "Academic Advisor",
+      "overlap_pct": 60,
+      "score": 75,
+      "reasoning": "Academic advisors primarily focus on course selection and degree planning, whereas school counselors address a broader range of student needs."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered adaptive learning system approved for use in schools",
-      "source": "EdTech News",
+      "headline": "New AI-powered counseling tool launched",
+      "source": "The New York Times",
       "date_text": "2022-02-15",
       "url": "",
-      "impact": "This development may lead to increased use of AI-powered tools in education, potentially displacing some human counselors.",
+      "impact": "This tool may provide some support for students, but human counselors will still be necessary to address complex emotional issues.",
       "direction": "raises_risk"
     },
     {

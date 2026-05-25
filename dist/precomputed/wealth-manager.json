@@ -1,21 +1,11 @@
 {
   "occupation": "Wealth Manager",
   "soc_code": "13-2052.00",
-  "score": 83,
+  "score": 80,
   "confidence": "medium",
-  "confidence_band": 25,
-  "verdict": "Moderate displacement risk. Wealth Manager scores 83 / 100 on AI displacement exposure over a 5-year horizon.",
-  "timeline": [
-    {
-      "timeframe": "5-year horizon",
-      "description": "2025: AI-powered wealth management platforms start to emerge."
-    },
-    {
-      "timeframe": "5-year horizon",
-      "description": "2030: AI-driven investment recommendations become more prevalent."
-    }
-  ],
-  "industry_baseline": 80,
+  "confidence_band": 12,
+  "verdict": "Moderate risk of AI displacement, with some tasks becoming more routine and others being augmented by AI tools.",
+  "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
       "score": 8,
@@ -50,67 +40,65 @@
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Interview clients to determine their current income, expenses, insurance coverage, tax status, financial objectives, risk tolerance, or other information needed to develop a financial plan."
-  ],
-  "comparisons": [
+  "reasoning_steps": [
     {
-      "name": "Financial Advisor",
-      "score": 70
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, and 4 involve analyzing financial information, which is a routine cognitive task that can be automated by AI tools."
     },
     {
-      "name": "Investment Banker",
-      "score": 60
+      "title": "Creative Judgment",
+      "body": "While some creative judgment is required in tasks 3 and 11, the overall role of a wealth manager involves more procedural tasks that can be augmented by AI."
     }
   ],
   "evidence_ledger": [
-    "O*NET task list for SOC 13-2052.00 (Personal Financial Advisors)",
-    "US Dept of Labor, O*NET 29.3"
-  ],
-  "reasoning_steps": [
     {
-      "description": "High routine_cognitive score due to tasks involving financial planning and analysis.",
-      "impact": "AI can already perform some aspects of wealth management."
+      "source": "O*NET 29.3",
+      "meta": "Task list for Personal Financial Advisors",
+      "contribution": "Provides authoritative task list for the occupation"
     },
     {
-      "description": "Low creative_judgment score due to the emphasis on following established financial plans and strategies.",
-      "impact": "Human advisors have less room for innovation in this field."
+      "source": "Wikipedia",
+      "meta": "Summary of Wealth Management",
+      "contribution": "Provides a general overview of the role and industry"
     }
   ],
   "adjacent_careers": [
     {
       "name": "Financial Advisor",
-      "score": 70
+      "overlap_pct": 80,
+      "score": 75,
+      "reasoning": "This role is more focused on investment planning, while financial advisors may handle a broader range of tasks."
     },
     {
-      "name": "Investment Banker",
-      "score": 60
-    },
-    {
-      "name": "Portfolio Manager",
-      "score": 80
+      "name": "Investment Manager",
+      "overlap_pct": 70,
+      "score": 85,
+      "reasoning": "This role involves managing investment portfolios, which is a similar task to wealth management"
     }
   ],
-  "action_plan": [
+  "recent_developments": [
     {
-      "description": "Take courses in financial planning and analysis to improve skills.",
-      "impact": "Enhance job prospects for wealth management roles."
+      "headline": "AI-powered financial planning tools gain popularity among wealth managers",
+      "source": "Financial Times",
+      "date_text": "2022-06-15",
+      "url": "https://www.ft.com/content/8a3c9d0e-7b5f-11ec-a6c4-00144feab49c",
+      "impact": "These tools are expected to augment the work of wealth managers, but may not replace them entirely.",
+      "direction": "raises_risk"
     },
     {
-      "description": "Gain experience in data analysis and interpretation to complement financial planning skills.",
-      "impact": "Increase competitiveness in the job market."
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
     }
   ],
-  "follow_up_suggestions": [
-    {
-      "name": "Research emerging trends in wealth management and their impact on AI adoption.",
-      "description": "Stay up-to-date with industry developments and adjust career plans accordingly."
-    },
-    {
-      "name": "Network with professionals in the wealth management field to learn about their experiences with AI tools.",
-      "description": "Gain insights into the practical applications of AI in wealth management and potential opportunities for collaboration."
-    }
-  ],
+  "timeline": [],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
   "_provider": "ollama",
   "voices": {
     "industry": "finance",
@@ -143,34 +131,5 @@
         "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "Banks roll out AI copilots to analysts and traders",
-      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Bloomberg",
-      "url2": "https://www.bloomberg.com/technology/ai"
-    },
-    {
-      "headline": "Audit automation hits routine reconciliation work",
-      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
-      "source": "WSJ",
-      "date_text": "2024",
-      "url": "https://www.wsj.com/tech/ai",
-      "source2": "Journal of Accountancy",
-      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
-    },
-    {
-      "headline": "Robo-advice AUM continues climbing",
-      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
-      "source": "OECD",
-      "date_text": "2024",
-      "url": "https://www.oecd.org/finance/financial-markets/",
-      "source2": "SEC Investor Bulletin",
-      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
-    }
-  ]
+  }
 }

@@ -3,14 +3,13 @@
   "soc_code": "17-2199.10",
   "score": 24,
   "confidence": "high",
-  "confidence_band": 6,
-  "verdict": "Moderate displacement risk. Robotics Engineer scores 24 / 100 on AI displacement exposure over a 5-year horizon.",
+  "confidence_band": 0,
+  "verdict": "Moderate displacement risk, with potential for significant job disruption in the next decade.",
   "timeline": [],
-  "timeline_callout": "AI displacement risk increases over the next few decades",
   "industry_baseline": 28,
   "dimensions": {
     "routine_cognitive": {
-      "score": 9,
+      "score": 8,
       "evidence": ""
     },
     "creative_judgment": {
@@ -18,11 +17,11 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 4,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -38,22 +37,102 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 5,
+      "score": 6,
       "evidence": ""
     }
   },
-  "key_tasks": [
-    "Develop active control algorithms, electronics, software, electromechanical, or electrohydraulic systems for wind turbines",
-    "Test wind turbine components, using mechanical or electronic testing equipment"
-  ],
-  "comparisons": [],
-  "evidence_ledger": [],
   "reasoning_steps": [
-    "The robotics engineer role shares some tasks with wind energy engineers, but the AI capability gap is significant due to the complexity of wind turbine systems."
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, and 7 involve creating or maintaining visual documentation, recommending process changes, and developing specifications for wind technology components. These tasks are increasingly automated by LLMs."
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "Tasks 4 and 11 require investigating experimental technologies and monitoring wind farm construction to ensure compliance with regulatory standards. While some creative judgment is still required, these tasks are becoming more routine."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The regulatory moat for this occupation is relatively weak due to the lack of licensure requirements and the presence of many consulting firms that provide similar services."
+    },
+    {
+      "title": "Embodied Work",
+      "body": "Tasks 8, 9, and 10 involve testing wind turbine components, overseeing subcontractor work, and monitoring construction. These tasks require physical presence on-site, which is becoming less common with AI-powered remote monitoring."
+    },
+    {
+      "title": "Stakes of Error",
+      "body": "The stakes of error for this occupation are moderate due to the potential consequences of wind turbine failures or non-compliance with regulatory standards."
+    },
+    {
+      "title": "Relationships",
+      "body": "Tasks 5 and 12 involve collaborating with designers, consultants, and other stakeholders. While some relationship-building is still required, these tasks are becoming more routine with AI-powered communication tools."
+    },
+    {
+      "title": "AI Capability Gap",
+      "body": "The AI capability gap for this occupation is relatively small due to the presence of many consulting firms that provide similar services and the increasing availability of AI-powered remote monitoring tools."
+    },
+    {
+      "title": "Physical Dexterity",
+      "body": "Tasks 8, 9, and 10 require physical dexterity and manual labor, which are becoming less common with AI-powered automation."
+    }
   ],
-  "adjacent_careers": [],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "Wind Energy Engineers SOC 17-2199.10 task list",
+      "contribution": "Task list used to inform analysis"
+    },
+    {
+      "source": "US Dept of Labor",
+      "meta": "Authority on wind energy engineering tasks",
+      "contribution": "O*NET task list cited in analysis"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Wind Turbine Technician",
+      "overlap_pct": 60,
+      "score": 22,
+      "reasoning": "Both roles require physical presence on-site and manual labor, but wind turbine technicians focus more on maintenance and repair."
+    },
+    {
+      "name": "Electrical Engineer",
+      "overlap_pct": 40,
+      "score": 25,
+      "reasoning": "Both roles involve designing and developing electrical systems for wind farms, but electrical engineers focus more on the technical aspects."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "AI coding assistants see broad enterprise adoption",
+      "impact": "Major firms report 25–30% of new code is now AI-generated and reviewed by engineers.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Stack Overflow Developer Survey",
+      "url2": "https://survey.stackoverflow.co/2024/ai"
+    },
+    {
+      "headline": "Labor market data shows AI exposure rising for cognitive jobs",
+      "impact": "Goldman Sachs and OECD analyses converge on roughly two-thirds of jobs being partially exposed.",
+      "source": "Goldman Sachs Research",
+      "date_text": "2024",
+      "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html",
+      "source2": "OECD Employment Outlook",
+      "url2": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm"
+    },
+    {
+      "headline": "Education and tooling shift to assume AI is in the loop",
+      "impact": "Universities and bootcamps update curricula to emphasize judgment and AI direction over rote production.",
+      "source": "Inside Higher Ed",
+      "date_text": "2024",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
+      "source2": "Stanford HAI",
+      "url2": "https://hai.stanford.edu/research/ai-index-report"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
   "action_plan": [],
-  "follow_up_suggestions": [],
   "_provider": "ollama",
   "voices": {
     "industry": "tech",
@@ -86,34 +165,5 @@
         "url": "https://abc.xyz/investor/"
       }
     ]
-  },
-  "recent_developments": [
-    {
-      "headline": "AI coding assistants see broad enterprise adoption",
-      "impact": "Major firms report 25–30% of new code is now AI-generated and reviewed by engineers.",
-      "source": "Reuters",
-      "date_text": "2024",
-      "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "source2": "Stack Overflow Developer Survey",
-      "url2": "https://survey.stackoverflow.co/2024/ai"
-    },
-    {
-      "headline": "Labor market data shows AI exposure rising for cognitive jobs",
-      "impact": "Goldman Sachs and OECD analyses converge on roughly two-thirds of jobs being partially exposed.",
-      "source": "Goldman Sachs Research",
-      "date_text": "2024",
-      "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html",
-      "source2": "OECD Employment Outlook",
-      "url2": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm"
-    },
-    {
-      "headline": "Education and tooling shift to assume AI is in the loop",
-      "impact": "Universities and bootcamps update curricula to emphasize judgment and AI direction over rote production.",
-      "source": "Inside Higher Ed",
-      "date_text": "2024",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
-      "source2": "Stanford HAI",
-      "url2": "https://hai.stanford.edu/research/ai-index-report"
-    }
-  ]
+  }
 }

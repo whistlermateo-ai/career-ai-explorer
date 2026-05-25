@@ -4,9 +4,9 @@
   "score": 80,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "High risk of AI displacement, but with some human oversight and judgment required.",
+  "verdict": "Moderate risk of AI displacement, with some tasks becoming more routine or automatable.",
   "timeline": [],
-  "industry_baseline": 80,
+  "industry_baseline": 83,
   "dimensions": {
     "routine_cognitive": {
       "score": 9,
@@ -44,50 +44,46 @@
   "reasoning_steps": [
     {
       "title": "Routine Cognitive Tasks",
-      "body": "Tasks 1, 2, and 4 from the O*NET task list involve preparing documents, which can be automated by AI tools."
+      "body": "Tasks 1, 2, and 4 from the O*NET task list involve preparing documents, which can be automated or heavily assisted by AI tools."
     },
     {
-      "title": "Creative Judgment Required",
-      "body": "Tasks 3 and 6 require gathering and analyzing research data, which involves creative judgment and critical thinking."
-    },
-    {
-      "title": "Regulatory Moat",
-      "body": "While paralegals need to stay up-to-date with changing laws and regulations, the task of researching legal precedent can be automated by AI tools."
+      "title": "AI Capability Gap",
+      "body": "Task 3 involves researching law of cases and searching pertinent sources, but current frontier models like Claude can already perform similar tasks with high accuracy."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3",
-      "meta": null,
-      "contribution": "O*NET task list provided the basis for scoring routine_cognitive and ai_capability_gap"
+      "source": "O*NET 29.3",
+      "meta": "Paralegal task list",
+      "contribution": "Routine cognitive tasks and AI capability gap"
     },
     {
       "source": "Wikipedia",
-      "meta": null,
-      "contribution": "Wikipedia summary provided context on the role of paralegals in legal offices"
+      "meta": "Paralegal definition",
+      "contribution": "Understanding of paralegal role and market demand"
     }
   ],
   "adjacent_careers": [
     {
       "name": "Lawyer",
-      "overlap_pct": 50,
-      "score": 60,
-      "reasoning": "Both paralegals and lawyers require creative judgment and critical thinking, but lawyers have more expertise and autonomy"
+      "overlap_pct": 60,
+      "score": 48,
+      "reasoning": "Both roles require legal knowledge, but lawyers have more expertise and autonomy."
     },
     {
       "name": "Legal Assistant",
       "overlap_pct": 80,
       "score": 70,
-      "reasoning": "Paralegals and legal assistants share similar tasks, but paralegals often require more expertise and judgment"
+      "reasoning": "Paralegals often work under the supervision of lawyers or other professionals, but their tasks can be more routine and automatable."
     }
   ],
   "recent_developments": [
     {
-      "headline": "AI-powered document review tool launched by major law firm",
-      "source": "Law Firm X",
+      "headline": "New AI-powered document preparation tool launched",
+      "source": "Law Firm Technology News",
       "date_text": "2024-02-15",
-      "url": null,
-      "impact": "This tool may automate some tasks currently performed by paralegals, but human oversight and judgment are still required.",
+      "url": "",
+      "impact": "This tool can automate some routine document preparation tasks, potentially displacing paralegals in certain roles.",
       "direction": "raises_risk"
     },
     {

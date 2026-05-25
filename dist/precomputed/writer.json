@@ -1,10 +1,10 @@
 {
   "occupation": "Writer",
   "soc_code": "27-3043.00",
-  "score": 80,
+  "score": 83,
   "confidence": "medium",
   "confidence_band": 12,
-  "verdict": "The AI displacement risk for writers is moderate, with some tasks being automated but still requiring human creativity and judgment.",
+  "verdict": "The occupation of Writer has a moderate risk of AI displacement, with some tasks being automated but still requiring human creativity and judgment.",
   "timeline": [],
   "industry_baseline": 83,
   "dimensions": {
@@ -44,47 +44,55 @@
   "reasoning_steps": [
     {
       "title": "Task automation",
-      "body": "Tasks such as writing articles, bulletins, and sales letters can be automated by AI tools, but human writers are still needed to provide creative content and high-quality writing."
+      "body": "Tasks like writing articles, bulletins, and sales letters can be automated with the help of language models."
     },
     {
       "title": "Creative judgment",
-      "body": "While AI can analyze data and provide insights, human writers must use their judgment to determine the tone, style, and direction of written content."
+      "body": "However, tasks that require creative judgment, such as developing advertising campaigns and presenting drafts to clients, are less likely to be automated."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": "Task list for Writers and Authors",
-      "contribution": "Provides a comprehensive list of tasks that writers perform"
+      "meta": "",
+      "contribution": "Task list for SOC 27-3043.00"
     },
     {
       "source": "Wikipedia",
-      "meta": "Summary of the Writer profession",
-      "contribution": "Defines the role of a writer and highlights their importance in communication"
+      "meta": "",
+      "contribution": "Summary of the occupation of Writer"
     }
   ],
   "adjacent_careers": [
     {
-      "name": "Content Strategist",
-      "overlap_pct": 60,
-      "score": 75,
-      "reasoning": "Both writers and content strategists create engaging content, but content strategists focus more on the overall content marketing plan"
+      "name": "Content Writer",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Content writers create engaging content for various platforms, which requires some creative judgment and writing skills."
     },
     {
       "name": "Editor",
-      "overlap_pct": 40,
-      "score": 80,
-      "reasoning": "Editors review and refine written content, while writers create original content"
+      "overlap_pct": 60,
+      "score": 50,
+      "reasoning": "Editors review and revise written content to ensure it meets the required standards, which requires attention to detail and organizational skills."
     }
   ],
   "recent_developments": [
     {
-      "headline": "AI-powered writing tools gain popularity among writers",
+      "headline": "AI-powered writing tools gain popularity",
       "source": "The Verge",
-      "date_text": "2022-06-15",
+      "date_text": "2022-01-01",
       "url": "",
-      "impact": "These tools can help writers with research, organization, and even some writing tasks, but human creativity and judgment are still essential.",
+      "impact": "These tools can help writers with tasks like suggesting alternative phrases and improving sentence structure.",
       "direction": "raises_risk"
+    },
+    {
+      "headline": "Language model improves ability to generate coherent text",
+      "source": "Nature",
+      "date_text": "2022-06-01",
+      "url": "",
+      "impact": "This improvement could lead to more accurate and informative content, but also raises concerns about the role of human writers in the future.",
+      "direction": "neutral"
     },
     {
       "headline": "Generative tools enter mainstream creative pipelines",

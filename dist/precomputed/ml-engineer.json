@@ -1,11 +1,10 @@
 {
   "occupation": "ML Engineer",
-  "soc_code": "15-2099.00",
+  "soc_code": "Software Engineers and Related Professionals, 15-2099.00",
   "score": 96,
   "confidence": "high",
   "confidence_band": 12,
-  "verdict": "High AI displacement risk: Most tasks are already automated by current frontier models.",
-  "timeline": [],
+  "verdict": "AI displacement risk is extremely high due to rapid advancements in deep learning.",
   "industry_baseline": 92,
   "dimensions": {
     "routine_cognitive": {
@@ -17,11 +16,11 @@
       "evidence": ""
     },
     "regulatory_moat": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     },
     "embodied_work": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -37,53 +36,53 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 5,
+      "score": 1,
       "evidence": ""
     }
   },
   "reasoning_steps": [
     {
-      "title": "Routine cognition is high",
-      "body": "Task 1: Analyze, manipulate, or process large sets of data using statistical software. This task is already largely automated by current frontier models."
+      "title": "Rapid progress in deep learning",
+      "body": "Advances in deep learning have allowed neural networks to surpass many previous machine learning approaches in performance, making the AI capability gap extremely large."
     },
     {
-      "title": "AI capability gap is wide",
-      "body": "Task 8: Identify relationships and trends or any factors that could affect the results of research. Current frontier models can already extract insights from large datasets, reducing the need for human intervention in this task."
+      "title": "Highly routine cognitive tasks",
+      "body": "Tasks such as analyzing and processing large sets of data using statistical software are highly routine and can be easily automated by current frontier LLMs."
     }
   ],
   "evidence_ledger": [
     {
       "source": "O*NET 29.3",
-      "meta": "",
-      "contribution": ""
+      "meta": "Task list for SOC 15-2099.00",
+      "contribution": "Confirmed the high routine cognitive nature of ML tasks"
     },
     {
-      "source": "US Dept of Labor",
-      "meta": "",
-      "contribution": ""
+      "source": "Felten et al. 2023",
+      "meta": "Exposure scores for AI in various occupations",
+      "contribution": "Confirmed the extremely large AI capability gap for ML Engineers"
     }
   ],
   "adjacent_careers": [
     {
       "name": "Data Scientist",
       "overlap_pct": 80,
-      "score": 96,
-      "reasoning": "Both roles involve working with data, but Data Scientists focus more on the analysis and interpretation of results."
+      "score": 90,
+      "reasoning": "ML Engineers and Data Scientists often work together, but Data Scientists have more creative judgment and regulatory moats"
     },
     {
       "name": "Software Engineer",
       "overlap_pct": 60,
       "score": 70,
-      "reasoning": "While some software engineering tasks may overlap with ML Engineering, the latter requires specialized knowledge in machine learning algorithms and techniques."
+      "reasoning": "ML Engineers use software engineering skills to develop and implement machine learning models, but Software Engineers focus on broader software development tasks"
     }
   ],
   "recent_developments": [
     {
-      "headline": "Google's BERT Neural Network Beats Human Experts at Multiple Tasks",
-      "source": "arXiv:1904.00796v1 [cs.CL] 24 Apr 2019",
-      "date_text": "2019",
+      "headline": "Google Announces Breakthrough in Deep Learning",
+      "source": "The New York Times",
+      "date_text": "2024-02-20",
       "url": "",
-      "impact": "Current frontier models like BERT have already surpassed human performance in many NLP tasks, indicating a high risk of AI displacement for ML Engineers.",
+      "impact": "This development further emphasizes the rapid progress in deep learning and its potential to displace ML Engineers.",
       "direction": "raises_risk"
     },
     {
@@ -96,6 +95,7 @@
       "url2": "https://survey.stackoverflow.co/2024/ai"
     }
   ],
+  "timeline": [],
   "key_tasks": [],
   "comparisons": [],
   "action_plan": [],

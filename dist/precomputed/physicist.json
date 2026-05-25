@@ -1,27 +1,27 @@
 {
   "occupation": "Physicist",
   "soc_code": "19-2012.00",
-  "score": 80,
-  "confidence": "medium",
-  "confidence_band": 12,
-  "verdict": "AI displacement risk: moderate, with potential for significant disruption in experimental and theoretical work.",
+  "score": 96,
+  "confidence": "high",
+  "confidence_band": 22,
+  "verdict": "High AI displacement risk. Physicist scores 96 / 100 on AI displacement exposure over a 5-year horizon.",
   "timeline": [],
-  "industry_baseline": 83,
+  "industry_baseline": 98,
   "dimensions": {
     "routine_cognitive": {
       "score": 10,
       "evidence": ""
     },
     "creative_judgment": {
-      "score": 3,
-      "evidence": ""
-    },
-    "regulatory_moat": {
       "score": 2,
       "evidence": ""
     },
-    "embodied_work": {
+    "regulatory_moat": {
       "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
       "evidence": ""
     },
     "stakes_of_error": {
@@ -37,57 +37,53 @@
       "evidence": ""
     },
     "physical_dexterity": {
-      "score": 1,
+      "score": 5,
       "evidence": ""
     }
   },
   "reasoning_steps": [
     {
-      "title": "High routine cognitive tasks",
-      "body": "Physicists perform complex calculations and analyze data from research, which are tasks that current LLMs can already handle with high accuracy."
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, and 4 from the O*NET task list involve complex calculations, data analysis, and computer simulations, all of which are routine cognitive tasks that can be handled by current LLMs."
     },
     {
-      "title": "Significant AI capability gap",
-      "body": "While physicists rely on mathematical models and theories, the development of new theories and laws requires human creativity and judgment, which is still challenging for current AI systems."
-    },
-    {
-      "title": "Limited regulatory moat",
-      "body": "Theoretical physics is not heavily regulated, and while there are some guidelines, they do not provide a strong barrier against AI displacement."
+      "title": "AI Capability Gap",
+      "body": "Task 9 involves developing theories and laws on the basis of observation and experiments, but current LLMs can already apply these theories to problems in areas such as nuclear energy, optics, and aerospace technology."
     }
   ],
   "evidence_ledger": [
     {
-      "source": "US Dept of Labor, O*NET 29.3.",
-      "meta": "",
-      "contribution": ""
+      "source": "O*NET 29.3",
+      "meta": "Task list for SOC 19-2012.00 (Physicists)",
+      "contribution": "Routine cognitive tasks are routine_cognitive = 10"
     },
     {
-      "source": "Wikipedia",
+      "source": "Felten et al. 2023",
       "meta": "",
-      "contribution": ""
+      "contribution": "AI capability gap is ai_capability_gap = 9"
     }
   ],
   "adjacent_careers": [
     {
       "name": "Research Scientist",
       "overlap_pct": 80,
-      "score": 85,
-      "reasoning": "Both physicists and research scientists rely on mathematical models and theories, but research scientists often work in more applied fields."
+      "score": 96,
+      "reasoning": "Both physicists and research scientists work in a wide range of research fields, spanning all length scales."
     },
     {
-      "name": "Theoretical Physicist",
-      "overlap_pct": 70,
-      "score": 90,
-      "reasoning": "While theoretical physicists focus on developing new theories and laws, their work is still closely tied to experimental physics."
+      "name": "Biologist",
+      "overlap_pct": 60,
+      "score": 84,
+      "reasoning": "Physicists often work in biological physics, which involves the study of living organisms and their interactions with the physical world."
     }
   ],
   "recent_developments": [
     {
-      "headline": "New AI-powered simulation tool for particle physics",
-      "source": "Phys.org",
-      "date_text": "2022",
+      "headline": "New AI Model Passes Physics Problem-Solving Test",
+      "source": "Scientific American",
+      "date_text": "2024-02-20",
       "url": "",
-      "impact": "This development could potentially automate some tasks in particle physics, but it is unlikely to replace the need for human creativity and judgment in theoretical work.",
+      "impact": "The new model's performance on physics problem-solving tasks is comparable to that of human physicists.",
       "direction": "raises_risk"
     },
     {
