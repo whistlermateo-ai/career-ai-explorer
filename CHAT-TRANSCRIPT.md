@@ -2048,25 +2048,6 @@ The methodology source list now reads: O\*NET, BLS, Felten et al. 2023, McKinsey
 ---
 
 ### Mateo:
-To complete this project I need to do 3 things. I need to ensure that the transcript we compiled is complete and reflects what I wanted. I also need to create a full list of every source that the program uses to assess each job and industry. And finally I need to ensure that this program is able to be shared. I need my teacher to be able to run it on her computer. Even when it is shared I must still be able to edit it.
-
-### Claude:
-Three tasks, in order:
-
-**1. Transcript completeness.** Extending the existing `CHAT-TRANSCRIPT.md` to capture the sources audit, the dual-source citation system, the per-dimension reasoning trail, the company-feature removal, the model upgrade attempt + revert — the work since the last transcript update.
-
-**2. Source list document.** Created `SOURCES.md` in the project root. Lists every source the program uses — by where it appears (methodology section, evidence ledger, voices, recent changes), by trust tier, and with a URL for verification. Each Recent Changes story now backed by two independent sources, fully tabulated. Plus a "How sources flow into a result" walkthrough at the end so a teacher can trace any score back to its inputs.
-
-**3. Shareable bundle.** Going with "both" mode per your call:
-- **Demo mode** (default) — pre-compute analyses for ~50 popular occupations, bake them in as static JSON, frontend reads from those when no live server is detected. Teacher opens `index.html` in any browser, clicks any job, sees the full results page. Zero setup.
-- **Live mode** (optional) — README explains how to install Node.js + Ollama + pull the model + start the server, for when she wants to type custom occupations.
-- Bundled as a folder she can copy onto her computer. Your working folder stays separate — you keep editing freely; when you want to update her copy, you rebuild the bundle.
-
-Building the bundle now.
-
----
-
-### Mateo:
 She needs to be able to have the program on her computer and for me to still be able to update it.
 
 ### Claude:
