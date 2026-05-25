@@ -5114,7 +5114,18 @@ async function runAnalysis(occupation, company) {
   async function fetchAnalysis(occupation, company) {
     const slug = String(occupation || '').trim().toLowerCase()
       .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-    // Try live API first
+
+    // If we're being served from a public URL (e.g. github.io), there's no
+    // local server to reach — skip the live attempt and go straight to the
+    // inline precomputed bundle. This eliminates the 60+ second fetch wait
+    // before fallback kicks in for the hosted demo.
+    const host = window.location.hostname || '';
+    const isPublicHost = host && host !== 'localhost' && host !== '127.0.0.1' && !host.endsWith('.local');
+    if (isPublicHost && window.PRECOMPUTED && window.PRECOMPUTED[slug]) {
+      return { data: window.PRECOMPUTED[slug], source: 'precomputed-inline' };
+    }
+
+    // Try live API first (local dev or live mode on the teacher's machine)
     try {
       const res = await fetch(`${API_BASE}/api/analyze`, {
         method: 'POST',
