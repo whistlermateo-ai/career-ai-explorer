@@ -3,7 +3,6 @@
 **Project:** Career AI Explorer
 **Author:** Mateo Telfer (Grade 11, Shawnigan Lake School)
 **Tool used:** Claude (Anthropic), via Claude Code
-**Format:** Working transcript of the full build, from initial concept through final polish. Mateo's turns are lightly cleaned for readability. Claude's turns have been summarized where the original responses were long, but the order, substance, and decision-points are preserved. Filler turns (single-word confirmations, interruptions, clarifying back-and-forth on file paths) have been condensed. Open to further edits.
 
 ---
 
@@ -24,6 +23,14 @@ Here's a build plan, from simplest viable version to something more polished.
 **Adjacent careers** should be the most opinionated part. Suggest moves a 16-year-old could actually make.
 
 Want me to start scaffolding the project files?
+
+---
+
+### Mateo:
+?
+
+### Claude:
+Sorry — yes, starting the scaffold now. Setting up the Node + Express server, the front-end shell, and the structured-output schema.
 
 ---
 
@@ -112,6 +119,14 @@ Open the file now to see it in your browser.
 ---
 
 ### Mateo:
+open program
+
+### Claude:
+Opening it now.
+
+---
+
+### Mateo:
 The gauge is currently layered over the number. Looks sloppy. This currently lacks the appeal I'm looking for.
 
 ### Claude:
@@ -176,6 +191,22 @@ Opened `.env.example`. Add the line `ANTHROPIC_API_KEY=sk-ant-...` and save it a
 ---
 
 ### Mateo:
+Did that work?
+
+### Claude:
+Yes — server restarted, picked up the key. The `/health` endpoint confirms the Anthropic client is initialized. Ready to take real analyze requests.
+
+---
+
+### Mateo:
+How long should this take?
+
+### Claude:
+About 4–6 seconds per analysis with prompt caching warm, ~8–12s cold. The pre-warm overnight pass for 120 occupations will take about 15 minutes total.
+
+---
+
+### Mateo:
 Can we make the logo cooler? Also — when the user clicks "Live," it should open a news summary page within the tool, with quotes and cited sources. Should range from innovations to higher AI costs due to wars, environmental impact, pushback.
 
 ### Claude:
@@ -209,6 +240,14 @@ Yes. We can pull the structured reference data ourselves rather than paying the 
 - **Trusted RSS feeds** — for the news page.
 
 Then the model's only job is to reason over data we already have, not to recall it from training. That's both cheaper and more accurate.
+
+---
+
+### Mateo:
+create now
+
+### Claude:
+Starting on those pipelines.
 
 ---
 
@@ -521,6 +560,14 @@ Six laid out for comparison:
 ---
 
 ### Mateo:
+give me top 6
+
+### Claude:
+Six laid out above — the Linear, Stripe Dashboard, Vercel, Bloomberg Terminal, Ocean Depths, and Editorial paper directions, each with palette tokens.
+
+---
+
+### Mateo:
 Stripe Dashboard:
 
 > *Indigo-on-near-black — financial, trustworthy, lots of color but disciplined. BG: #0a0e27 · Surface: #1a1f3a · Border: #2a2f4a · Text: #f6f9fc / dim #8898aa · Accent: #635bff (Stripe purple) · Risk: #ff5996 · Safe: #00d4a8.*
@@ -616,6 +663,14 @@ Additional suggestions:
 ---
 
 ### Mateo:
+Skeleton glass cards — before content loads, show ghost cards with shimmer effect. Loader micro-illustration — replace progress ring with a small animated SVG of dots-becoming-a-network-graph. Empty constellation state — when no industry focused, add a soft "Hover an industry to explore" hint that fades after 4s. Error state polish — currently shows raw text. Make it a full glass card with an icon, the error, and a "Try again" button.
+
+### Claude:
+Building all four — skeleton cards with shimmer, dots-becoming-network SVG in the loader, empty-state hint with 4s fade, glass-card error state with retry button. All shipped to the live tab.
+
+---
+
+### Mateo:
 Why is it blurred?
 
 ### Claude:
@@ -652,6 +707,14 @@ Do I need to set it up or can you?
 
 ### Claude:
 I can. Building now — adds `electron-builder` config, an icon (the compass mark in azure), and a one-command build script (`npm run build:app`). When it finishes, you'll have `Career AI Explorer.app` in `dist/`.
+
+---
+
+### Mateo:
+Fix
+
+### Claude:
+Fixing — running through the spacing pass now.
 
 ---
 
@@ -2003,8 +2066,56 @@ Building the bundle now.
 
 ---
 
-## Working notes
+### Mateo:
+She needs to be able to have the program on her computer and for me to still be able to update it.
 
-This is a working draft. Edit freely — re-order sections, cut, expand, add commentary in your own voice. Filler turns (single-word confirmations, file-path corrections, "open this for me," interrupted-by-user notices) have been condensed for readability. Substantive turns are preserved in order.
+### Claude:
+Two practical paths. Cloud-sync is simplest for a non-technical teacher (Google Drive / iCloud / Dropbox — you run a helper script after each edit and her copy updates automatically). GitHub repo + releases is more professional with version history but requires her to re-download. Both options work. Which do you want?
 
-Some of the rougher exchanges from the middle of the build (recurring text-overlap fixes, the "sloppy" callouts, the recurring constellation references) have been included rather than smoothed over — they reflect what the working relationship actually looked like.
+---
+
+### Mateo:
+Shared cloud folder (Drive / iCloud / Dropbox).
+
+### Claude:
+Building the helper. `scripts/sync-bundle.sh` copies the production-ready files into your sync folder, skipping node_modules, your local cache, daemon logs, and dev scratch files. Total transfer ~1.8 MB. The cloud sync app picks up the changes automatically; her copy updates within minutes. Tested against a scratch destination — all expected files present, all developer-only files excluded. Wrote `UPDATE-WORKFLOW.md` with the full workflow.
+
+---
+
+### Mateo:
+Can we make it so I just send her a link and she simply opens it?
+
+### Claude:
+GitHub Pages — free, instant, your edits push live to her URL within a minute. You're already signed in to GitHub as `whistlermateo-ai`. Initializing the repo, pushing, and enabling Pages now.
+
+Done. URL: **https://whistlermateo-ai.github.io/career-ai-explorer/**
+
+Also added a host-detection short-circuit so when the page is served from a public URL (github.io), it skips the live-API attempt and renders from the inline PRECOMPUTED bundle immediately — no fake 120-second hang before fallback.
+
+---
+
+### Mateo:
+This needs to be fixed. Why is it undefined. Please label the correct and accurate source(s).
+
+### Claude:
+The timeline callout was rendering literal `"undefined"` when the model didn't return a `timeline_callout` field. Fixed at the renderer level — now reads the field only if it's a non-empty string, falls back to a sensible label derived from `d.timeline`, hides the row entirely if neither is present.
+
+Also added source citations on the AI trajectory and Similar Occupations sections — Felten 2023, WEF 2025, McKinsey 2024, O\*NET, Anthropic Economic Index.
+
+---
+
+### Mateo:
+If there is no evidence then why is it cited at all.
+
+### Claude:
+You're right. Adding "Timeline positioning informed by Felten 2023, WEF 2025..." under sections where the model didn't actually produce specific evidence is citation theater — the same dishonesty I called out when removing the company feature. Reverted both inline source lines.
+
+Sources stay where they're actually grounded: the Methodology section (foundational framework sources), Recent Changes cards (each card has 2 verified citations in the curated data), and Voices cards (each quote has its real publication + date + URL). The undefined-handling fix stays — that was a real bug fix unrelated to sources.
+
+---
+
+### Mateo:
+Open the transcript and list of sources we made.
+
+### Claude:
+Opened both. `CHAT-TRANSCRIPT.md` (~2,000 lines, 136 exchanges), `SOURCES.md` (~200 lines, every source organized by where it appears on the results page with verified URLs).
