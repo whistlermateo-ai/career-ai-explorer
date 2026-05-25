@@ -1,0 +1,71 @@
+{
+  "occupation": "Graphic Designer",
+  "soc_code": "27-1024",
+  "company": "",
+  "score": 68,
+  "confidence": "medium",
+  "confidence_band": 9,
+  "verdict": "Routine graphic design — social media assets, logos, presentation decks — is being absorbed by generative tools fast. Brand strategy, art direction, and complex campaigns survive, but the entry-level path is shrinking and the pivot to creative direction matters more than ever.",
+  "timeline": "5yr",
+  "timeline_callout": "Production-design tasks have already collapsed in cost; the squeeze on junior designers is happening now and intensifies through 2028.",
+  "industry_baseline": 68,
+  "dimensions": {
+    "routine_cognitive": { "score": 7, "reasoning": "Layout, color matching, and asset variants are increasingly templatable + AI-generatable." },
+    "creative_judgment": { "score": 7, "reasoning": "Brand strategy and art direction stay human; production design does not." },
+    "regulatory_moat": { "score": 0, "reasoning": "No licensure required." },
+    "embodied_work": { "score": 0, "reasoning": "Pure desk work." },
+    "stakes_of_error": { "score": 2, "reasoning": "Most errors are reversible and reputational, not legal or physical." },
+    "relationships": { "score": 4, "reasoning": "Client relationships matter, but mostly held by account leads / creative directors." },
+    "ai_capability_gap": { "score": 8, "reasoning": "Midjourney, Firefly, and Canva AI handle a meaningful share of production output today." },
+    "physical_dexterity": { "score": 0, "reasoning": "None required." }
+  },
+  "key_tasks": [
+    { "task": "Design layouts for print and digital media", "exposure": "high", "note": "Templated and AI-augmented — production volume per designer climbing fast." },
+    { "task": "Develop brand identity systems", "exposure": "partial", "note": "AI generates options; humans choose and defend the system." },
+    { "task": "Create illustrations and original artwork", "exposure": "high", "note": "Generative image models compete directly here." },
+    { "task": "Present concepts to clients and revise based on feedback", "exposure": "low", "note": "Relationship + judgment work." },
+    { "task": "Direct photoshoots and source assets", "exposure": "low", "note": "On-set decision-making is still human." },
+    { "task": "Maintain brand guidelines across teams", "exposure": "partial", "note": "Documentation gets AI assistance; enforcement and judgment do not." }
+  ],
+  "comparisons": [
+    { "label": "Graphic Designer", "score": 68, "is_current": true },
+    { "label": "Art Director / Creative Director", "score": 35, "is_current": false },
+    { "label": "UX Designer", "score": 50, "is_current": false },
+    { "label": "Industrial Designer", "score": 30, "is_current": false },
+    { "label": "Animator", "score": 60, "is_current": false },
+    { "label": "Illustrator", "score": 65, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 27-1024", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list shows production-heavy work mix." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Graphic designers score in the high-exposure band — visual generation is a top capability area." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Lists 'declining demand for routine design' explicitly." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 3% decline — among the few creative roles BLS calls negative." },
+    { "source": "Anthropic Economic Index Q1 2026", "meta": "Aggregated Claude usage data", "contribution": "Marketing/communications is a top usage category — the buying side of design budgets." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=7, ai_capability_gap=8, creative_judgment=7, regulatory_moat=0, embodied_work=0, stakes_of_error=2, relationships=4, physical_dexterity=0." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×7 + 1.5×8 = 22.5. raw_down = 1.0×7 + 1.2×0 + 1.3×0 + 1.0×2 + 1.1×4 + 0.8×0 = 13.4." },
+    { "title": "Normalize", "body": "normalized_up = 22.5/30 × 100 = 75. normalized_down = 13.4/64 × 100 = 20.9." },
+    { "title": "Combine", "body": "(75 × 0.55) + ((100 − 20.9) × 0.45) = 41.25 + 35.6 = 76.85 ≈ 77." },
+    { "title": "Calibration check", "body": "Anchor table lists Graphic Designer at 68. Computed 77 is 9 above. Soften toward the anchor — the creative_judgment lift is real for senior roles even if production work is exposed." },
+    { "title": "Confidence band", "body": "Medium ±9 — capability is moving fast and senior vs junior split makes a single number less precise than we'd like." }
+  ],
+  "adjacent_careers": [
+    { "name": "Art Director / Creative Director", "overlap_pct": 75, "score": 35, "reasoning": "You direct AI tools instead of competing with them; judgment and taste are the moat." },
+    { "name": "UX / Product Designer", "overlap_pct": 60, "score": 50, "reasoning": "Same visual sensibilities applied to interaction problems with more business judgment." },
+    { "name": "Industrial Designer", "overlap_pct": 50, "score": 30, "reasoning": "Physical product design — embodied + spatial reasoning AI is far behind on." },
+    { "name": "Brand Strategist", "overlap_pct": 45, "score": 30, "reasoning": "Strategy and storytelling stay human; you brief the designers and the AI." },
+    { "name": "Motion Designer / Animator", "overlap_pct": 65, "score": 60, "reasoning": "Slightly more durable than static design; motion craft still has higher complexity." }
+  ],
+  "action_plan": [
+    { "title": "Build a portfolio that shows judgment, not just craft", "description": "Case studies that explain why decisions were made beat polished mockups in the AI era." },
+    { "title": "Learn one production AI tool deeply (Midjourney + Photoshop AI)", "description": "Designers who direct the tools well are more valuable, not less, in the new pipeline." },
+    { "title": "Take a course in UX or product design", "description": "Adjacent specializations have lower exposure and similar starting trajectories." },
+    { "title": "Get a real client (a school club, a small business)", "description": "Working with a stakeholder you have to negotiate with builds the judgment muscles AI cannot replace." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to UX Designer", "action": "compare:UX Designer" },
+    { "label": "Analyze: Art Director", "action": "analyze:Art Director" },
+    { "label": "Is industrial design a real pivot?", "action": "note:industrial-design-pivot" }
+  ]
+}

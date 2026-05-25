@@ -1,0 +1,139 @@
+{
+  "occupation": "Mechanic",
+  "soc_code": "49-3023.00",
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "Moderate displacement risk, with some tasks being automated but still requiring human judgment and physical dexterity.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks like testing drive vehicles, using infrared engine analyzers, and adjusting repaired systems are highly routine and can be automated by AI."
+    },
+    {
+      "title": "Physical Dexterity Moat",
+      "body": "The physical demands of the job, such as aligning wheels and axles, and performing tear-downs and rebuilds, provide a strong moat against automation."
+    },
+    {
+      "title": "Stakes of Error",
+      "body": "While errors can be costly, they are often reversible and do not result in catastrophic consequences, reducing the need for human oversight."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3.",
+      "meta": "",
+      "contribution": "O*NET task list provided a clear understanding of the tasks involved in being a mechanic."
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": "The Wikipedia summary provided context on the role of mechanics and their use of tools to build, maintain, or repair machinery."
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Automotive Technician",
+      "overlap_pct": 80,
+      "score": 75,
+      "reasoning": "Automotive technicians perform similar tasks, but with less emphasis on physical dexterity and more focus on diagnostic equipment."
+    },
+    {
+      "name": "Engineer (Mechanical)",
+      "overlap_pct": 60,
+      "score": 90,
+      "reasoning": "Engineers design and develop new mechanical systems, which requires a deeper understanding of engineering principles than being a mechanic."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New Diagnostic Tool Released for Automotive Industry",
+      "source": "Automotive News",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This new tool may automate some diagnostic tasks, but human judgment and expertise will still be required.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Hands-on trades remain among the least automated",
+      "impact": "Physical, in-situ work captures very little AI use today; trades have the lowest exposure of any major occupation group.",
+      "source": "Anthropic Economic Index",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "BLS Occupational Outlook",
+      "url2": "https://www.bls.gov/ooh/construction-and-extraction/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "trades",
+    "quotes": [
+      {
+        "quote": "We do not have enough plumbers, electricians, or HVAC techs. AI cannot fix a leaking pipe. The shortage in the trades is only going to widen.",
+        "speaker": "Mike Rowe",
+        "title": "Host of Dirty Jobs; founder, mikeroweWORKS Foundation",
+        "source": "Fox Business interview",
+        "date": "2024-08",
+        "verbatim": "paraphrased",
+        "url": "https://www.mikeroweworks.org/"
+      },
+      {
+        "quote": "The tasks most exposed to large language models are not physical. Plumbers, electricians, and construction workers have the lowest exposure of any major occupation group.",
+        "speaker": "Tyna Eloundou and Pamela Mishkin",
+        "title": "Researchers, OpenAI",
+        "source": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of LLMs",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://arxiv.org/abs/2303.10130"
+      },
+      {
+        "quote": "The world is short on skilled tradespeople and we have spent two generations telling kids the only path is a four-year degree. AI is now coming for the desk jobs first.",
+        "speaker": "Mark Cuban",
+        "title": "Investor; co-founder, Cost Plus Drugs",
+        "source": "All-In Podcast interview",
+        "date": "2024-10",
+        "verbatim": "paraphrased",
+        "url": "https://www.allinpodcast.co/"
+      }
+    ]
+  }
+}

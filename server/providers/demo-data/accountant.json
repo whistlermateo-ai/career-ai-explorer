@@ -1,0 +1,71 @@
+{
+  "occupation": "Accountant",
+  "soc_code": "13-2011",
+  "company": "",
+  "score": 65,
+  "confidence": "high",
+  "confidence_band": 7,
+  "verdict": "Bookkeeping and routine reconciliation are nearly fully automatable today; full-scope accountants survive because of audit, advisory, and CPA-licensed signoff. The role is bifurcating into 'data entry that's gone' and 'judgment + advisory that grows'.",
+  "timeline": "5yr",
+  "timeline_callout": "ERP + AI close-the-books tools are deployed at major firms now; the squeeze on entry-level accounting headcount is already underway.",
+  "industry_baseline": 65,
+  "dimensions": {
+    "routine_cognitive": { "score": 8, "reasoning": "Reconciliation, journal entries, and routine reporting are pattern-matching on structured data — top automation territory." },
+    "creative_judgment": { "score": 4, "reasoning": "Audit and tax planning require judgment; basic compliance does not." },
+    "regulatory_moat": { "score": 6, "reasoning": "CPAs sign audits and tax returns under personal liability; non-CPA accountants have a thinner moat." },
+    "embodied_work": { "score": 0, "reasoning": "Pure desk work." },
+    "stakes_of_error": { "score": 5, "reasoning": "Material errors trigger restatements and SEC scrutiny — humans stay in the loop on signoff." },
+    "relationships": { "score": 4, "reasoning": "Client advisory matters; routine bookkeeping does not." },
+    "ai_capability_gap": { "score": 8, "reasoning": "Modern accounting platforms ship with AI assistants for the bulk of recurring work." },
+    "physical_dexterity": { "score": 0, "reasoning": "None required." }
+  },
+  "key_tasks": [
+    { "task": "Prepare and analyze financial statements", "exposure": "high", "note": "Most of the heavy lifting is now templated + AI-assisted." },
+    { "task": "Reconcile accounts and resolve discrepancies", "exposure": "high", "note": "Top automation use case." },
+    { "task": "Prepare tax returns and tax planning advice", "exposure": "partial", "note": "Software automates compute; CPA judgment + signoff remain human." },
+    { "task": "Audit financial records for compliance", "exposure": "partial", "note": "Sampling and exception detection are AI-assisted; audit opinion is human." },
+    { "task": "Advise clients on financial decisions", "exposure": "low", "note": "Trust + judgment work." },
+    { "task": "Maintain bookkeeping records", "exposure": "high", "note": "McKinsey 2024 — 86% automatable; this is the most exposed sub-task." }
+  ],
+  "comparisons": [
+    { "label": "Accountant", "score": 65, "is_current": true },
+    { "label": "Bookkeeper", "score": 80, "is_current": false },
+    { "label": "Auditor (CPA)", "score": 50, "is_current": false },
+    { "label": "Tax Advisor (CPA)", "score": 45, "is_current": false },
+    { "label": "Financial Analyst", "score": 55, "is_current": false },
+    { "label": "Controller / CFO", "score": 35, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 13-2011", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Standardized task list — heavy on structured data manipulation." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "Bookkeeping 86% automatable; full accountant role somewhat lower due to advisory tasks." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Accounting clerks listed among top declining roles." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Accountant exposure score is among the higher white-collar values." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 6% growth for accountants — advisory work expanding even as bookkeeping shrinks." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=8, ai_capability_gap=8, creative_judgment=4, regulatory_moat=6, embodied_work=0, stakes_of_error=5, relationships=4, physical_dexterity=0." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×8 + 1.5×8 = 24. raw_down = 1.0×4 + 1.2×6 + 1.3×0 + 1.0×5 + 1.1×4 + 0.8×0 = 20.6." },
+    { "title": "Normalize", "body": "normalized_up = 24/30 × 100 = 80. normalized_down = 20.6/64 × 100 = 32.2." },
+    { "title": "Combine", "body": "(80 × 0.55) + ((100 − 32.2) × 0.45) = 44 + 30.5 = 74.5 ≈ 75." },
+    { "title": "Calibration check", "body": "Anchor table lists Accountant at 65. Computed 75 is 10 above. Soften toward 65 — the CPA licensure moat and advisory expansion at the senior end justify a lower score than the dimension math alone suggests." },
+    { "title": "Confidence band", "body": "High ±7 — McKinsey, Felten, and WEF all converge on high exposure for the routine portion." }
+  ],
+  "adjacent_careers": [
+    { "name": "Auditor (CPA)", "overlap_pct": 80, "score": 50, "reasoning": "Licensure + signoff liability are real moats; the work survives the automation wave." },
+    { "name": "Tax Advisor (CPA)", "overlap_pct": 75, "score": 45, "reasoning": "Same moat plus advisory relationship work." },
+    { "name": "Financial Analyst", "overlap_pct": 65, "score": 55, "reasoning": "Forward-looking analysis vs backward-looking accounting — slightly less exposed." },
+    { "name": "Forensic Accountant", "overlap_pct": 70, "score": 40, "reasoning": "Investigation + judgment + court-admissible work — durable specialty." },
+    { "name": "Controller / CFO Track", "overlap_pct": 70, "score": 35, "reasoning": "People management + strategy; AI accelerates your team rather than replaces the role." }
+  ],
+  "action_plan": [
+    { "title": "Aim for the CPA, not a generic accounting degree", "description": "The licensure is the moat. Programs aligned with the 150-credit CPA requirement are the durable path." },
+    { "title": "Get good with one ERP (NetSuite, Workday, or SAP)", "description": "Domain + tooling expertise beats generic accounting skills in a more-automated world." },
+    { "title": "Take a financial analysis or data analytics elective", "description": "The advisory and analyst pivots reward people who can model, not just record." },
+    { "title": "Intern at a small business, not just Big Four", "description": "Small-business exposure shows you the full books and the relationship work that survives automation." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Auditor", "action": "compare:Auditor" },
+    { "label": "Analyze: Financial Analyst", "action": "analyze:Financial Analyst" },
+    { "label": "Is the CPA still worth it?", "action": "note:cpa-roi" }
+  ]
+}

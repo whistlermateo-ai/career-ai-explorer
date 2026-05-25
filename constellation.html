@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Career AI Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-1: #0a1d3d;
+    --bg-2: #0d3554;
+    --bg-3: #052e4a;
+    --text: #f0f6ff;
+    --text-2: #b8d4ee;
+    --text-3: #6e8aaa;
+    --azure: #5fc8e8;
+    --mint: #00d4a8;
+    --violet: #7c5fff;
+    --coral: #e85a7c;
+    --glass: rgba(255,255,255,0.04);
+    --glass-hover: rgba(255,255,255,0.07);
+    --border: rgba(255,255,255,0.08);
+    --border-hover: rgba(255,255,255,0.16);
+  }
+  /* Light theme — pale cream surface for the few users who prefer it */
+  html[data-theme="light"] {
+    --bg-1: #f7faff;
+    --bg-2: #eaf2fd;
+    --bg-3: #dee9f8;
+    --text: #0a1d3d;
+    --text-2: #3a526e;
+    --text-3: #6e8aaa;
+    --glass: rgba(255,255,255,0.55);
+    --glass-hover: rgba(255,255,255,0.75);
+    --border: rgba(10,29,61,0.08);
+    --border-hover: rgba(10,29,61,0.20);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(124,95,255,0.10), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 90% 100%, rgba(0,212,168,0.08), transparent 60%),
+      linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%) fixed;
+    color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 32px 80px;
+  }
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  }
+  .header-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    color: var(--text-3);
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-meta .pulse {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--mint);
+    box-shadow: 0 0 10px var(--mint);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  .theme-toggle {
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    background: var(--glass);
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+  }
+  .theme-toggle:hover { background: var(--glass-hover); color: var(--text); }
+  .theme-toggle svg { width: 15px; height: 15px; position: absolute; transition: opacity 0.2s, transform 0.3s; }
+  .theme-toggle .icon-sun  { opacity: 0; transform: rotate(-90deg) scale(0.6); }
+  .theme-toggle .icon-moon { opacity: 1; transform: rotate(0) scale(1); }
+  html[data-theme="light"] .theme-toggle .icon-sun  { opacity: 1; transform: rotate(0) scale(1); }
+  html[data-theme="light"] .theme-toggle .icon-moon { opacity: 0; transform: rotate(90deg) scale(0.6); }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .hero h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+  }
+  .hero h1 .em {
+    font-style: italic;
+    background: linear-gradient(135deg, var(--azure) 0%, var(--mint) 60%, var(--violet) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero p {
+    color: var(--text-2);
+    font-size: 16px;
+    max-width: 580px;
+    margin: 0 auto 32px;
+    line-height: 1.5;
+  }
+  /* Search */
+  .search-shell {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--glass);
+    backdrop-filter: blur(28px) saturate(160%);
+    -webkit-backdrop-filter: blur(28px) saturate(160%);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .search-shell:focus-within {
+    border-color: rgba(95,200,232,0.4);
+    box-shadow: 0 0 0 4px rgba(95,200,232,0.08);
+  }
+  .search-shell svg { width: 18px; height: 18px; color: var(--text-3); margin-left: 16px; flex-shrink: 0; }
+  .search-shell input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 15px;
+    padding: 14px 4px;
+  }
+  .search-shell input::placeholder { color: var(--text-3); }
+  .search-shell button {
+    background: linear-gradient(135deg, var(--azure), var(--violet));
+    color: #0a1d3d;
+    border: 0;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, filter 0.2s;
+  }
+  .search-shell button:hover { filter: brightness(1.1); transform: translateX(2px); }
+
+  /* Section divider */
+  .browse-label {
+    text-align: center;
+    margin: 64px 0 32px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-3);
+  }
+  .browse-label::before, .browse-label::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 1px;
+    background: var(--border);
+    margin: 0 16px;
+  }
+
+  /* Industry grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  .ind {
+    background: var(--glass);
+    backdrop-filter: blur(28px) saturate(160%);
+    -webkit-backdrop-filter: blur(28px) saturate(160%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 20px;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+  }
+  .ind:hover {
+    border-color: var(--border-hover);
+    background: var(--glass-hover);
+    transform: translateY(-2px);
+  }
+  .ind::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--ind-color);
+    opacity: 0.6;
+  }
+  .ind-head {
+    margin-bottom: 16px;
+  }
+  .ind-name {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    color: var(--text);
+  }
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .job {
+    color: var(--text-2);
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, transform 0.15s;
+    text-decoration: none;
+    display: block;
+  }
+  .job:hover {
+    background: rgba(255,255,255,0.05);
+    color: var(--text);
+    transform: translateX(3px);
+  }
+  html[data-theme="light"] .job:hover {
+    background: rgba(10,29,61,0.05);
+  }
+  .job .job-arrow {
+    opacity: 0;
+    margin-left: 6px;
+    color: var(--ind-color);
+    transition: opacity 0.15s;
+  }
+  .job:hover .job-arrow { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header>
+    <div class="header-meta"></div>
+    <button class="theme-toggle" id="themeToggle" title="Toggle dark / light mode" aria-label="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+  </header>
+
+  <section class="hero">
+    <h1>Find your <span class="em">future</span></h1>
+    <p>Pick an industry below or type any career — even niche ones. Each result is built fresh from the role's official task list.</p>
+
+    <div class="search-shell">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search any occupation" />
+      <button>Analyze →</button>
+    </div>
+  </section>
+
+  <div class="browse-label">Or browse by industry</div>
+
+  <div class="grid">
+    <div class="ind" style="--ind-color: var(--azure);">
+      <div class="ind-head"><div class="ind-name">Tech &amp; Software</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Software%20Developer">Software Developer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=ML%20Engineer">ML Engineer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Data%20Scientist">Data Scientist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Cybersecurity%20Analyst">Cybersecurity Analyst<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Product%20Manager">Product Manager<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=UX%20Designer">UX Designer<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--violet);">
+      <div class="ind-head"><div class="ind-name">Healthcare</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Doctor">Doctor<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Nurse">Nurse<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Surgeon">Surgeon<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Therapist">Therapist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Pharmacist">Pharmacist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Radiologist">Radiologist<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--mint);">
+      <div class="ind-head"><div class="ind-name">Finance &amp; Banking</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Investment%20Banker">Investment Banker<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Accountant">Accountant<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Financial%20Analyst">Financial Analyst<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Actuary">Actuary<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Auditor">Auditor<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Trader">Trader<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--azure);">
+      <div class="ind-head"><div class="ind-name">Legal</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Lawyer">Lawyer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Paralegal">Paralegal<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Judge">Judge<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Patent%20Attorney">Patent Attorney<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Mediator">Mediator<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Public%20Defender">Public Defender<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--coral);">
+      <div class="ind-head"><div class="ind-name">Creative &amp; Media</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Graphic%20Designer">Graphic Designer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Writer">Writer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Photographer">Photographer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Filmmaker">Filmmaker<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Musician">Musician<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Animator">Animator<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--mint);">
+      <div class="ind-head"><div class="ind-name">Trades &amp; Construction</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Plumber">Plumber<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Electrician">Electrician<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Carpenter">Carpenter<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Welder">Welder<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=HVAC%20Technician">HVAC Technician<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Mechanic">Mechanic<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--violet);">
+      <div class="ind-head"><div class="ind-name">Education</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Teacher">Teacher<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Professor">Professor<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Tutor">Tutor<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=School%20Counselor">School Counselor<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Principal">Principal<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Athletic%20Coach">Athletic Coach<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="ind" style="--ind-color: var(--coral);">
+      <div class="ind-head"><div class="ind-name">Sciences</div></div>
+      <div class="jobs">
+        <a class="job" href="mockup.html?occupation=Biologist">Biologist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Chemist">Chemist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Physicist">Physicist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Astronomer">Astronomer<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Geologist">Geologist<span class="job-arrow">→</span></a>
+        <a class="job" href="mockup.html?occupation=Marine%20Biologist">Marine Biologist<span class="job-arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // Theme toggle — persists across sessions
+  (function () {
+    const stored = localStorage.getItem('careerAtlas.theme');
+    if (stored === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    const btn = document.getElementById('themeToggle');
+    if (btn) btn.addEventListener('click', () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      if (isLight) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('careerAtlas.theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('careerAtlas.theme', 'light');
+      }
+    });
+  })();
+
+  // Search submit
+  (function () {
+    const input = document.querySelector('.search-shell input');
+    const btn = document.querySelector('.search-shell button');
+    function go() {
+      const occ = input.value.trim();
+      if (!occ) return;
+      window.location.href = 'mockup.html?occupation=' + encodeURIComponent(occ);
+    }
+    btn.addEventListener('click', go);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
+  })();
+</script>
+
+</body>
+</html>

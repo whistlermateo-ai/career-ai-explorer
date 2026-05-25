@@ -1,0 +1,149 @@
+{
+  "occupation": "Marine Biologist",
+  "soc_code": "19-1023.00",
+  "score": 83,
+  "confidence": "high",
+  "confidence_band": 12,
+  "verdict": "Moderate risk of AI displacement, with some tasks becoming more routine and others being augmented by AI.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 8,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 4,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognition",
+      "body": "Tasks 1, 2, 4, and 6 involve routine data analysis and pattern-matching on text/data, which are already being handled by current frontier LLMs."
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "Tasks 3, 5, and 11 require original synthesis, novel problem framing, and taste, which are less susceptible to AI displacement."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The regulatory moat is relatively strong due to the importance of environmental laws and the need for human expertise in enforcing them."
+    },
+    {
+      "title": "Embodied Work",
+      "body": "Tasks 1, 2, and 4 involve working in natural environments, which are less likely to be automated by AI."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Wildlife Biologist",
+      "overlap_pct": 80,
+      "score": 85,
+      "reasoning": "Similar tasks and expertise, with some overlap in data analysis and species classification."
+    },
+    {
+      "name": "Conservation Biologist",
+      "overlap_pct": 75,
+      "score": 80,
+      "reasoning": "Similar focus on species conservation and management, but with more emphasis on policy and advocacy."
+    },
+    {
+      "name": "Marine Scientist",
+      "overlap_pct": 60,
+      "score": 70,
+      "reasoning": "Some overlap in marine research and data analysis, but with more emphasis on oceanography and chemistry."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered tool helps marine biologists analyze species distribution",
+      "source": "Scientific American",
+      "date_text": "2022",
+      "url": "",
+      "impact": "May augment some tasks, but not replace human expertise in species classification and conservation.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

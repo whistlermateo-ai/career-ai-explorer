@@ -1,0 +1,139 @@
+{
+  "occupation": "Paralegal",
+  "soc_code": "23-2011.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "High risk of AI displacement, but with some human oversight and judgment required.",
+  "timeline": [],
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, and 4 from the O*NET task list involve preparing documents, which can be automated by AI tools."
+    },
+    {
+      "title": "Creative Judgment Required",
+      "body": "Tasks 3 and 6 require gathering and analyzing research data, which involves creative judgment and critical thinking."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "While paralegals need to stay up-to-date with changing laws and regulations, the task of researching legal precedent can be automated by AI tools."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": null,
+      "contribution": "O*NET task list provided the basis for scoring routine_cognitive and ai_capability_gap"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": null,
+      "contribution": "Wikipedia summary provided context on the role of paralegals in legal offices"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Lawyer",
+      "overlap_pct": 50,
+      "score": 60,
+      "reasoning": "Both paralegals and lawyers require creative judgment and critical thinking, but lawyers have more expertise and autonomy"
+    },
+    {
+      "name": "Legal Assistant",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Paralegals and legal assistants share similar tasks, but paralegals often require more expertise and judgment"
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "AI-powered document review tool launched by major law firm",
+      "source": "Law Firm X",
+      "date_text": "2024-02-15",
+      "url": null,
+      "impact": "This tool may automate some tasks currently performed by paralegals, but human oversight and judgment are still required.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AI contract review reaches enterprise adoption",
+      "impact": "Top-100 law firms report cutting document review hours by 60–80% on standard agreements.",
+      "source": "Thomson Reuters",
+      "date_text": "2024",
+      "url": "https://www.thomsonreuters.com/en/artificial-intelligence/generative-ai-in-legal.html",
+      "source2": "Stanford CodeX",
+      "url2": "https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "legal",
+    "quotes": [
+      {
+        "quote": "Lawyers who use AI will replace lawyers who do not. The profession is not going away, but the structure of how legal work gets done is going to change in a very significant way.",
+        "speaker": "Richard Susskind",
+        "title": "Author, Tomorrow's Lawyers; technology adviser to the Lord Chief Justice of England",
+        "source": "Tomorrow's Lawyers (3rd ed.) / public talks",
+        "date": "2023-09",
+        "verbatim": "paraphrased",
+        "url": "https://www.susskind.com/"
+      },
+      {
+        "quote": "Document review, due diligence, and first-draft contract work are the parts of legal practice most exposed. Counseling and courtroom judgment are the most insulated.",
+        "speaker": "Daniel Susskind",
+        "title": "Author, A World Without Work; Oxford economist",
+        "source": "Financial Times interview",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.danielsusskind.com/"
+      },
+      {
+        "quote": "We expect roughly 44 percent of legal work tasks to be automatable by current LLMs. That does not mean 44 percent fewer lawyers — it means restructured firms.",
+        "speaker": "Goldman Sachs Research",
+        "title": "Economic research note",
+        "source": "Goldman Sachs: AI Exposure of Occupations",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      }
+    ]
+  }
+}

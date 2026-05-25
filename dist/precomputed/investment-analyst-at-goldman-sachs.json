@@ -1,0 +1,183 @@
+{
+  "occupation": "Investment Analyst",
+  "soc_code": "",
+  "score": 52,
+  "confidence": "low",
+  "confidence_band": 4,
+  "verdict": "High. Investment Analyst at Goldman Sachs scores 52 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "Recent trends in AI adoption in finance"
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": " Goldman Sachs' recent investments in AI-powered trading platforms"
+    }
+  ],
+  "industry_baseline": 52,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 0,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 4,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 0,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    {
+      "task": "Financial modeling and data analysis"
+    },
+    {
+      "task": "Investment research and recommendations"
+    }
+  ],
+  "comparisons": [
+    {
+      "occupation": "Quantitative Analyst",
+      "score": 60
+    },
+    {
+      "occupation": "Portfolio Manager",
+      "score": 40
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database",
+      "task": "Financial modeling and data analysis"
+    },
+    {
+      "source": "Goldman Sachs' website",
+      "task": "Investment research and recommendations"
+    }
+  ],
+  "reasoning_steps": [
+    {
+      "step": "High exposure to routine cognitive tasks (financial modeling, data analysis) with significant potential for automation.",
+      "rationale": "Recent trends in AI adoption in finance indicate increased automation of financial modeling and data analysis."
+    },
+    {
+      "step": "Significant potential for increased automation of investment research and recommendations due to Goldman Sachs' recent investments in AI-powered trading platforms.",
+      "rationale": "Goldman Sachs' investments in AI-powered trading platforms suggest a high risk of automation in this role."
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "occupation": "Quantitative Analyst",
+      "score": 60
+    },
+    {
+      "occupation": "Portfolio Manager",
+      "score": 40
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Take courses in machine learning and data science to develop skills complementary to AI-powered finance tools.",
+      "rationale": "Developing skills in machine learning and data science can help mitigate the impact of automation on this role."
+    },
+    {
+      "step": "Network with professionals in AI-powered finance to learn about emerging trends and opportunities.",
+      "rationale": "Staying informed about emerging trends and opportunities in AI-powered finance can help individuals adapt to changing job requirements."
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "suggestion": "Research the impact of AI on investment research and recommendations in the financial industry.",
+      "description": "Explore recent studies and reports on the effects of AI on investment analysis and decision-making."
+    },
+    {
+      "suggestion": "Attend a conference or workshop on AI-powered finance to learn from experts and network with professionals.",
+      "description": "Stay up-to-date with the latest developments in AI-powered finance and learn about emerging trends and opportunities."
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "finance",
+    "quotes": [
+      {
+        "quote": "AI is going to change every job. Every single job. Some jobs it will eliminate, some jobs it will improve, and some jobs it will create.",
+        "speaker": "Jamie Dimon",
+        "title": "CEO, JPMorgan Chase",
+        "source": "Annual letter to shareholders",
+        "date": "2024-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.jpmorganchase.com/ir/annual-report"
+      },
+      {
+        "quote": "Two-thirds of jobs in the United States and Europe are exposed to some degree of AI automation, and roughly a quarter of current work could be done by generative AI.",
+        "speaker": "Joseph Briggs and Devesh Kodnani",
+        "title": "Economists, Goldman Sachs Research",
+        "source": "Goldman Sachs report: The Potentially Large Effects of AI on Economic Growth",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      },
+      {
+        "quote": "Generative AI could add the equivalent of 2.6 to 4.4 trillion dollars in value annually across the global economy. Banking, high-tech, and life sciences capture the largest share.",
+        "speaker": "McKinsey Global Institute",
+        "title": "Research report",
+        "source": "The Economic Potential of Generative AI",
+        "date": "2023-06",
+        "verbatim": "paraphrased",
+        "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
+    },
+    {
+      "headline": "Audit automation hits routine reconciliation work",
+      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
+      "source": "WSJ",
+      "date_text": "2024",
+      "url": "https://www.wsj.com/tech/ai",
+      "source2": "Journal of Accountancy",
+      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
+    },
+    {
+      "headline": "Robo-advice AUM continues climbing",
+      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
+      "source": "OECD",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/finance/financial-markets/",
+      "source2": "SEC Investor Bulletin",
+      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
+    }
+  ]
+}

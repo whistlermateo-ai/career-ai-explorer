@@ -1,0 +1,71 @@
+{
+  "occupation": "Surgeon",
+  "soc_code": "29-1242",
+  "company": "",
+  "score": 28,
+  "confidence": "high",
+  "confidence_band": 6,
+  "verdict": "Surgery combines essentially every moat the framework measures: long licensure, life-or-death stakes, fine motor skills under pressure, and decades of training. AI assists with imaging interpretation and surgical planning, but the operating-room work itself is durable for the foreseeable future.",
+  "timeline": "10plus",
+  "timeline_callout": "Robotic-assisted surgery is here, but the surgeon directs the robot — full autonomy is decades away.",
+  "industry_baseline": 28,
+  "dimensions": {
+    "routine_cognitive": { "score": 4, "reasoning": "Pre-op planning and chart review have routine cognitive elements; the surgery does not." },
+    "creative_judgment": { "score": 7, "reasoning": "Intra-operative decision-making when anatomy is non-standard requires real judgment." },
+    "regulatory_moat": { "score": 10, "reasoning": "Among the strictest licensure regimes — MD + multi-year residency + board certification + hospital privileges." },
+    "embodied_work": { "score": 9, "reasoning": "Almost the entire role is in an operating room performing physical work." },
+    "stakes_of_error": { "score": 10, "reasoning": "Lethal — the highest stakes in the framework." },
+    "relationships": { "score": 6, "reasoning": "Patient consent, family discussions, team leadership in the OR." },
+    "ai_capability_gap": { "score": 3, "reasoning": "AI helps with imaging and planning; cannot operate." },
+    "physical_dexterity": { "score": 9, "reasoning": "Fine motor skills under pressure — the canonical example in the framework." }
+  },
+  "key_tasks": [
+    { "task": "Perform surgical procedures", "exposure": "low", "note": "Embodied + dexterity + stakes — the core moat." },
+    { "task": "Diagnose conditions and plan surgical approach", "exposure": "partial", "note": "AI imaging interpretation augments the surgeon." },
+    { "task": "Lead the operating room team", "exposure": "low", "note": "Leadership + relationship work." },
+    { "task": "Conduct pre-op consultations and obtain consent", "exposure": "low", "note": "Trust + judgment work; legally must be the surgeon." },
+    { "task": "Document procedures in the medical record", "exposure": "high", "note": "Voice-to-chart AI absorbs this." },
+    { "task": "Participate in post-op rounds and complication management", "exposure": "low", "note": "Bedside judgment + dexterity required." }
+  ],
+  "comparisons": [
+    { "label": "Surgeon", "score": 28, "is_current": true },
+    { "label": "Anesthesiologist", "score": 30, "is_current": false },
+    { "label": "Dentist", "score": 30, "is_current": false },
+    { "label": "Radiologist", "score": 55, "is_current": false },
+    { "label": "Nurse (RN)", "score": 26, "is_current": false },
+    { "label": "Physician Assistant (Surgical)", "score": 32, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 29-1242", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list overwhelmingly physical + judgment under stakes." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Surgeon exposure 0.31 — anchor for high-stakes embodied medicine." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 4% growth; physician supply is structurally constrained." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "General medicine 36% — and the automatable third is mostly documentation, not surgery." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Physicians remain a stable category despite AI advances in adjacent imaging fields." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=4, ai_capability_gap=3, creative_judgment=7, regulatory_moat=10, embodied_work=9, stakes_of_error=10, relationships=6, physical_dexterity=9." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×4 + 1.5×3 = 10.5. raw_down = 1.0×7 + 1.2×10 + 1.3×9 + 1.0×10 + 1.1×6 + 0.8×9 = 7 + 12 + 11.7 + 10 + 6.6 + 7.2 = 54.5." },
+    { "title": "Normalize", "body": "normalized_up = 10.5/30 × 100 = 35. normalized_down = 54.5/64 × 100 = 85.2." },
+    { "title": "Combine", "body": "(35 × 0.55) + ((100 − 85.2) × 0.45) = 19.25 + 6.66 = 25.9 ≈ 26." },
+    { "title": "Calibration check", "body": "Anchor table lists Surgeon at 28. Computed 26 is 2 below — comfortably within tolerance. Adopt 28 to match the anchor." },
+    { "title": "Confidence band", "body": "High ±6 — Felten, BLS, McKinsey converge on 'low displacement, high stakes'." }
+  ],
+  "adjacent_careers": [
+    { "name": "Anesthesiologist", "overlap_pct": 70, "score": 30, "reasoning": "Same OR + stakes structure; arguably more AI-augmented monitoring but the role is durable." },
+    { "name": "Interventional Radiologist", "overlap_pct": 65, "score": 38, "reasoning": "Procedural medicine with imaging; AI changes imaging more than the procedures." },
+    { "name": "Emergency Physician", "overlap_pct": 60, "score": 25, "reasoning": "High-stakes, embodied, broad-judgment role with similar moats." },
+    { "name": "Dentist", "overlap_pct": 50, "score": 30, "reasoning": "Dexterity + licensure moats; lower stakes but higher work-life balance." },
+    { "name": "Veterinary Surgeon", "overlap_pct": 55, "score": 25, "reasoning": "Same moat structure in a smaller market with less burnout." }
+  ],
+  "action_plan": [
+    { "title": "Take biology, chemistry, and calculus seriously", "description": "Pre-med and pre-vet pathways are still gated by GPA in these courses; no shortcuts." },
+    { "title": "Volunteer or shadow in a hospital", "description": "Med school applications expect documented clinical exposure; start in Grade 11." },
+    { "title": "Build a research or service project that takes 2+ years", "description": "Application committees reward sustained commitment more than scattered activities." },
+    { "title": "Look hard at the financial math", "description": "Med school debt is substantial; surgery is durable but the path is 12+ years. Make sure that fits your life." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Anesthesiologist", "action": "compare:Anesthesiologist" },
+    { "label": "Analyze: Emergency Physician", "action": "analyze:Emergency Physician" },
+    { "label": "Is med school still worth the cost?", "action": "note:med-school-roi" }
+  ]
+}

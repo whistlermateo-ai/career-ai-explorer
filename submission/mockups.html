@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Job Assessment Tool — Visual Mockups</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #050507;
+    --bg-2: #0a0a11;
+    --card: #11111c;
+    --card-2: #161623;
+    --border: #232333;
+    --text: #f5f5f7;
+    --text-2: #a4a4b4;
+    --text-3: #6e6e80;
+    --text-4: #4a4a58;
+    --accent: #8b5cf6;
+    --accent-2: #3b82f6;
+    --green: #10b981;
+    --amber: #f59e0b;
+    --red: #ef4444;
+
+    --c-tech: #8b5cf6;
+    --c-health: #ef4444;
+    --c-finance: #10b981;
+    --c-legal: #f59e0b;
+    --c-creative: #ec4899;
+    --c-trades: #f97316;
+    --c-education: #06b6d4;
+    --c-sciences: #3b82f6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.55;
+  }
+
+  body {
+    background:
+      radial-gradient(ellipse 80% 40% at 50% 0%, rgba(139, 92, 246, 0.10), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 100% 30%, rgba(59, 130, 246, 0.06), transparent 70%),
+      var(--bg);
+    padding: 60px 32px 96px;
+  }
+
+  .deck {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* TITLE */
+  .deck-eyebrow {
+    font-size: 11px;
+    color: var(--text-3);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 14px;
+  }
+  .deck-title {
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    line-height: 1.05;
+    margin-bottom: 18px;
+  }
+  .deck-title .serif {
+    font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400;
+    background: linear-gradient(120deg, #c4b5fd, #93c5fd);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .deck-sub {
+    font-size: 17px; color: var(--text-2);
+    max-width: 720px; line-height: 1.6;
+    margin-bottom: 64px;
+  }
+
+  /* STAGE BLOCKS */
+  .stage {
+    margin-bottom: 72px;
+  }
+  .stage-head {
+    display: flex; align-items: baseline; gap: 16px;
+    margin-bottom: 20px;
+  }
+  .stage-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-4);
+    letter-spacing: 0.15em;
+  }
+  .stage-name {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .stage-name .serif {
+    font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400;
+    color: #c4b5fd;
+  }
+  .stage-caption {
+    font-size: 14.5px; color: var(--text-3);
+    max-width: 720px; line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  /* "BROWSER" FRAME wrapping each mockup */
+  .browser {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.6);
+  }
+  .browser-bar {
+    display: flex; align-items: center; gap: 8px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid var(--border);
+  }
+  .browser-dot { width: 11px; height: 11px; border-radius: 50%; }
+  .browser-dot.r { background: #ff5f57; }
+  .browser-dot.y { background: #febc2e; }
+  .browser-dot.g { background: #28c840; }
+  .browser-url {
+    margin-left: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-4);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 4px 10px;
+    border-radius: 4px;
+    flex: 1;
+    max-width: 480px;
+  }
+
+  .browser-body { position: relative; }
+
+  /* ===========================================
+     MOCKUP 1 — CONSTELLATION
+     =========================================== */
+  .m1 {
+    background: var(--bg);
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+  }
+  .m1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 50% at 50% 50%, rgba(139, 92, 246, 0.10), transparent 60%),
+      radial-gradient(ellipse 40% 30% at 80% 30%, rgba(59, 130, 246, 0.06), transparent 60%);
+  }
+  .m1-header {
+    position: absolute; top: 16px; left: 24px; right: 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    z-index: 5;
+  }
+  .m1-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 13px; font-weight: 500;
+  }
+  .m1-logo-mark {
+    width: 26px; height: 26px;
+    background: radial-gradient(circle at 35% 30%, #fff 0%, #c4b5fd 30%, #8b5cf6 70%, #3b82f6 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 14px rgba(139, 92, 246, 0.5);
+  }
+  .m1-meta {
+    font-size: 11px; color: var(--text-4);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .m1-intro {
+    position: absolute; top: 54px; left: 24px; max-width: 280px;
+  }
+  .m1-intro-eye {
+    font-size: 9px; color: var(--text-4);
+    text-transform: uppercase; letter-spacing: 0.2em;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 6px;
+  }
+  .m1-intro-title {
+    font-size: 20px; font-weight: 600; letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .m1-intro-title .s {
+    font-family: 'Instrument Serif', serif; font-style: italic;
+    background: linear-gradient(120deg, #c4b5fd, #93c5fd);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .m1-intro-sub { font-size: 11px; color: var(--text-2); margin-top: 4px; }
+  .m1-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 12px;
+    padding: 7px 12px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.10));
+    border: 1px solid rgba(139, 92, 246, 0.35);
+    border-radius: 999px;
+    font-size: 11px; color: var(--text);
+  }
+  .m1-search {
+    position: absolute; bottom: 36px; left: 50%;
+    transform: translateX(-50%);
+    width: 520px;
+    background: rgba(15, 15, 25, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 9px 6px 9px 16px;
+    display: flex; align-items: center; gap: 10px;
+    box-shadow: 0 0 60px -20px rgba(139, 92, 246, 0.3);
+  }
+  .m1-search-input {
+    flex: 1; font-size: 12.5px; color: var(--text-3);
+  }
+  .m1-search-btn {
+    padding: 7px 14px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    border-radius: 9px; font-size: 12px; font-weight: 600;
+  }
+
+  /* The constellation itself */
+  .m1-stage {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .m1-svg { width: 600px; height: 480px; overflow: visible; }
+
+  /* ===========================================
+     MOCKUP 2 — ANALYSIS PAGE
+     =========================================== */
+  .m2 {
+    background: var(--bg);
+    padding: 0;
+  }
+  .m2-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 28px;
+    border-bottom: 1px solid var(--border);
+  }
+  .m2-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 13px; font-weight: 500;
+  }
+  .m2-logo-mark {
+    width: 24px; height: 24px;
+    background: radial-gradient(circle at 35% 30%, #fff 0%, #c4b5fd 30%, #8b5cf6 70%, #3b82f6 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+  }
+  .m2-pills { display: flex; gap: 8px; }
+  .m2-pill {
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    font-size: 11px; color: var(--text-2);
+  }
+  .m2-pill.live {
+    color: var(--green);
+    border-color: rgba(16, 185, 129, 0.3);
+  }
+  .m2-pill.live::before {
+    content: '●'; margin-right: 5px; font-size: 8px;
+  }
+
+  .m2-body { padding: 36px 36px 28px; }
+
+  .m2-bread {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--text-4);
+    margin-bottom: 14px;
+  }
+  .m2-title {
+    font-size: 36px; font-weight: 700; letter-spacing: -0.03em;
+    margin-bottom: 14px;
+  }
+  .m2-title .at {
+    font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400;
+    color: var(--text-4); margin: 0 10px;
+  }
+  .m2-title .co {
+    background: linear-gradient(120deg, #c4b5fd, #93c5fd, #67e8f9);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .m2-chips {
+    display: flex; gap: 8px; margin-bottom: 24px;
+  }
+  .m2-chip {
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--text-2);
+  }
+
+  .m2-hero {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.005));
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 22px;
+    padding: 36px 44px 32px;
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 48px; align-items: center;
+  }
+
+  .m2-tag {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 12px;
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    color: var(--amber);
+    border-radius: 999px;
+    font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.07em;
+    margin-bottom: 18px;
+  }
+  .m2-tag::before { content: '●'; font-size: 8px; }
+
+  .m2-score-block { display: flex; align-items: stretch; gap: 18px; }
+  .m2-score-bar {
+    width: 4px; border-radius: 2px;
+    background: linear-gradient(180deg, var(--amber), rgba(245,158,11,0.2));
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+  }
+  .m2-score-num {
+    font-size: 130px; font-weight: 700;
+    line-height: 0.85; letter-spacing: -0.06em;
+    background: linear-gradient(180deg, #fff 0%, #fbbf24 100%);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    font-feature-settings: 'tnum';
+  }
+  .m2-score-sub {
+    margin-top: 10px; display: flex; gap: 8px; align-items: center;
+    font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+    color: var(--text-3); text-transform: uppercase; letter-spacing: 0.07em;
+  }
+  .m2-delta {
+    color: var(--green);
+    background: rgba(16,185,129,0.1);
+    border: 1px solid rgba(16,185,129,0.2);
+    padding: 2px 6px; border-radius: 4px; font-weight: 600;
+  }
+
+  .m2-verdict {
+    font-size: 18px; font-weight: 500; letter-spacing: -0.01em;
+    line-height: 1.4; color: var(--text);
+  }
+  .m2-verdict .em {
+    font-family: 'Instrument Serif', serif; font-style: italic; color: #c4b5fd; font-weight: 400;
+  }
+
+  .m2-stats {
+    margin-top: 22px; padding-top: 22px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    display: grid; grid-template-columns: repeat(3, auto); gap: 32px;
+  }
+  .m2-stat-label {
+    font-family: 'JetBrains Mono', monospace; font-size: 9.5px;
+    color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 5px;
+  }
+  .m2-stat-val { font-size: 15px; font-weight: 600; }
+  .m2-stat-val .small { color: var(--text-3); font-size: 11.5px; font-weight: 400; margin-left: 3px; }
+
+  /* Spectrum bar + dimensions preview */
+  .m2-spectrum-block { padding: 0 44px 32px; }
+  .m2-spectrum-label {
+    display: flex; justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace; font-size: 9.5px;
+    color: var(--text-4); text-transform: uppercase; letter-spacing: 0.07em;
+    margin: 28px 0 14px;
+  }
+  .m2-spectrum {
+    height: 8px; border-radius: 4px;
+    background: linear-gradient(90deg, rgba(16,185,129,0.4), rgba(245,158,11,0.5) 55%, rgba(239,68,68,0.6));
+    position: relative;
+  }
+  .m2-spectrum-marker {
+    position: absolute; top: -7px;
+    width: 4px; height: 22px;
+    background: var(--text);
+    border-radius: 2px;
+    box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.3);
+  }
+  .m2-spectrum-marker.you { left: 52%; }
+  .m2-spectrum-marker.industry { left: 60%; background: rgba(255,255,255,0.45); box-shadow: none; }
+  .m2-spectrum-ticks {
+    display: flex; justify-content: space-between;
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    color: var(--text-4);
+  }
+
+  .m2-dim-preview {
+    margin: 28px 44px 36px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 26px;
+  }
+  .m2-dim-head {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--text-3);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 14px;
+  }
+  .m2-dim-row {
+    display: grid; grid-template-columns: 1fr 100px 50px;
+    align-items: center; gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .m2-dim-row:last-child { border: none; }
+  .m2-dim-name { font-size: 12px; }
+  .m2-dim-bar { height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
+  .m2-dim-bar-fill { height: 100%; border-radius: 2px; }
+  .m2-dim-score { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; text-align: right; }
+  .high { color: var(--red); } .high .m2-dim-bar-fill { background: var(--red); }
+  .mid  { color: var(--amber); } .mid .m2-dim-bar-fill  { background: var(--amber); }
+  .low  { color: var(--green); } .low .m2-dim-bar-fill  { background: var(--green); }
+
+  /* ===========================================
+     MOCKUP 3 — NEWS BRIEFING
+     =========================================== */
+  .m3 { background: var(--bg); }
+  .m3-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 28px; border-bottom: 1px solid var(--border);
+  }
+  .m3-back {
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    font-size: 11px; color: var(--text-2);
+  }
+  .m3-body { padding: 40px 36px 32px; }
+  .m3-eye {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 5px 10px;
+    background: rgba(16,185,129,0.08);
+    border: 1px solid rgba(16,185,129,0.2);
+    color: var(--green);
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 18px;
+  }
+  .m3-eye::before { content: '●'; font-size: 7px; }
+  .m3-title {
+    font-size: 44px; font-weight: 600; letter-spacing: -0.03em;
+    line-height: 1.05; margin-bottom: 16px;
+  }
+  .m3-title .s {
+    font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400;
+    background: linear-gradient(120deg, #c4b5fd, #93c5fd);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .m3-meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--text-3); margin-bottom: 22px;
+  }
+  .m3-syn {
+    font-size: 15.5px; color: var(--text-2); line-height: 1.6;
+    max-width: 720px; margin-bottom: 32px;
+  }
+  .m3-syn::first-letter {
+    font-family: 'Instrument Serif', serif; font-size: 50px; font-weight: 400;
+    float: left; line-height: 0.85;
+    margin-right: 6px; margin-top: 6px;
+    background: linear-gradient(180deg, #fff 0%, #c4b5fd 100%);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .m3-nav { display: flex; gap: 6px; flex-wrap: wrap; padding-bottom: 26px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .m3-cat-pill {
+    padding: 5px 11px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    font-size: 11px; color: var(--text-3);
+  }
+  .m3-cat-pill.cap { color: #c4b5fd; }
+  .m3-cat-pill.geo { color: #67e8f9; }
+  .m3-cat-pill.env { color: var(--green); }
+  .m3-cat-pill.lab { color: #6366f1; }
+  .m3-cat-pill.reg { color: var(--amber); }
+  .m3-cat-pill.psh { color: #f43f5e; }
+
+  .m3-section { margin-top: 30px; }
+  .m3-section-eye { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text-4); text-transform: uppercase; letter-spacing: 0.13em; margin-bottom: 6px; }
+  .m3-section-name { font-size: 22px; font-weight: 600; margin-bottom: 16px; letter-spacing: -0.02em; }
+  .m3-section-name .s { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+  .m3-stories { display: flex; flex-direction: column; gap: 12px; }
+  .m3-story {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+  }
+  .m3-story-meta {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+  }
+  .m3-source { color: var(--text); font-weight: 500; }
+  .m3-date { color: var(--text-3); }
+  .m3-tag {
+    margin-left: auto;
+    padding: 2px 7px; border-radius: 4px;
+    font-size: 9.5px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.07em;
+  }
+  .tag-innovation { background: rgba(139,92,246,0.12); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
+  .tag-labor { background: rgba(99,102,241,0.12); color: #818cf8; border: 1px solid rgba(99,102,241,0.3); }
+  .tag-regulation { background: rgba(245,158,11,0.12); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
+
+  .m3-headline { font-size: 18px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; margin-bottom: 12px; }
+  .m3-quote {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic; font-size: 16px;
+    line-height: 1.45; color: #c4b5fd;
+    border-left: 2px solid rgba(139, 92, 246, 0.4);
+    padding-left: 14px;
+    margin: 12px 0;
+  }
+  .m3-quote::before { content: '"'; opacity: 0.5; }
+  .m3-quote::after { content: '"'; opacity: 0.5; }
+  .m3-summary { font-size: 13px; color: var(--text-2); line-height: 1.55; }
+
+  /* SOURCES */
+  .m3-sources {
+    margin-top: 36px;
+    padding: 28px 26px;
+    background: rgba(255, 255, 255, 0.015);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+  }
+  .m3-sources-title { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+  .m3-sources-title .s { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #c4b5fd; }
+  .m3-sources-intro { font-size: 12.5px; color: var(--text-3); margin-bottom: 18px; line-height: 1.5; max-width: 700px; }
+  .tier-label {
+    display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    padding: 3px 10px; border-radius: 999px; margin-bottom: 10px;
+  }
+  .t1 { background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.3); }
+  .t2 { background: rgba(139,92,246,0.1); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
+  .src-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin-bottom: 18px; }
+  .src {
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.04);
+    border-radius: 7px;
+    font-size: 11.5px; color: var(--text-2);
+  }
+
+  /* DESIGN NOTES PANEL */
+  .design-notes {
+    margin-top: 24px;
+    padding: 24px 28px;
+    background: rgba(139, 92, 246, 0.04);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 14px;
+  }
+  .design-notes-title {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: #c4b5fd; text-transform: uppercase; letter-spacing: 0.12em;
+    margin-bottom: 14px;
+  }
+  .design-notes ul { list-style: none; padding: 0; }
+  .design-notes li {
+    padding: 7px 0;
+    color: var(--text-2); font-size: 13.5px; line-height: 1.55;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .design-notes li:last-child { border: none; }
+  .design-notes li strong { color: var(--text); font-weight: 600; }
+
+  /* FOOTER */
+  .deck-footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: var(--text-3); font-size: 12.5px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div class="deck">
+
+  <div class="deck-eyebrow">Flash draft · April 2026</div>
+  <h1 class="deck-title">Job Assessment Tool · <span class="serif">user journey</span></h1>
+  <p class="deck-sub">An AI-powered career risk analyzer for high school students. Three core surfaces — Discovery, Analysis, Verification — work together to give students an honest, sourced view of how AI is reshaping the careers they're considering.</p>
+
+  <!-- ===========================================
+       STAGE 1 — DISCOVERY
+       =========================================== -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="stage-num">01 / DISCOVERY</div>
+      <div class="stage-name">Find your <span class="serif">future</span></div>
+    </div>
+    <p class="stage-caption">A galactic map of every industry surrounds the central hub. Students search any occupation, take a 30-second matching quiz to surface careers that fit their interests, or click any node to drill in. Designed to make exploration feel inviting rather than intimidating.</p>
+
+    <div class="browser">
+      <div class="browser-bar">
+        <span class="browser-dot r"></span>
+        <span class="browser-dot y"></span>
+        <span class="browser-dot g"></span>
+        <span class="browser-url">file:///career-ai-explorer/constellation.html</span>
+      </div>
+      <div class="browser-body m1">
+        <div class="m1-header">
+          <div class="m1-logo">
+            <div class="m1-logo-mark"></div>
+            <span>Career AI Explorer<span style="color:var(--text-4); font-weight:400; margin-left:4px;">/ beta</span></span>
+          </div>
+          <div class="m1-meta">1,016 occupations · 64 industries · live data</div>
+        </div>
+        <div class="m1-intro">
+          <div class="m1-intro-eye">The Career Atlas</div>
+          <div class="m1-intro-title">Find your <span class="s">future</span></div>
+          <div class="m1-intro-sub">Search any occupation, or take the quiz</div>
+          <div class="m1-cta">Take the matching quiz · 30 seconds →</div>
+        </div>
+
+        <div class="m1-stage">
+          <svg class="m1-svg" viewBox="0 0 600 480">
+            <defs>
+              <radialGradient id="hubGrad" cx="35%" cy="30%" r="60%">
+                <stop offset="0%" stop-color="#fff"/>
+                <stop offset="35%" stop-color="#c4b5fd"/>
+                <stop offset="75%" stop-color="#8b5cf6"/>
+                <stop offset="100%" stop-color="#3b82f6"/>
+              </radialGradient>
+            </defs>
+            <!-- center hub -->
+            <circle cx="300" cy="240" r="35" fill="url(#hubGrad)" filter="drop-shadow(0 0 24px rgba(139,92,246,0.6))"/>
+            <!-- concentric rings -->
+            <circle cx="300" cy="240" r="55" fill="none" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+            <circle cx="300" cy="240" r="80" fill="none" stroke="rgba(139,92,246,0.1)" stroke-width="1" stroke-dasharray="2,4"/>
+
+            <!-- 8 industries arranged in a circle, each with mini occupation dots -->
+            <!-- Tech (top) -->
+            <g>
+              <line x1="300" y1="240" x2="300" y2="80" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="300" cy="80" r="9" fill="#8b5cf6" filter="drop-shadow(0 0 8px rgba(139,92,246,0.6))"/>
+              <text x="300" y="62" text-anchor="middle" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Tech &amp; Software</text>
+              <!-- mini occupation dots fanning outward -->
+              <g fill="#8b5cf6">
+                <circle cx="245" cy="55" r="3"/>
+                <circle cx="280" cy="35" r="3"/>
+                <circle cx="320" cy="35" r="3"/>
+                <circle cx="355" cy="55" r="3"/>
+              </g>
+            </g>
+            <!-- Healthcare (top-right) -->
+            <g>
+              <line x1="300" y1="240" x2="430" y2="125" stroke="#ef4444" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="430" cy="125" r="9" fill="#ef4444" filter="drop-shadow(0 0 8px rgba(239,68,68,0.6))"/>
+              <text x="455" y="120" text-anchor="start" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Healthcare</text>
+              <g fill="#ef4444">
+                <circle cx="465" cy="80" r="3"/>
+                <circle cx="492" cy="100" r="3"/>
+                <circle cx="498" cy="135" r="3"/>
+                <circle cx="490" cy="165" r="3"/>
+              </g>
+            </g>
+            <!-- Finance (right) -->
+            <g>
+              <line x1="300" y1="240" x2="490" y2="240" stroke="#10b981" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="490" cy="240" r="9" fill="#10b981" filter="drop-shadow(0 0 8px rgba(16,185,129,0.6))"/>
+              <text x="510" y="244" text-anchor="start" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Finance</text>
+              <g fill="#10b981">
+                <circle cx="540" cy="200" r="3"/>
+                <circle cx="555" cy="225" r="3"/>
+                <circle cx="555" cy="255" r="3"/>
+                <circle cx="540" cy="280" r="3"/>
+              </g>
+            </g>
+            <!-- Legal (bottom-right) -->
+            <g>
+              <line x1="300" y1="240" x2="430" y2="355" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="430" cy="355" r="9" fill="#f59e0b" filter="drop-shadow(0 0 8px rgba(245,158,11,0.6))"/>
+              <text x="455" y="370" text-anchor="start" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Legal</text>
+              <g fill="#f59e0b">
+                <circle cx="490" cy="320" r="3"/>
+                <circle cx="498" cy="350" r="3"/>
+                <circle cx="490" cy="385" r="3"/>
+                <circle cx="465" cy="405" r="3"/>
+              </g>
+            </g>
+            <!-- Creative (bottom) -->
+            <g>
+              <line x1="300" y1="240" x2="300" y2="400" stroke="#ec4899" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="300" cy="400" r="9" fill="#ec4899" filter="drop-shadow(0 0 8px rgba(236,72,153,0.6))"/>
+              <text x="300" y="430" text-anchor="middle" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Creative &amp; Media</text>
+              <g fill="#ec4899">
+                <circle cx="245" cy="430" r="3"/>
+                <circle cx="280" cy="448" r="3"/>
+                <circle cx="320" cy="448" r="3"/>
+                <circle cx="355" cy="430" r="3"/>
+              </g>
+            </g>
+            <!-- Trades (bottom-left) -->
+            <g>
+              <line x1="300" y1="240" x2="170" y2="355" stroke="#f97316" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="170" cy="355" r="9" fill="#f97316" filter="drop-shadow(0 0 8px rgba(249,115,22,0.6))"/>
+              <text x="145" y="370" text-anchor="end" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Trades</text>
+              <g fill="#f97316">
+                <circle cx="135" cy="405" r="3"/>
+                <circle cx="110" cy="385" r="3"/>
+                <circle cx="102" cy="350" r="3"/>
+                <circle cx="110" cy="320" r="3"/>
+              </g>
+            </g>
+            <!-- Education (left) -->
+            <g>
+              <line x1="300" y1="240" x2="110" y2="240" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="110" cy="240" r="9" fill="#06b6d4" filter="drop-shadow(0 0 8px rgba(6,182,212,0.6))"/>
+              <text x="90" y="244" text-anchor="end" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Education</text>
+              <g fill="#06b6d4">
+                <circle cx="60" cy="200" r="3"/>
+                <circle cx="45" cy="225" r="3"/>
+                <circle cx="45" cy="255" r="3"/>
+                <circle cx="60" cy="280" r="3"/>
+              </g>
+            </g>
+            <!-- Sciences (top-left) -->
+            <g>
+              <line x1="300" y1="240" x2="170" y2="125" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="0.7"/>
+              <circle cx="170" cy="125" r="9" fill="#3b82f6" filter="drop-shadow(0 0 8px rgba(59,130,246,0.6))"/>
+              <text x="145" y="120" text-anchor="end" fill="#f5f5f7" font-size="11" font-family="Inter" font-weight="500">Sciences</text>
+              <g fill="#3b82f6">
+                <circle cx="110" cy="165" r="3"/>
+                <circle cx="102" cy="135" r="3"/>
+                <circle cx="110" cy="100" r="3"/>
+                <circle cx="135" cy="80" r="3"/>
+              </g>
+            </g>
+
+            <!-- Center label -->
+            <text x="300" y="320" text-anchor="middle" fill="#a4a4b4" font-size="10" font-family="JetBrains Mono" letter-spacing="2">THE CAREER ATLAS</text>
+          </svg>
+        </div>
+
+        <div class="m1-search">
+          <span style="color: var(--text-3); font-size: 12px;">⌕</span>
+          <div class="m1-search-input">Search any occupation — try "software developer at Apple"</div>
+          <div class="m1-search-btn">Analyze →</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="design-notes">
+      <div class="design-notes-title">Design choices</div>
+      <ul>
+        <li><strong>Discovery over search</strong> — instead of a blank input box, students see a constellation of every industry. Reduces the "I don't know what to type" barrier.</li>
+        <li><strong>Color-coded by industry</strong> — eight categories, each a distinct hue. Students intuitively grasp the breadth of options.</li>
+        <li><strong>Quiz CTA pulses gently</strong> — for students who don't know where to start, four questions surface careers that match how they describe themselves.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===========================================
+       STAGE 2 — ANALYSIS
+       =========================================== -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="stage-num">02 / ANALYSIS</div>
+      <div class="stage-name">The honest <span class="serif">verdict</span></div>
+    </div>
+    <p class="stage-caption">Once a student picks an occupation (and optional company), they get a transparent 0-100 risk score with confidence band, an eight-dimension breakdown, evidence ledger, model reasoning trail, and adjacent more-resilient careers. Every claim shows its source.</p>
+
+    <div class="browser">
+      <div class="browser-bar">
+        <span class="browser-dot r"></span>
+        <span class="browser-dot y"></span>
+        <span class="browser-dot g"></span>
+        <span class="browser-url">mockup.html?occupation=Software+Developer&company=Apple</span>
+      </div>
+      <div class="browser-body m2">
+
+        <div class="m2-header">
+          <div class="m2-logo">
+            <div class="m2-logo-mark"></div>
+            <span>Career AI Explorer <span style="color: var(--text-4); font-weight: 400;">/ beta</span></span>
+          </div>
+          <div class="m2-pills">
+            <div class="m2-pill">← Back to the map</div>
+            <div class="m2-pill live">AI news briefing ↗</div>
+          </div>
+        </div>
+
+        <div class="m2-body">
+          <div class="m2-bread">analysis / occupation / software-developer / company:apple</div>
+          <div class="m2-title">Software Developer<span class="at">at</span><span class="co">Apple Inc.</span></div>
+          <div class="m2-chips">
+            <div class="m2-chip">SOC 15-1252</div>
+            <div class="m2-chip">$132,930 median</div>
+            <div class="m2-chip">+17% projected growth</div>
+            <div class="m2-chip">164,000 Apple employees</div>
+          </div>
+
+          <div class="m2-hero">
+            <div class="m2-score-block">
+              <div class="m2-score-bar"></div>
+              <div>
+                <div class="m2-score-num">52</div>
+                <div class="m2-score-sub"><span>out of 100 risk</span><span class="m2-delta">▼ 8 vs industry</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="m2-tag">Moderate risk · Company adjusted</div>
+              <div class="m2-verdict">Software development at Apple is <span class="em">more secure</span> than the industry average — but the <span class="em">role itself</span> is shifting fast. Routine coding work is being automated; platform-specific judgment and hardware integration are not.</div>
+              <div class="m2-stats">
+                <div>
+                  <div class="m2-stat-label">Confidence</div>
+                  <div class="m2-stat-val">High <span class="small">(±6)</span></div>
+                </div>
+                <div>
+                  <div class="m2-stat-label">Industry baseline</div>
+                  <div class="m2-stat-val">60 <span class="small">/100</span></div>
+                </div>
+                <div>
+                  <div class="m2-stat-label">Largest change</div>
+                  <div class="m2-stat-val">3-5 yrs <span class="small">output, not headcount</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="m2-spectrum-block">
+          <div class="m2-spectrum-label"><span>Where this role sits on the AI risk spectrum</span><span style="color: var(--text-2);">All 1,016 occupations scored</span></div>
+          <div class="m2-spectrum">
+            <div class="m2-spectrum-marker industry"></div>
+            <div class="m2-spectrum-marker you"></div>
+          </div>
+          <div class="m2-spectrum-ticks">
+            <span>0 · Safest</span><span>25</span><span>50 · Moderate</span><span>75</span><span>100 · At risk</span>
+          </div>
+        </div>
+
+        <div class="m2-dim-preview">
+          <div class="m2-dim-head">The eight dimensions · click to drill in</div>
+          <div class="m2-dim-row high">
+            <div class="m2-dim-name">Routine cognitive load</div>
+            <div class="m2-dim-bar"><div class="m2-dim-bar-fill" style="width: 85%;"></div></div>
+            <div class="m2-dim-score">8.5</div>
+          </div>
+          <div class="m2-dim-row mid">
+            <div class="m2-dim-name">Creative judgment required</div>
+            <div class="m2-dim-bar"><div class="m2-dim-bar-fill" style="width: 60%;"></div></div>
+            <div class="m2-dim-score">6.0</div>
+          </div>
+          <div class="m2-dim-row low">
+            <div class="m2-dim-name">Regulatory / licensing moat</div>
+            <div class="m2-dim-bar"><div class="m2-dim-bar-fill" style="width: 20%;"></div></div>
+            <div class="m2-dim-score">2.0</div>
+          </div>
+          <div class="m2-dim-row high">
+            <div class="m2-dim-name">Current AI capability gap</div>
+            <div class="m2-dim-bar"><div class="m2-dim-bar-fill" style="width: 75%;"></div></div>
+            <div class="m2-dim-score">7.5</div>
+          </div>
+          <div class="m2-dim-row low">
+            <div class="m2-dim-name">Physical dexterity required</div>
+            <div class="m2-dim-bar"><div class="m2-dim-bar-fill" style="width: 15%;"></div></div>
+            <div class="m2-dim-score">1.5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="design-notes">
+      <div class="design-notes-title">Design choices</div>
+      <ul>
+        <li><strong>The score is the centerpiece, but never floats alone</strong> — every analysis comes with a confidence band, a verdict in plain language, and visible context.</li>
+        <li><strong>Eight dimensions, not one</strong> — instead of "75% at risk," students see <em>why</em>: which specific traits of the job make it more or less exposed.</li>
+        <li><strong>Industry baseline + company adjustment</strong> — students see both the general industry score and how the specific company shifts it (e.g., Software Developer at Apple is 8 points safer than the industry average).</li>
+        <li><strong>Always cited</strong> — sources include O*NET (US Dept of Labor), SEC filings, and recent news from trusted outlets.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===========================================
+       STAGE 3 — VERIFICATION
+       =========================================== -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="stage-num">03 / VERIFICATION</div>
+      <div class="stage-name">Live <span class="serif">briefing</span></div>
+    </div>
+    <p class="stage-caption">A separate page shows the full AI news briefing across six categories: capability advances, geopolitics, environmental impact, workforce, regulation, and public pushback. Stories pulled live from 17 trusted RSS feeds (BBC, NYT, Bloomberg, FT, MIT Technology Review, IEEE Spectrum, etc.) — no opinion blogs, no AI-generated content. The full source list is shown at the bottom.</p>
+
+    <div class="browser">
+      <div class="browser-bar">
+        <span class="browser-dot r"></span>
+        <span class="browser-dot y"></span>
+        <span class="browser-dot g"></span>
+        <span class="browser-url">file:///career-ai-explorer/news.html</span>
+      </div>
+      <div class="browser-body m3">
+
+        <div class="m3-header">
+          <div class="m2-logo">
+            <div class="m2-logo-mark"></div>
+            <span>Career AI Explorer <span style="color: var(--text-4); font-weight: 400;">/ news</span></span>
+          </div>
+          <div class="m3-back">← Back to analysis</div>
+        </div>
+
+        <div class="m3-body">
+          <div class="m3-eye">Live · Updated 12 min ago</div>
+          <div class="m3-title">AI <span class="s">briefing</span></div>
+          <div class="m3-meta">6 categories · Last 14 days · Synthesized from trusted RSS sources</div>
+          <p class="m3-syn">OpenAI's GPT-5.5 release dominates capability advances this week, while the EU AI Act's enforcement provisions take effect for general-purpose models. New data from the BLS shows AI-related layoffs concentrated in administrative roles, even as ML engineering hires grow 28% year-over-year.</p>
+
+          <div class="m3-nav">
+            <div class="m3-cat-pill cap">Capability Advances</div>
+            <div class="m3-cat-pill geo">Geopolitics &amp; Supply Chain</div>
+            <div class="m3-cat-pill env">Environmental Impact</div>
+            <div class="m3-cat-pill lab">Workforce &amp; Labor</div>
+            <div class="m3-cat-pill reg">Regulation &amp; Policy</div>
+            <div class="m3-cat-pill psh">Public Pushback</div>
+          </div>
+
+          <div class="m3-section">
+            <div class="m3-section-eye">Section 01</div>
+            <div class="m3-section-name">Capability <span class="s">advances</span></div>
+            <div class="m3-stories">
+              <div class="m3-story">
+                <div class="m3-story-meta">
+                  <span class="m3-source">MIT Technology Review</span>
+                  <span style="color: var(--text-4);">·</span>
+                  <span class="m3-date">Apr 24, 2026</span>
+                  <span class="m3-tag tag-innovation">Innovation</span>
+                </div>
+                <div class="m3-headline">GPT-5.5 release marks first frontier model trained on synthetic-data majority</div>
+                <div class="m3-quote">For the first time, a frontier model has been trained on more synthetic than human-authored data — a shift OpenAI says was needed to overcome plateauing returns.</div>
+                <div class="m3-summary">Important for software developers and researchers: training methodologies are shifting in ways that affect what kinds of work AI can credibly do.</div>
+              </div>
+              <div class="m3-story">
+                <div class="m3-story-meta">
+                  <span class="m3-source">Bloomberg</span>
+                  <span style="color: var(--text-4);">·</span>
+                  <span class="m3-date">Apr 22, 2026</span>
+                  <span class="m3-tag tag-labor">Labor</span>
+                </div>
+                <div class="m3-headline">Big Tech AI hiring up 28% YoY even as overall headcount stays flat</div>
+                <div class="m3-summary">Apple, Google, and Microsoft all reported double-digit growth in AI/ML engineering roles in Q1, while general software-engineering openings remained roughly stable.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="m3-sources">
+            <div class="m3-sources-title">Where this <span class="s">comes from</span></div>
+            <p class="m3-sources-intro">Every story above was pulled from a verified RSS feed. The synthesis prefers Tier 1 sources (newswires, papers of record) over Tier 4 (companies talking about themselves). No social media, no opinion blogs, no AI-only content.</p>
+
+            <div class="tier-label t1">Tier 1 · Newswires &amp; papers of record</div>
+            <div class="src-grid">
+              <div class="src">BBC Technology</div>
+              <div class="src">NYT Technology</div>
+              <div class="src">The Guardian Tech</div>
+              <div class="src">Bloomberg Tech</div>
+              <div class="src">Wall Street Journal</div>
+              <div class="src">Financial Times</div>
+            </div>
+
+            <div class="tier-label t2">Tier 2 · Specialty tech / science journalism</div>
+            <div class="src-grid">
+              <div class="src">MIT Technology Review</div>
+              <div class="src">IEEE Spectrum</div>
+              <div class="src">Wired</div>
+              <div class="src">Ars Technica</div>
+              <div class="src">The Verge — AI</div>
+              <div class="src">Inside Climate News</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="design-notes">
+      <div class="design-notes-title">Design choices</div>
+      <ul>
+        <li><strong>Trust tiers, not just sources</strong> — every source is labeled by editorial standard. Students can see the difference between a news wire and a company press release.</li>
+        <li><strong>17 verified outlets only</strong> — TechCrunch, VentureBeat, Hacker News, opinion blogs, and substacks are explicitly excluded.</li>
+        <li><strong>Editorial layout, not feed-of-headlines</strong> — large typography, italic pulled quotes, real "why this matters" summaries. Designed to be read, not scrolled past.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="deck-footer">
+    Job Assessment Tool · Flash draft submission · Mockups represent the working prototype currently running on localhost
+  </div>
+
+</div>
+
+</body>
+</html>

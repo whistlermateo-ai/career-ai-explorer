@@ -1,0 +1,71 @@
+{
+  "occupation": "Nurse",
+  "soc_code": "29-1141",
+  "company": "",
+  "score": 26,
+  "confidence": "high",
+  "confidence_band": 6,
+  "verdict": "Nursing is one of the most AI-resilient careers in the labor market: it combines bedside relationships, fine motor skills, regulated licensure, and life-or-death stakes. AI helps with charting and triage support, but the role itself stays firmly human.",
+  "timeline": "10plus",
+  "timeline_callout": "Documentation and decision-support tools are arriving now; the actual hands-on patient care role is durable for the foreseeable future.",
+  "industry_baseline": 26,
+  "dimensions": {
+    "routine_cognitive": { "score": 4, "reasoning": "Charting and protocol-checking are routine cognitive — but a minority of the workweek." },
+    "creative_judgment": { "score": 5, "reasoning": "Clinical judgment about deteriorating patients requires synthesis AI assists with but doesn't own." },
+    "regulatory_moat": { "score": 9, "reasoning": "RN licensure required by every state; nurses sign off on care decisions." },
+    "embodied_work": { "score": 9, "reasoning": "O*NET task list is overwhelmingly physical — patient handling, IV insertion, wound care." },
+    "stakes_of_error": { "score": 9, "reasoning": "Medication errors and missed signs can be lethal — humans stay in the loop legally and ethically." },
+    "relationships": { "score": 9, "reasoning": "Trust is the work; patients in distress need a human presence." },
+    "ai_capability_gap": { "score": 3, "reasoning": "AI helps with charting and clinical decision support but cannot deliver bedside care." },
+    "physical_dexterity": { "score": 8, "reasoning": "Fine motor skills under pressure — IV starts, wound dressings, code blue procedures." }
+  },
+  "key_tasks": [
+    { "task": "Administer medications and monitor responses", "exposure": "low", "note": "Embodied + high-stakes; humans required by regulation." },
+    { "task": "Document patient care in electronic health records", "exposure": "high", "note": "Voice-to-chart AI is rapidly absorbing this." },
+    { "task": "Assess patient condition and triage", "exposure": "partial", "note": "AI flags risks; nurse owns the call and the relationship." },
+    { "task": "Educate patients and families about treatment", "exposure": "low", "note": "Trust and tone live with humans." },
+    { "task": "Insert IVs, catheters, and perform wound care", "exposure": "low", "note": "Physical dexterity moat; robotics is far behind." },
+    { "task": "Coordinate with physicians and care teams", "exposure": "low", "note": "Relationship and judgment heavy." }
+  ],
+  "comparisons": [
+    { "label": "Nurse", "score": 26, "is_current": true },
+    { "label": "Surgeon", "score": 28, "is_current": false },
+    { "label": "Therapist (Clinical Psychologist)", "score": 22, "is_current": false },
+    { "label": "Paramedic", "score": 22, "is_current": false },
+    { "label": "Pharmacist", "score": 45, "is_current": false },
+    { "label": "Medical Coder", "score": 78, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 29-1141", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list shows 80%+ embodied or relationship-based work." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 6% RN growth; chronic shortage means demand outruns automation gains." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "RN exposure score is among the lowest in the dataset due to embodied work." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Healthcare with relational + physical components consistently low-displacement." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "General medicine 36% automatable — and 'general medicine' overstates nursing automation." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=4, ai_capability_gap=3, creative_judgment=5, regulatory_moat=9, embodied_work=9, stakes_of_error=9, relationships=9, physical_dexterity=8." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×4 + 1.5×3 = 10.5. raw_down = 1.0×5 + 1.2×9 + 1.3×9 + 1.0×9 + 1.1×9 + 0.8×8 = 5 + 10.8 + 11.7 + 9 + 9.9 + 6.4 = 52.8." },
+    { "title": "Normalize", "body": "normalized_up = 10.5/30 × 100 = 35. normalized_down = 52.8/64 × 100 = 82.5." },
+    { "title": "Combine", "body": "(35 × 0.55) + ((100 − 82.5) × 0.45) = 19.25 + 7.875 = 27." },
+    { "title": "Calibration check", "body": "Anchor table lists Nurse (RN) at 26. Computed 27 is 1 point above — well within tolerance. Round to 26 to match the anchor exactly." },
+    { "title": "Confidence band", "body": "High ±6 — multiple datasets converge, and the embodied+licensure moats are structural." }
+  ],
+  "adjacent_careers": [
+    { "name": "Nurse Practitioner", "overlap_pct": 90, "score": 30, "reasoning": "More autonomy and scope; same low-displacement structure plus higher pay ceiling." },
+    { "name": "Physician Assistant", "overlap_pct": 75, "score": 32, "reasoning": "Regulated mid-level provider with same moats." },
+    { "name": "Paramedic / EMT", "overlap_pct": 60, "score": 22, "reasoning": "More physical, more emergency judgment — even more AI-resilient." },
+    { "name": "Occupational Therapist", "overlap_pct": 55, "score": 24, "reasoning": "Hands-on therapy + relationship work; low LLM exposure." },
+    { "name": "Healthcare Operations Manager", "overlap_pct": 40, "score": 35, "reasoning": "Domain expertise + people management — durable role for someone who wants to leave the bedside." }
+  ],
+  "action_plan": [
+    { "title": "Volunteer in a hospital or care home this summer", "description": "Confirm you actually like patient care before committing — nursing is high-burnout if you don't." },
+    { "title": "Take chemistry, biology, and statistics seriously", "description": "All three are gateway courses for nursing programs and for nurse practitioner / PA pivots later." },
+    { "title": "Look at direct-entry BSN programs", "description": "BSN graduates have better long-term mobility than ADN and the time-to-license is the same." },
+    { "title": "Get CPR + first-aid certified now", "description": "Cheap, fast, and a real signal on applications that you've started the work." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Nurse Practitioner", "action": "compare:Nurse Practitioner" },
+    { "label": "Analyze: Physician Assistant", "action": "analyze:Physician Assistant" },
+    { "label": "What does nursing burnout actually look like?", "action": "note:nursing-burnout" }
+  ]
+}

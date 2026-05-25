@@ -1,0 +1,29 @@
+{
+  "name": "career-ai-explorer-server",
+  "version": "0.1.0",
+  "description": "Backend API for the Career AI Explorer — analyzes occupations for AI displacement risk using Claude.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "gather": "node gather.js",
+    "gather:rss": "node aggregators/rss.js",
+    "gather:onet": "node aggregators/onet.js",
+    "gather:hn": "node aggregators/hn.js",
+    "gather:arxiv": "node aggregators/arxiv.js",
+    "gather:wikipedia": "node aggregators/wikipedia.js",
+    "gather:sec": "node aggregators/sec.js",
+    "gather:github": "node aggregators/github.js",
+    "gather:layoffs": "node aggregators/layoffs.js",
+    "warm": "node batch-warm.js",
+    "warm:popular": "node batch-warm.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "rss-parser": "^3.13.0"
+  }
+}

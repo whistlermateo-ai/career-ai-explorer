@@ -1,0 +1,107 @@
+{
+  "occupation": "Public Defender",
+  "soc_code": "23-1011.00",
+  "score": 26,
+  "confidence": "low",
+  "confidence_band": 15,
+  "verdict": "The occupation of Public Defender is at high risk of AI displacement, with a score of 26 indicating that 74% of tasks are likely to be automated by current or near-future AI capabilities.",
+  "timeline": [],
+  "industry_baseline": 22,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 8,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 5,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "High routine_cognitive score",
+      "body": "Tasks like interpreting laws, analyzing probable outcomes of cases, and preparing legal documents are highly routine-cognitively demanding and can be easily automated by current or near-future AI capabilities."
+    },
+    {
+      "title": "Low creative_judgment score",
+      "body": "While some creativity is required in public defense, the tasks involved are not as novel or original as those in other professions, making them less susceptible to AI displacement."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "US Dept of Labor",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Lawyer",
+      "overlap_pct": 80,
+      "score": 28,
+      "reasoning": "While some tasks may be automated, the creative judgment and relationship aspects of being a lawyer are still essential and less susceptible to AI displacement."
+    },
+    {
+      "name": "Legal Assistant",
+      "overlap_pct": 60,
+      "score": 18,
+      "reasoning": "Tasks like preparing legal documents and conducting research can be automated, but the high-stakes nature of public defense requires human judgment and decision-making."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered legal document preparation tool launched",
+      "source": "Law Firm Technology News",
+      "date_text": "2022-06-01",
+      "url": "",
+      "impact": "This new tool may automate some tasks, but it is not yet capable of replacing human judgment and decision-making in complex cases.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  }
+}

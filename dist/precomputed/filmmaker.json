@@ -1,0 +1,169 @@
+{
+  "occupation": "Filmmaker",
+  "soc_code": "",
+  "score": 82,
+  "confidence": "high",
+  "confidence_band": 7,
+  "verdict": "Moderate displacement risk. Filmmaker scores 82 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "Recent advancements in AI-generated content (2022)"
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": "Development of AI-powered editing tools (2023)"
+    }
+  ],
+  "industry_baseline": 82,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 6,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 8,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 7,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Developing story ideas and scripts",
+    "Casting actors and crew members",
+    "Coordinating shooting schedules and logistics",
+    "Editing and post-production"
+  ],
+  "comparisons": [
+    {
+      "occupation": "Screenwriter",
+      "reason": "Similar creative tasks, but with less emphasis on visual storytelling"
+    },
+    {
+      "occupation": "Editor",
+      "reason": "Post-production tasks may be automated, but human touch is still valued"
+    }
+  ],
+  "evidence_ledger": [
+    "O*NET task list for Filmmaking (US Dept of Labor)",
+    "Wikipedia summary of Filmmaking"
+  ],
+  "reasoning_steps": [
+    "While AI-generated content and editing tools are becoming more prevalent, human filmmakers still bring a unique creative vision to the table.",
+    "The regulatory moat for filmmakers is relatively weak, as there is no strict licensure or personal liability required."
+  ],
+  "adjacent_careers": [
+    {
+      "occupation": "Screenwriter",
+      "reason": "Similar creative tasks and skills"
+    },
+    {
+      "occupation": "Editor",
+      "reason": "Post-production tasks may be automated, but human touch is still valued"
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Take courses in screenwriting or film production to develop creative skills",
+      "resource": "Online courses on platforms like Udemy or Coursera"
+    },
+    {
+      "step": "Gain experience in post-production tasks through internships or volunteer work",
+      "resource": "Film festivals, industry events, and online job boards"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "question": "What are the latest trends in AI-generated content?",
+      "resource": "Industry reports and articles on platforms like The Hollywood Reporter or Variety"
+    },
+    {
+      "question": "How can I develop my skills in post-production tasks?",
+      "resource": "Online tutorials and workshops on editing software like Adobe Premiere Pro"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "creative",
+    "quotes": [
+      {
+        "quote": "I am utterly disgusted. This is an insult to life itself.",
+        "speaker": "Hayao Miyazaki",
+        "title": "Co-founder, Studio Ghibli",
+        "source": "NHK documentary 'Never-Ending Man'",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=ngZ0K3lWKRc"
+      },
+      {
+        "quote": "AI is a tool. It will not replace artists. It will replace artists who do not learn to use AI as a tool.",
+        "speaker": "Refik Anadol",
+        "title": "Media artist",
+        "source": "MoMA artist talk / public interviews",
+        "date": "2023-11",
+        "verbatim": "paraphrased",
+        "url": "https://refikanadol.com/"
+      },
+      {
+        "quote": "Generative tools collapse the cost of producing a draft to near zero. The differentiator becomes taste, judgment, and knowing what is worth making at all.",
+        "speaker": "John Maeda",
+        "title": "Designer; VP of Design and AI, Microsoft",
+        "source": "Design in Tech Report",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://designintech.report/"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
+    },
+    {
+      "headline": "Stock-image and stock-music markets compress",
+      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
+      "source": "The Verge",
+      "date_text": "2024",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source2": "WIRED",
+      "url2": "https://www.wired.com/tag/artificial-intelligence/"
+    },
+    {
+      "headline": "Provenance standards (C2PA) gain industry backing",
+      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
+      "source": "C2PA",
+      "date_text": "2024",
+      "url": "https://c2pa.org/",
+      "source2": "BBC News",
+      "url2": "https://www.bbc.com/news/technology"
+    }
+  ]
+}

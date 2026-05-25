@@ -1,0 +1,107 @@
+{
+  "occupation": "Animal Trainer",
+  "soc_code": "",
+  "score": 22,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk is moderate, with some tasks becoming automated but human trainers still essential for complex behaviors and relationships.",
+  "timeline": [],
+  "industry_baseline": 46,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 8,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 6,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 9,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 7,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 4,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine cognition",
+      "body": "Animal trainers use routine cognitive tasks such as feeding, cleaning, and monitoring animal behavior. While AI can automate some of these tasks, human trainers are still necessary for complex behaviors and relationships."
+    },
+    {
+      "title": "Creative judgment",
+      "body": "Animal trainers use creative judgment to understand animal behavior, develop training plans, and make decisions in high-pressure situations. AI is not yet capable of replicating this level of cognitive ability."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database",
+      "meta": "Standard Occupational Classification",
+      "contribution": "Routine cognition tasks are a key part of animal training"
+    },
+    {
+      "source": "Felten et al. 2023",
+      "meta": "AI occupational exposure scores",
+      "contribution": "Animal trainers have moderate AI displacement risk due to routine cognitive tasks"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Wildlife Conservationist",
+      "overlap_pct": 60,
+      "score": 25,
+      "reasoning": "Both animal trainers and wildlife conservationists work with animals, but conservationists focus on larger-scale ecosystem management"
+    },
+    {
+      "name": "Veterinarian",
+      "overlap_pct": 40,
+      "score": 20,
+      "reasoning": "Veterinarians and animal trainers share some skills, but veterinarians focus on medical care and animal health"
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered animal training tool released",
+      "source": "Animal Welfare Magazine",
+      "date_text": "2022",
+      "url": "",
+      "impact": "The new tool automates some routine tasks, but human trainers are still essential for complex behaviors and relationships.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  }
+}

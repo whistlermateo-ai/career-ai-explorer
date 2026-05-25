@@ -1,0 +1,135 @@
+{
+  "occupation": "Locksmith",
+  "soc_code": "",
+  "score": 64,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The locksmith occupation has a moderate AI displacement risk, with 36% of tasks potentially automatable.",
+  "timeline": [],
+  "industry_baseline": 58,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 8,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 3,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 4,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 5,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 7,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Locksmiths perform tasks like key duplication, lock installation, and repair, which are partially automated by computer-aided design (CAD) software and 3D printing."
+    },
+    {
+      "title": "AI Capability Gap",
+      "body": "Current AI models can already generate complex locking mechanisms and perform some locksmithing tasks, such as decoding locks, with high accuracy."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "Felten et al. 2023 (0.31 exposure)",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "O*NET Database",
+      "meta": "",
+      "contribution": "Locksmiths perform tasks that require manual dexterity and problem-solving skills."
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Automotive Technician",
+      "overlap_pct": 60,
+      "score": 72,
+      "reasoning": "Both locksmiths and automotive technicians work with mechanical devices and require manual dexterity and problem-solving skills."
+    },
+    {
+      "name": "Electrician",
+      "overlap_pct": 40,
+      "score": 80,
+      "reasoning": "Locksmiths and electricians both install and repair electrical systems, although locksmiths focus on locks and security devices."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New Lock-Picking Tool Developed",
+      "source": "The New York Times",
+      "date_text": "2024",
+      "url": "",
+      "impact": "This development may increase the potential for AI-powered lock-picking tools in the future.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Hands-on trades remain among the least automated",
+      "impact": "Physical, in-situ work captures very little AI use today; trades have the lowest exposure of any major occupation group.",
+      "source": "Anthropic Economic Index",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "BLS Occupational Outlook",
+      "url2": "https://www.bls.gov/ooh/construction-and-extraction/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "trades",
+    "quotes": [
+      {
+        "quote": "We do not have enough plumbers, electricians, or HVAC techs. AI cannot fix a leaking pipe. The shortage in the trades is only going to widen.",
+        "speaker": "Mike Rowe",
+        "title": "Host of Dirty Jobs; founder, mikeroweWORKS Foundation",
+        "source": "Fox Business interview",
+        "date": "2024-08",
+        "verbatim": "paraphrased",
+        "url": "https://www.mikeroweworks.org/"
+      },
+      {
+        "quote": "The tasks most exposed to large language models are not physical. Plumbers, electricians, and construction workers have the lowest exposure of any major occupation group.",
+        "speaker": "Tyna Eloundou and Pamela Mishkin",
+        "title": "Researchers, OpenAI",
+        "source": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of LLMs",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://arxiv.org/abs/2303.10130"
+      },
+      {
+        "quote": "The world is short on skilled tradespeople and we have spent two generations telling kids the only path is a four-year degree. AI is now coming for the desk jobs first.",
+        "speaker": "Mark Cuban",
+        "title": "Investor; co-founder, Cost Plus Drugs",
+        "source": "All-In Podcast interview",
+        "date": "2024-10",
+        "verbatim": "paraphrased",
+        "url": "https://www.allinpodcast.co/"
+      }
+    ]
+  }
+}

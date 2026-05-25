@@ -1,0 +1,139 @@
+{
+  "occupation": "Animator",
+  "soc_code": "27-1014.00",
+  "score": 68,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for animators is moderate, with some tasks being automated by computer software and hand drawing techniques.",
+  "timeline": [],
+  "industry_baseline": 58,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive tasks",
+      "body": "Tasks like designing complex graphics and animation, creating two-dimensional and three-dimensional images, and making objects appear lifelike can be automated by computer software."
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "While some creative judgment is required in animation, many tasks involve repetitive and formulaic work that can be automated."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "There is no strict licensure or personal legal liability for animators, but the field requires a high level of artistic skill and creativity."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "Task list for SOC 27-1014.00",
+      "contribution": "Provided task list for analysis"
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "Summary of animator role",
+      "contribution": "Provided context on the animator role and its relation to filmmaking"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Graphic Designer",
+      "overlap_pct": 60,
+      "score": 70,
+      "reasoning": "Both animators and graphic designers create visual content, but animators focus on motion and storytelling."
+    },
+    {
+      "name": "Film Editor",
+      "overlap_pct": 50,
+      "score": 65,
+      "reasoning": "While film editors work with animation, their primary focus is on editing footage to create a cohesive narrative."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New software for animation development",
+      "source": "Animation Magazine",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This new software can automate some tasks in the animation process, but human creativity and judgment are still essential.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "creative",
+    "quotes": [
+      {
+        "quote": "I am utterly disgusted. This is an insult to life itself.",
+        "speaker": "Hayao Miyazaki",
+        "title": "Co-founder, Studio Ghibli",
+        "source": "NHK documentary 'Never-Ending Man'",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=ngZ0K3lWKRc"
+      },
+      {
+        "quote": "AI is a tool. It will not replace artists. It will replace artists who do not learn to use AI as a tool.",
+        "speaker": "Refik Anadol",
+        "title": "Media artist",
+        "source": "MoMA artist talk / public interviews",
+        "date": "2023-11",
+        "verbatim": "paraphrased",
+        "url": "https://refikanadol.com/"
+      },
+      {
+        "quote": "Generative tools collapse the cost of producing a draft to near zero. The differentiator becomes taste, judgment, and knowing what is worth making at all.",
+        "speaker": "John Maeda",
+        "title": "Designer; VP of Design and AI, Microsoft",
+        "source": "Design in Tech Report",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://designintech.report/"
+      }
+    ]
+  }
+}

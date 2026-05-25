@@ -1,0 +1,184 @@
+{
+  "occupation": "Veterinarian",
+  "soc_code": "29-1131.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 20,
+  "verdict": "Moderate displacement risk. Veterinarian scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "AI-powered diagnostic tools become widely available for veterinary use"
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": "Veterinary schools begin incorporating AI and machine learning into curricula"
+    }
+  ],
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Treat sick or injured animals by prescribing medication, setting bones, dressing wounds, or performing surgery.",
+    "Examine animals to detect and determine the nature of diseases or injuries.",
+    "Operate diagnostic equipment, such as radiographic or ultrasound equipment, and interpret the resulting images."
+  ],
+  "comparisons": [
+    {
+      "name": "Dentist",
+      "description": "Similar tasks in dentistry with a stronger emphasis on physical dexterity"
+    },
+    {
+      "name": "Surgeon",
+      "description": "Similar tasks in surgery with a stronger emphasis on physical dexterity and regulatory moat"
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "task": "Treat sick or injured animals by prescribing medication, setting bones, dressing wounds, or performing surgery."
+    },
+    {
+      "source": "Wikipedia",
+      "task": "Examine animals to detect and determine the nature of diseases or injuries."
+    },
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "task": "Operate diagnostic equipment, such as radiographic or ultrasound equipment, and interpret the resulting images."
+    }
+  ],
+  "reasoning_steps": [
+    {
+      "description": "Veterinarians perform tasks that are highly routine and pattern-matching (e.g., treating sick animals), but also require creative judgment and physical dexterity.",
+      "impact": "AI can automate some tasks, but not all"
+    },
+    {
+      "description": "The regulatory moat for veterinarians is relatively weak compared to other professions (e.g., dentistry, surgery).",
+      "impact": "More susceptible to AI displacement"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Dentist",
+      "description": "Similar tasks in dentistry with a stronger emphasis on physical dexterity"
+    },
+    {
+      "name": "Surgeon",
+      "description": "Similar tasks in surgery with a stronger emphasis on physical dexterity and regulatory moat"
+    }
+  ],
+  "action_plan": [
+    {
+      "description": "Pursue additional education or training in AI and machine learning for veterinary applications.",
+      "impact": "Develop skills to work with AI-assisted diagnosis tools"
+    },
+    {
+      "description": "Explore opportunities to work with AI-powered diagnostic tools and develop expertise in their application.",
+      "impact": "Stay competitive in the job market"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "name": "Research AI-powered diagnostic tools for veterinary applications",
+      "description": "Understand the current state of AI technology in veterinary medicine"
+    },
+    {
+      "name": "Network with professionals in the field to learn about their experiences with AI and machine learning.",
+      "description": "Gain insights into the impact of AI on the profession"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    },
+    {
+      "headline": "Hospitals deploy ambient AI scribes at scale",
+      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
+      "source": "JAMA",
+      "date_text": "2024",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
+      "source2": "NEJM Catalyst",
+      "url2": "https://catalyst.nejm.org/"
+    },
+    {
+      "headline": "Drug discovery accelerates with foundation models",
+      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/d41586-023-03172-6",
+      "source2": "Science",
+      "url2": "https://www.science.org/topic/artificial-intelligence"
+    }
+  ]
+}

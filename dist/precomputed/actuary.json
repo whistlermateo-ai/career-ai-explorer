@@ -1,0 +1,171 @@
+{
+  "occupation": "Actuary",
+  "soc_code": "15-2011.00",
+  "score": 80,
+  "confidence": "low",
+  "confidence_band": 5,
+  "verdict": "Moderate displacement risk. Actuary scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "AI capability gap: Actuaries' primary role involves analyzing statistical data and forecasting risks. Current LLMs excel at structured extraction but lack the nuance required for actuarial tasks."
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": "Routine cognition: Actuaries rely heavily on mathematical skills, which are still challenging for current LLMs to replicate."
+    }
+  ],
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 2,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 1,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 0,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Ascertain premium rates required and cash reserves and liabilities necessary to ensure payment of future benefits.",
+    "Design, review, and help administer insurance, annuity and pension plans, determining financial soundness and calculating premiums."
+  ],
+  "comparisons": [
+    {
+      "occupation": "Statistician",
+      "score": 60
+    },
+    {
+      "occupation": "Data Scientist",
+      "score": 70
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3"
+    },
+    {
+      "source": "Wikipedia"
+    }
+  ],
+  "reasoning_steps": [
+    "The actuary's role involves complex mathematical tasks that are challenging for current LLMs to replicate.",
+    "However, the AI capability gap is significant due to the importance of forecasting risks and analyzing statistical data."
+  ],
+  "adjacent_careers": [
+    {
+      "occupation": "Statistician",
+      "score": 60
+    },
+    {
+      "occupation": "Data Scientist",
+      "score": 70
+    }
+  ],
+  "action_plan": [
+    {
+      "description": "Take courses in advanced mathematical skills to enhance employability.",
+      "type": "Education"
+    },
+    {
+      "description": "Gain experience in data analysis and statistical modeling to complement actuarial skills.",
+      "type": "Experience"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "question": "What are the key differences between actuarial science and related fields like statistics and data science?",
+      "answer": "Actuarial science focuses on risk management and financial security, whereas statistics and data science focus on data analysis and interpretation."
+    },
+    {
+      "question": "How can I develop my skills in advanced mathematical modeling to become more competitive in the actuarial job market?",
+      "answer": "Take courses in advanced mathematical skills, such as calculus and probability theory, and practice applying these skills to real-world problems."
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "finance",
+    "quotes": [
+      {
+        "quote": "AI is going to change every job. Every single job. Some jobs it will eliminate, some jobs it will improve, and some jobs it will create.",
+        "speaker": "Jamie Dimon",
+        "title": "CEO, JPMorgan Chase",
+        "source": "Annual letter to shareholders",
+        "date": "2024-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.jpmorganchase.com/ir/annual-report"
+      },
+      {
+        "quote": "Two-thirds of jobs in the United States and Europe are exposed to some degree of AI automation, and roughly a quarter of current work could be done by generative AI.",
+        "speaker": "Joseph Briggs and Devesh Kodnani",
+        "title": "Economists, Goldman Sachs Research",
+        "source": "Goldman Sachs report: The Potentially Large Effects of AI on Economic Growth",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      },
+      {
+        "quote": "Generative AI could add the equivalent of 2.6 to 4.4 trillion dollars in value annually across the global economy. Banking, high-tech, and life sciences capture the largest share.",
+        "speaker": "McKinsey Global Institute",
+        "title": "Research report",
+        "source": "The Economic Potential of Generative AI",
+        "date": "2023-06",
+        "verbatim": "paraphrased",
+        "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
+    },
+    {
+      "headline": "Audit automation hits routine reconciliation work",
+      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
+      "source": "WSJ",
+      "date_text": "2024",
+      "url": "https://www.wsj.com/tech/ai",
+      "source2": "Journal of Accountancy",
+      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
+    },
+    {
+      "headline": "Robo-advice AUM continues climbing",
+      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
+      "source": "OECD",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/finance/financial-markets/",
+      "source2": "SEC Investor Bulletin",
+      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
+    }
+  ]
+}

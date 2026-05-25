@@ -1,0 +1,172 @@
+{
+  "occupation": "Accountant",
+  "soc_code": "13-2011.00",
+  "score": 80,
+  "confidence": "high",
+  "confidence_band": 5,
+  "verdict": "High displacement risk. Accountant scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "AI-powered accounting software becomes widely available"
+    }
+  ],
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 10,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 8,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Prepare detailed reports on audit findings",
+    "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions"
+  ],
+  "comparisons": [
+    {
+      "occupation": "Bookkeeper",
+      "score": 85,
+      "reasoning": "Both roles involve financial data analysis, but bookkeepers focus on day-to-day transactions, while accountants prepare financial statements and advise management"
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "description": "Examine, analyze, and interpret accounting records to prepare financial statements, give advice, or audit and evaluate statements prepared by others."
+    },
+    {
+      "source": "US Dept of Labor",
+      "description": "Install or advise on systems of recording costs or other financial and budgetary data."
+    }
+  ],
+  "reasoning_steps": [
+    {
+      "step": "Routine cognitive tasks (tasks 1, 4, 10) are highly automatable by AI-powered accounting software.",
+      "rationale": "These tasks involve analyzing and interpreting financial data, which is a routine cognitive task that can be performed by AI."
+    },
+    {
+      "step": "Creative judgment tasks (task 3) are less automatable, as they require human expertise and decision-making.",
+      "rationale": "While AI can analyze data, it lacks the creative judgment and decision-making skills required in this task."
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "occupation": "Bookkeeper",
+      "reasoning": "Both roles involve financial data analysis, but bookkeepers focus on day-to-day transactions, while accountants prepare financial statements and advise management"
+    },
+    {
+      "occupation": "Auditor",
+      "reasoning": "Accountants often work with auditors to ensure the accuracy and completeness of financial statements."
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Take courses in data analysis and financial modeling to develop skills that are less automatable by AI.",
+      "reasoning": "By developing these skills, accountants can remain relevant in the job market despite increased automation."
+    },
+    {
+      "step": "Consider transitioning to a role that focuses on advisory services, such as tax planning or financial planning.",
+      "reasoning": "These roles require human expertise and decision-making, making them less automatable by AI."
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "suggestion": "Research the impact of AI-powered accounting software on the job market for accountants",
+      "reasoning": "This will help accountants understand the potential consequences of automation and make informed decisions about their career paths."
+    },
+    {
+      "suggestion": "Explore opportunities to develop skills that are less automatable by AI, such as data analysis and financial modeling",
+      "reasoning": "By developing these skills, accountants can remain relevant in the job market despite increased automation."
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "finance",
+    "quotes": [
+      {
+        "quote": "AI is going to change every job. Every single job. Some jobs it will eliminate, some jobs it will improve, and some jobs it will create.",
+        "speaker": "Jamie Dimon",
+        "title": "CEO, JPMorgan Chase",
+        "source": "Annual letter to shareholders",
+        "date": "2024-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.jpmorganchase.com/ir/annual-report"
+      },
+      {
+        "quote": "Two-thirds of jobs in the United States and Europe are exposed to some degree of AI automation, and roughly a quarter of current work could be done by generative AI.",
+        "speaker": "Joseph Briggs and Devesh Kodnani",
+        "title": "Economists, Goldman Sachs Research",
+        "source": "Goldman Sachs report: The Potentially Large Effects of AI on Economic Growth",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      },
+      {
+        "quote": "Generative AI could add the equivalent of 2.6 to 4.4 trillion dollars in value annually across the global economy. Banking, high-tech, and life sciences capture the largest share.",
+        "speaker": "McKinsey Global Institute",
+        "title": "Research report",
+        "source": "The Economic Potential of Generative AI",
+        "date": "2023-06",
+        "verbatim": "paraphrased",
+        "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "Banks roll out AI copilots to analysts and traders",
+      "impact": "JPMorgan, Morgan Stanley, and Goldman now offer LLM tools to thousands of frontline staff.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Bloomberg",
+      "url2": "https://www.bloomberg.com/technology/ai"
+    },
+    {
+      "headline": "Audit automation hits routine reconciliation work",
+      "impact": "Big-Four firms report AI handling first-pass review on a growing share of engagements.",
+      "source": "WSJ",
+      "date_text": "2024",
+      "url": "https://www.wsj.com/tech/ai",
+      "source2": "Journal of Accountancy",
+      "url2": "https://www.journalofaccountancy.com/topics/technology.html"
+    },
+    {
+      "headline": "Robo-advice AUM continues climbing",
+      "impact": "Algorithmic platforms now manage over $1 trillion globally, pressuring entry-level advisory roles.",
+      "source": "OECD",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/finance/financial-markets/",
+      "source2": "SEC Investor Bulletin",
+      "url2": "https://www.sec.gov/investor/alerts/ib_robo-advisers.pdf"
+    }
+  ]
+}

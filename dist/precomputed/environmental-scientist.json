@@ -1,0 +1,143 @@
+{
+  "occupation": "Environmental Scientist",
+  "soc_code": "19-2041.00",
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for Environmental Scientists is moderate, with some tasks being highly automatable.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "High routine_cognitive tasks",
+      "body": "Tasks like collecting, synthesizing, and analyzing environmental data are highly automatable with current LLMs."
+    },
+    {
+      "title": "Strong regulatory_moat",
+      "body": "Environmental scientists often work under strict regulations and guidelines, providing a protective moat against AI displacement."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "Task list for Environmental Scientists",
+      "contribution": "Highly automatable tasks like data collection and analysis"
+    },
+    {
+      "source": "Felten et al. 2023",
+      "meta": "Exposure to AI in environmental science",
+      "contribution": "Some tasks are highly exposed to AI, but the overall field is not as heavily automated"
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Environmental Technologist",
+      "overlap_pct": 80,
+      "score": 75,
+      "reasoning": "Similar tasks and skills, but with less emphasis on data analysis and more on technical guidance"
+    },
+    {
+      "name": "Sustainability Specialist",
+      "overlap_pct": 70,
+      "score": 60,
+      "reasoning": "Overlapping skills in environmental science and sustainability, but with different focus areas"
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered tool for environmental monitoring",
+      "source": "Scientific American",
+      "date_text": "2022",
+      "url": "",
+      "impact": "Raises risk of automation in data collection and analysis tasks",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Environmental scientists develop new strategies for climate change mitigation",
+      "source": "Nature",
+      "date_text": "2022",
+      "url": "",
+      "impact": "Neutral, as it highlights the importance of human expertise in environmental science",
+      "direction": "neutral"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

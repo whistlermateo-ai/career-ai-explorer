@@ -1,0 +1,126 @@
+{
+  "occupation": "Lawyer",
+  "soc_code": "23-1011.00",
+  "score": 48,
+  "confidence": "low",
+  "confidence_band": 6,
+  "verdict": "High. Lawyer scores 48 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "2025-2030",
+      "description": "AI-assisted document review and drafting become more prevalent"
+    }
+  ],
+  "timeline_callout": "AI-assisted tools may increasingly automate routine tasks, but human judgment and expertise remain essential for complex cases",
+  "industry_baseline": 48,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Interpret laws, rulings and regulations",
+    "Represent clients in court or before government agencies",
+    "Prepare, draft, and review legal documents"
+  ],
+  "comparisons": [],
+  "evidence_ledger": [],
+  "reasoning_steps": [
+    "The high score is due to the significant regulatory moat and physical dexterity required for this occupation.",
+    "While AI can assist with document review, human judgment and expertise are essential for complex cases."
+  ],
+  "adjacent_careers": [],
+  "action_plan": [],
+  "follow_up_suggestions": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "legal",
+    "quotes": [
+      {
+        "quote": "Lawyers who use AI will replace lawyers who do not. The profession is not going away, but the structure of how legal work gets done is going to change in a very significant way.",
+        "speaker": "Richard Susskind",
+        "title": "Author, Tomorrow's Lawyers; technology adviser to the Lord Chief Justice of England",
+        "source": "Tomorrow's Lawyers (3rd ed.) / public talks",
+        "date": "2023-09",
+        "verbatim": "paraphrased",
+        "url": "https://www.susskind.com/"
+      },
+      {
+        "quote": "Document review, due diligence, and first-draft contract work are the parts of legal practice most exposed. Counseling and courtroom judgment are the most insulated.",
+        "speaker": "Daniel Susskind",
+        "title": "Author, A World Without Work; Oxford economist",
+        "source": "Financial Times interview",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.danielsusskind.com/"
+      },
+      {
+        "quote": "We expect roughly 44 percent of legal work tasks to be automatable by current LLMs. That does not mean 44 percent fewer lawyers — it means restructured firms.",
+        "speaker": "Goldman Sachs Research",
+        "title": "Economic research note",
+        "source": "Goldman Sachs: AI Exposure of Occupations",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "AI contract review reaches enterprise adoption",
+      "impact": "Top-100 law firms report cutting document review hours by 60–80% on standard agreements.",
+      "source": "Thomson Reuters",
+      "date_text": "2024",
+      "url": "https://www.thomsonreuters.com/en/artificial-intelligence/generative-ai-in-legal.html",
+      "source2": "Stanford CodeX",
+      "url2": "https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/"
+    },
+    {
+      "headline": "Courts publish guidance on AI in filings",
+      "impact": "Multiple jurisdictions now require disclosure when AI assists in drafting legal documents.",
+      "source": "ABA Journal",
+      "date_text": "2024",
+      "url": "https://www.abajournal.com/topic/artificial-intelligence",
+      "source2": "Reuters Legal",
+      "url2": "https://www.reuters.com/legal/"
+    },
+    {
+      "headline": "Paralegal job postings shift toward AI oversight",
+      "impact": "New listings emphasize prompt review, citation verification, and AI output audit skills.",
+      "source": "LinkedIn Economic Graph",
+      "date_text": "2024",
+      "url": "https://economicgraph.linkedin.com/",
+      "source2": "BLS Occupational Outlook",
+      "url2": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+    }
+  ]
+}

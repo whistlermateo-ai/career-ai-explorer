@@ -1,0 +1,135 @@
+{
+  "occupation": "Doctor",
+  "soc_code": "",
+  "score": 28,
+  "confidence": "high",
+  "confidence_band": 0,
+  "verdict": "Moderate risk of AI displacement, but human judgment and empathy are essential for patient care.",
+  "timeline": [],
+  "industry_baseline": 28,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 3,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 4,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 8,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Increasing automation in administrative tasks",
+      "body": "AI can already perform routine administrative tasks, such as scheduling appointments and processing medical records."
+    },
+    {
+      "title": "Limited AI capability gap for complex decision-making",
+      "body": "While AI has made significant progress in medical diagnosis, human doctors are still necessary for complex decision-making and nuanced clinical judgment."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database (Standard Occupational Classification)",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Felten et al. 2023",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Physician Assistant",
+      "overlap_pct": 80,
+      "score": 25,
+      "reasoning": "Physician assistants work under the supervision of doctors and can perform routine tasks, but human judgment is still essential for complex decision-making."
+    },
+    {
+      "name": "Nurse Practitioner",
+      "overlap_pct": 70,
+      "score": 22,
+      "reasoning": "Nurse practitioners can provide primary care services, but human doctors are necessary for more complex cases and nuanced clinical judgment."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "AI-assisted diagnosis gains traction in medical field",
+      "source": "Healthcare IT News",
+      "date_text": "2024",
+      "url": "",
+      "impact": "AI-assisted diagnosis is becoming more prevalent, but human doctors are still necessary for complex decision-making.",
+      "direction": "neutral"
+    },
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  }
+}

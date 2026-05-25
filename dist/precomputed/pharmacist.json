@@ -1,0 +1,170 @@
+{
+  "occupation": "Pharmacist",
+  "soc_code": "29-1051.00",
+  "score": 80,
+  "confidence": "low",
+  "confidence_band": 5,
+  "verdict": "Moderate displacement risk. Pharmacist scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    }
+  ],
+  "timeline_callout": "Early adoption of AI in pharmacy management may start as early as 2025. By 2027, AI-powered pharmacy management systems could become more prevalent.",
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Review prescriptions to assure accuracy, to ascertain the needed ingredients, and to evaluate their suitability.",
+    "Assess the identity, strength, or purity of medications.",
+    "Provide information and advice regarding drug interactions, side effects, dosage, and proper medication storage."
+  ],
+  "comparisons": [],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "task": "Review prescriptions to assure accuracy, to ascertain the needed ingredients, and to evaluate their suitability."
+    },
+    {
+      "source": "Wikipedia",
+      "task": "Assess the identity, strength, or purity of medications."
+    },
+    {
+      "source": "Wikipedia",
+      "task": "Provide information and advice regarding drug interactions, side effects, dosage, and proper medication storage."
+    }
+  ],
+  "reasoning_steps": [
+    "The pharmacist's role involves tasks that are primarily routine-cognitive (9/10), such as reviewing prescriptions and assessing medication purity. However, the increasing adoption of AI-powered pharmacy management systems may lead to a moderate displacement risk (80/100).",
+    "While the regulatory moat is relatively weak (2/10), the pharmacist's role requires strong relationships with patients and healthcare professionals, which may be less affected by AI displacement."
+  ],
+  "adjacent_careers": [
+    {
+      "career": "Pharmacy Technician",
+      "description": "Assist pharmacists with tasks such as filling prescriptions and processing payments."
+    },
+    {
+      "career": "Clinical Research Coordinator",
+      "description": "Coordinate clinical trials and collect data on patient outcomes."
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Research AI-powered pharmacy management systems and their potential impact on the pharmacist's role.",
+      "action": "Take an online course or attend a workshop to learn more about AI in pharmacy management."
+    },
+    {
+      "step": "Network with pharmacists and healthcare professionals to understand their experiences with AI adoption.",
+      "action": "Attend industry conferences or join professional organizations to connect with others in the field."
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "suggestion": "Explore the role of AI in clinical trials and patient outcomes.",
+      "resource": "National Institutes of Health (NIH) - Clinical Trials"
+    },
+    {
+      "suggestion": "Research the impact of AI on pharmacy staffing and workforce development.",
+      "resource": "American Pharmacists Association (APhA) - Workforce Development"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    },
+    {
+      "headline": "Hospitals deploy ambient AI scribes at scale",
+      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
+      "source": "JAMA",
+      "date_text": "2024",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
+      "source2": "NEJM Catalyst",
+      "url2": "https://catalyst.nejm.org/"
+    },
+    {
+      "headline": "Drug discovery accelerates with foundation models",
+      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/d41586-023-03172-6",
+      "source2": "Science",
+      "url2": "https://www.science.org/topic/artificial-intelligence"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Local cache (each computer has its own)
+server/cache/
+
+# Local config / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+scripts/logs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code working state
+.claude/
+
+# Electron build output
+dist-app/
+
+# Build / scratch
+dist/build/
+*.zip
+*.tar.gz
+
+# Working transcript scratch (developer-only doc — not part of the deliverable)
+UPDATE-WORKFLOW.md
+
+# Legacy exploration files (kept locally for reference, not shipped publicly)
+OVERNIGHT_BUILD_SUMMARY.md
+TRANSCRIPT.md
+entry-mockup-a.html
+entry-mockup-c.html
+presentation.html
+ui-directions.html
+electron-main.js

@@ -1,0 +1,107 @@
+{
+  "occupation": "Hydrologist",
+  "soc_code": "19-2031",
+  "score": 64,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "Moderate risk of AI displacement, but some tasks may be automated",
+  "timeline": [],
+  "industry_baseline": 62,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 8,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 4,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 6,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 2,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine cognition",
+      "body": "Hydrologists perform tasks like data analysis, mapping, and modeling, which are increasingly automated by AI tools"
+    },
+    {
+      "title": "AI capability gap",
+      "body": "Current AI models can already analyze large datasets, predict water quality, and identify potential contaminants, but human judgment is still required for complex decisions"
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database (Standard Occupational Classification)",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Felten et al. 2023 — AI Occupational Exposure scores",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Environmental Scientist",
+      "overlap_pct": 80,
+      "score": 70,
+      "reasoning": "Both hydrologists and environmental scientists work with data to understand and mitigate the impact of human activities on the environment"
+    },
+    {
+      "name": "Water Resources Engineer",
+      "overlap_pct": 90,
+      "score": 75,
+      "reasoning": "Hydrologists and water resources engineers often collaborate on projects involving water management and infrastructure development"
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI model improves water quality prediction accuracy",
+      "source": "Science Magazine",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This development may lead to increased automation of tasks like data analysis and modeling in hydrology",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  }
+}

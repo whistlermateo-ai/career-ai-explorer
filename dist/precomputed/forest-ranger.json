@@ -1,0 +1,146 @@
+{
+  "occupation": "Forest Ranger",
+  "soc_code": "",
+  "score": 42,
+  "confidence": "low",
+  "confidence_band": 10,
+  "verdict": "High. Forest Ranger scores 42 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    }
+  ],
+  "industry_baseline": 42,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 5,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 5,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 5,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 5,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 5,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 5,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    {
+      "title": "Task Analysis",
+      "body": "task analysis, report writing, problem framing, citation extraction"
+    }
+  ],
+  "comparisons": [],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Felten et al. 2023",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "BLS Occupational Outlook Handbook",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "reasoning_steps": [
+    {
+      "title": "Task Analysis",
+      "body": "Routine_cognitive tasks are heavily automated, leaving room for human judgment and problem-solving."
+    },
+    {
+      "title": "Regulatory Environment",
+      "body": "The lack of licensure requirements means that Forest Rangers can operate with minimal regulatory oversight."
+    }
+  ],
+  "adjacent_careers": [],
+  "action_plan": [
+    {
+      "title": "Take a course in environmental science or conservation biology",
+      "body": "Gain knowledge on ecosystem management and conservation practices"
+    },
+    {
+      "title": "Volunteer for conservation projects",
+      "body": "Gain practical experience in forest management and conservation"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "title": "Research the impact of AI on forestry and conservation efforts",
+      "body": "Explore how AI can be used to support forest management and conservation"
+    },
+    {
+      "title": "Network with professionals in the field",
+      "body": "Learn about best practices and new developments in forestry and conservation"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  },
+  "recent_developments": [
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    },
+    {
+      "headline": "OECD: about 60% of jobs in advanced economies are exposed to AI",
+      "impact": "Exposure does not mean replacement — most exposed roles are expected to be transformed rather than eliminated.",
+      "source": "OECD Employment Outlook",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm",
+      "source2": "Goldman Sachs Research",
+      "url2": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+    },
+    {
+      "headline": "Labor market shifts toward AI-complementary skills",
+      "impact": "Postings increasingly ask for judgment, verification, and direction of AI tools — not just task execution.",
+      "source": "LinkedIn Economic Graph",
+      "date_text": "2024",
+      "url": "https://economicgraph.linkedin.com/",
+      "source2": "WEF Future of Jobs Report 2025",
+      "url2": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+    }
+  ]
+}

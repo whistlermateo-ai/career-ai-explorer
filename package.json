@@ -1,0 +1,48 @@
+{
+  "name": "career-ai-explorer-app",
+  "version": "0.1.0",
+  "description": "Career AI Explorer — desktop app",
+  "author": "Mateo Telfer",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "app": "electron .",
+    "build:mac": "electron-builder --mac --arm64 --x64 --dir",
+    "build:dmg": "electron-builder --mac --arm64 --x64 dmg",
+    "postinstall": "cd server && npm install",
+    "daemon:install": "bash scripts/install-daemon.sh",
+    "daemon:uninstall": "bash scripts/uninstall-daemon.sh",
+    "daemon:status": "bash scripts/status.sh",
+    "update": "pkill -f 'Career AI Explorer' || true; rm -rf dist-app && npm run build:mac && rm -rf '/Applications/Career AI Explorer.app' && cp -R 'dist-app/mac-arm64/Career AI Explorer.app' /Applications/ && xattr -dr com.apple.quarantine '/Applications/Career AI Explorer.app' && open '/Applications/Career AI Explorer.app' && echo '✓ App updated and relaunched'"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.mateotelfer.careeraiexplorer",
+    "productName": "Career AI Explorer",
+    "directories": {
+      "output": "dist-app"
+    },
+    "files": [
+      "electron/**",
+      "*.html",
+      "server/**",
+      "package.json",
+      "!server/node_modules/.cache/**",
+      "!dist-app/**",
+      "!*.md",
+      "!submission/**",
+      "!ui-directions.html"
+    ],
+    "mac": {
+      "category": "public.app-category.education",
+      "target": ["dir"],
+      "hardenedRuntime": false
+    }
+  }
+}

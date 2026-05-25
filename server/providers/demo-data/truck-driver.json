@@ -1,0 +1,71 @@
+{
+  "occupation": "Truck Driver",
+  "soc_code": "53-3032",
+  "company": "",
+  "score": 50,
+  "confidence": "low",
+  "confidence_band": 18,
+  "verdict": "This is the most uncertain forecast in the framework. Today the job is durable — autonomous trucking pilots are limited to specific corridors and weather. But once Level-4 autonomy scales (likely 2028-2032), this score spikes toward 75+ for long-haul work. Local delivery and specialty driving stay human longer.",
+  "timeline": "5to10yr",
+  "timeline_callout": "Long-haul interstate routes are the first to automate; local delivery, hazmat, and specialty hauling buy more time.",
+  "industry_baseline": 50,
+  "dimensions": {
+    "routine_cognitive": { "score": 5, "reasoning": "Route planning and logistics paperwork are routine; the driving itself is real-time perception." },
+    "creative_judgment": { "score": 4, "reasoning": "Edge cases (construction, weather, accidents) require judgment AVs still struggle with." },
+    "regulatory_moat": { "score": 5, "reasoning": "CDL licensure required; hours-of-service rules apply. Moat shrinks as autonomous trucks get certified." },
+    "embodied_work": { "score": 9, "reasoning": "Driver must be on the truck for current regulations; this assumption is what's changing." },
+    "stakes_of_error": { "score": 9, "reasoning": "80,000-pound vehicles at highway speed — humans stay legally accountable for now." },
+    "relationships": { "score": 3, "reasoning": "Some shipper / receiver interaction; mostly solo work." },
+    "ai_capability_gap": { "score": 6, "reasoning": "Autonomous tech works in good conditions on geofenced routes; not yet weather-and-edge-case robust." },
+    "physical_dexterity": { "score": 5, "reasoning": "Securing loads, inspecting, hooking trailers — varies by sub-specialty." }
+  },
+  "key_tasks": [
+    { "task": "Drive trucks to deliver goods over long distances", "exposure": "partial", "note": "Provisional — high exposure once autonomy scales, low today on most routes." },
+    { "task": "Inspect vehicle and cargo before and after trips", "exposure": "low", "note": "Embodied + regulated; Level-4 systems still need human inspectors." },
+    { "task": "Maintain logs of hours, mileage, and deliveries", "exposure": "high", "note": "ELD systems already automated this." },
+    { "task": "Secure cargo and verify paperwork at pickup/delivery", "exposure": "low", "note": "Physical work + signature accountability." },
+    { "task": "Communicate with dispatch and customers", "exposure": "partial", "note": "Routine comms automatable; exception handling human." },
+    { "task": "Perform minor maintenance and roadside repairs", "exposure": "low", "note": "Embodied + dexterity moat." }
+  ],
+  "comparisons": [
+    { "label": "Truck Driver", "score": 50, "is_current": true },
+    { "label": "Local Delivery Driver", "score": 35, "is_current": false },
+    { "label": "Bus Driver", "score": 30, "is_current": false },
+    { "label": "Heavy Equipment Operator", "score": 25, "is_current": false },
+    { "label": "Logistics Coordinator", "score": 60, "is_current": false },
+    { "label": "Fleet Manager", "score": 35, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 53-3032", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Standardized task list — driving + inspection + paperwork mix." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 5% growth — current shortage masks the autonomy threat." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "Long-haul trucking among the highest-impact automation cases by total displaced workers." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Truck driver exposure depends heavily on which sub-tasks autonomy can handle." },
+    { "source": "Industry pilots (Aurora, Kodiak, Waymo Via)", "meta": "2024-2026 deployment data", "contribution": "Driverless freight runs operating on Texas + Arizona corridors with limited weather." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=5, ai_capability_gap=6, creative_judgment=4, regulatory_moat=5, embodied_work=9, stakes_of_error=9, relationships=3, physical_dexterity=5." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×5 + 1.5×6 = 16.5. raw_down = 1.0×4 + 1.2×5 + 1.3×9 + 1.0×9 + 1.1×3 + 0.8×5 = 4 + 6 + 11.7 + 9 + 3.3 + 4 = 38." },
+    { "title": "Normalize", "body": "normalized_up = 16.5/30 × 100 = 55. normalized_down = 38/64 × 100 = 59.4." },
+    { "title": "Combine", "body": "(55 × 0.55) + ((100 − 59.4) × 0.45) = 30.25 + 18.27 = 48.5 ≈ 49." },
+    { "title": "Calibration check", "body": "Anchor table lists Truck Driver at 50 (provisional, with explicit note that it spikes once autonomy scales). Computed 49 is essentially on the anchor — adopt 50." },
+    { "title": "Confidence band", "body": "Low ±18 — autonomy scaling timeline is the dominant uncertainty. Could be 35 in 2030 or 75 in 2032." }
+  ],
+  "adjacent_careers": [
+    { "name": "Heavy Equipment Operator", "overlap_pct": 50, "score": 25, "reasoning": "Construction sites are far from autonomous; embodied + dexterity moat." },
+    { "name": "Diesel Mechanic", "overlap_pct": 40, "score": 18, "reasoning": "Trucks need maintenance whether AVs drive them or not — a great hedge." },
+    { "name": "Fleet Manager / Logistics Coordinator", "overlap_pct": 50, "score": 35, "reasoning": "Operations role that supervises both human and autonomous fleets." },
+    { "name": "Local Delivery Driver", "overlap_pct": 75, "score": 35, "reasoning": "Last-mile + customer interaction is more durable than long-haul." },
+    { "name": "Bus / Transit Driver", "overlap_pct": 70, "score": 30, "reasoning": "Public transit + passenger safety regulations slow autonomy adoption substantially." }
+  ],
+  "action_plan": [
+    { "title": "Don't aim only for long-haul if this is your path", "description": "Local, specialty (oversized, hazmat), and trades-adjacent driving have far longer runways." },
+    { "title": "Pair driving with a maintenance certification", "description": "Diesel mechanic + CDL is a durable combination — both halves have low AI exposure." },
+    { "title": "Watch the autonomous-trucking pilots quarterly", "description": "Aurora and Kodiak public reports tell you whether the timeline is accelerating or slipping. Re-check this analysis annually." },
+    { "title": "Get an English / CDL prep course locked in by graduation", "description": "Paid CDL training programs exist — lower-cost path than 4-year college, but verify the school's job placement rate." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Heavy Equipment Operator", "action": "compare:Heavy Equipment Operator" },
+    { "label": "Analyze: Diesel Mechanic", "action": "analyze:Diesel Mechanic" },
+    { "label": "What's the realistic timeline for driverless trucks?", "action": "note:autonomous-truck-timeline" }
+  ]
+}

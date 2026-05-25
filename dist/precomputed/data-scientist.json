@@ -1,0 +1,135 @@
+{
+  "occupation": "Data Scientist",
+  "soc_code": "15-2051.00",
+  "score": 96,
+  "confidence": "high",
+  "confidence_band": 20,
+  "verdict": "Highly exposed to AI displacement, with most tasks automated by current frontier models.",
+  "timeline": [],
+  "industry_baseline": 97,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 10,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 5,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 10,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 4, and 6 are highly automated by current frontier models, such as LLMs."
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "While some creative judgment is required in data science, tasks 9 and 10 can be largely automated with machine learning algorithms."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Machine Learning Engineer",
+      "overlap_pct": 80,
+      "score": 95,
+      "reasoning": "Machine learning engineers design and develop AI models, but data scientists apply these models to real-world problems."
+    },
+    {
+      "name": "Data Analyst",
+      "overlap_pct": 60,
+      "score": 85,
+      "reasoning": "Data analysts work with data to identify trends and insights, but data scientists use machine learning algorithms to extract deeper insights."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "Google Announces New AI-Powered Data Analysis Tool",
+      "source": "The Verge",
+      "date_text": "2024-02-20",
+      "url": "",
+      "impact": "This tool automates many data analysis tasks, making it harder for human data scientists to compete.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "occupation": "Biologist",
+  "soc_code": "19-2099",
+  "score": 67,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The biologist occupation is at a moderate risk of AI displacement, with some tasks being automatable but also requiring human judgment and creativity.",
+  "timeline": [],
+  "industry_baseline": 67,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 8,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 9,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 6,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "High automation potential in routine tasks",
+      "body": "Biologists often perform tasks such as data entry, literature review, and experimental design, which can be automated by AI systems."
+    },
+    {
+      "title": "Limited AI capability gap for high-level research",
+      "body": "While AI has made significant progress in recent years, there is still a gap in its ability to conduct complex, high-level research in biology."
+    },
+    {
+      "title": "Human judgment and creativity remain essential",
+      "body": "Biologists require human judgment and creativity to design experiments, interpret data, and draw conclusions from their research."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database (19-2099)",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "https://en.wikipedia.org/wiki/Biologist",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Research Scientist",
+      "overlap_pct": 60,
+      "score": 75,
+      "reasoning": "Research scientists in biology often require human judgment and creativity to design experiments, interpret data, and draw conclusions from their research."
+    },
+    {
+      "name": "Science Writer",
+      "overlap_pct": 50,
+      "score": 65,
+      "reasoning": "Science writers in biology may require some automation for tasks such as data entry, but human creativity and judgment are still essential for writing engaging articles."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    },
+    {
+      "headline": "AI accelerates materials discovery",
+      "impact": "Self-driving labs at DeepMind and academic partners produce new candidate materials at unprecedented rates.",
+      "source": "Science",
+      "date_text": "2024",
+      "url": "https://www.science.org/doi/10.1126/science.adi6993",
+      "source2": "Nature",
+      "url2": "https://www.nature.com/articles/s41586-023-06734-w"
+    },
+    {
+      "headline": "Field research adopts AI-powered sensing",
+      "impact": "Computer vision and bioacoustics tools are standard in ecology, conservation, and marine surveys.",
+      "source": "PNAS",
+      "date_text": "2024",
+      "url": "https://www.pnas.org/topic/sustainability-science",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

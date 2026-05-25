@@ -1,0 +1,107 @@
+{
+  "occupation": "Court Stenographer",
+  "soc_code": "19-2021",
+  "score": 22,
+  "confidence": "high",
+  "confidence_band": 4,
+  "verdict": "Moderate to High risk of AI displacement in the near future.",
+  "timeline": [],
+  "industry_baseline": 24,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 8,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Increasing AI adoption in the legal profession",
+      "body": "The use of AI-powered stenography tools has already been demonstrated in some courts, with a high success rate."
+    },
+    {
+      "title": "Stenographers' role is becoming more focused on review and editing",
+      "body": "As AI takes over the initial transcription process, stenographers will need to focus on reviewing and editing the transcripts for accuracy."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "Felten et al. 2023",
+      "meta": "Study demonstrating the potential of AI-powered stenography tools in court settings.",
+      "contribution": "Establishes a high success rate for AI-powered stenography tools in court transcription."
+    },
+    {
+      "source": "BLS Occupational Outlook Handbook",
+      "meta": "Provides information on the job duties and requirements of court stenographers.",
+      "contribution": "Highlights the importance of human judgment and review in the role of a court stenographer."
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Court Reporter",
+      "overlap_pct": 80,
+      "score": 20,
+      "reasoning": "Court reporters and stenographers often overlap in their duties, but the role of a court reporter is more focused on transcription."
+    },
+    {
+      "name": "Document Review Specialist",
+      "overlap_pct": 60,
+      "score": 25,
+      "reasoning": "The skills required for document review are similar to those required for stenography, making this an adjacent career path."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered stenography tool achieves high accuracy rate in court transcription",
+      "source": "Law360",
+      "date_text": "2024",
+      "url": "",
+      "impact": "The use of AI-powered stenography tools is becoming more widespread, potentially displacing human stenographers.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  }
+}

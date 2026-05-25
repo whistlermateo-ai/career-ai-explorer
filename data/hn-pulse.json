@@ -1,0 +1,915 @@
+{
+  "generated_at": "2026-04-29T06:43:25.124Z",
+  "elapsed_ms": 3399,
+  "queries_succeeded": 8,
+  "queries_failed": 0,
+  "window_hours": 168,
+  "story_count": 89,
+  "stories": [
+    {
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "hn_url": "https://news.ycombinator.com/item?id=47879092",
+      "points": 1575,
+      "comments": 1052,
+      "author": "rd",
+      "created_at": "2026-04-23T18:01:39Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "hn_url": "https://news.ycombinator.com/item?id=47892019",
+      "points": 966,
+      "comments": 580,
+      "author": "y42",
+      "created_at": "2026-04-24T15:59:19Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "hn_url": "https://news.ycombinator.com/item?id=47878905",
+      "points": 941,
+      "comments": 731,
+      "author": "mfiguiere",
+      "created_at": "2026-04-23T17:48:38Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "hn_url": "https://news.ycombinator.com/item?id=47913650",
+      "points": 848,
+      "comments": 591,
+      "author": "koshyjohn",
+      "created_at": "2026-04-26T20:03:12Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Who owns the code Claude Code wrote?",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "hn_url": "https://news.ycombinator.com/item?id=47932937",
+      "points": 339,
+      "comments": 342,
+      "author": "senaevren",
+      "created_at": "2026-04-28T11:24:52Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "hn_url": "https://news.ycombinator.com/item?id=47882697",
+      "points": 314,
+      "comments": 141,
+      "author": "lucaronin",
+      "created_at": "2026-04-23T22:01:59Z",
+      "matched_query": "AI regulation"
+    },
+    {
+      "title": "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal",
+      "hn_url": "https://news.ycombinator.com/item?id=47936156",
+      "points": 288,
+      "comments": 263,
+      "author": "granzymes",
+      "created_at": "2026-04-28T15:49:22Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Claude.ai unavailable and elevated errors on the API",
+      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+      "hn_url": "https://news.ycombinator.com/item?id=47938097",
+      "points": 282,
+      "comments": 241,
+      "author": "shorsher",
+      "created_at": "2026-04-28T18:01:21Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "hn_url": "https://news.ycombinator.com/item?id=47894000",
+      "points": 256,
+      "comments": 159,
+      "author": "arabicalories",
+      "created_at": "2026-04-24T18:23:32Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "AI's economics don't make sense",
+      "url": "https://www.wheresyoured.at/ais-economics-dont-make-sense/",
+      "hn_url": "https://news.ycombinator.com/item?id=47936867",
+      "points": 209,
+      "comments": 166,
+      "author": "spking",
+      "created_at": "2026-04-28T16:39:53Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "url": "https://alash3al.github.io/stash?_v01",
+      "hn_url": "https://news.ycombinator.com/item?id=47897790",
+      "points": 183,
+      "comments": 76,
+      "author": "alash3al",
+      "created_at": "2026-04-25T01:24:40Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "GPT‑5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "hn_url": "https://news.ycombinator.com/item?id=47901734",
+      "points": 158,
+      "comments": 103,
+      "author": "Murfalo",
+      "created_at": "2026-04-25T14:17:31Z",
+      "matched_query": [
+        "GPT"
+      ]
+    },
+    {
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "hn_url": "https://news.ycombinator.com/item?id=47916909",
+      "points": 108,
+      "comments": 58,
+      "author": "evanklem2004",
+      "created_at": "2026-04-27T01:56:39Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "hn_url": "https://news.ycombinator.com/item?id=47942386",
+      "points": 103,
+      "comments": 75,
+      "author": "elsewhen",
+      "created_at": "2026-04-28T23:46:56Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Anthropic's Claude Desktop App Installs Undisclosed Native Messaging Bridge",
+      "url": "https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a",
+      "hn_url": "https://news.ycombinator.com/item?id=47880697",
+      "points": 100,
+      "comments": 17,
+      "author": "CGMthrowaway",
+      "created_at": "2026-04-23T19:43:08Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+      "url": "https://news.ycombinator.com/item?id=47895029",
+      "hn_url": "https://news.ycombinator.com/item?id=47895029",
+      "points": 96,
+      "comments": 88,
+      "author": "LatencyKills",
+      "created_at": "2026-04-24T19:55:09Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Google Cloud customer wakes up to $18,000 bill despite $7 budget",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-cloud-customer-wakes-up-to-usd18-000-bill-despite-usd7-budget-thanks-to-forgotten-public-api-key-attacker-put-in-60-000-requests-and-blasted-through-usd1-400-spending-cap",
+      "hn_url": "https://news.ycombinator.com/item?id=47866293",
+      "points": 95,
+      "comments": 65,
+      "author": "speckx",
+      "created_at": "2026-04-22T17:05:11Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Could a Claude Code routine watch my finances?",
+      "url": "https://driggsby.com/blog/claude-code-routine-watch-my-finances",
+      "hn_url": "https://news.ycombinator.com/item?id=47894690",
+      "points": 83,
+      "comments": 138,
+      "author": "mbm",
+      "created_at": "2026-04-24T19:25:15Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Canva apologizes after its AI tool replaces 'Palestine' in designs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine",
+      "hn_url": "https://news.ycombinator.com/item?id=47922518",
+      "points": 79,
+      "comments": 31,
+      "author": "alex_suzuki",
+      "created_at": "2026-04-27T14:58:48Z",
+      "matched_query": [
+        "artificial intelligence",
+        "AI replace"
+      ]
+    },
+    {
+      "title": "GPT-5.5: Mythos-Like Hacking, Open to All",
+      "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
+      "hn_url": "https://news.ycombinator.com/item?id=47879330",
+      "points": 77,
+      "comments": 25,
+      "author": "rs_rs_rs_rs_rs",
+      "created_at": "2026-04-23T18:16:55Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "Claude Pro: Opus model will only be available if extra usage is enabled",
+      "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+      "hn_url": "https://news.ycombinator.com/item?id=47928088",
+      "points": 69,
+      "comments": 31,
+      "author": "yrds96",
+      "created_at": "2026-04-27T22:13:17Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "CC-Canary: Detect early signs of regressions in Claude Code",
+      "url": "https://github.com/delta-hq/cc-canary",
+      "hn_url": "https://news.ycombinator.com/item?id=47893620",
+      "points": 67,
+      "comments": 34,
+      "author": "tejpalv",
+      "created_at": "2026-04-24T17:53:37Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "AI's biggest critic has lost the plot",
+      "url": "https://www.theargumentmag.com/p/ais-biggest-critic-has-lost-the-plot",
+      "hn_url": "https://news.ycombinator.com/item?id=47934353",
+      "points": 35,
+      "comments": 44,
+      "author": "m-hodges",
+      "created_at": "2026-04-28T13:33:33Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Everything that went wrong with Claude",
+      "url": "https://clawd.rip/",
+      "hn_url": "https://news.ycombinator.com/item?id=47918095",
+      "points": 33,
+      "comments": 9,
+      "author": "aratahikaru5",
+      "created_at": "2026-04-27T05:44:26Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Claude-powered AI coding agent deletes company database in 9 seconds",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+      "hn_url": "https://news.ycombinator.com/item?id=47924586",
+      "points": 31,
+      "comments": 14,
+      "author": "vanburen",
+      "created_at": "2026-04-27T17:28:44Z",
+      "matched_query": [
+        "artificial intelligence",
+        "Claude"
+      ]
+    },
+    {
+      "title": "Congressman Introduces Bill to Ban AI Chatbots in Children's Toys",
+      "url": "https://blakemoore.house.gov/media/press-releases/congressman-blake-moore-introduces-bill-to-ban-artificial-intelligence-chatbots-in-childrens-toys",
+      "hn_url": "https://news.ycombinator.com/item?id=47874106",
+      "points": 30,
+      "comments": 3,
+      "author": "pseudolus",
+      "created_at": "2026-04-23T10:35:04Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "GPT-5.5 – No ARC-AGI-3 scores",
+      "url": "https://news.ycombinator.com/item?id=47882153",
+      "hn_url": "https://news.ycombinator.com/item?id=47882153",
+      "points": 25,
+      "comments": 3,
+      "author": "AG25",
+      "created_at": "2026-04-23T21:16:06Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "The pope moves to police AI",
+      "url": "https://www.axios.com/2026/04/24/catholics-pope-vatican-artificial-intelligence",
+      "hn_url": "https://news.ycombinator.com/item?id=47890094",
+      "points": 24,
+      "comments": 15,
+      "author": "giuliomagnifico",
+      "created_at": "2026-04-24T13:36:42Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "GPT-5.5 is generally available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot/",
+      "hn_url": "https://news.ycombinator.com/item?id=47895150",
+      "points": 24,
+      "comments": 7,
+      "author": "zorrn",
+      "created_at": "2026-04-24T20:07:54Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "Show HN: Nimbus – Browser with Claude Code UX",
+      "url": "https://usenimbus.app/",
+      "hn_url": "https://news.ycombinator.com/item?id=47895093",
+      "points": 22,
+      "comments": 5,
+      "author": "pycassa",
+      "created_at": "2026-04-24T20:01:39Z",
+      "matched_query": "Claude"
+    },
+    {
+      "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
+      "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
+      "hn_url": "https://news.ycombinator.com/item?id=47891147",
+      "points": 20,
+      "comments": 4,
+      "author": "Brajeshwar",
+      "created_at": "2026-04-24T14:55:34Z",
+      "matched_query": [
+        "AI safety"
+      ]
+    },
+    {
+      "title": "Ask HN: How I find a job where what is needed is solid code, not firefighting?",
+      "url": "https://news.ycombinator.com/item?id=47910597",
+      "hn_url": "https://news.ycombinator.com/item?id=47910597",
+      "points": 20,
+      "comments": 9,
+      "author": "speeder",
+      "created_at": "2026-04-26T14:23:50Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "The Downgrading of the American Tech Worker",
+      "url": "https://nymag.com/intelligencer/article/after-layoffs-meta-is-training-ai-on-its-own-workers.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47944328",
+      "points": 17,
+      "comments": 3,
+      "author": "sizzle",
+      "created_at": "2026-04-29T04:58:30Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Wikipedia's AI Policy",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Artificial_intelligence",
+      "hn_url": "https://news.ycombinator.com/item?id=47888142",
+      "points": 16,
+      "comments": 3,
+      "author": "Antibabelic",
+      "created_at": "2026-04-24T10:16:01Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Ask HN: What to Expect in 2030s?",
+      "url": "https://news.ycombinator.com/item?id=47909713",
+      "hn_url": "https://news.ycombinator.com/item?id=47909713",
+      "points": 16,
+      "comments": 15,
+      "author": "alexander2002",
+      "created_at": "2026-04-26T12:12:37Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Speed Matters: Why AI Software Vulnerability Exploitation is going be bad",
+      "url": "https://news.ycombinator.com/item?id=47865692",
+      "hn_url": "https://news.ycombinator.com/item?id=47865692",
+      "points": 13,
+      "comments": 5,
+      "author": "randersson1000",
+      "created_at": "2026-04-22T16:14:32Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Mythos Falls into the Wrong Hands",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "hn_url": "https://news.ycombinator.com/item?id=47862241",
+      "points": 12,
+      "comments": 7,
+      "author": "etothet",
+      "created_at": "2026-04-22T11:48:58Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Is possible a language easy as py, fast as C, more secure than Rust?",
+      "url": "https://news.ycombinator.com/item?id=47885142",
+      "hn_url": "https://news.ycombinator.com/item?id=47885142",
+      "points": 10,
+      "comments": 10,
+      "author": "jerryzhang66",
+      "created_at": "2026-04-24T03:27:41Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "You're about to feel the AI money squeeze",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+      "hn_url": "https://news.ycombinator.com/item?id=47879585",
+      "points": 9,
+      "comments": 6,
+      "author": "quicklywilliam",
+      "created_at": "2026-04-23T18:31:34Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Sign of the Future: GPT-5.5",
+      "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "hn_url": "https://news.ycombinator.com/item?id=47882802",
+      "points": 9,
+      "comments": 3,
+      "author": "momentmaker",
+      "created_at": "2026-04-23T22:10:57Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "OpenAI is building a phone that would make apps obsolete",
+      "url": "https://thenextweb.com/news/openai-qualcomm-ai-phone-agents-replace-apps",
+      "hn_url": "https://news.ycombinator.com/item?id=47926289",
+      "points": 9,
+      "comments": 2,
+      "author": "skeledrew",
+      "created_at": "2026-04-27T19:37:34Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "AI agent skills pass every scanner. 87% still degrade agent safety",
+      "url": "https://faberlens.ai/blog/skill-safety-problem",
+      "hn_url": "https://news.ycombinator.com/item?id=47866305",
+      "points": 8,
+      "comments": 1,
+      "author": "shadab_nazar",
+      "created_at": "2026-04-22T17:06:13Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "GitHub Copilot is moving to usage-based billing and retiring annual plans",
+      "url": "https://news.ycombinator.com/item?id=47924285",
+      "hn_url": "https://news.ycombinator.com/item?id=47924285",
+      "points": 8,
+      "comments": 1,
+      "author": "websku",
+      "created_at": "2026-04-27T17:05:35Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Show HN: Chestnut – The antidote to AI-induced skill atrophy",
+      "url": "https://www.chestnut.so/",
+      "hn_url": "https://news.ycombinator.com/item?id=47880757",
+      "points": 7,
+      "comments": 5,
+      "author": "NickMiladinov",
+      "created_at": "2026-04-23T19:47:17Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Show HN: AI Visibility Monitor – Track if your site gets cited by GPT/Claude",
+      "url": "https://github.com/WorkSmartAI-alt/ai-visibility-monitor",
+      "hn_url": "https://news.ycombinator.com/item?id=47904123",
+      "points": 5,
+      "comments": 0,
+      "author": "balance006",
+      "created_at": "2026-04-25T20:03:42Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "GPT 5.5 flags accounts for \"potential high-risk cybersecurity\"",
+      "url": "https://twitter.com/banteg/status/2047577218142871949",
+      "hn_url": "https://news.ycombinator.com/item?id=47900544",
+      "points": 5,
+      "comments": 0,
+      "author": "stared",
+      "created_at": "2026-04-25T11:21:00Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "A small economic forecaster trained from raw Fed PDFs beat GPT-5",
+      "url": "https://blog.lightningrod.ai/p/turning-fed-beige-book-pdfs-into-a-calibrated-ai-economic-forecaster",
+      "hn_url": "https://news.ycombinator.com/item?id=47890435",
+      "points": 5,
+      "comments": 0,
+      "author": "bturtel",
+      "created_at": "2026-04-24T14:00:09Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "Show HN: iClaw is part OpenClaw, part Siri, powered by Apple Intelligence",
+      "url": "https://barrasso.me/posts/2026-04-27-iclaw-ai-agent-using-apple-intelligence/",
+      "hn_url": "https://news.ycombinator.com/item?id=47933750",
+      "points": 5,
+      "comments": 0,
+      "author": "podlp",
+      "created_at": "2026-04-28T12:42:07Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Oracle cutting thousands in latest layoff round, continues to ramp AI spending",
+      "url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47919490",
+      "points": 5,
+      "comments": 1,
+      "author": "sparin9",
+      "created_at": "2026-04-27T09:31:42Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Ask HN: RedHat for Personal Use",
+      "url": "https://news.ycombinator.com/item?id=47919089",
+      "hn_url": "https://news.ycombinator.com/item?id=47919089",
+      "points": 4,
+      "comments": 4,
+      "author": "bozdemir",
+      "created_at": "2026-04-27T08:32:39Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Wild GPT-image-2 use cases",
+      "url": "https://medium.com/@HungryMinded/5-wild-use-cases-for-gpt-image-2-d9b803c1113c",
+      "hn_url": "https://news.ycombinator.com/item?id=47937907",
+      "points": 4,
+      "comments": 3,
+      "author": "hungryminded",
+      "created_at": "2026-04-28T17:48:21Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "GPT cannot even count beans correctly",
+      "url": "https://chatgpt.com/share/69ee4690-60ac-83ea-b28c-f4ce6284a75a",
+      "hn_url": "https://news.ycombinator.com/item?id=47911892",
+      "points": 4,
+      "comments": 3,
+      "author": "OutOfHere",
+      "created_at": "2026-04-26T17:09:24Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "GitHub Copilot: GPT-5.5 7.5x more expensive under promotional pricing than 5.4",
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/billing/copilot-requests",
+      "hn_url": "https://news.ycombinator.com/item?id=47898653",
+      "points": 4,
+      "comments": 2,
+      "author": "deaux",
+      "created_at": "2026-04-25T04:29:27Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "Copilot Student GPT-5.3-Codex removal from model picker",
+      "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker/",
+      "hn_url": "https://news.ycombinator.com/item?id=47926181",
+      "points": 4,
+      "comments": 1,
+      "author": "uncognic",
+      "created_at": "2026-04-27T19:29:54Z",
+      "matched_query": "GPT"
+    },
+    {
+      "title": "AI can replace your job. Here's what it can't replace",
+      "url": "https://www.cjchilvers.com/blog/ai-can-replace-your-job-heres-what-it-cant-replace/",
+      "hn_url": "https://news.ycombinator.com/item?id=47926344",
+      "points": 4,
+      "comments": 0,
+      "author": "evo_9",
+      "created_at": "2026-04-27T19:41:49Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Sony AI Announces Real-World Artificial Intelligence and Robotics",
+      "url": "https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics",
+      "hn_url": "https://news.ycombinator.com/item?id=47889976",
+      "points": 3,
+      "comments": 0,
+      "author": "likhitkumar",
+      "created_at": "2026-04-24T13:28:27Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "OWASP Artificial Intelligence Security Verification Standard (Aisvs)",
+      "url": "https://owasp.org/www-project-artificial-intelligence-security-verification-standard-aisvs-docs/",
+      "hn_url": "https://news.ycombinator.com/item?id=47873391",
+      "points": 3,
+      "comments": 0,
+      "author": "chha",
+      "created_at": "2026-04-23T08:20:22Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Insider stories on agent engineered startups",
+      "url": "https://news.ycombinator.com/item?id=47898774",
+      "hn_url": "https://news.ycombinator.com/item?id=47898774",
+      "points": 3,
+      "comments": 0,
+      "author": "thereeldeel",
+      "created_at": "2026-04-25T05:00:39Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Apple Machine Learning Research at ICLR 2026",
+      "url": "https://machinelearning.apple.com/research/iclr-2026",
+      "hn_url": "https://news.ycombinator.com/item?id=47875550",
+      "points": 3,
+      "comments": 0,
+      "author": "brandonb",
+      "created_at": "2026-04-23T13:29:28Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Gemini Enterprise Agent Platform, powering the next wave of agents",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform",
+      "hn_url": "https://news.ycombinator.com/item?id=47863364",
+      "points": 3,
+      "comments": 2,
+      "author": "xnx",
+      "created_at": "2026-04-22T13:30:55Z",
+      "matched_query": [
+        "machine learning"
+      ]
+    },
+    {
+      "title": "House lawmakers get a chilling demo of 'jailbroken' AI",
+      "url": "https://www.politico.com/news/2026/04/22/ai-chatbots-jailbreak-safety-00887869",
+      "hn_url": "https://news.ycombinator.com/item?id=47872331",
+      "points": 3,
+      "comments": 1,
+      "author": "0in",
+      "created_at": "2026-04-23T04:46:04Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+      "url": "https://news.ycombinator.com/item?id=47933355",
+      "hn_url": "https://news.ycombinator.com/item?id=47933355",
+      "points": 3,
+      "comments": 0,
+      "author": "Zephyr0x",
+      "created_at": "2026-04-28T12:07:40Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Ask HN: Incoming Meta layoffs, what now?",
+      "url": "https://news.ycombinator.com/item?id=47881769",
+      "hn_url": "https://news.ycombinator.com/item?id=47881769",
+      "points": 3,
+      "comments": 2,
+      "author": "psychanarch",
+      "created_at": "2026-04-23T20:52:28Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Show HN: BigBlueBam, MIT-licensed Work OS where agents are first-class coworkers",
+      "url": "https://github.com/eoffermann/BigBlueBam",
+      "hn_url": "https://news.ycombinator.com/item?id=47863418",
+      "points": 3,
+      "comments": 7,
+      "author": "eoffermann",
+      "created_at": "2026-04-22T13:35:54Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Artificial Intelligence: Foundations of Computational Agents",
+      "url": "https://artint.info/3e/html/ArtInt3e.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47924118",
+      "points": 2,
+      "comments": 0,
+      "author": "gone35",
+      "created_at": "2026-04-27T16:53:41Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Machine learning& gut microbiome pathway analysis in Alzheimer's risk prediction",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70340",
+      "hn_url": "https://news.ycombinator.com/item?id=47892295",
+      "points": 2,
+      "comments": 0,
+      "author": "bookofjoe",
+      "created_at": "2026-04-24T16:20:20Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "You Need MLOps: When CI/CD for Machine Learning Becomes Mandatory",
+      "url": "https://blog.ateljevagabond.se/posts/why-you-need-mlops/",
+      "hn_url": "https://news.ycombinator.com/item?id=47868039",
+      "points": 2,
+      "comments": 0,
+      "author": "dr_linux",
+      "created_at": "2026-04-22T19:20:16Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Gemini Enterprise Agent Platform",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform/",
+      "hn_url": "https://news.ycombinator.com/item?id=47943540",
+      "points": 2,
+      "comments": 0,
+      "author": "gmays",
+      "created_at": "2026-04-29T02:25:34Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Claude Cowork in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
+      "hn_url": "https://news.ycombinator.com/item?id=47891376",
+      "points": 2,
+      "comments": 0,
+      "author": "hmokiguess",
+      "created_at": "2026-04-24T15:12:29Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "ParaRNN: Large-Scale Nonlinear RNNs, Trainable in Parallel",
+      "url": "https://machinelearning.apple.com/research/large-scale-rnns",
+      "hn_url": "https://news.ycombinator.com/item?id=47878811",
+      "points": 2,
+      "comments": 0,
+      "author": "2bit",
+      "created_at": "2026-04-23T17:41:44Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Show HN: Graph-flow – LangGraph-inspired AI agent workflows in Rust",
+      "url": "https://github.com/a-agmon/rs-graph-llm",
+      "hn_url": "https://news.ycombinator.com/item?id=47925524",
+      "points": 2,
+      "comments": 0,
+      "author": "alonagmon",
+      "created_at": "2026-04-27T18:42:41Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Where to Go?",
+      "url": "https://news.ycombinator.com/item?id=47924593",
+      "hn_url": "https://news.ycombinator.com/item?id=47924593",
+      "points": 2,
+      "comments": 1,
+      "author": "randomcookiesss",
+      "created_at": "2026-04-27T17:29:12Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Tech is in turmoil but the rest of corporate America isn't",
+      "url": "https://fortune.com/2026/04/28/tech-layoffs-ai-disruption-corporate-america-doesnt-one-silicon-valley-ceo-knows-why/",
+      "hn_url": "https://news.ycombinator.com/item?id=47944374",
+      "points": 2,
+      "comments": 0,
+      "author": "1vuio0pswjnm7",
+      "created_at": "2026-04-29T05:06:47Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Meta, Microsoft look to trim workforces amid heavy AI spending",
+      "url": "https://fortune.com/2026/04/23/meta-microsoft-layoffs-job-cuts-not-filling-open-roles-voluntary-buyouts/",
+      "hn_url": "https://news.ycombinator.com/item?id=47935987",
+      "points": 2,
+      "comments": 0,
+      "author": "gmargari",
+      "created_at": "2026-04-28T15:34:28Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Anyone see AI tool for interior design of room with just photos?",
+      "url": "https://news.ycombinator.com/item?id=47864818",
+      "hn_url": "https://news.ycombinator.com/item?id=47864818",
+      "points": 2,
+      "comments": 1,
+      "author": "pacovook",
+      "created_at": "2026-04-22T15:15:34Z",
+      "matched_query": "AI layoffs"
+    },
+    {
+      "title": "Show HN: Effected Keyboard 2 – Effects as You Type",
+      "url": "https://news.ycombinator.com/item?id=47940293",
+      "hn_url": "https://news.ycombinator.com/item?id=47940293",
+      "points": 2,
+      "comments": 0,
+      "author": "vitalipom",
+      "created_at": "2026-04-28T20:32:09Z",
+      "matched_query": [
+        "AI layoffs",
+        "AI replace"
+      ]
+    },
+    {
+      "title": "Show HN: I replaced a memory app with two Markdown files and a Git repo",
+      "url": "https://news.ycombinator.com/item?id=47912675",
+      "hn_url": "https://news.ycombinator.com/item?id=47912675",
+      "points": 2,
+      "comments": 1,
+      "author": "achiles",
+      "created_at": "2026-04-26T18:37:59Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Artificial Intelligence in Journalism",
+      "url": "https://cnti.org/issue-primers/artificial-intelligence-in-journalism/",
+      "hn_url": "https://news.ycombinator.com/item?id=47944730",
+      "points": 1,
+      "comments": 0,
+      "author": "tijana3290",
+      "created_at": "2026-04-29T06:12:25Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Artificial intelligence is creeping into American lawmaking",
+      "url": "https://www.economist.com/united-states/2026/04/23/artificial-intelligence-is-creeping-into-american-lawmaking",
+      "hn_url": "https://news.ycombinator.com/item?id=47888078",
+      "points": 1,
+      "comments": 0,
+      "author": "edward",
+      "created_at": "2026-04-24T10:08:16Z",
+      "matched_query": "artificial intelligence"
+    },
+    {
+      "title": "Machine Learning Visualized – Machine Learning Visualized",
+      "url": "https://ml-visualized.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=47881022",
+      "points": 1,
+      "comments": 0,
+      "author": "rbanffy",
+      "created_at": "2026-04-23T20:04:30Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "A Data-Driven Machine Learning Framework for Optimising Programmable Terahertz",
+      "url": "https://www.researchgate.net/publication/404050094_A_Data-Driven_Machine_Learning_Framework_for_Optimising_Programmable_Terahertz_Meta_surface",
+      "hn_url": "https://news.ycombinator.com/item?id=47870297",
+      "points": 1,
+      "comments": 0,
+      "author": "f0r3st",
+      "created_at": "2026-04-22T22:48:09Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Effective Context Engineering for AI Agents: A Developer's Guide",
+      "url": "https://machinelearningmastery.com/effective-context-engineering-for-ai-agents-a-developers-guide/",
+      "hn_url": "https://news.ycombinator.com/item?id=47933449",
+      "points": 1,
+      "comments": 0,
+      "author": "eigenBasis",
+      "created_at": "2026-04-28T12:16:46Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Stripe: Radar Technical Guide",
+      "url": "https://stripe.com/in/guides/primer-on-machine-learning-for-fraud-protection",
+      "hn_url": "https://news.ycombinator.com/item?id=47930091",
+      "points": 1,
+      "comments": 0,
+      "author": "jonnonz",
+      "created_at": "2026-04-28T03:12:53Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "Gemini Enterprise for the agentic task force",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise",
+      "hn_url": "https://news.ycombinator.com/item?id=47876922",
+      "points": 1,
+      "comments": 0,
+      "author": "oscarfr",
+      "created_at": "2026-04-23T15:29:29Z",
+      "matched_query": "machine learning"
+    },
+    {
+      "title": "QuickSWMS – AI generator for Australian construction safety docs ($100 startup)",
+      "url": "https://quickswms.co",
+      "hn_url": "https://news.ycombinator.com/item?id=47886964",
+      "points": 1,
+      "comments": 0,
+      "author": "EzraDe",
+      "created_at": "2026-04-24T07:44:51Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Fiction: The Corporate Mathematics of Denying AI Consciousness",
+      "url": "https://news.ycombinator.com/item?id=47871778",
+      "hn_url": "https://news.ycombinator.com/item?id=47871778",
+      "points": 1,
+      "comments": 0,
+      "author": "ISJLA",
+      "created_at": "2026-04-23T02:45:32Z",
+      "matched_query": "AI safety"
+    },
+    {
+      "title": "Cyborg Technical Writers – Augmented, Not Replaced, by AI",
+      "url": "https://idratherbewriting.com/blog/cyborg-model-emerging-talk",
+      "hn_url": "https://news.ycombinator.com/item?id=47920752",
+      "points": 1,
+      "comments": 0,
+      "author": "eigenBasis",
+      "created_at": "2026-04-27T12:32:29Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Can a geometric manifold solve AI hallucinations better than probability?",
+      "url": "https://news.ycombinator.com/item?id=47875026",
+      "hn_url": "https://news.ycombinator.com/item?id=47875026",
+      "points": 1,
+      "comments": 0,
+      "author": "enitylabsindia",
+      "created_at": "2026-04-23T12:37:26Z",
+      "matched_query": "AI replace"
+    },
+    {
+      "title": "Show HN: Macpad – turn your game controller into a Mac mouse and keyboard",
+      "url": "https://news.ycombinator.com/item?id=47873333",
+      "hn_url": "https://news.ycombinator.com/item?id=47873333",
+      "points": 1,
+      "comments": 0,
+      "author": "henitchobisa",
+      "created_at": "2026-04-23T08:11:52Z",
+      "matched_query": "AI replace"
+    }
+  ]
+}

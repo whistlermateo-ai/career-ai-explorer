@@ -1,0 +1,116 @@
+{
+  "occupation": "Court Reporter",
+  "soc_code": "",
+  "score": 67,
+  "confidence": "low",
+  "confidence_band": 10,
+  "verdict": "High. Court Reporter scores 67 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [],
+  "timeline_callout": null,
+  "industry_baseline": 65,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 5,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 5,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 5,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 5,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 5,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 5,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 5,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "document-review",
+    "citation-extraction",
+    "transcription"
+  ],
+  "comparisons": [],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database (Standard Occupational Classification)",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Felten et al. (2023) — AI Occupational Exposure scores",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "reasoning_steps": [
+    {
+      "title": "LLM capabilities already handle most tasks that a human court reporter would perform",
+      "body": "The LLM's ability to extract citations, review documents, and transcribe audio is already surpassing the capabilities of human court reporters"
+    }
+  ],
+  "adjacent_careers": [],
+  "action_plan": [
+    {
+      "title": "Take a course in transcription or court reporting",
+      "body": "Consider taking an online course to learn more about transcription and court reporting, which can help you stay competitive in the job market"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "title": "Research the impact of AI on the court reporting industry",
+      "body": "Look into recent studies or reports that examine the effects of AI on the court reporting profession and consider how it may change your career path"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "general",
+    "quotes": []
+  },
+  "recent_developments": [
+    {
+      "headline": "Anthropic Economic Index maps real AI usage across the workforce",
+      "impact": "Use is concentrated in writing, coding, and analysis — physical and interpersonal work see far less AI involvement.",
+      "source": "Anthropic",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    },
+    {
+      "headline": "OECD: about 60% of jobs in advanced economies are exposed to AI",
+      "impact": "Exposure does not mean replacement — most exposed roles are expected to be transformed rather than eliminated.",
+      "source": "OECD Employment Outlook",
+      "date_text": "2024",
+      "url": "https://www.oecd.org/employment/oecd-employment-outlook-19991266.htm",
+      "source2": "Goldman Sachs Research",
+      "url2": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+    },
+    {
+      "headline": "Labor market shifts toward AI-complementary skills",
+      "impact": "Postings increasingly ask for judgment, verification, and direction of AI tools — not just task execution.",
+      "source": "LinkedIn Economic Graph",
+      "date_text": "2024",
+      "url": "https://economicgraph.linkedin.com/",
+      "source2": "WEF Future of Jobs Report 2025",
+      "url2": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+    }
+  ]
+}

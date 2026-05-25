@@ -1,0 +1,307 @@
+[
+  {
+    "slug": "accountant",
+    "occupation": "accountant",
+    "score": 80
+  },
+  {
+    "slug": "actuary",
+    "occupation": "actuary",
+    "score": 80
+  },
+  {
+    "slug": "ai-researcher",
+    "occupation": "ai researcher",
+    "score": 28
+  },
+  {
+    "slug": "animal-trainer",
+    "occupation": "animal trainer",
+    "score": 22
+  },
+  {
+    "slug": "animator",
+    "occupation": "animator",
+    "score": 68
+  },
+  {
+    "slug": "architect",
+    "occupation": "architect",
+    "score": 68
+  },
+  {
+    "slug": "athletic-coach",
+    "occupation": "athletic coach",
+    "score": 83
+  },
+  {
+    "slug": "biologist",
+    "occupation": "biologist",
+    "score": 67
+  },
+  {
+    "slug": "carpenter",
+    "occupation": "carpenter",
+    "score": 83
+  },
+  {
+    "slug": "cartographer",
+    "occupation": "cartographer",
+    "score": 64
+  },
+  {
+    "slug": "chef",
+    "occupation": "chef",
+    "score": 50
+  },
+  {
+    "slug": "chemist",
+    "occupation": "chemist",
+    "score": 83
+  },
+  {
+    "slug": "court-reporter",
+    "occupation": "court reporter",
+    "score": 67
+  },
+  {
+    "slug": "court-stenographer",
+    "occupation": "court stenographer",
+    "score": 22
+  },
+  {
+    "slug": "cybersecurity-analyst",
+    "occupation": "cybersecurity analyst",
+    "score": 92
+  },
+  {
+    "slug": "data-scientist",
+    "occupation": "data scientist",
+    "score": 96
+  },
+  {
+    "slug": "dentist",
+    "occupation": "dentist",
+    "score": 80
+  },
+  {
+    "slug": "doctor",
+    "occupation": "doctor",
+    "score": 28
+  },
+  {
+    "slug": "electrician",
+    "occupation": "electrician",
+    "score": 83
+  },
+  {
+    "slug": "environmental-scientist",
+    "occupation": "environmental scientist",
+    "score": 83
+  },
+  {
+    "slug": "fashion-designer",
+    "occupation": "fashion designer",
+    "score": 50
+  },
+  {
+    "slug": "filmmaker",
+    "occupation": "filmmaker",
+    "score": 82
+  },
+  {
+    "slug": "financial-analyst",
+    "occupation": "financial analyst",
+    "score": 80
+  },
+  {
+    "slug": "forest-ranger",
+    "occupation": "forest ranger",
+    "score": 42
+  },
+  {
+    "slug": "game-developer",
+    "occupation": "game developer",
+    "score": 60
+  },
+  {
+    "slug": "graphic-designer",
+    "occupation": "graphic designer",
+    "score": 68
+  },
+  {
+    "slug": "hydrologist",
+    "occupation": "hydrologist",
+    "score": 64
+  },
+  {
+    "slug": "investment-analyst-at-goldman-sachs",
+    "occupation": "investment analyst at goldman sachs",
+    "score": 52
+  },
+  {
+    "slug": "investment-banker",
+    "occupation": "investment banker",
+    "score": 60
+  },
+  {
+    "slug": "judge",
+    "occupation": "judge",
+    "score": 80
+  },
+  {
+    "slug": "lawyer",
+    "occupation": "lawyer",
+    "score": 48
+  },
+  {
+    "slug": "locksmith",
+    "occupation": "locksmith",
+    "score": 64
+  },
+  {
+    "slug": "marine-biologist",
+    "occupation": "marine biologist",
+    "score": 83
+  },
+  {
+    "slug": "mechanic",
+    "occupation": "mechanic",
+    "score": 83
+  },
+  {
+    "slug": "ml-engineer",
+    "occupation": "ml engineer",
+    "score": 96
+  },
+  {
+    "slug": "musician",
+    "occupation": "musician",
+    "score": 82
+  },
+  {
+    "slug": "nurse",
+    "occupation": "nurse",
+    "score": 26
+  },
+  {
+    "slug": "paralegal",
+    "occupation": "paralegal",
+    "score": 80
+  },
+  {
+    "slug": "paramedic",
+    "occupation": "paramedic",
+    "score": 80
+  },
+  {
+    "slug": "pharmacist",
+    "occupation": "pharmacist",
+    "score": 80
+  },
+  {
+    "slug": "photographer",
+    "occupation": "photographer",
+    "score": 85
+  },
+  {
+    "slug": "physicist",
+    "occupation": "physicist",
+    "score": 80
+  },
+  {
+    "slug": "pilot",
+    "occupation": "pilot",
+    "score": 96
+  },
+  {
+    "slug": "plumber",
+    "occupation": "plumber",
+    "score": 83
+  },
+  {
+    "slug": "product-manager",
+    "occupation": "product manager",
+    "score": 83
+  },
+  {
+    "slug": "professor",
+    "occupation": "professor",
+    "score": 4
+  },
+  {
+    "slug": "public-defender",
+    "occupation": "public defender",
+    "score": 26
+  },
+  {
+    "slug": "radiologist",
+    "occupation": "radiologist",
+    "score": 80
+  },
+  {
+    "slug": "robotics-engineer",
+    "occupation": "robotics engineer",
+    "score": 24
+  },
+  {
+    "slug": "school-counselor",
+    "occupation": "school counselor",
+    "score": 80
+  },
+  {
+    "slug": "software-developer",
+    "occupation": "software developer",
+    "score": 60
+  },
+  {
+    "slug": "sound-engineer",
+    "occupation": "sound engineer",
+    "score": 64
+  },
+  {
+    "slug": "surgeon",
+    "occupation": "surgeon",
+    "score": 28
+  },
+  {
+    "slug": "teacher",
+    "occupation": "teacher",
+    "score": 83
+  },
+  {
+    "slug": "therapist",
+    "occupation": "therapist",
+    "score": 26
+  },
+  {
+    "slug": "trader",
+    "occupation": "trader",
+    "score": 68
+  },
+  {
+    "slug": "ux-designer",
+    "occupation": "ux designer",
+    "score": 92
+  },
+  {
+    "slug": "veterinarian",
+    "occupation": "veterinarian",
+    "score": 80
+  },
+  {
+    "slug": "wealth-manager",
+    "occupation": "wealth manager",
+    "score": 83
+  },
+  {
+    "slug": "welder",
+    "occupation": "welder",
+    "score": 32
+  },
+  {
+    "slug": "writer",
+    "occupation": "writer",
+    "score": 80
+  }
+]

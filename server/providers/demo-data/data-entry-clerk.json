@@ -1,0 +1,71 @@
+{
+  "occupation": "Data Entry Clerk",
+  "soc_code": "43-9021",
+  "company": "",
+  "score": 88,
+  "confidence": "high",
+  "confidence_band": 5,
+  "verdict": "Data entry is the canonical AI-displaced job: structured extraction is solved, OCR + LLM pipelines outperform humans on most form-handling tasks, and WEF lists it as the single fastest-declining role globally. If you're considering this as a career, pivot now to operations or analytics roles that supervise the automation.",
+  "timeline": "already",
+  "timeline_callout": "The role is actively shrinking — BLS projects -23% over the decade, the steepest decline of any major occupation.",
+  "industry_baseline": 88,
+  "dimensions": {
+    "routine_cognitive": { "score": 10, "reasoning": "The entire job is structured data manipulation — exactly what LLMs + OCR pipelines do best." },
+    "creative_judgment": { "score": 0, "reasoning": "None of the job is creative." },
+    "regulatory_moat": { "score": 0, "reasoning": "No licensure required." },
+    "embodied_work": { "score": 0, "reasoning": "Pure desk work." },
+    "stakes_of_error": { "score": 2, "reasoning": "Errors are easily caught and corrected downstream." },
+    "relationships": { "score": 1, "reasoning": "Almost no client interaction." },
+    "ai_capability_gap": { "score": 10, "reasoning": "Solved problem — modern document AI exceeds human accuracy on most form types." },
+    "physical_dexterity": { "score": 1, "reasoning": "Typing only." }
+  },
+  "key_tasks": [
+    { "task": "Enter data from source documents into databases", "exposure": "high", "note": "OCR + LLM extraction pipeline replaces this directly." },
+    { "task": "Verify accuracy of entered data", "exposure": "high", "note": "Automated validation rules outperform human spot-checks." },
+    { "task": "Compile and sort information for entry", "exposure": "high", "note": "Document classification is solved." },
+    { "task": "Locate and correct data entry errors", "exposure": "partial", "note": "Edge cases still surface to humans, but the supervisory role is fundamentally different." },
+    { "task": "Generate reports and respond to inquiries", "exposure": "high", "note": "Templated reporting is fully automated." },
+    { "task": "Maintain logs of activities and completed work", "exposure": "high", "note": "Self-logging systems are standard." }
+  ],
+  "comparisons": [
+    { "label": "Data Entry Clerk", "score": 88, "is_current": true },
+    { "label": "Telemarketer", "score": 86, "is_current": false },
+    { "label": "Bookkeeper", "score": 80, "is_current": false },
+    { "label": "Translator", "score": 78, "is_current": false },
+    { "label": "Operations Analyst", "score": 50, "is_current": false },
+    { "label": "Data Quality Analyst", "score": 45, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "#1 fastest-declining role globally — survey of 800+ employers." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects -23% — among the steepest declines in the entire OOH." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "Data entry near 100% automatable with current technology." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Among the highest exposure scores in the dataset." },
+    { "source": "O*NET Database — SOC 43-9021", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list confirms ~95% of duties are structured-extraction work." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=10, ai_capability_gap=10, creative_judgment=0, regulatory_moat=0, embodied_work=0, stakes_of_error=2, relationships=1, physical_dexterity=1." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×10 + 1.5×10 = 30. raw_down = 1.0×0 + 1.2×0 + 1.3×0 + 1.0×2 + 1.1×1 + 0.8×1 = 3.9." },
+    { "title": "Normalize", "body": "normalized_up = 30/30 × 100 = 100. normalized_down = 3.9/64 × 100 = 6.1." },
+    { "title": "Combine", "body": "(100 × 0.55) + ((100 − 6.1) × 0.45) = 55 + 42.3 = 97.3." },
+    { "title": "Calibration check", "body": "Anchor table lists Data Entry Clerk at 88. Computed 97 is 9 above the anchor. Soften to 88 — even fully-exposed roles take time to fully wind down due to legacy systems and small-business adoption lag. The anchor reflects realistic 2026-2030 displacement, not the theoretical maximum." },
+    { "title": "Confidence band", "body": "High ±5 — every dataset agrees this is the most exposed major occupation." }
+  ],
+  "adjacent_careers": [
+    { "name": "Operations Analyst", "overlap_pct": 50, "score": 50, "reasoning": "You supervise the automated pipelines instead of being one." },
+    { "name": "Data Quality Analyst", "overlap_pct": 60, "score": 45, "reasoning": "Human-in-the-loop role for the AI systems that replaced data entry." },
+    { "name": "Administrative Assistant (Executive)", "overlap_pct": 55, "score": 60, "reasoning": "Higher-judgment admin work survives longer; aim for the executive variant, not the general one." },
+    { "name": "Bookkeeper / Accounting Clerk", "overlap_pct": 65, "score": 80, "reasoning": "Similar trajectory but pivot path through accounting can lead to CPA." },
+    { "name": "Customer Success Specialist", "overlap_pct": 35, "score": 55, "reasoning": "Relationship work has more durability; transferable from any back-office role." }
+  ],
+  "action_plan": [
+    { "title": "Don't aim for this as a destination — aim past it", "description": "If you wanted office work, the analyst track has 5-10× the longevity for similar starting credentials." },
+    { "title": "Get an Excel + SQL certification this year", "description": "Both are gateway credentials for the operations and analyst pivots." },
+    { "title": "Take a community-college accounting class", "description": "Opens the bookkeeper → CPA pathway with real licensure at the end." },
+    { "title": "Volunteer to use AI tools in any current admin work", "description": "Showing you can deploy automation rather than being replaced by it is the new differentiator." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Operations Analyst", "action": "compare:Operations Analyst" },
+    { "label": "Analyze: Bookkeeper", "action": "analyze:Bookkeeper" },
+    { "label": "What admin roles will survive?", "action": "note:admin-roles-survival" }
+  ]
+}

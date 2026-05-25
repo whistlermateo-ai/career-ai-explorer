@@ -1,0 +1,139 @@
+{
+  "occupation": "Physicist",
+  "soc_code": "19-2012.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk: moderate, with potential for significant disruption in experimental and theoretical work.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 10,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "High routine cognitive tasks",
+      "body": "Physicists perform complex calculations and analyze data from research, which are tasks that current LLMs can already handle with high accuracy."
+    },
+    {
+      "title": "Significant AI capability gap",
+      "body": "While physicists rely on mathematical models and theories, the development of new theories and laws requires human creativity and judgment, which is still challenging for current AI systems."
+    },
+    {
+      "title": "Limited regulatory moat",
+      "body": "Theoretical physics is not heavily regulated, and while there are some guidelines, they do not provide a strong barrier against AI displacement."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3.",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Research Scientist",
+      "overlap_pct": 80,
+      "score": 85,
+      "reasoning": "Both physicists and research scientists rely on mathematical models and theories, but research scientists often work in more applied fields."
+    },
+    {
+      "name": "Theoretical Physicist",
+      "overlap_pct": 70,
+      "score": 90,
+      "reasoning": "While theoretical physicists focus on developing new theories and laws, their work is still closely tied to experimental physics."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered simulation tool for particle physics",
+      "source": "Phys.org",
+      "date_text": "2022",
+      "url": "",
+      "impact": "This development could potentially automate some tasks in particle physics, but it is unlikely to replace the need for human creativity and judgment in theoretical work.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

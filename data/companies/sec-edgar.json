@@ -1,0 +1,714 @@
+{
+  "generated_at": "2026-04-29T06:44:48.446Z",
+  "elapsed_ms": 7680,
+  "companies": {
+    "Apple": {
+      "name": "Apple Inc.",
+      "cik": "0000320193",
+      "revenue": {
+        "value": 265595000000,
+        "end": "2018-09-29",
+        "fy": 2018
+      },
+      "rd_expense": {
+        "value": 34550000000,
+        "end": "2025-09-27",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 112010000000,
+        "end": "2025-09-27",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2025-10-31",
+          "period_end": "2025-09-27",
+          "accession": "0000320193-25-000079",
+          "primary_doc": "aapl-20250927.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-11-01",
+          "period_end": "2024-09-28",
+          "accession": "0000320193-24-000123",
+          "primary_doc": "aapl-20240928.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2023-11-03",
+          "period_end": "2023-09-30",
+          "accession": "0000320193-23-000106",
+          "primary_doc": "aapl-20230930.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        }
+      ]
+    },
+    "Microsoft": {
+      "name": "MICROSOFT CORPORATION",
+      "cik": "0000789019",
+      "revenue": {
+        "value": 62484000000,
+        "end": "2010-06-30",
+        "fy": 2010
+      },
+      "rd_expense": {
+        "value": 32488000000,
+        "end": "2025-06-30",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 101832000000,
+        "end": "2025-06-30",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2025-07-30",
+          "period_end": "2025-06-30",
+          "accession": "0000950170-25-100235",
+          "primary_doc": "msft-20250630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-07-30",
+          "period_end": "2024-06-30",
+          "accession": "0000950170-24-087843",
+          "primary_doc": "msft-20240630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2023-07-27",
+          "period_end": "2023-06-30",
+          "accession": "0000950170-23-035122",
+          "primary_doc": "msft-20230630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        }
+      ]
+    },
+    "Google": {
+      "name": "Alphabet Inc.",
+      "cik": "0001652044",
+      "revenue": {
+        "value": 402836000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 61087000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 132170000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-05",
+          "period_end": "2025-12-31",
+          "accession": "0001652044-26-000018",
+          "primary_doc": "goog-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-02-05",
+          "period_end": "2024-12-31",
+          "accession": "0001652044-25-000014",
+          "primary_doc": "goog-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-01-31",
+          "period_end": "2023-12-31",
+          "accession": "0001652044-24-000022",
+          "primary_doc": "goog-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm"
+        }
+      ]
+    },
+    "Meta": {
+      "name": "Meta Platforms, Inc.",
+      "cik": "0001326801",
+      "revenue": {
+        "value": 40653000000,
+        "end": "2017-12-31",
+        "fy": 2017
+      },
+      "rd_expense": {
+        "value": 57372000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 60458000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-01-29",
+          "period_end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "primary_doc": "meta-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-01-30",
+          "period_end": "2024-12-31",
+          "accession": "0001326801-25-000017",
+          "primary_doc": "meta-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+        }
+      ]
+    },
+    "Amazon": {
+      "name": "AMAZON COM INC",
+      "cik": "0001018724",
+      "revenue": {
+        "value": 716924000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 77670000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-06",
+          "period_end": "2025-12-31",
+          "accession": "0001018724-26-000004",
+          "primary_doc": "amzn-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-02-07",
+          "period_end": "2024-12-31",
+          "accession": "0001018724-25-000004",
+          "primary_doc": "amzn-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-02-02",
+          "period_end": "2023-12-31",
+          "accession": "0001018724-24-000008",
+          "primary_doc": "amzn-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+        }
+      ]
+    },
+    "Nvidia": {
+      "name": "NVIDIA CORP",
+      "cik": "0001045810",
+      "revenue": {
+        "value": 215938000000,
+        "end": "2026-01-25",
+        "fy": 2026
+      },
+      "rd_expense": {
+        "value": 18497000000,
+        "end": "2026-01-25",
+        "fy": 2026
+      },
+      "net_income": {
+        "value": 120067000000,
+        "end": "2026-01-25",
+        "fy": 2026
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-25",
+          "period_end": "2026-01-25",
+          "accession": "0001045810-26-000021",
+          "primary_doc": "nvda-20260125.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-02-26",
+          "period_end": "2025-01-26",
+          "accession": "0001045810-25-000023",
+          "primary_doc": "nvda-20250126.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-02-21",
+          "period_end": "2024-01-28",
+          "accession": "0001045810-24-000029",
+          "primary_doc": "nvda-20240128.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+        }
+      ]
+    },
+    "Tesla": {
+      "name": "Tesla, Inc.",
+      "cik": "0001318605",
+      "revenue": {
+        "value": 94827000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 6411000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 3794000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-01-29",
+          "period_end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "primary_doc": "tsla-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-01-30",
+          "period_end": "2024-12-31",
+          "accession": "0001628280-25-003063",
+          "primary_doc": "tsla-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-01-29",
+          "period_end": "2023-12-31",
+          "accession": "0001628280-24-002390",
+          "primary_doc": "tsla-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm"
+        }
+      ]
+    },
+    "Netflix": {
+      "name": "Netflix, Inc.",
+      "cik": "0001065280",
+      "revenue": {
+        "value": 45183036000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 3391390000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 10981201000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-01-23",
+          "period_end": "2025-12-31",
+          "accession": "0001065280-26-000034",
+          "primary_doc": "nflx-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-01-27",
+          "period_end": "2024-12-31",
+          "accession": "0001065280-25-000044",
+          "primary_doc": "nflx-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-01-26",
+          "period_end": "2023-12-31",
+          "accession": "0001065280-24-000030",
+          "primary_doc": "nflx-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000030/nflx-20231231.htm"
+        }
+      ]
+    },
+    "Salesforce": {
+      "name": "Salesforce, Inc.",
+      "cik": "0001108524",
+      "revenue": {
+        "value": 8391984000,
+        "end": "2017-01-31",
+        "fy": 2017
+      },
+      "rd_expense": {
+        "value": 5993000000,
+        "end": "2026-01-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 7457000000,
+        "end": "2026-01-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-03-02",
+          "period_end": "2026-01-31",
+          "accession": "0001108524-26-000060",
+          "primary_doc": "crm-20260131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-03-05",
+          "period_end": "2025-01-31",
+          "accession": "0001108524-25-000006",
+          "primary_doc": "crm-20250131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-03-06",
+          "period_end": "2024-01-31",
+          "accession": "0001108524-24-000005",
+          "primary_doc": "crm-20240131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000005/crm-20240131.htm"
+        }
+      ]
+    },
+    "Oracle": {
+      "name": "Oracle Corporation",
+      "cik": "0001341439",
+      "revenue": {
+        "value": 57399000000,
+        "end": "2025-05-31",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 9860000000,
+        "end": "2025-05-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 12443000000,
+        "end": "2025-05-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2025-06-18",
+          "period_end": "2025-05-31",
+          "accession": "0000950170-25-087926",
+          "primary_doc": "orcl-20250531.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-06-20",
+          "period_end": "2024-05-31",
+          "accession": "0000950170-24-075605",
+          "primary_doc": "orcl-20240531.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2023-06-20",
+          "period_end": "2023-05-31",
+          "accession": "0000950170-23-028914",
+          "primary_doc": "orcl-20230531.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023028914/orcl-20230531.htm"
+        }
+      ]
+    },
+    "IBM": {
+      "name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+      "cik": "0000051143",
+      "revenue": {
+        "value": 67535000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 8316000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": 10593000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-24",
+          "period_end": "2025-12-31",
+          "accession": "0000051143-26-000010",
+          "primary_doc": "ibm-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-02-25",
+          "period_end": "2024-12-31",
+          "accession": "0000051143-25-000015",
+          "primary_doc": "ibm-20241231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-02-26",
+          "period_end": "2023-12-31",
+          "accession": "0000051143-24-000012",
+          "primary_doc": "ibm-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000012/ibm-20231231.htm"
+        }
+      ]
+    },
+    "Intel": {
+      "name": "INTEL CORPORATION",
+      "cik": "0000050863",
+      "revenue": {
+        "value": 52853000000,
+        "end": "2025-12-27",
+        "fy": 2025
+      },
+      "rd_expense": {
+        "value": 13774000000,
+        "end": "2025-12-27",
+        "fy": 2025
+      },
+      "net_income": {
+        "value": -267000000,
+        "end": "2025-12-27",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-01-23",
+          "period_end": "2025-12-27",
+          "accession": "0000050863-26-000011",
+          "primary_doc": "intc-20251227.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-01-31",
+          "period_end": "2024-12-28",
+          "accession": "0000050863-25-000009",
+          "primary_doc": "intc-20241228.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-01-26",
+          "period_end": "2023-12-30",
+          "accession": "0000050863-24-000010",
+          "primary_doc": "intc-20231230.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000010/intc-20231230.htm"
+        }
+      ]
+    },
+    "Goldman Sachs": {
+      "name": "The Goldman Sachs Group, Inc.",
+      "cik": "0000886982",
+      "revenue": null,
+      "rd_expense": null,
+      "net_income": {
+        "value": 17176000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-25",
+          "period_end": "2025-12-31",
+          "accession": "0000886982-26-000091",
+          "primary_doc": "gs-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm"
+        }
+      ]
+    },
+    "JPMorgan": {
+      "name": "JPMORGAN CHASE & CO",
+      "cik": "0000019617",
+      "revenue": {
+        "value": 182447000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 57048000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-13",
+          "period_end": "2025-12-31",
+          "accession": "0001628280-26-008131",
+          "primary_doc": "jpm-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+        }
+      ]
+    },
+    "Morgan Stanley": {
+      "name": "MORGAN STANLEY",
+      "cik": "0000895421",
+      "revenue": {
+        "value": 34275000000,
+        "end": "2014-12-31",
+        "fy": 2014
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 16861000000,
+        "end": "2025-12-31",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-02-19",
+          "period_end": "2025-12-31",
+          "accession": "0000895421-26-000086",
+          "primary_doc": "ms-20251231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm"
+        }
+      ]
+    },
+    "BlackRock": {
+      "name": "BLACKROCK FINANCE, INC.",
+      "cik": "0001364742",
+      "revenue": {
+        "value": 11012000000,
+        "end": "2023-12-31",
+        "fy": 2023
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 5502000000,
+        "end": "2023-12-31",
+        "fy": 2023
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2024-02-23",
+          "period_end": "2023-12-31",
+          "accession": "0000950170-24-019271",
+          "primary_doc": "blk-20231231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1364742/000095017024019271/blk-20231231.htm"
+        }
+      ]
+    },
+    "Disney": {
+      "name": "WALT DISNEY CO/",
+      "cik": "0001744489",
+      "revenue": {
+        "value": 94425000000,
+        "end": "2025-09-27",
+        "fy": 2025
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 12404000000,
+        "end": "2025-09-27",
+        "fy": 2025
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2025-11-13",
+          "period_end": "2025-09-27",
+          "accession": "0001744489-25-000155",
+          "primary_doc": "dis-20250927.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/dis-20250927.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-11-14",
+          "period_end": "2024-09-28",
+          "accession": "0001744489-24-000276",
+          "primary_doc": "dis-20240928.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2023-11-21",
+          "period_end": "2023-09-30",
+          "accession": "0001744489-23-000216",
+          "primary_doc": "dis-20230930.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448923000216/dis-20230930.htm"
+        }
+      ]
+    },
+    "Walmart": {
+      "name": "Walmart Inc.",
+      "cik": "0000104169",
+      "revenue": {
+        "value": 713163000000,
+        "end": "2026-01-31",
+        "fy": 2026
+      },
+      "rd_expense": null,
+      "net_income": {
+        "value": 21893000000,
+        "end": "2026-01-31",
+        "fy": 2026
+      },
+      "recent_10k_filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-03-13",
+          "period_end": "2026-01-31",
+          "accession": "0000104169-26-000055",
+          "primary_doc": "wmt-20260131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2025-03-14",
+          "period_end": "2025-01-31",
+          "accession": "0000104169-25-000021",
+          "primary_doc": "wmt-20250131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2024-03-15",
+          "period_end": "2024-01-31",
+          "accession": "0000104169-24-000056",
+          "primary_doc": "wmt-20240131.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000056/wmt-20240131.htm"
+        }
+      ]
+    }
+  },
+  "company_count": 18,
+  "failed_count": 0
+}

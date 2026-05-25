@@ -1,0 +1,170 @@
+{
+  "occupation": "Architect",
+  "soc_code": "17-1011.00",
+  "score": 68,
+  "confidence": "medium",
+  "confidence_band": 15,
+  "verdict": "High displacement risk. Architect scores 68 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "Short-term (next 2 years):",
+      "description": "AI-assisted design tools and software will become increasingly prevalent in the architecture industry."
+    },
+    {
+      "timeframe": "Medium-term (next 5-10 years):",
+      "description": "Autonomous building information modeling (BIM) and construction management systems may start to replace human architects in some roles."
+    },
+    {
+      "timeframe": "Long-term (next 10+ years):",
+      "description": "Fully autonomous architecture and design services may become available, potentially replacing human architects entirely."
+    }
+  ],
+  "industry_baseline": 68,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 1,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 0,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 0,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Develop final construction plans that include aesthetic representations of the structure or details for its construction.",
+    "Prepare scale drawings or architectural designs, using computer-aided design or other tools."
+  ],
+  "comparisons": [
+    {
+      "comparison": "Software Developer",
+      "reasoning": "Both architects and software developers require strong creative judgment skills. However, software development is a more routine task, with less emphasis on aesthetic representation and spatial requirements."
+    },
+    {
+      "comparison": "Engineer",
+      "reasoning": "While engineers also work in the construction industry, their tasks are often more focused on technical specifications and problem-solving rather than design and aesthetics."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database",
+      "task_list": "SOC 17-1011.00 (Architects, Except Landscape and Naval)"
+    },
+    {
+      "source": "Wikipedia",
+      "summary": "https://en.wikipedia.org/wiki/Architect"
+    }
+  ],
+  "reasoning_steps": [
+    "The high score for routine_cognitive is driven by the fact that architects spend a significant amount of time working with computer-aided design software and preparing detailed drawings. This task is highly repetitive and can be automated to some extent."
+  ],
+  "adjacent_careers": [
+    {
+      "career": "Software Developer",
+      "reasoning": "Both architects and software developers require strong creative judgment skills, but software development is a more routine task with less emphasis on aesthetic representation and spatial requirements."
+    },
+    {
+      "career": "Engineer",
+      "reasoning": "While engineers also work in the construction industry, their tasks are often more focused on technical specifications and problem-solving rather than design and aesthetics."
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Take courses in computer-aided design software and programming languages to develop skills that can be applied to architecture."
+    },
+    {
+      "step": "Gain experience working with architects or construction companies to learn about the industry and build connections."
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "suggestion": "Research the impact of AI-assisted design tools on the architecture industry and explore potential career paths in this area.",
+      "reasoning": "As AI technology continues to advance, it is likely that architects will need to develop skills in working with these tools to remain competitive."
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "creative",
+    "quotes": [
+      {
+        "quote": "I am utterly disgusted. This is an insult to life itself.",
+        "speaker": "Hayao Miyazaki",
+        "title": "Co-founder, Studio Ghibli",
+        "source": "NHK documentary 'Never-Ending Man'",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=ngZ0K3lWKRc"
+      },
+      {
+        "quote": "AI is a tool. It will not replace artists. It will replace artists who do not learn to use AI as a tool.",
+        "speaker": "Refik Anadol",
+        "title": "Media artist",
+        "source": "MoMA artist talk / public interviews",
+        "date": "2023-11",
+        "verbatim": "paraphrased",
+        "url": "https://refikanadol.com/"
+      },
+      {
+        "quote": "Generative tools collapse the cost of producing a draft to near zero. The differentiator becomes taste, judgment, and knowing what is worth making at all.",
+        "speaker": "John Maeda",
+        "title": "Designer; VP of Design and AI, Microsoft",
+        "source": "Design in Tech Report",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://designintech.report/"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "Generative tools enter mainstream creative pipelines",
+      "impact": "Studios and agencies use AI for ideation, layout, voice, and music drafts — finals still human-finished.",
+      "source": "Reuters",
+      "date_text": "2024",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source2": "Variety",
+      "url2": "https://variety.com/v/digital/"
+    },
+    {
+      "headline": "Stock-image and stock-music markets compress",
+      "impact": "AI-generated assets are taking share from libraries that once monetized routine creative output.",
+      "source": "The Verge",
+      "date_text": "2024",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source2": "WIRED",
+      "url2": "https://www.wired.com/tag/artificial-intelligence/"
+    },
+    {
+      "headline": "Provenance standards (C2PA) gain industry backing",
+      "impact": "Major platforms and cameras commit to content credentials so human-made work can be marked as such.",
+      "source": "C2PA",
+      "date_text": "2024",
+      "url": "https://c2pa.org/",
+      "source2": "BBC News",
+      "url2": "https://www.bbc.com/news/technology"
+    }
+  ]
+}

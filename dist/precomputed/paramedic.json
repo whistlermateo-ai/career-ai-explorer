@@ -1,0 +1,147 @@
+{
+  "occupation": "Paramedic",
+  "soc_code": "29-2042.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 20,
+  "verdict": "Moderate displacement risk. Paramedic scores 80 / 100 on AI displacement exposure over a 5-year horizon.",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "2025: AI-powered EMT systems begin to be deployed in some regions."
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": "2030: AI-assisted paramedics start to become more common in urban areas."
+    }
+  ],
+  "timeline_callout": "2025 2030",
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Administer first aid treatment or life support care to sick or injured persons in prehospital settings.",
+    "Assess nature and extent of illness or injury to establish and prioritize medical procedures.",
+    "Comfort and reassure patients."
+  ],
+  "comparisons": [],
+  "evidence_ledger": [],
+  "reasoning_steps": [
+    "The paramedic occupation has a high score for routine_cognitive due to the increasing use of AI-powered EMT systems and the need for automation in routine tasks.",
+    "However, the occupation also has a strong regulatory moat due to the importance of human judgment and decision-making in emergency medical situations.",
+    "The physical dexterity dimension is low because paramedics spend most of their time in ambulances or hospitals, rather than in physically demanding environments."
+  ],
+  "adjacent_careers": [
+    "Emergency Medical Technician (EMT)",
+    "Nurse",
+    "Physician Assistant"
+  ],
+  "action_plan": [
+    {
+      "description": "Take an EMT-Basic course to gain hands-on experience and improve skills.",
+      "impact": "Enhance employability in the field"
+    },
+    {
+      "description": "Consider pursuing a degree in nursing or physician assistant studies to expand career options.",
+      "impact": "Increase earning potential and job security"
+    }
+  ],
+  "follow_up_suggestions": [
+    "Research the latest developments in AI-powered EMT systems and their impact on the field.",
+    "Explore opportunities for continuing education and professional development to stay up-to-date with changing regulations and technologies."
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    },
+    {
+      "headline": "Hospitals deploy ambient AI scribes at scale",
+      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
+      "source": "JAMA",
+      "date_text": "2024",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
+      "source2": "NEJM Catalyst",
+      "url2": "https://catalyst.nejm.org/"
+    },
+    {
+      "headline": "Drug discovery accelerates with foundation models",
+      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/d41586-023-03172-6",
+      "source2": "Science",
+      "url2": "https://www.science.org/topic/artificial-intelligence"
+    }
+  ]
+}

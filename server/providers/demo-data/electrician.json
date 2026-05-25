@@ -1,0 +1,71 @@
+{
+  "occupation": "Electrician",
+  "soc_code": "47-2111",
+  "company": "",
+  "score": 16,
+  "confidence": "high",
+  "confidence_band": 5,
+  "verdict": "Electricians sit near the bottom of the AI risk distribution: physical work in unstructured environments, licensure, and life-safety stakes all push the score down. Demand is rising as electrification and data-center buildouts accelerate.",
+  "timeline": "10plus",
+  "timeline_callout": "AI helps with permit paperwork and load calculations now; the actual on-site work is durable for a generation.",
+  "industry_baseline": 16,
+  "dimensions": {
+    "routine_cognitive": { "score": 3, "reasoning": "Code lookup and load calculations are routine cognitive — but a small share of the day." },
+    "creative_judgment": { "score": 4, "reasoning": "Diagnosing intermittent faults in old buildings requires real judgment." },
+    "regulatory_moat": { "score": 8, "reasoning": "Journeyman / master electrician licensure required for most work; permits inspected by code officials." },
+    "embodied_work": { "score": 9, "reasoning": "Almost the entire role is on-site physical work in varied environments." },
+    "stakes_of_error": { "score": 8, "reasoning": "Wiring errors cause fires and electrocutions; humans stay in the loop legally and ethically." },
+    "relationships": { "score": 5, "reasoning": "Customer trust and contractor relationships matter for repeat work." },
+    "ai_capability_gap": { "score": 2, "reasoning": "AI helps with code lookup and quoting; cannot pull cable through a wall." },
+    "physical_dexterity": { "score": 8, "reasoning": "Fine motor skills in awkward spaces — robotics is far behind." }
+  },
+  "key_tasks": [
+    { "task": "Install, maintain, and repair electrical wiring", "exposure": "low", "note": "Embodied + dexterity moat." },
+    { "task": "Diagnose malfunctioning systems using test instruments", "exposure": "low", "note": "Requires physical inspection and contextual judgment." },
+    { "task": "Read blueprints and electrical code documents", "exposure": "partial", "note": "AI assists with code lookup; the install does not move." },
+    { "task": "Pull permits and coordinate with inspectors", "exposure": "partial", "note": "Paperwork is partly automatable; relationships and signoff are not." },
+    { "task": "Estimate jobs and prepare bids", "exposure": "partial", "note": "AI accelerates estimation; trust closes the deal." },
+    { "task": "Train apprentices", "exposure": "low", "note": "Mentorship is human-shaped." }
+  ],
+  "comparisons": [
+    { "label": "Electrician", "score": 16, "is_current": true },
+    { "label": "Plumber", "score": 14, "is_current": false },
+    { "label": "Welder", "score": 12, "is_current": false },
+    { "label": "HVAC Technician", "score": 18, "is_current": false },
+    { "label": "Carpenter", "score": 16, "is_current": false },
+    { "label": "Construction Manager", "score": 32, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 47-2111", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list is overwhelmingly physical install + diagnostic." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "Electrician exposure score is among the lowest — anchor for skilled trades." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects 11% growth — well above average; electrification + data-center buildout drive demand." },
+    { "source": "McKinsey Automation Potential 2024", "meta": "McKinsey Global Institute", "contribution": "Skilled trades 14% automatable — automation hits paperwork, not the wires." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Renewable energy installers and electricians among top growing roles." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=3, ai_capability_gap=2, creative_judgment=4, regulatory_moat=8, embodied_work=9, stakes_of_error=8, relationships=5, physical_dexterity=8." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×3 + 1.5×2 = 7.5. raw_down = 1.0×4 + 1.2×8 + 1.3×9 + 1.0×8 + 1.1×5 + 0.8×8 = 4 + 9.6 + 11.7 + 8 + 5.5 + 6.4 = 45.2." },
+    { "title": "Normalize", "body": "normalized_up = 7.5/30 × 100 = 25. normalized_down = 45.2/64 × 100 = 70.6." },
+    { "title": "Combine", "body": "(25 × 0.55) + ((100 − 70.6) × 0.45) = 13.75 + 13.23 = 26.98 ≈ 27." },
+    { "title": "Calibration check", "body": "Anchor table lists Electrician at 16. Computed 27 is 11 above the anchor. The anchor is set against Felten exposure data showing trades are even more resilient than the dimension math suggests; trust the anchor and soften toward 16." },
+    { "title": "Confidence band", "body": "High ±5 — multiple datasets converge tightly." }
+  ],
+  "adjacent_careers": [
+    { "name": "Solar / EV Charging Installer", "overlap_pct": 80, "score": 14, "reasoning": "Same skill set, fastest-growing electrification niche." },
+    { "name": "HVAC Technician", "overlap_pct": 60, "score": 18, "reasoning": "Adjacent trade with the same moat structure." },
+    { "name": "Plumber", "overlap_pct": 50, "score": 14, "reasoning": "Same physical-dexterity + licensure moats." },
+    { "name": "Industrial Maintenance Tech", "overlap_pct": 65, "score": 22, "reasoning": "Higher pay ceiling; works on factory floors with rising automation but humans still maintain the robots." },
+    { "name": "Electrical Contractor (Owner)", "overlap_pct": 75, "score": 25, "reasoning": "Adds business + relationship work; you direct AI estimating tools instead of competing with them." }
+  ],
+  "action_plan": [
+    { "title": "Look into a registered apprenticeship (IBEW or local non-union)", "description": "You earn while you learn; the licensure is the moat that makes this score low." },
+    { "title": "Get OSHA 10 + a basic electrical safety cert this summer", "description": "Cheap, fast, and a real signal on apprenticeship applications." },
+    { "title": "Take physics and math seriously even though it's a trade", "description": "Modern systems (solar, EV, smart panels) reward electricians who understand the engineering." },
+    { "title": "Shadow an electrician for a week", "description": "The work is physically demanding; confirm fit before committing to a 4-year apprenticeship." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to Plumber", "action": "compare:Plumber" },
+    { "label": "Analyze: Solar Installer", "action": "analyze:Solar Installer" },
+    { "label": "What does an apprenticeship actually pay?", "action": "note:apprentice-wages" }
+  ]
+}

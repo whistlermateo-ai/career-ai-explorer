@@ -1,0 +1,145 @@
+{
+  "occupation": "Athletic Coach",
+  "soc_code": "27-2022.00",
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for Athletic Coaches is moderate, with some tasks being automatable but others requiring human judgment and relationship-building.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 6,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Task automation",
+      "body": "Tasks 1, 4, and 10 can be partially automated by AI-powered training tools and analysis software."
+    },
+    {
+      "title": "Human judgment and relationship-building",
+      "body": "Tasks 3, 8, and 11 require human judgment and relationship-building with athletes, making them less automatable."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Sports Manager",
+      "overlap_pct": 60,
+      "score": 70,
+      "reasoning": "Both roles involve managing teams and athletes, but sports managers focus more on administrative tasks."
+    },
+    {
+      "name": "Athletic Director",
+      "overlap_pct": 50,
+      "score": 80,
+      "reasoning": "Athletic directors oversee athletic programs, while coaches focus on team strategy and player development."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "Universities update curricula to assume AI in the loop",
+      "impact": "Programs add prompt-craft, verification, and AI-direction skills as core competencies.",
+      "source": "Inside Higher Ed",
+      "date_text": "2024",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
+      "source2": "Chronicle of Higher Education",
+      "url2": "https://www.chronicle.com/section/Technology/30"
+    },
+    {
+      "headline": "K-12 districts pilot AI tutors at scale",
+      "impact": "Khanmigo, MagicSchool, and others reach millions of students with personalized practice.",
+      "source": "EdSurge",
+      "date_text": "2024",
+      "url": "https://www.edsurge.com/research/special-reports/state-of-edtech-2024",
+      "source2": "Education Week",
+      "url2": "https://www.edweek.org/technology/artificial-intelligence"
+    },
+    {
+      "headline": "Teacher workload tools see fast adoption",
+      "impact": "Lesson planning, rubric drafting, and feedback writing are common AI use-cases in surveys.",
+      "source": "RAND",
+      "date_text": "2024",
+      "url": "https://www.rand.org/pubs/research_reports/RRA956-21.html",
+      "source2": "Brookings",
+      "url2": "https://www.brookings.edu/topic/artificial-intelligence/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "education",
+    "quotes": [
+      {
+        "quote": "We are at the cusp of using AI for probably the biggest positive transformation that education has ever seen — a personal tutor for every student, on every subject.",
+        "speaker": "Sal Khan",
+        "title": "Founder, Khan Academy",
+        "source": "TED 2023 talk",
+        "date": "2023-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education"
+      },
+      {
+        "quote": "If we just use AI to grade essays faster, we have failed. The opportunity is to free teachers from low-value work so they can do what only humans can do — mentor.",
+        "speaker": "Linda Darling-Hammond",
+        "title": "President, Learning Policy Institute; Stanford emerita",
+        "source": "EdSurge interview",
+        "date": "2024-02",
+        "verbatim": "paraphrased",
+        "url": "https://learningpolicyinstitute.org/about/people/linda-darling-hammond"
+      },
+      {
+        "quote": "Teachers are not going to be replaced by AI. Teachers who use AI well are going to replace teachers who do not.",
+        "speaker": "Ethan Mollick",
+        "title": "Associate Professor, Wharton; author of Co-Intelligence",
+        "source": "One Useful Thing newsletter",
+        "date": "2024-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.oneusefulthing.org/"
+      }
+    ]
+  }
+}

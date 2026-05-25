@@ -1,0 +1,162 @@
+{
+  "occupation": "AI Researcher",
+  "soc_code": "",
+  "score": 28,
+  "confidence": "low",
+  "confidence_band": 4,
+  "verdict": "High risk of displacement by AI",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": "LLMs can already perform many tasks typically associated with human intelligence, such as learning, reasoning, and problem-solving."
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": "AI systems can process and analyze large amounts of data quickly and accurately, making them well-suited for tasks that require pattern-matching on text/data."
+    }
+  ],
+  "industry_baseline": 28,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 2,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 5,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Developing and improving artificial intelligence systems",
+    "Analyzing data to identify trends and patterns",
+    "Designing and testing AI algorithms"
+  ],
+  "comparisons": [
+    {
+      "type": "comparison",
+      "description": "AI Researcher vs. Software Developer: While both roles involve working with AI, the AI Researcher is more focused on developing new AI systems and techniques.",
+      "impact": "Moderate"
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET Database",
+      "task": "Developing and improving artificial intelligence systems"
+    },
+    {
+      "source": "Wikipedia",
+      "task": "Analyzing data to identify trends and patterns"
+    }
+  ],
+  "reasoning_steps": [
+    "The AI Researcher role is highly susceptible to displacement by AI due to the growing capabilities of LLMs.",
+    "While some tasks may require human intuition or creativity, many can be automated with current technology."
+  ],
+  "adjacent_careers": [
+    {
+      "type": "adjacent_career",
+      "description": "Software Developer: While not directly related to AI research, software developers work closely with AI systems and can benefit from adjacent skills.",
+      "impact": "Moderate"
+    }
+  ],
+  "action_plan": [
+    {
+      "type": "action_plan",
+      "description": "Take courses in machine learning and data analysis to develop relevant skills for the AI Researcher role.",
+      "impact": "High"
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "type": "follow-up-suggestion",
+      "description": "Research the latest developments in AI research and their potential impact on the field.",
+      "impact": "Moderate"
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    },
+    {
+      "headline": "AI accelerates materials discovery",
+      "impact": "Self-driving labs at DeepMind and academic partners produce new candidate materials at unprecedented rates.",
+      "source": "Science",
+      "date_text": "2024",
+      "url": "https://www.science.org/doi/10.1126/science.adi6993",
+      "source2": "Nature",
+      "url2": "https://www.nature.com/articles/s41586-023-06734-w"
+    },
+    {
+      "headline": "Field research adopts AI-powered sensing",
+      "impact": "Computer vision and bioacoustics tools are standard in ecology, conservation, and marine surveys.",
+      "source": "PNAS",
+      "date_text": "2024",
+      "url": "https://www.pnas.org/topic/sustainability-science",
+      "source2": "MIT Technology Review",
+      "url2": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    }
+  ]
+}

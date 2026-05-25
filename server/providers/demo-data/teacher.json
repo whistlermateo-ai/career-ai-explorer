@@ -1,0 +1,71 @@
+{
+  "occupation": "Teacher",
+  "soc_code": "25-2031",
+  "company": "",
+  "score": 18,
+  "confidence": "high",
+  "confidence_band": 6,
+  "verdict": "Teaching, especially K-12, is structurally protected: the relationship with students, classroom management, in-loco-parentis responsibility, and licensure all combine to make this one of the most AI-resilient knowledge-work careers. AI changes lesson prep and grading; it doesn't change the job.",
+  "timeline": "10plus",
+  "timeline_callout": "AI-assisted lesson planning and tutoring tools are mainstream now; the classroom role itself is durable for decades.",
+  "industry_baseline": 18,
+  "dimensions": {
+    "routine_cognitive": { "score": 5, "reasoning": "Lesson prep and grading have routine cognitive elements that AI absorbs well." },
+    "creative_judgment": { "score": 6, "reasoning": "Adapting to a class on the fly requires real-time judgment AI cannot replicate." },
+    "regulatory_moat": { "score": 7, "reasoning": "State teaching licensure required; districts cannot put unlicensed adults in classrooms." },
+    "embodied_work": { "score": 8, "reasoning": "Physically present with children all day — not a remote-able role." },
+    "stakes_of_error": { "score": 7, "reasoning": "Child safety is high-stakes; in-loco-parentis legal duty." },
+    "relationships": { "score": 9, "reasoning": "The relationship IS the work — kids learn from teachers they trust." },
+    "ai_capability_gap": { "score": 3, "reasoning": "AI helps with prep + grading + tutoring; cannot manage 28 nine-year-olds in a room." },
+    "physical_dexterity": { "score": 3, "reasoning": "Some — handwriting, gesture, demonstrations." }
+  },
+  "key_tasks": [
+    { "task": "Plan and deliver lessons aligned with curriculum standards", "exposure": "partial", "note": "AI accelerates prep; delivery is in front of students." },
+    { "task": "Assess student progress through tests, projects, and observation", "exposure": "partial", "note": "AI grades multiple choice; humans assess writing and behavior." },
+    { "task": "Manage classroom behavior and learning climate", "exposure": "low", "note": "Embodied + relationship work; AI cannot do this." },
+    { "task": "Communicate with parents about student progress", "exposure": "low", "note": "Trust + judgment work." },
+    { "task": "Adapt instruction for diverse learners and accommodations", "exposure": "low", "note": "Live judgment about what's working with which kid." },
+    { "task": "Maintain student records and report cards", "exposure": "high", "note": "Documentation absorbs AI assistance well." }
+  ],
+  "comparisons": [
+    { "label": "Teacher (K-12)", "score": 18, "is_current": true },
+    { "label": "ECE / Kindergarten Teacher", "score": 18, "is_current": false },
+    { "label": "Special Education Teacher", "score": 14, "is_current": false },
+    { "label": "Professor (University)", "score": 35, "is_current": false },
+    { "label": "School Counselor", "score": 22, "is_current": false },
+    { "label": "Tutor / Test Prep", "score": 60, "is_current": false }
+  ],
+  "evidence_ledger": [
+    { "source": "O*NET Database — SOC 25-2031", "meta": "US Dept. of Labor · Updated Jan 2026", "contribution": "Task list overwhelmingly relationship + classroom-management work." },
+    { "source": "WEF Future of Jobs 2025", "meta": "World Economic Forum", "contribution": "Lists relationship-heavy education roles among low-displacement categories." },
+    { "source": "BLS Occupational Outlook Handbook 2024-2034", "meta": "US BLS", "contribution": "Projects ~1% growth; teacher shortages persist in many states." },
+    { "source": "Felten, Raj & Seamans (2023)", "meta": "Princeton · AI Occupational Exposure", "contribution": "K-12 teaching exposure is among the lowest white-collar scores due to relationship + embodied work." },
+    { "source": "Anthropic Economic Index Q1 2026", "meta": "Aggregated Claude usage data", "contribution": "Education is a top usage category — teachers using AI to lesson-plan, not being replaced by it." }
+  ],
+  "reasoning_steps": [
+    { "title": "Score the eight dimensions", "body": "routine_cognitive=5, ai_capability_gap=3, creative_judgment=6, regulatory_moat=7, embodied_work=8, stakes_of_error=7, relationships=9, physical_dexterity=3." },
+    { "title": "Apply the explicit formula", "body": "raw_up = 1.5×5 + 1.5×3 = 12. raw_down = 1.0×6 + 1.2×7 + 1.3×8 + 1.0×7 + 1.1×9 + 0.8×3 = 6 + 8.4 + 10.4 + 7 + 9.9 + 2.4 = 44.1." },
+    { "title": "Normalize", "body": "normalized_up = 12/30 × 100 = 40. normalized_down = 44.1/64 × 100 = 68.9." },
+    { "title": "Combine", "body": "(40 × 0.55) + ((100 − 68.9) × 0.45) = 22 + 14 = 36." },
+    { "title": "Calibration check", "body": "Anchor table lists ECE / Kindergarten Teacher at 18. Computed 36 is 18 above. The anchor is correct — relationship-heavy teaching is more resilient than the dimension math suggests because no district will replace a classroom teacher with software. Soften strongly to 18." },
+    { "title": "Confidence band", "body": "High ±6 — labor market structure (licensure + parents wanting humans) is unlikely to change quickly." }
+  ],
+  "adjacent_careers": [
+    { "name": "Special Education Teacher", "overlap_pct": 80, "score": 14, "reasoning": "Same moats plus chronic shortage means high job security." },
+    { "name": "School Counselor", "overlap_pct": 65, "score": 22, "reasoning": "Relationship-heavy and credentialed; durable role." },
+    { "name": "Speech-Language Pathologist", "overlap_pct": 50, "score": 20, "reasoning": "Licensed therapy work in schools or clinics; very low exposure." },
+    { "name": "Instructional Designer / EdTech", "overlap_pct": 55, "score": 50, "reasoning": "Higher exposure but lets you build the AI tools instead of being replaced by them." },
+    { "name": "Athletic Coach", "overlap_pct": 50, "score": 15, "reasoning": "Embodied + relationship work; low-pay but durable adjacent path." }
+  ],
+  "action_plan": [
+    { "title": "Tutor or peer-mentor this year", "description": "The most direct way to test if you actually like teaching before committing to an Education degree." },
+    { "title": "Look at programs that pair a content major with an Education minor", "description": "Single-subject teachers (math, physics, computer science) are in shortest supply and have the best job markets." },
+    { "title": "Volunteer in a classroom or summer camp", "description": "Application portfolios for Education programs reward sustained classroom exposure." },
+    { "title": "Take a public-speaking elective", "description": "Classroom management is performance under pressure; the skill compounds in any career." }
+  ],
+  "follow_up_suggestions": [
+    { "label": "Compare to School Counselor", "action": "compare:School Counselor" },
+    { "label": "Analyze: Special Education Teacher", "action": "analyze:Special Education Teacher" },
+    { "label": "Is teaching pay enough to live on?", "action": "note:teacher-pay" }
+  ]
+}

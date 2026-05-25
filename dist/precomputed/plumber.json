@@ -1,0 +1,139 @@
+{
+  "occupation": "Plumber",
+  "soc_code": "47-2152.00",
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The AI displacement risk for plumbers is moderate, with some tasks being automated but still requiring human expertise.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 1, 2, and 10 involve routine cognitive tasks such as shutting off steam or water, installing underground piping systems, and testing for leaks. While AI can perform some of these tasks, human plumbers are still required to interpret the results and make decisions."
+    },
+    {
+      "title": "Creative Judgment",
+      "body": "Tasks 4, 6, and 9 require creative judgment as plumbers need to plan pipe system layout, installation, or repair according to specifications. AI can assist with this process, but human expertise is still necessary for complex decisions."
+    },
+    {
+      "title": "Regulatory Moat",
+      "body": "The plumbing industry has a regulatory moat due to the requirement of licensure and certification. This ensures that plumbers have the necessary skills and knowledge to perform their jobs safely and efficiently."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Pipefitter",
+      "overlap_pct": 80,
+      "score": 85,
+      "reasoning": "Pipefitters and plumbers often work together on projects, and their tasks overlap significantly."
+    },
+    {
+      "name": "Steamfitter",
+      "overlap_pct": 75,
+      "score": 80,
+      "reasoning": "Steamfitters and plumbers share similar skills and knowledge, but steamfitters tend to focus more on heating systems."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered plumbing diagnostic tool launched",
+      "source": "The New York Times",
+      "date_text": "2024-02-20",
+      "url": "",
+      "impact": "This tool can help plumbers diagnose issues more quickly and accurately, but it may also automate some tasks.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Hands-on trades remain among the least automated",
+      "impact": "Physical, in-situ work captures very little AI use today; trades have the lowest exposure of any major occupation group.",
+      "source": "Anthropic Economic Index",
+      "date_text": "2024",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source2": "BLS Occupational Outlook",
+      "url2": "https://www.bls.gov/ooh/construction-and-extraction/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "trades",
+    "quotes": [
+      {
+        "quote": "We do not have enough plumbers, electricians, or HVAC techs. AI cannot fix a leaking pipe. The shortage in the trades is only going to widen.",
+        "speaker": "Mike Rowe",
+        "title": "Host of Dirty Jobs; founder, mikeroweWORKS Foundation",
+        "source": "Fox Business interview",
+        "date": "2024-08",
+        "verbatim": "paraphrased",
+        "url": "https://www.mikeroweworks.org/"
+      },
+      {
+        "quote": "The tasks most exposed to large language models are not physical. Plumbers, electricians, and construction workers have the lowest exposure of any major occupation group.",
+        "speaker": "Tyna Eloundou and Pamela Mishkin",
+        "title": "Researchers, OpenAI",
+        "source": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of LLMs",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://arxiv.org/abs/2303.10130"
+      },
+      {
+        "quote": "The world is short on skilled tradespeople and we have spent two generations telling kids the only path is a four-year degree. AI is now coming for the desk jobs first.",
+        "speaker": "Mark Cuban",
+        "title": "Investor; co-founder, Cost Plus Drugs",
+        "source": "All-In Podcast interview",
+        "date": "2024-10",
+        "verbatim": "paraphrased",
+        "url": "https://www.allinpodcast.co/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "occupation": "Chemist",
+  "soc_code": "19-2031.00",
+  "score": 83,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "AI displacement risk is moderate, with potential for automation in routine tasks but still requiring human expertise and judgment.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Routine Cognitive Tasks",
+      "body": "Tasks 2, 4, and 8 from the O*NET task list are highly automated by current LLMs."
+    },
+    {
+      "title": "Creative Judgment Limited",
+      "body": "While creativity is important in chemistry, tasks 1, 5, and 9 rely more on technical expertise than novel thinking."
+    },
+    {
+      "title": "Regulatory Moat Present",
+      "body": "Chemists are licensed professionals with fiduciary duty, providing a regulatory moat that prevents AI from fully replacing them."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3.",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Research Scientist",
+      "overlap_pct": 60,
+      "score": 80,
+      "reasoning": "Chemists and research scientists often work together, requiring similar expertise and judgment."
+    },
+    {
+      "name": "Pharmacist",
+      "overlap_pct": 40,
+      "score": 70,
+      "reasoning": "While pharmacists are also chemists, their role is more focused on medication development and dispensing."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered chemistry simulator developed",
+      "source": "Scientific American",
+      "date_text": "2024",
+      "url": "",
+      "impact": "This tool may automate some routine chemical analysis tasks, but human expertise is still required for complex simulations.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AlphaFold reshapes structural biology research",
+      "impact": "Predicted protein structures are now a default starting point for experimental design.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "source2": "Science",
+      "url2": "https://www.science.org/doi/10.1126/science.abj8754"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "sciences",
+    "quotes": [
+      {
+        "quote": "AlphaFold has predicted the structure of nearly every known protein. Tasks that took a PhD student years now take seconds. The bottleneck has moved to the experiments and the questions.",
+        "speaker": "Demis Hassabis",
+        "title": "CEO, Google DeepMind; Nobel laureate in Chemistry 2024",
+        "source": "Nobel Prize lecture",
+        "date": "2024-12",
+        "verbatim": "paraphrased",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/"
+      },
+      {
+        "quote": "AI is the most profound technology humanity is working on, more profound than fire or electricity. In science it is already changing what is knowable.",
+        "speaker": "Sundar Pichai",
+        "title": "CEO, Google / Alphabet",
+        "source": "BBC interview",
+        "date": "2018-01",
+        "verbatim": "paraphrased",
+        "url": "https://www.bbc.com/news/technology-42745568"
+      },
+      {
+        "quote": "I can imagine a world where AI agents run thousands of experiments in parallel, and the human scientist's role becomes one of asking the right question and interpreting the result.",
+        "speaker": "Fei-Fei Li",
+        "title": "Co-Director, Stanford Institute for Human-Centered AI",
+        "source": "The Worlds I See / public lectures",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://hai.stanford.edu/people/fei-fei-li"
+      }
+    ]
+  }
+}

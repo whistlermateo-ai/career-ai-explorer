@@ -1,0 +1,134 @@
+{
+  "occupation": "Surgeon",
+  "soc_code": "",
+  "score": 28,
+  "confidence": "high",
+  "confidence_band": 0,
+  "verdict": "AI displacement risk is low, with only routine tasks potentially automatable.",
+  "timeline": [],
+  "industry_baseline": 28,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 4,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 6,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 10,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 9,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 8,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 2,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 10,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "Regulatory Moat",
+      "body": "Surgeons are licensed physicians with a strong regulatory moat, requiring years of medical training and licensure to practice."
+    },
+    {
+      "title": "Physical Dexterity",
+      "body": "Surgery requires fine motor skills and physical dexterity, making it difficult for AI to replicate without significant advances in robotics and haptics."
+    }
+  ],
+  "evidence_ledger": [],
+  "adjacent_careers": [
+    {
+      "name": "Anesthesiologist",
+      "overlap_pct": 70,
+      "score": 25,
+      "reasoning": "Both surgeons and anesthesiologists require strong medical training and work closely together in the operating room."
+    },
+    {
+      "name": "Orthopedic Surgeon",
+      "overlap_pct": 60,
+      "score": 28,
+      "reasoning": "Orthopedic surgeons also specialize in surgical procedures, but with a focus on musculoskeletal conditions."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    },
+    {
+      "headline": "Hospitals deploy ambient AI scribes at scale",
+      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
+      "source": "JAMA",
+      "date_text": "2024",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
+      "source2": "NEJM Catalyst",
+      "url2": "https://catalyst.nejm.org/"
+    },
+    {
+      "headline": "Drug discovery accelerates with foundation models",
+      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/d41586-023-03172-6",
+      "source2": "Science",
+      "url2": "https://www.science.org/topic/artificial-intelligence"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  }
+}

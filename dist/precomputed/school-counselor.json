@@ -1,0 +1,139 @@
+{
+  "occupation": "School Counselor",
+  "soc_code": "21-1012.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The occupation is at a moderate risk of displacement due to AI capabilities.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "AI capabilities in education",
+      "body": "Recent advancements in AI-powered adaptive learning systems and natural language processing can provide personalized guidance and support to students, potentially reducing the need for human counselors."
+    },
+    {
+      "title": "Task automation",
+      "body": "Many tasks performed by school counselors, such as maintaining student records and providing information on college programs, can be automated using AI-powered tools."
+    },
+    {
+      "title": "Crisis intervention",
+      "body": "While AI systems are not yet capable of providing the same level of emotional support and empathy as human counselors, they can help identify students at risk and provide initial interventions to prevent more severe crises."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Educational Advisor",
+      "overlap_pct": 80,
+      "score": 75,
+      "reasoning": "Both roles involve providing guidance and support to students, but educational advisors may focus more on academic advising and less on social-emotional support."
+    },
+    {
+      "name": "Career Coach",
+      "overlap_pct": 70,
+      "score": 60,
+      "reasoning": "While both roles involve helping individuals explore career options, career coaches may focus more on job search strategies and less on academic and social-emotional support."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered adaptive learning system approved for use in schools",
+      "source": "EdTech News",
+      "date_text": "2022-02-15",
+      "url": "",
+      "impact": "This development may lead to increased use of AI-powered tools in education, potentially displacing some human counselors.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "Universities update curricula to assume AI in the loop",
+      "impact": "Programs add prompt-craft, verification, and AI-direction skills as core competencies.",
+      "source": "Inside Higher Ed",
+      "date_text": "2024",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence",
+      "source2": "Chronicle of Higher Education",
+      "url2": "https://www.chronicle.com/section/Technology/30"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "education",
+    "quotes": [
+      {
+        "quote": "We are at the cusp of using AI for probably the biggest positive transformation that education has ever seen — a personal tutor for every student, on every subject.",
+        "speaker": "Sal Khan",
+        "title": "Founder, Khan Academy",
+        "source": "TED 2023 talk",
+        "date": "2023-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education"
+      },
+      {
+        "quote": "If we just use AI to grade essays faster, we have failed. The opportunity is to free teachers from low-value work so they can do what only humans can do — mentor.",
+        "speaker": "Linda Darling-Hammond",
+        "title": "President, Learning Policy Institute; Stanford emerita",
+        "source": "EdSurge interview",
+        "date": "2024-02",
+        "verbatim": "paraphrased",
+        "url": "https://learningpolicyinstitute.org/about/people/linda-darling-hammond"
+      },
+      {
+        "quote": "Teachers are not going to be replaced by AI. Teachers who use AI well are going to replace teachers who do not.",
+        "speaker": "Ethan Mollick",
+        "title": "Associate Professor, Wharton; author of Co-Intelligence",
+        "source": "One Useful Thing newsletter",
+        "date": "2024-04",
+        "verbatim": "paraphrased",
+        "url": "https://www.oneusefulthing.org/"
+      }
+    ]
+  }
+}

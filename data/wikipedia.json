@@ -1,0 +1,408 @@
+{
+  "generated_at": "2026-04-29T06:45:17.235Z",
+  "elapsed_ms": 28784,
+  "occupation_count": 50,
+  "failed_count": 1,
+  "occupations": {
+    "Software Developer": {
+      "ok": true,
+      "title": "Software development",
+      "description": "Creation and maintenance of software",
+      "extract": "Software development is the process of designing, creating, testing, and maintaining software applications to meet specific user needs or business objectives. The process is more encompassing than programming, writing code, in that it includes conceiving the goal, evaluating feasibility, analyzing requirements, design, testing and release. The process is part of software engineering which also includes organizational management, project management, configuration management and other aspects.",
+      "page_url": "https://en.wikipedia.org/wiki/Software_development",
+      "thumbnail": null
+    },
+    "ML Engineer": {
+      "ok": true,
+      "title": "Machine learning",
+      "description": "Study of algorithms that improve automatically through experience",
+      "extract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit programming language instructions. Within a subdiscipline of machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+      "page_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "thumbnail": null
+    },
+    "Data Scientist": {
+      "ok": true,
+      "title": "Data science",
+      "description": "Field of study to extract knowledge from data",
+      "extract": "Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms, and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data.",
+      "page_url": "https://en.wikipedia.org/wiki/Data_science",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/PIA23792-1600x1200%281%29.jpg/330px-PIA23792-1600x1200%281%29.jpg"
+    },
+    "Cybersecurity Analyst": {
+      "ok": true,
+      "title": "Information security",
+      "description": "Protecting information by mitigating risk",
+      "extract": "Information security (infosec) is the practice of protecting information by mitigating information risks. It is part of information risk management. It typically involves preventing or reducing the probability of unauthorized or inappropriate access to data or the unlawful use, disclosure, disruption, deletion, corruption, modification, inspection, recording, or devaluation of information. It also involves actions intended to reduce the adverse impacts of such incidents. Protected information may take any form, e.g., electronic or physical, tangible, or intangible. Information security's primary focus is the balanced protection of data confidentiality, integrity, and availability while maintaining a focus on efficient policy implementation, all without hampering organization productivity. This is largely achieved through a structured risk management process.",
+      "page_url": "https://en.wikipedia.org/wiki/Information_security",
+      "thumbnail": null
+    },
+    "Product Manager": {
+      "ok": true,
+      "title": "Product manager",
+      "description": "Professional role in business",
+      "extract": "A product manager (PM) is a professional role that is responsible for the development of products for an organization, known as the practice of product management. Product managers own the product strategy behind a product, specify its functional requirements, and manage feature releases. Product managers coordinate work done by many other functions, and are ultimately responsible for product outcomes.",
+      "page_url": "https://en.wikipedia.org/wiki/Product_manager",
+      "thumbnail": null
+    },
+    "UX Designer": {
+      "ok": true,
+      "title": "User experience design",
+      "description": "Field of design focusing on the creation of user-centered products and websites",
+      "extract": "User experience design, upon which is the centralized requirements for \"User Experience Design Research\", defines the experience a user would go through when interacting with a company, its services, and its products. User experience design is a user centered design approach because it considers the user's experience when using a product or platform. Research, data analysis, and test results drive design decisions in UX design rather than aesthetic preferences and opinions, for which is known as UX Design Research. Unlike user interface design, which focuses solely on the design of a computer interface, UX design encompasses all aspects of a user's perceived experience with a product or website, such as its usability, usefulness, desirability, brand perception, and overall performance. UX design is also an element of the customer experience (CX), and encompasses all design aspects and design stages that are around a customer's experience.",
+      "page_url": "https://en.wikipedia.org/wiki/User_experience_design",
+      "thumbnail": null
+    },
+    "Game Developer": {
+      "ok": true,
+      "title": "Video game developer",
+      "description": "Software developer specializing in the creation of video games",
+      "extract": "A video game developer is a software developer specializing in video game development – the process and related disciplines of creating video games. A game developer can range from one person who undertakes all tasks to a large business with employee responsibilities split between individual disciplines, such as programmers, designers, artists, etc. Most game development companies have video game publisher financial and usually marketing support. Self-funded developers are known as independent or indie developers and usually make indie games.",
+      "page_url": "https://en.wikipedia.org/wiki/Video_game_developer",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Game_Developers_Choice_Awards_-_Campo_Santo.jpg/330px-Game_Developers_Choice_Awards_-_Campo_Santo.jpg"
+    },
+    "AI Researcher": {
+      "ok": true,
+      "title": "Artificial intelligence",
+      "description": "Intelligence of machines",
+      "extract": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.",
+      "page_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "thumbnail": null
+    },
+    "Doctor": {
+      "ok": true,
+      "title": "Medical doctor",
+      "description": "Professional who practices medicine",
+      "extract": "A medical doctor, also known as a physician or medical practitioner, is a health professional who practices medicine. Medicine aims to promote, maintain or restore health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental conditions.",
+      "page_url": "https://en.wikipedia.org/wiki/Medical_doctor",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/The_Doctor_Luke_Fildes_crop.jpg/330px-The_Doctor_Luke_Fildes_crop.jpg"
+    },
+    "Nurse": {
+      "ok": true,
+      "title": "Nursing",
+      "description": "Health care profession",
+      "extract": "Nursing is a health care profession that \"integrates the art and science of caring and focuses on the protection, promotion, and optimization of health and human functioning; prevention of illness and injury; facilitation of healing; and alleviation of suffering through compassionate presence\". Nurses practice in many specialties with varying levels of certification and responsibility. Nurses comprise the largest component of most healthcare environments. There are imbalances between the supply and demand for qualified nurses in many countries.",
+      "page_url": "https://en.wikipedia.org/wiki/Nursing",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nurse_checks_blood_pressure.jpg/330px-Nurse_checks_blood_pressure.jpg"
+    },
+    "Surgeon": {
+      "ok": true,
+      "title": "Surgeon",
+      "description": "Physician with surgical specialty",
+      "extract": "In medicine, a surgeon is a medical doctor who performs surgery. Even though there are different traditions in different times and places, a modern surgeon is a licensed physician and received the same medical training as physicians before specializing in surgery.",
+      "page_url": "https://en.wikipedia.org/wiki/Surgeon",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/330px-Cardiac_surgery_operating_room.jpg"
+    },
+    "Therapist": {
+      "ok": true,
+      "title": "Therapy",
+      "description": "Attempted medical remediation of a health problem",
+      "extract": "A therapy or medical treatment is the attempted remediation of a health problem, usually following a medical diagnosis. Both words, treatment and therapy, are often abbreviated Tx, or Tx.",
+      "page_url": "https://en.wikipedia.org/wiki/Therapy",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Polio_physical_therapy.jpg/330px-Polio_physical_therapy.jpg"
+    },
+    "Pharmacist": {
+      "ok": true,
+      "title": "Pharmacist",
+      "description": "Healthcare professional",
+      "extract": "A pharmacist, also known as a chemist in Commonwealth English, is a healthcare professional who is knowledgeable about preparation, mechanism of action, clinical usage and legislation of medications in order to dispense them safely to the public and to provide consultancy services. A pharmacist also often serves as a primary care provider in the community and offers services, such as health screenings and immunizations.",
+      "page_url": "https://en.wikipedia.org/wiki/Pharmacist",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Man_consults_with_pharmacist_%282%29.jpg/330px-Man_consults_with_pharmacist_%282%29.jpg"
+    },
+    "Dentist": {
+      "ok": true,
+      "title": "Dentist",
+      "description": "Health care occupations caring for the mouth and teeth",
+      "extract": "A dentist, also known as a dental doctor, dental physician, dental surgeon, is a health care professional who specializes in dentistry, the branch of medicine focused on the teeth, gums, and mouth. The dentist's supporting team aids in providing oral health services. The dental team includes dental assistants, dental hygienists, dental technicians, and sometimes dental therapists.",
+      "page_url": "https://en.wikipedia.org/wiki/Dentist",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg/330px-US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg"
+    },
+    "Veterinarian": {
+      "ok": true,
+      "title": "Veterinarian",
+      "description": "Health professional who treats non-human animals",
+      "extract": "A veterinarian (vet) or veterinary surgeon is a medical professional who practices veterinary medicine. They manage a wide range of health conditions and injuries in non-human animals. Along with this, veterinarians also play a role in animal reproduction, health management, conservation, husbandry and breeding and preventive medicine like nutrition, vaccination and parasitic control as well as biosecurity and zoonotic disease surveillance and prevention.",
+      "page_url": "https://en.wikipedia.org/wiki/Veterinarian",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Surgery_performed_on_a_domestic_cat.jpg/330px-Surgery_performed_on_a_domestic_cat.jpg"
+    },
+    "Paramedic": {
+      "ok": true,
+      "title": "Paramedic",
+      "description": "Healthcare professional working outside of hospitals",
+      "extract": "A paramedic is a healthcare professional trained in the medical model, whose main role has historically been to respond to emergency calls for medical help outside of a hospital. Paramedics work as part of the emergency medical services (EMS), most often in ambulances. They also have roles in emergency medicine, primary care, transfer medicine and remote/offshore medicine. The scope of practice of a paramedic varies between countries, but generally includes autonomous decision making around the emergency care of patients.",
+      "page_url": "https://en.wikipedia.org/wiki/Paramedic",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ACTAS_Paramedics-photo.jpg/330px-ACTAS_Paramedics-photo.jpg"
+    },
+    "Radiologist": {
+      "ok": true,
+      "title": "Radiology",
+      "description": "Medical specialty for imaging procedures",
+      "extract": "Radiology is the medical specialty that uses medical imaging to diagnose diseases and guide treatment within the bodies of humans and other animals. It began with radiography, but today it includes all imaging modalities. This includes technologies that use no ionizing electromagnetic radiation, such as ultrasonography and magnetic resonance imaging (MRI), as well as others that do use radiation, such as computed tomography (CT), fluoroscopy, and nuclear medicine including positron emission tomography (PET). Interventional radiology is the performance of usually minimally invasive medical procedures with the guidance of imaging technologies such as those mentioned above.",
+      "page_url": "https://en.wikipedia.org/wiki/Radiology",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Radiologist_interpreting_MRI.jpg/330px-Radiologist_interpreting_MRI.jpg"
+    },
+    "Investment Banker": {
+      "ok": true,
+      "title": "Investment banking",
+      "description": "Financial service providing capital-raising and advisory functions",
+      "extract": "Investment banking is an advisory-based financial service primarily for corporations, governments, and institutional investors. Traditionally associated with corporate finance, such a bank might assist in raising financial capital by underwriting or acting as the client's agent in the issuance of debt or equity securities. An investment bank may also provide services to companies involved in mergers and acquisitions (M&A). These services may include market making, trading of derivatives and equity securities, FICC services, or research. Most investment banks maintain prime brokerage and asset management departments in conjunction with their investment research businesses. As an industry, it is broken up into the Bulge Bracket, Middle Market, and boutique market.",
+      "page_url": "https://en.wikipedia.org/wiki/Investment_banking",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Assorted_United_States_coins.jpg/330px-Assorted_United_States_coins.jpg"
+    },
+    "Accountant": {
+      "ok": true,
+      "title": "Accountant",
+      "description": "Practitioner of accounting or accountancy",
+      "extract": "An accountant is a practitioner of accounting or accountancy.\nAccountants who have demonstrated competency through their professional associations' certification exams are certified to use titles such as Chartered Accountant, Chartered Certified Accountant or Certified Public Accountant, or Registered Public Accountant. Such professionals are granted certain responsibilities by statute, such as the ability to certify an organization's financial statements, and may be held liable for professional misconduct. Non-qualified accountants may be employed by a qualified accountant, or may work independently without statutory privileges and obligations.",
+      "page_url": "https://en.wikipedia.org/wiki/Accountant",
+      "thumbnail": null
+    },
+    "Financial Analyst": {
+      "ok": true,
+      "title": "Financial analyst",
+      "description": "Person who performs financial analysis",
+      "extract": "A financial analyst is a professional undertaking financial analysis for external or internal clients as a core feature of the job. The role may specifically be titled securities analyst, research analyst, equity analyst, investment analyst, or ratings analyst. The job title is a broad one:\nIn banking, and industry more generally, various other analyst-roles cover financial management and (credit) risk management, as opposed to focusing on investments and valuation.",
+      "page_url": "https://en.wikipedia.org/wiki/Financial_analyst",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Assorted_United_States_coins.jpg/330px-Assorted_United_States_coins.jpg"
+    },
+    "Actuary": {
+      "ok": true,
+      "title": "Actuary",
+      "description": "Analyst of business risk and uncertainty",
+      "extract": "An actuary is a professional with advanced mathematical skills who deals with the measurement and management of risk and uncertainty. These risks can affect both sides of the balance sheet and require asset management, liability management, and valuation skills. Actuaries provide assessments of financial security systems, with a focus on their complexity, their mathematics, and their mechanisms. The name of the corresponding academic discipline is actuarial science.",
+      "page_url": "https://en.wikipedia.org/wiki/Actuary",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hurricane_katrina_damage_gulfport_mississippi.jpg/330px-Hurricane_katrina_damage_gulfport_mississippi.jpg"
+    },
+    "Trader": {
+      "ok": true,
+      "title": "Trader",
+      "description": "Topics referred to by the same term",
+      "extract": "Trader may refer to:Merchant, retailer or one who attempts to generally buy wholesale and sell later at a profit\nThe owner of a trading post, where manufactured goods were exchanged with native peoples for furs and hides.\nTrader (finance), someone who buys and sells financial instruments such as stocks, bonds, derivatives, etc.\nTrader Classified Media, classified advertisement company\nTrader Media East, largest classified advertising company in Central and Eastern Europe\nTrader (comics), the name of two separate fictional characters in the Marvel Comics universe\n\"The Trader\", a song by The Beach Boys from their album Holland\nA merchant vessel, a boat or ship that transports cargo or carries passengers for hire. This excludes pleasure craft that do not carry passengers for hire and warships\nGrumman C-1 Trader, a piston, carrier born cargo plane.",
+      "page_url": "https://en.wikipedia.org/wiki/Trader",
+      "thumbnail": null
+    },
+    "Wealth Manager": {
+      "ok": true,
+      "title": "Wealth management",
+      "description": "Investment management and financial planning service",
+      "extract": "Wealth management (WM) or wealth management advisory (WMA) is an investment advisory service that provides financial management and wealth advisory services to a wide array of clients ranging from affluent to high-net-worth (HNW) and ultra-high-net-worth (UHNW) individuals and families.",
+      "page_url": "https://en.wikipedia.org/wiki/Wealth_management",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Community_Noun_project_39956.svg/330px-Community_Noun_project_39956.svg.png"
+    },
+    "Lawyer": {
+      "ok": true,
+      "title": "Lawyer",
+      "description": "Practitioner of law",
+      "extract": "A lawyer is a person who is qualified to offer advice about the law, draft legal documents, or represent individuals in legal matters.",
+      "page_url": "https://en.wikipedia.org/wiki/Lawyer",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Helena_Normanton.jpg/330px-Helena_Normanton.jpg"
+    },
+    "Paralegal": {
+      "ok": true,
+      "title": "Paralegal",
+      "description": "Paraprofessional who assists qualified lawyers in their legal work",
+      "extract": "A paralegal, also known as a legal assistant or paralegal specialist, is a legal professional who performs tasks that require knowledge of legal concepts but not the full expertise of a lawyer with an admission to practice law. The market for paralegals is broad, including consultancies, companies that have legal departments or that perform legislative and regulatory compliance activities in areas such as environment, labor, intellectual property, zoning, and tax. Legal offices and public bodies also have many paralegals in support activities using other titles outside of the standard titles used in the profession. There is a diverse array of work experiences attainable within the paralegal field, ranging between internship, entry-level, associate, junior, mid-senior, and senior level positions.",
+      "page_url": "https://en.wikipedia.org/wiki/Paralegal",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Paralegal_and_Legal_Assistant_-_DPLA_-_61c98374b371fbaef5b835e3d2f54de3.jpg/330px-Paralegal_and_Legal_Assistant_-_DPLA_-_61c98374b371fbaef5b835e3d2f54de3.jpg"
+    },
+    "Judge": {
+      "ok": true,
+      "title": "Judge",
+      "description": "Person who is going to decide a decision according to the law in the court",
+      "extract": "A judge is a person who presides over court proceedings, either alone or as a part of a judicial panel. In an adversarial system, the judge hears all the witnesses and any other evidence presented by the barristers or solicitors of the case, assesses the credibility and arguments of the parties, and then issues a ruling in the case based on their interpretation of the law and their own personal judgment. A judge is expected to conduct the trial impartially and, typically, in an open court.",
+      "page_url": "https://en.wikipedia.org/wiki/Judge",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/ICJ-CJI_hearing_1.jpg/330px-ICJ-CJI_hearing_1.jpg"
+    },
+    "Public Defender": {
+      "ok": true,
+      "title": "Public defender",
+      "description": "Lawyer appointed as legal aid",
+      "extract": "A public defender is a lawyer appointed to represent people who otherwise cannot reasonably afford to hire a lawyer to defend themselves in a trial. Several countries provide people with public defenders, including the UK, Belgium, Hungary and Singapore, and some states of Australia. Brazil is the only country in which an office of government-paid lawyers with the specific purpose of providing full legal assistance and representation to the needy free of charge is established in the constitution. The Sixth Amendment to the US Constitution, as interpreted by the Supreme Court, requires the US government to provide legal counsel to indigent defendants in criminal cases. Public defenders in the United States are lawyers employed by or under contract with county, state or federal governments.",
+      "page_url": "https://en.wikipedia.org/wiki/Public_defender",
+      "thumbnail": null
+    },
+    "Graphic Designer": {
+      "ok": true,
+      "title": "Graphic designer",
+      "description": "Person who creates visual design works",
+      "extract": "A graphic designer is a practitioner who follows the discipline of graphic design, either within companies or organizations or independently. They are professionals in design and visual communication, with their primary focus on transforming linguistic messages into graphic manifestations, whether tangible or intangible. They are responsible for planning, designing, projecting, and conveying messages or ideas through visual communication. Graphic design is one of the most in-demand professions with significant job opportunities, as it allows leveraging technological advancements and working online from anywhere in the world.",
+      "page_url": "https://en.wikipedia.org/wiki/Graphic_designer",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Davidfoto.jpg/330px-Davidfoto.jpg"
+    },
+    "Writer": {
+      "ok": true,
+      "title": "Writer",
+      "description": "Person who writes texts",
+      "extract": "A writer is a person who uses written words in different writing styles, genres, and techniques to communicate ideas, to inspire feelings and emotions, or to entertain. Writers may develop different forms of writing such as novels, short stories, monographs, travelogues, plays, screenplays, teleplays, songs, and essays as well as reports, educational material, and news articles that may be of interest to the general public. Writers' works are nowadays published across a wide range of media. Skilled writers who are able to use language to express ideas well often contribute significantly to the cultural content of a society.",
+      "page_url": "https://en.wikipedia.org/wiki/Writer",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Francisco_de_Goya_y_Lucientes_-_Gaspar_Melchor_de_Jovellanos.jpg/330px-Francisco_de_Goya_y_Lucientes_-_Gaspar_Melchor_de_Jovellanos.jpg"
+    },
+    "Photographer": {
+      "ok": true,
+      "title": "Photographer",
+      "description": "Person who makes photographs",
+      "extract": "A photographer is a person who makes photographs, most commonly using a camera. They may do so as part of photojournalism, for the sake of creating personal mementos, as part of a business model, as artistic expression or for various other reasons.",
+      "page_url": "https://en.wikipedia.org/wiki/Photographer",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Photograph_of_a_Photographer.jpg/330px-Photograph_of_a_Photographer.jpg"
+    },
+    "Filmmaker": {
+      "ok": true,
+      "title": "Filmmaking",
+      "description": "Process of making a motion picture",
+      "extract": "Filmmaking, or film production, is the process of creating a motion picture. Traditionally, filmmaking is thought of as a process specific for the creation of feature films; however, its iconic methodology has been used in the creation of other types of filmed products, including movies and episodic series for streaming and network broadcasting, commercials and advertisements, animations, music videos, and documentaries. It involves a number of distinct stages, including an initial story idea or commission, followed by screenwriting, casting, pre-production, shooting, sound recording, post-production, and screening the finished product before an audience, which may result in a film release distribution and exhibition. The process is nonlinear, in that the filmmaker typically shoots the script out of sequence, repeats shots as needed, and puts them together through editing later. Filmmaking takes place in a variety of economic, social, and political contexts around the world and uses a wide range of technologies and cinematic techniques. While originally films were recorded on photographic film, most modern filmmaking is now digital.",
+      "page_url": "https://en.wikipedia.org/wiki/Filmmaking",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Main_Cast_%28206644687%29.jpeg/330px-Main_Cast_%28206644687%29.jpeg"
+    },
+    "Architect": {
+      "ok": true,
+      "title": "Architect",
+      "description": "Person who designs buildings and oversees construction",
+      "extract": "An architect is a person who plans, designs, and oversees the construction of buildings. To practice architecture means to provide services in connection with the design of buildings and the space within the site surrounding the buildings that have human occupancy or use as their principal purpose. Etymologically, the term architect derives from the Latin architectus, which derives from the Greek, i.e., chief builder.",
+      "page_url": "https://en.wikipedia.org/wiki/Architect",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Architect.png/330px-Architect.png"
+    },
+    "Chef": {
+      "ok": true,
+      "title": "Chef",
+      "description": "Trained professional cook",
+      "extract": "A chef is a professional cook and tradesperson who is proficient in many aspects of food preparation, often focusing on a particular cuisine. The word \"chef\" is derived from the term chef de cuisine, the director or head of a kitchen. Chefs can receive formal training from an institution, as well as by apprenticing with an experienced chef.",
+      "page_url": "https://en.wikipedia.org/wiki/Chef",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg/330px-Ribot_Theodule_The_Cook_And_The_Cat-1.jpg"
+    },
+    "Fashion Designer": {
+      "ok": true,
+      "title": "Fashion design",
+      "description": "Art of applying design and aesthetics to clothing and accessories",
+      "extract": "Fashion design is the art of applying design, aesthetics, clothing construction, and natural beauty to clothing and its accessories. It is influenced by diverse cultures and different trends and has varied over time and place. \"A fashion designer creates clothing, including dresses, suits, pants, skirts, and accessories like shoes and handbags, for consumers. They can specialize in clothing, accessory, or jewelry design, or may work in more than one of these areas.\"",
+      "page_url": "https://en.wikipedia.org/wiki/Fashion_design",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bundesarchiv_Bild_183-N0409-0320%2C_VEB_Bekleidungswerk_%22Steppke%22_G%C3%B6rlitz%2C_Gestaltung_Kinderkonfektion_%28cropped%29.jpg/330px-Bundesarchiv_Bild_183-N0409-0320%2C_VEB_Bekleidungswerk_%22Steppke%22_G%C3%B6rlitz%2C_Gestaltung_Kinderkonfektion_%28cropped%29.jpg"
+    },
+    "Animator": {
+      "ok": true,
+      "title": "Animator",
+      "description": "Person who makes animation sequences out of still images",
+      "extract": "An animator is an artist who creates images, known as frames, which give an illusion of movement called animation when displayed in rapid sequence. Animators can work in a variety of fields including film, television, and video games. Animation is closely related to filmmaking and like filmmaking is extremely labor-intensive, which means that most significant works require the collaboration of several animators. The methods of creating the images or frames for an animation piece depend on the animators' artistic styles and their field.",
+      "page_url": "https://en.wikipedia.org/wiki/Animator",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Norman_McLaren_drawing_on_film_-_1944.jpg/330px-Norman_McLaren_drawing_on_film_-_1944.jpg"
+    },
+    "Musician": {
+      "ok": true,
+      "title": "Musician",
+      "description": "Person who composes, conducts or performs music",
+      "extract": "A musician is someone who composes, conducts, or performs music. According to the United States Employment Service, \"musician\" is a general term used to designate a person who follows music as a profession. Musicians include songwriters, who write both music and lyrics for songs; conductors, who direct a musical performance; and performers, who perform for an audience. A music performer is generally either a singer, who provides vocals, or an instrumentalist, who plays a musical instrument. Musicians may perform on their own or as part of a group, band or orchestra.",
+      "page_url": "https://en.wikipedia.org/wiki/Musician",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Joan_Baez_and_Bob_Dylan.jpg/330px-Joan_Baez_and_Bob_Dylan.jpg"
+    },
+    "Plumber": {
+      "ok": true,
+      "title": "Plumber",
+      "description": "Tradesperson specializing in water and sewage systems",
+      "extract": "A plumber is a tradesperson who specializes in installing and maintaining systems used for potable (drinking) water, hot-water production, sewage and drainage in plumbing systems.",
+      "page_url": "https://en.wikipedia.org/wiki/Plumber",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Plumber_at_work.jpg/330px-Plumber_at_work.jpg"
+    },
+    "Electrician": {
+      "ok": true,
+      "title": "Electrician",
+      "description": "Tradesperson specializing in electrical wiring",
+      "extract": "An electrician is a tradesperson specializing in electrical wiring of buildings, transmission lines, stationary machines, and related equipment. Electricians may be employed in the installation of new electrical components or the maintenance and repair of existing electrical infrastructure. Electricians may also specialize in wiring ships, airplanes, and other mobile platforms, as well as data and cable lines.",
+      "page_url": "https://en.wikipedia.org/wiki/Electrician",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/US_Navy_040902-N-7683J-003_Electrician%27s_Mate_3rd_Class_Tayo_Gbadebo_from_Lagos%2C_Nigeria%2C_rewires_the_motor_from_an_Aqueous_Film_Forming_Foam_%28AFFF%29_Sprinkler_System%27s_pump.jpg/330px-thumbnail.jpg"
+    },
+    "Carpenter": {
+      "ok": true,
+      "title": "Carpentry",
+      "description": "Skilled trade",
+      "extract": "Carpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials during the construction of buildings, ships, timber bridges, concrete formwork, etc. Carpenters traditionally worked with natural wood and did rougher work such as framing, but today many other materials are also used and sometimes the finer trades of cabinetmaking and furniture building are considered carpentry. In the United States, 98.5% of carpenters are male, and it was the fourth most male-dominated occupation in the country in 1999. In 2006 in the United States, there were about 1.5 million carpentry positions. Carpenters are usually the first tradesmen on a job and the last to leave. Carpenters normally framed post-and-beam buildings until the end of the 19th century; now this old-fashioned carpentry is called timber framing. Carpenters learn this trade by being employed through an apprenticeship training—normally four years—and qualify by successfully completing that country's competence test in places such as the United Kingdom, the United States, Canada, Switzerland, Australia and South Africa. It is also common that the skill can be learned by gaining work experience other than a formal training program, which may be the case in many places.",
+      "page_url": "https://en.wikipedia.org/wiki/Carpentry",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/PalmercarpenterA.jpg/330px-PalmercarpenterA.jpg"
+    },
+    "Mechanic": {
+      "ok": true,
+      "title": "Mechanic",
+      "description": "Profession",
+      "extract": "A mechanic is a skilled tradesperson who uses tools to build, maintain, or repair machinery, especially engines. Formerly, the term meant any member of the handicraft trades, but by the early 20th century, it had come to mean one who works with machinery.",
+      "page_url": "https://en.wikipedia.org/wiki/Mechanic",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg/330px-Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg"
+    },
+    "Pilot": {
+      "ok": true,
+      "title": "Aircraft pilot",
+      "description": "Person controlling an aircraft in flight",
+      "extract": "An aircraft pilot, or aviator, is an individual who controls an aircraft's flight by operating its directional controls. Other aircrew members, such as navigators and flight engineers, are also considered aviators because they assist in operating the aircraft’s navigation and engine systems. Aircrew members like drone operators, flight attendants, mechanics, and ground crew are not classified as aviators.",
+      "page_url": "https://en.wikipedia.org/wiki/Aircraft_pilot",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/330px-Lt_Mike_Hunter_1.jpg"
+    },
+    "Teacher": {
+      "ok": true,
+      "title": "Teacher",
+      "description": "Person who helps others learn",
+      "extract": "A teacher, also called a schoolteacher or formally an educator, is a person who helps students to acquire knowledge, competence, or virtue, via the practice of teaching.",
+      "page_url": "https://en.wikipedia.org/wiki/Teacher",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg/330px-A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg"
+    },
+    "Professor": {
+      "ok": true,
+      "title": "Professor",
+      "description": "Academic title at universities and other educational institutions",
+      "extract": "Professor is an academic rank at universities and other post-secondary education and research institutions in most countries. Literally, professor derives from Latin as a 'person who professes'. Professors are usually experts in their field and teachers of the highest rank.",
+      "page_url": "https://en.wikipedia.org/wiki/Professor",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/330px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+    },
+    "School Counselor": {
+      "ok": true,
+      "title": "School counselor",
+      "description": "Education occupation of guidance and counseling",
+      "extract": "A school counselor is a certified/licensed professional that provides academic, career, college readiness, and social-emotional support for all students. There are school counselor positions within each level of schooling. By developing and following a school counseling program, school counselors are able to provide students of all ages with the appropriate support and guidance needed for overall success.",
+      "page_url": "https://en.wikipedia.org/wiki/School_counselor",
+      "thumbnail": null
+    },
+    "Athletic Coach": {
+      "ok": true,
+      "title": "Coach (sport)",
+      "description": "Person involved in directing, instructing and training sportspeople",
+      "extract": "An athletic coach is a person coaching in sport, involved in the direction, instruction, and training of a sports team or athlete.",
+      "page_url": "https://en.wikipedia.org/wiki/Coach_(sport)",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Torre_and_coaches.jpg/330px-Torre_and_coaches.jpg"
+    },
+    "Biologist": {
+      "ok": true,
+      "title": "Biologist",
+      "description": "Scientist studying living organisms",
+      "extract": "A biologist is a scientist who conducts research in biology. Biologists are interested in studying life on Earth, whether it is an individual cell, a multicellular organism, or a community of interacting populations. They usually specialize in a particular branch of biology and have a specific research focus.",
+      "page_url": "https://en.wikipedia.org/wiki/Biologist",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Francesco_Redi.jpg/330px-Francesco_Redi.jpg"
+    },
+    "Chemist": {
+      "ok": true,
+      "title": "Chemist",
+      "description": "Scientist trained in the study of chemistry",
+      "extract": "A chemist is a graduated scientist trained in the study of chemistry, or an officially enrolled student in the field. Chemists study the composition of matter and its properties. Chemists carefully describe the properties they study in terms of quantities, with detail on the level of molecules and their component atoms. Chemists carefully measure substance proportions, chemical reaction rates, and other chemical properties. In Commonwealth English, pharmacists are often called chemists.",
+      "page_url": "https://en.wikipedia.org/wiki/Chemist",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Metsu%2C_Gabri%C3%ABl_-_L%27Apothicaire_-_c._1651-1667.jpg/330px-Metsu%2C_Gabri%C3%ABl_-_L%27Apothicaire_-_c._1651-1667.jpg"
+    },
+    "Physicist": {
+      "ok": true,
+      "title": "Physicist",
+      "description": "Scientist specializing in the field of physics",
+      "extract": "A physicist is a scientist who specializes in the field of physics, which encompasses the interactions of matter and energy at all length and time scales in the physical universe. Physicists generally are interested in the root or ultimate causes of phenomena, and usually frame their understanding in mathematical terms. They work across a wide range of research fields, spanning all length scales: from sub-atomic and particle physics, through biological physics, to cosmological length scales encompassing the universe as a whole. The field generally includes two types of physicists: experimental physicists who specialize in the observation of natural phenomena and the development and analysis of experiments, and theoretical physicists who specialize in mathematical modeling of physical systems to rationalize, explain and predict natural phenomena.",
+      "page_url": "https://en.wikipedia.org/wiki/Physicist",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Albert_Einstein_1947.jpg/330px-Albert_Einstein_1947.jpg"
+    },
+    "Marine Biologist": {
+      "ok": true,
+      "title": "Marine biology",
+      "description": "Scientific study of ocean life",
+      "extract": "Marine biology is the scientific study of the biology of marine life, organisms that inhabit the sea. Given that in biology many phyla, families and genera have some species that live in the sea and others that live on land, marine biology classifies species based on the environment rather than on taxonomy.",
+      "page_url": "https://en.wikipedia.org/wiki/Marine_biology",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tide_pools_in_santa_cruz.jpg/330px-Tide_pools_in_santa_cruz.jpg"
+    },
+    "Environmental Scientist": {
+      "ok": true,
+      "title": "Environmental science",
+      "description": "Study of the environment",
+      "extract": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems. It uses an integrated, quantitative, and interdisciplinary approach to analyze environmental systems and emerged from the fields of natural history and medicine during the Enlightenment. It is considered interdisciplinary because it is an integration of various fields such as: biology, chemistry, physics, geology, engineering, sociology, and ecology.",
+      "page_url": "https://en.wikipedia.org/wiki/Environmental_science",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg/330px-Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key><string>com.mateotelfer.careeraiexplorer.warmer</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>/Users/mateotelfer/Claude Code - Working Folder/career-ai-explorer/server/batch-warm.js</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/mateotelfer/Claude Code - Working Folder/career-ai-explorer/server</string>
+    <key>StartInterval</key><integer>3600</integer>
+    <key>RunAtLoad</key><false/>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PORT</key><string>3001</string>
+        <key>PATH</key><string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/mateotelfer/Claude Code - Working Folder/career-ai-explorer/scripts/logs/warmer.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mateotelfer/Claude Code - Working Folder/career-ai-explorer/scripts/logs/warmer.err.log</string>
+</dict>
+</plist>

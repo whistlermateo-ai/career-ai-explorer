@@ -1,0 +1,167 @@
+{
+  "occupation": "Dentist",
+  "soc_code": "29-1021.00",
+  "score": 80,
+  "confidence": "low",
+  "confidence_band": 5,
+  "verdict": "Moderate risk of AI displacement",
+  "timeline": [
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    },
+    {
+      "timeframe": "5-year horizon",
+      "description": ""
+    }
+  ],
+  "industry_baseline": 80,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "key_tasks": [
+    "Use masks, gloves, and safety glasses to protect patients and self from infectious diseases.",
+    "Examine teeth, gums, and related tissues, using dental instruments, x-rays, or other diagnostic equipment, to evaluate dental health, diagnose diseases or abnormalities, and plan appropriate treatments."
+  ],
+  "comparisons": [
+    {
+      "occupation": "Orthodontist",
+      "reason": "Similar tasks in orthodontics, but with a focus on tooth alignment"
+    },
+    {
+      "occupation": "Dental Hygienist",
+      "reason": "Related tasks in preventive oral care and patient education"
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "US Dept of Labor, O*NET 29.3",
+      "task": "Examine teeth, gums, and related tissues, using dental instruments, x-rays, or other diagnostic equipment, to evaluate dental health, diagnose diseases or abnormalities, and plan appropriate treatments."
+    },
+    {
+      "source": "Wikipedia",
+      "task": "Diagnose and treat diseases, injuries, or malformations of teeth, gums, or related oral structures"
+    }
+  ],
+  "reasoning_steps": [
+    "The dentist's tasks are highly dependent on routine cognition and diagnostic skills, which are currently well beyond the capabilities of AI systems.",
+    "However, the increasing availability of AI-powered dental imaging and analysis tools may lead to a moderate risk of displacement in the near future."
+  ],
+  "adjacent_careers": [
+    {
+      "occupation": "Orthodontist",
+      "reason": "Similar tasks in orthodontics"
+    },
+    {
+      "occupation": "Dental Hygienist",
+      "reason": "Related tasks in preventive oral care and patient education"
+    }
+  ],
+  "action_plan": [
+    {
+      "step": "Pursue additional education or training in a related field to develop skills that are less susceptible to automation.",
+      "timeframe": "2025-2030",
+      "reason": "Developing expertise in areas such as orthodontics or dental hygiene may provide a more stable career path."
+    }
+  ],
+  "follow_up_suggestions": [
+    {
+      "suggestion": "Research the latest developments in AI-powered dental diagnosis and treatment planning to stay informed about the potential impact on the profession.",
+      "timeframe": "2025-2030",
+      "reason": "Staying up-to-date with the latest advancements in AI technology can help dentists anticipate and prepare for changes in their field."
+    }
+  ],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "healthcare",
+    "quotes": [
+      {
+        "quote": "AI in medicine should be evaluated like a drug — for safety, for efficacy, and for the population it actually helps.",
+        "speaker": "Eric Topol",
+        "title": "Cardiologist; Director, Scripps Research Translational Institute",
+        "source": "Ground Truths newsletter / interviews",
+        "date": "2024-09",
+        "verbatim": "paraphrased",
+        "url": "https://erictopol.substack.com/"
+      },
+      {
+        "quote": "We should stop training radiologists now. It is just completely obvious that within five years, deep learning is going to do better than radiologists.",
+        "speaker": "Geoffrey Hinton",
+        "title": "Turing Award laureate; ex-Google",
+        "source": "Machine Learning and the Market for Intelligence conference, Toronto",
+        "date": "2016-11",
+        "verbatim": "verbatim",
+        "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ"
+      },
+      {
+        "quote": "AI will not replace doctors, but doctors who use AI will replace doctors who don't.",
+        "speaker": "Curtis Langlotz",
+        "title": "Professor of Radiology and Biomedical Informatics, Stanford",
+        "source": "Stanford talks; widely quoted",
+        "date": "2019-06",
+        "verbatim": "verbatim",
+        "url": "https://aimi.stanford.edu/people/curtis-langlotz"
+      }
+    ]
+  },
+  "recent_developments": [
+    {
+      "headline": "FDA clears more AI diagnostic tools each quarter",
+      "impact": "Radiology, pathology, and dermatology are seeing AI second-readers move into routine clinical workflows.",
+      "source": "FDA",
+      "date_text": "2024",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+      "source2": "Nature Medicine",
+      "url2": "https://www.nature.com/nm/"
+    },
+    {
+      "headline": "Hospitals deploy ambient AI scribes at scale",
+      "impact": "Major US health systems report clinicians saving 1–2 hours of documentation per day.",
+      "source": "JAMA",
+      "date_text": "2024",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2825147",
+      "source2": "NEJM Catalyst",
+      "url2": "https://catalyst.nejm.org/"
+    },
+    {
+      "headline": "Drug discovery accelerates with foundation models",
+      "impact": "AI-designed candidates are entering Phase I trials within months instead of years.",
+      "source": "Nature",
+      "date_text": "2024",
+      "url": "https://www.nature.com/articles/d41586-023-03172-6",
+      "source2": "Science",
+      "url2": "https://www.science.org/topic/artificial-intelligence"
+    }
+  ]
+}

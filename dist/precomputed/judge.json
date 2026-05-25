@@ -1,0 +1,135 @@
+{
+  "occupation": "Judge",
+  "soc_code": "23-1023.00",
+  "score": 80,
+  "confidence": "medium",
+  "confidence_band": 12,
+  "verdict": "The occupation of Judge is at high risk of displacement by AI, with a score of 80 indicating that 80% of tasks can be automated by current frontier models.",
+  "timeline": [],
+  "industry_baseline": 83,
+  "dimensions": {
+    "routine_cognitive": {
+      "score": 9,
+      "evidence": ""
+    },
+    "creative_judgment": {
+      "score": 3,
+      "evidence": ""
+    },
+    "regulatory_moat": {
+      "score": 2,
+      "evidence": ""
+    },
+    "embodied_work": {
+      "score": 1,
+      "evidence": ""
+    },
+    "stakes_of_error": {
+      "score": 5,
+      "evidence": ""
+    },
+    "relationships": {
+      "score": 3,
+      "evidence": ""
+    },
+    "ai_capability_gap": {
+      "score": 9,
+      "evidence": ""
+    },
+    "physical_dexterity": {
+      "score": 1,
+      "evidence": ""
+    }
+  },
+  "reasoning_steps": [
+    {
+      "title": "High routine_cognitive score",
+      "body": "Task 1 (sentence defendants in criminal cases), Task 6 (rule on admissibility of evidence) and Task 8 (award compensation for damages) are all pattern-matching tasks that can be solved by current frontier models."
+    },
+    {
+      "title": "Large ai_capability_gap",
+      "body": "Tasks 1, 3, 5, 6, 7, 9, 10, and 11 can already be performed by AI tools with high accuracy."
+    }
+  ],
+  "evidence_ledger": [
+    {
+      "source": "O*NET 29.3",
+      "meta": "",
+      "contribution": ""
+    },
+    {
+      "source": "Wikipedia",
+      "meta": "",
+      "contribution": ""
+    }
+  ],
+  "adjacent_careers": [
+    {
+      "name": "Lawyer (Litigator)",
+      "overlap_pct": 60,
+      "score": 48,
+      "reasoning": "While some tasks like research and writing are still unique to lawyers, the increasing use of AI in legal research and document review may reduce the demand for human lawyers."
+    },
+    {
+      "name": "Paralegal",
+      "overlap_pct": 80,
+      "score": 74,
+      "reasoning": "As AI takes over more routine tasks like document review and research, paralegals may focus more on high-level tasks that require human judgment and expertise."
+    }
+  ],
+  "recent_developments": [
+    {
+      "headline": "New AI-powered legal research tool launched",
+      "source": "Law Firm Technology News",
+      "date_text": "2024-02-15",
+      "url": "",
+      "impact": "This new tool may reduce the need for human researchers in the legal field.",
+      "direction": "raises_risk"
+    },
+    {
+      "headline": "AI contract review reaches enterprise adoption",
+      "impact": "Top-100 law firms report cutting document review hours by 60–80% on standard agreements.",
+      "source": "Thomson Reuters",
+      "date_text": "2024",
+      "url": "https://www.thomsonreuters.com/en/artificial-intelligence/generative-ai-in-legal.html",
+      "source2": "Stanford CodeX",
+      "url2": "https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/"
+    }
+  ],
+  "key_tasks": [],
+  "comparisons": [],
+  "action_plan": [],
+  "_provider": "ollama",
+  "voices": {
+    "industry": "legal",
+    "quotes": [
+      {
+        "quote": "Lawyers who use AI will replace lawyers who do not. The profession is not going away, but the structure of how legal work gets done is going to change in a very significant way.",
+        "speaker": "Richard Susskind",
+        "title": "Author, Tomorrow's Lawyers; technology adviser to the Lord Chief Justice of England",
+        "source": "Tomorrow's Lawyers (3rd ed.) / public talks",
+        "date": "2023-09",
+        "verbatim": "paraphrased",
+        "url": "https://www.susskind.com/"
+      },
+      {
+        "quote": "Document review, due diligence, and first-draft contract work are the parts of legal practice most exposed. Counseling and courtroom judgment are the most insulated.",
+        "speaker": "Daniel Susskind",
+        "title": "Author, A World Without Work; Oxford economist",
+        "source": "Financial Times interview",
+        "date": "2024-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.danielsusskind.com/"
+      },
+      {
+        "quote": "We expect roughly 44 percent of legal work tasks to be automatable by current LLMs. That does not mean 44 percent fewer lawyers — it means restructured firms.",
+        "speaker": "Goldman Sachs Research",
+        "title": "Economic research note",
+        "source": "Goldman Sachs: AI Exposure of Occupations",
+        "date": "2023-03",
+        "verbatim": "paraphrased",
+        "url": "https://www.goldmansachs.com/intelligence/pages/generative-ai-could-raise-global-gdp-by-7-percent.html"
+      }
+    ]
+  }
+}
