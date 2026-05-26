@@ -46,6 +46,37 @@
     "family doctor": "doctor",
     "primary care doctor": "doctor",
     "md": "doctor",
+    "oncologist": "doctor",
+    "cardiologist": "doctor",
+    "neurologist": "doctor",
+    "pediatrician": "doctor",
+    "dermatologist": "doctor",
+    "endocrinologist": "doctor",
+    "gastroenterologist": "doctor",
+    "rheumatologist": "doctor",
+    "psychiatrist": "doctor",
+    "obstetrician": "doctor",
+    "gynecologist": "doctor",
+    "ophthalmologist": "doctor",
+    "anesthesiologist": "doctor",
+    "radiologist": "doctor",
+    "pathologist": "doctor",
+    "neurosurgeon": "surgeon",
+    "cardiac surgeon": "surgeon",
+    "orthopedic surgeon": "surgeon",
+    "plastic surgeon": "surgeon",
+    "general surgeon": "surgeon",
+    "trauma surgeon": "surgeon",
+    "physical therapist": "therapist",
+    "occupational therapist": "therapist",
+    "speech therapist": "therapist",
+    "marriage counselor": "therapist",
+    "social worker": "therapist",
+    "midwife": "nurse",
+    "icu nurse": "nurse",
+    "or nurse": "nurse",
+    "school nurse": "nurse",
+    "home health aide": "nurse",
     "rn": "nurse",
     "registered nurse": "nurse",
     "lpn": "nurse",
@@ -212,6 +243,27 @@
     for (var i = 0; i < slugs.length; i++) {
       var name = (dataset[slugs[i]].name || "").toLowerCase();
       if (name === normalizedInput) return slugs[i];
+    }
+
+    // 3.5. Single-token canonical match. If the input contains any individual
+    //      token that exactly matches a canonical occupation slug or its core
+    //      word (e.g. "underwater welder" contains "welder"), treat that as a
+    //      strong match. Prevents false-negatives on multi-word phrasings.
+    var inputTokens = normalizedInput.split(" ").filter(function (t) { return t.length >= 4; });
+    for (var i = 0; i < inputTokens.length; i++) {
+      var tok = inputTokens[i];
+      // Look for an exact occupation-slug match (e.g. "welder")
+      if (dataset[tok]) return tok;
+      // Look for a single-word display name (e.g. token "writer" matches Writer)
+      for (var j = 0; j < slugs.length; j++) {
+        var dispName = (dataset[slugs[j]].name || "").toLowerCase();
+        if (dispName === tok) return slugs[j];
+        // Also match slug's first token (e.g. "marine biologist" → "marine")
+        var slugFirst = slugs[j].split("-")[0];
+        if (slugFirst === tok && slugFirst.length >= 5) return slugs[j];
+      }
+      // Look for an alias key that's a single word
+      if (ALIASES[tok]) return ALIASES[tok];
     }
 
     // 4. Token-overlap + Levenshtein scoring across all candidates + aliases
